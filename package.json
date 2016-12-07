@@ -1,0 +1,39 @@
+{
+  "name": "rechtspraak-nl",
+  "version": "0.0.12",
+  "description": "Utility functions for consuming Rechtspraak.nl open data for Dutch court judgments and generating well-formed linked data",
+  "main": "lib/index.js",
+  "typings": "index",
+  "scripts": {
+    "build": "tsc",
+    "build:lib": "tsc",
+    "clean": "rimraf lib dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/digitalheir/rechtspraak-js.git"
+  },
+  "keywords": [
+    "rechtspraak",
+    "open data",
+    "linked open data",
+    "dutch",
+    "case law",
+    "court judgments"
+  ],
+  "author": "Maarten Trompper <maartentrompper@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/digitalheir/rechtspraak-js/issues"
+  },
+  "homepage": "https://github.com/digitalheir/rechtspraak-js#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.0.0-beta.9",
+    "rimraf": "^2.5.4",
+    "typescript": "^2.1.1"
+  },
+  "dependencies": {
+    "xmldom": "^0.1.22",
+    "@types/xmldom": "^0.1.22"
+  }
+}
