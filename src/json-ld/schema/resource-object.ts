@@ -41,7 +41,9 @@ function resourceObject(idIsUri = true,
         required: [_ID],
         additionalProperties: false
     };
+
     let properties: any = resource.properties; // TODO give explicit type?!?
+
     if (idIsUri) properties[_ID][FORMAT] = URI;
     if (hasLabels) resource.required.push(RDFS_LABEL);
     for (let ke of Object.keys(extraOptionalProperties)) {

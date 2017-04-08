@@ -1,5 +1,6 @@
 export interface SchemaTypeDefinition {
 }
+
 export interface ObjectTypeDefinition extends SchemaTypeDefinition {
     type: "object",
     properties?: any; // TODO better type? it's a dictionary

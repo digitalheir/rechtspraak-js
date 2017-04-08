@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "typings": "index",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run clean && npm run build:lib",
     "pretest": "tsc test/test.ts",
     "test": "mocha",
     "build:lib": "tsc",

@@ -128,7 +128,7 @@ function idResourceWithOriginal(id: string, originalId: string): IdResource {
     o.originalIdentifier = originalId;
     return o;
 }
-function refineMetadata(rdf: any, doc: any) {//TODO not any
+function refineMetadata(rdf: any, doc: any) {//TODO not any type...
     if (rdf.abstract) doc.abstract = rdf.abstract;
     rdf.abstract = undefined;
 
@@ -464,6 +464,7 @@ function forcePropertyToArray(obj: any, propname: string): void {
     if (!!obj[propname])
         obj[propname] = forceToArray(obj[propname]);
 }
+
 /**
  * Changes XML to JSON
  * @param xml
