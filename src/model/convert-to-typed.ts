@@ -165,7 +165,7 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
     const str = (k: any): string => throwIfNotString(meta[k]);
     const date = (k: any): Date => throwIfNotDate(meta[k]);
     const same = (k: any): any => meta[k];
-    const uriP = (k: any, _id?: string): Date => throwIfNotUriWithProtocol(meta[k], _id);
+    const uriP = (k: any, prefix?: string): Date => throwIfNotUriWithProtocol((prefix ? prefix : "") + meta[k], _id);
 
     const _id = str('dcterms:identifier');
 
@@ -173,11 +173,17 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
         return throwIfNotArray(meta[k], k).map((s: any) => throwIfNotString(s, k, JSON.stringify(meta[k])));
     };
 
-    const uriPArr = (k: any): UriWithProtocol[] => {
+    const uriPArr = (k: any, _id?: string): UriWithProtocol[] => {
         return throwIfNotArray(meta[k], k).map((s: any) => throwIfNotUriWithProtocol(s, k, JSON.stringify(meta[k])));
     };
 
-    const getRelation = (arr: any[]): Relation[] => arr.map((rel: any) => {
+    const optionalUriPArr = (k: any, _id?: string): undefined | UriWithProtocol[] => {
+        const object = meta[k];
+        if (!object) return undefined;
+        return throwIfNotArray(object, k).map((s: any) => throwIfNotUriWithProtocol(s, k, JSON.stringify(object)));
+    };
+
+    const getRelation = (arr: any[]): Relation[] | undefined => arr ? arr.map((rel: any) => {
         const attrs = [
             "rdfs:label",
             ["ecli:resourceIdentifier"/*, "bwb:resourceIdentifier"*/],
@@ -212,7 +218,7 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
                 gevolg
             ) : undefined
         };
-    });
+    }) : undefined;
 
     if (
         meta['dcterms:abstract'] && !meta['dcterms:abstract']['@attributes'] && meta['dcterms:abstract']['@attributes']['resourceIdentifier'] === "../../rs:inhoudsindicatie"
@@ -220,7 +226,10 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
 
     Object.keys(meta).forEach((k) => {
         switch (k) {
+            case '@attributes':
             case 'dcterms:accessRights':
+            case 'dcterms:abstract':
+            case 'dcterms:identifier':
             case     'owl:sameAs':
             case     "metadataModified":
             case     "contentModified":
@@ -258,19 +267,19 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
 
 
     return {
-        "_id": _id,
+        _id,
         "accessRights": str('dcterms:accessRights'),
         "owl:sameAs": str('owl:sameAs'),
         "metadataModified": str("metadataModified"),
         "contentModified": str("contentModified"),
         "issued": date("issued"),
         "htmlIssued": date("htmlIssued"),
-        "language": uriP("dcterms:language"),
+        "language": uriP("dcterms:language", HTTPS_RECHTSPRAAK_LAWREADER_VOCAB + "language/"),
         "date": date("dcterms:date"),
         "abstract": same("abstract"),
         "hasVersion": strArr("dcterms:hasVersion"),
-        "replaces": uriPArr("dcterms:replaces"),
-        "isReplacedBy": uriPArr("dcterms:isReplacedBy"),
+        "replaces": optionalUriPArr("dcterms:replaces"),
+        "isReplacedBy": optionalUriPArr("dcterms:isReplacedBy"),
         "zaaknummer": strArr("psi:zaaknummer"),
         "hasPart": same("hasPart"),
 
@@ -285,8 +294,8 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
         "temporal": getTemporal(meta['dcterms:temporal'], _id),
         "title": getTitle(meta['dcterms:title'], _id),
         "spatial": getSpatial(meta['dcterms:spatial'], _id),
-        "source": uriP("rdf:about", _id),
-        "about": uriP("rdf:about", _id),
+        "source": uriP("rdf:about"),
+        "about": uriP("rdf:about"),
 
 
         "couchDbUpdated": new Date().toISOString(),

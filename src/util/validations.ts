@@ -1,9 +1,8 @@
-import {Date, isUriWithProtocol, UriWithProtocol} from "../model/rechtspraak_metadata";
-import {isDate} from "util";
+import {Date, isDate, isUriWithProtocol, UriWithProtocol} from "../model/rechtspraak_metadata";
 export const REGEX_DCTERMS = /^dcterms:/;
 export const REGEX_URI = /^(([^:/?#]+):)?(\/\/([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?$/;
 export const REGEX_PSI_RECHTSPRAAK = /^https?:\/\/psi\.rechtspraak\.nl\//;
-export const HTTPS_RECHTSPTRAAK_LAWREADER = "";
+export const HTTPS_RECHTSPTRAAK_LAWREADER = "https://rechtspraak.lawreader.nl/";
 export const HTTPS_RECHTSPRAAK_LAWREADER_VOCAB = HTTPS_RECHTSPTRAAK_LAWREADER + "vocab/";
 export const REGEX_HTTPS = /^https?:\/\//;
 export const REGEX_JURICONNECT = /^((?:jci)?[0-9](?:\.(?:[0-9]+)))?:([cv]):(BWB):/;
@@ -24,17 +23,17 @@ export function throwIfNotExactlyXAreTruthy(x: number, ...things: any[]) {
 
 export function throwIfNotString(str: any, extra?: string, ...extras: string[]): string {
     if (typeof str === 'string') return str;
-    else throw new Error("Expected " + JSON.stringify(str) + " to be a string. (" + extra + ")"+extras.length?" "+extras:"");
+    else throw new Error("Expected " + JSON.stringify(str) + " to be a string. (" + extra + ")" + (extras.length ? " " + extras : ""));
 }
 
 export function throwIfNotDate(str: any, extra?: string, ...extras: string[]): Date {
     if (isDate(str)) return str;
-    else throw new Error("Expected " + JSON.stringify(str) + " to be a date. (" + extra + ")"+extras.length?" "+extras:"");
+    else throw new Error("Expected " + JSON.stringify(str) + " to be a date. (" + extra + ")" + (extras.length ? " " + extras : ""));
 }
 
 export function throwIfNotUriWithProtocol(str: any, extra?: string, ...extras: string[]): UriWithProtocol {
     if (isUriWithProtocol(str)) return str;
-    else throw new Error("Expected " + JSON.stringify(str) + " to be a uri. (" + extra + ")"+extras.length?" "+extras:"");
+    else throw new Error("Expected " + JSON.stringify(str) + " to be a uri. (" + extra + ")" + (extras.length ? " " + extras : ""));
 }
 
 export function isStringArray(x: string | string[]): x is string[] {

@@ -13,7 +13,7 @@ export function isUriWithProtocol(s: string): s is UriWithProtocol {
 
 export type Date = string;
 
-const DATE_REGEX = /^(\d+)-(0[1-9]|1[012])-(0[1-9]|[12]\d|3[01])\s([01]\d|2[0-3]):([0-5]\d):([0-5]\d|60)(\.\d+)?(([Zz])|([+|\-]([01]\d|2[0-3])))$/;
+const DATE_REGEX = /^(\d+)-(0[1-9]|1[012])-(0[1-9]|[12]\d|3[01])(\s([01]\d|2[0-3]):([0-5]\d):([0-5]\d|60)(\.\d+)?(([Zz])|([+|\-]([01]\d|2[0-3]))))?$/;
 
 export function isDate(s: string): s is Date {
     return !!s.match(DATE_REGEX);
@@ -66,12 +66,12 @@ export interface RechtspraakMetadata {
     "contentModified": string;
     "publisher": Publisher[];
     "language": UriWithProtocol;
-    "replaces": UriWithProtocol[];
-    "relation": Relation[];
+    "replaces"?: UriWithProtocol[];
+    "relation"?: Relation[];
     "creator": Creator;
     "procedure": Procedure[];
-    "isReplacedBy": UriWithProtocol[];
-    "references": Reference[];
+    "isReplacedBy"?: UriWithProtocol[];
+    "references"?: Reference[];
     "subject": Subject[];
     "temporal"?: Temporal;
     "zaaknummer": string[];

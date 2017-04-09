@@ -95,7 +95,7 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
     }
 
     if (parent.hasChildNodes()) {
-        forEach(parent.childNodes, (item) => {
+        forEach(parent.childNodes, (item: Node) => {
             if (item.nodeType !== 7) { // Processing Instruction
                 const childNodeName: string = item.nodeName;
                 //if (nodeName.match(/inhoudsindicatie/))console.log(depth, xml.nodeName);
@@ -123,8 +123,7 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
                                 obj[childNodeName] = [];
                                 if (!(old && old.trim && old.trim().length <= 0)) obj[childNodeName].push(old);
                             }
-                            if (item.nodeValue === null) throw new Error("Expected nodeValue to be set: "+item);
-                            if (!(item && item.nodeType === 3 && item.nodeValue.trim().length <= 0)) {
+                            if (!(item.nodeType === 3 && (!item.nodeValue || item.nodeValue.trim().length <= 0))) {
                                 obj[childNodeName].push(xmlToJson(item, depth + 1));
                             }
                         }

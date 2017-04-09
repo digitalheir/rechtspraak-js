@@ -29,8 +29,8 @@ function getCvdrRef(cvdrVal: any, label: Label): Reference {
     return resour;
 }
 
-export function getReferences(refs: any[], id?: string): Reference[] {
-    return refs.map((ref: any) => {
+export function getReferences(refs: any[], id?: string): Reference[] | undefined {
+    return refs ? refs.map((ref: any) => {
         mustHaveTextAndAttributes(ref, true, "rdfs:label", ["cvdr:resourceIdentifier", "bwb:resourceIdentifier"]);
 
         const cvdrVal = ref['@attributes']["cvdr:resourceIdentifier"];
@@ -43,5 +43,5 @@ export function getReferences(refs: any[], id?: string): Reference[] {
         if (bwbVal) return getBwbRef(bwbVal, label);
         else if (cvdrVal) return getCvdrRef(cvdrVal, label);
         else throw new Error(id + ": Could not handle ref " + JSON.stringify(ref));
-    });
+    }) : undefined;
 }
