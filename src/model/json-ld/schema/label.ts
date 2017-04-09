@@ -1,5 +1,5 @@
 import {_VALUE} from "./constants/rdf";
-import {ObjectTypeDefinition, StringTypeDefinition} from "./schema-type-definition";
+import {ObjectTypeDefinition} from "./schema-type-definition";
 
 const PATTERN_BCP47 = "^[a-z]{2}$";
 /**

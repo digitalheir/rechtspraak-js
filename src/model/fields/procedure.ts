@@ -1,8 +1,7 @@
 import {
-    HTTPS_RECHTSPRAAK_LAWREADER_VOCAB, mustHaveTextAndAttributes, REGEX_PSI_RECHTSPRAAK,
-    REGEX_STANDAARDEN_OVERHEID, throwIfNotString, throwIfNotUriWithProtocol
+     mustHaveTextAndAttributes
 } from "../../util/validations";
-import {Creator, Procedure} from "../rechtspraak_metadata";
+import { Procedure} from "../rechtspraak_metadata";
 import {getResourceId} from "../convert-to-typed";
 import {idResource} from "./standard-resource-object";
 import {makeLabel} from "./label";

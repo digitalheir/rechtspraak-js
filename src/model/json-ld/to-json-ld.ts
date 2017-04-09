@@ -100,7 +100,7 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
                 const childNodeName: string = item.nodeName;
                 //if (nodeName.match(/inhoudsindicatie/))console.log(depth, xml.nodeName);
                 if (depth === 1
-                    && childNodeName==='inhoudsindicatie'
+                    && childNodeName === 'inhoudsindicatie'
                     && parent.nodeName === 'open-rechtspraak') {
                     obj.abstract = extractAbstract(item);
                 } else {
@@ -123,7 +123,7 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
                                 obj[childNodeName] = [];
                                 if (!(old && old.trim && old.trim().length <= 0)) obj[childNodeName].push(old);
                             }
-                            if (item.nodeValue === null) throw new Error("Expected nodeValue to be set");
+                            if (item.nodeValue === null) throw new Error("Expected nodeValue to be set: "+item);
                             if (!(item && item.nodeType === 3 && item.nodeValue.trim().length <= 0)) {
                                 obj[childNodeName].push(xmlToJson(item, depth + 1));
                             }
@@ -152,9 +152,9 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
             forcePropertyToArray(obj, 'dcterms:relation');
             forcePropertyToArray(obj, 'dcterms:isReplacedBy');
             forcePropertyToArray(obj, 'dcterms:replaces');
-            if (obj['dcterms:replaces'])  obj['dcterms:replaces'] = obj['dcterms:replaces'].map(
-                    (replaces: any) => textValueWithCommonLabel(replaces, "Vervangt")
-                );
+            if (obj['dcterms:replaces']) obj['dcterms:replaces'] = obj['dcterms:replaces'].map(
+                (replaces: any) => textValueWithCommonLabel(replaces, "Vervangt")
+            );
 
             setTextValueWithCommonLabel(obj, 'dcterms:issued', 'Publicatiedatum');
             setTextValueWithCommonLabel(obj, 'dcterms:spatial', 'Zittingsplaats');
@@ -208,15 +208,12 @@ export function toJsonLd(xml: Document): RechtspraakMetadata {
     if (!rdf['rdf:Description']) throw new Error('Expected rdf:Description node to exist');
     doc['rdf:RDF'] = undefined;
 
-    doc = refineMetadata(rdf, doc);
+    const doc2 = refineMetadata(rdf, doc);
 
-    if (doc['language'] && doc['language'] !== 'nl') throw new Error("Expected language to be 'nl' ");
-    if (doc['coverage'] && doc['coverage'] !== 'nl') throw new Error("Expected coverage to be 'nl' ");
+    if (doc2['language'] && doc2['language'] !== 'nl') throw new Error("Expected language to be 'nl' ");
+    if (doc2['coverage'] && doc2['coverage'] !== 'nl') throw new Error("Expected coverage to be 'nl' ");
 
-    // doc.corpus = 'Rechtspraak.nl';
-    //  doc.couchDbUpdated = new Date().toISOString();
-
-    return doc;
+    return doc2;
 }
 
 export function toJsonLdFromXmlString(xmlString: string): RechtspraakMetadata {

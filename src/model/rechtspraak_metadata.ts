@@ -4,6 +4,7 @@ import {Reference} from "./fields/reference";
 import {Temporal} from "./fields/temporal";
 import {Publisher} from "./fields/publisher";
 import {Spatial} from "./fields/spatial";
+import {Subject} from "./fields/subject";
 export type UriWithProtocol = string;
 const URI_WITH_PROTOCOL_REGEX = /^(([^:/?#]+):)(\/\/([^/?#]*))([^?#]*)(\?([^#]*))?(#(.*))?/;
 export function isUriWithProtocol(s: string): s is UriWithProtocol {
@@ -13,6 +14,7 @@ export function isUriWithProtocol(s: string): s is UriWithProtocol {
 export type Date = string;
 
 const DATE_REGEX = /^(\d+)-(0[1-9]|1[012])-(0[1-9]|[12]\d|3[01])\s([01]\d|2[0-3]):([0-5]\d):([0-5]\d|60)(\.\d+)?(([Zz])|([+|\-]([01]\d|2[0-3])))$/;
+
 export function isDate(s: string): s is Date {
     return !!s.match(DATE_REGEX);
 }
@@ -24,8 +26,6 @@ export interface HasPart {
     "alternateName"?: string;
 }
 export interface Aanleg extends StandardResourceObject {
-}
-export interface Subject extends StandardResourceObject {
 }
 export interface Gevolg extends StandardResourceObject {
 }

@@ -24,17 +24,17 @@ export function throwIfNotExactlyXAreTruthy(x: number, ...things: any[]) {
 
 export function throwIfNotString(str: any, extra?: string, ...extras: string[]): string {
     if (typeof str === 'string') return str;
-    else throw new Error("Expected " + JSON.stringify(str) + " to be a string. (" + extra + ")");
+    else throw new Error("Expected " + JSON.stringify(str) + " to be a string. (" + extra + ")"+extras.length?" "+extras:"");
 }
 
 export function throwIfNotDate(str: any, extra?: string, ...extras: string[]): Date {
     if (isDate(str)) return str;
-    else throw new Error("Expected " + JSON.stringify(str) + " to be a date. (" + extra + ")");
+    else throw new Error("Expected " + JSON.stringify(str) + " to be a date. (" + extra + ")"+extras.length?" "+extras:"");
 }
 
 export function throwIfNotUriWithProtocol(str: any, extra?: string, ...extras: string[]): UriWithProtocol {
     if (isUriWithProtocol(str)) return str;
-    else throw new Error("Expected " + JSON.stringify(str) + " to be a uri. (" + extra + ")");
+    else throw new Error("Expected " + JSON.stringify(str) + " to be a uri. (" + extra + ")"+extras.length?" "+extras:"");
 }
 
 export function isStringArray(x: string | string[]): x is string[] {
