@@ -1,5 +1,5 @@
-import {toJsonLd as t1, toJsonLdFromXmlString as t2} from './json-ld/to-json-ld'
-import {documentSchema as docSchema} from './json-ld/schema'
+import {toJsonLd as t1, toJsonLdFromXmlString as t2} from './model/json-ld/to-json-ld'
+import {documentSchema as docSchema} from './model/json-ld/schema'
 
 export function toJsonLd(doc: Document): any {
     return t1(doc);

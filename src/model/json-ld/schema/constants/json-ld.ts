@@ -24,12 +24,14 @@ export const DEFINITIONS = "definitions";
 export const _DEF = "#/" + DEFINITIONS + "/";
 
 export const _DEF_HASPART = _DEF + HAS_PART;
+export const _DEF_DATE = _DEF + DATE;
 export const _DEF_LABEL = _DEF + LABEL;
 export const _DEF_URI_STRING = _DEF + URI_STRING;
 export const _DEF_RESOURCE_OBJECT = _DEF + RESOURCE_OBJECT;
 
 export const _REF = "$ref";
 
-export const _REF_URI_STRING:SchemaReference = {$ref: _DEF_URI_STRING};
-export const _REF_LABEL:SchemaReference = {$ref: _DEF_LABEL};
-export const _REF_RESOURCE_OBJECT:SchemaReference = {$ref: _DEF_RESOURCE_OBJECT};
+export const _REF_URI_STRING: SchemaReference = {$ref: _DEF_URI_STRING};
+export const _REF_LABEL: SchemaReference = {$ref: _DEF_LABEL};
+export const _REF_DATE: SchemaReference = {$ref: _DEF_DATE};
+export const _REF_RESOURCE_OBJECT: SchemaReference = {$ref: _DEF_RESOURCE_OBJECT};

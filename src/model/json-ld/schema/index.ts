@@ -3,7 +3,6 @@ import label from './label'
 
 import {
     _REF,
-
     _REF_LABEL,
     OBJECT,
     ADDITIONAL_PROPERTIES,
@@ -12,15 +11,16 @@ import {
     PATTERN,
     FORMAT,
     _REF_RESOURCE_OBJECT,
-    _DEF_HASPART
-    , STRING
-    , URI
-    , _REF_URI_STRING
-    , DATE
-    , DATE_TIME
-    , DEFINITIONS
-    , URI_STRING
-    , RESOURCE_OBJECT
+    _REF_DATE,
+    _DEF_HASPART,
+    STRING,
+    URI,
+    _REF_URI_STRING,
+    DATE,
+    DATE_TIME,
+    DEFINITIONS,
+    URI_STRING,
+    RESOURCE_OBJECT
 } from "./constants/json-ld";
 import {_VALUE} from "./constants/rdf";
 import {
@@ -43,11 +43,14 @@ const ACCESS_RIGHTS = "accessRights";
 const _SCHEMA = "$schema";
 
 
-const reg =                 /^[0-9](\.([0-9]+)):([cv]):(BWB):BWB[A-Z0-9]+(&[a-z]+=[():.,a-z0-9- ]+)*$/;
+const reg = /^[0-9](\.([0-9]+)):([cv]):(BWB):BWB[A-Z0-9]+(&[a-z]+=[():.,a-z0-9- ]+)*$/;
 const PATTERN_JURICONNECT = "^[0-9](\.([0-9]+)):([cv]):(BWB):BWB[A-Z0-9]+(&[a-z]+=[():.,a-z0-9- ]+)*$";
+const PATTERN_CVDR = "^(CVDR)(:([0-9_]+))+$";
 
 
 // TODO more typing?
+
+const ISSUED = "issued";
 export const documentSchema: any = {
     "@context": {},
     [_SCHEMA]: "http://json-schema.org/schema#",
@@ -58,6 +61,10 @@ export const documentSchema: any = {
         [URI_STRING]: {
             [TYPE]: STRING,
             [FORMAT]: URI
+        },
+        [DATE]: {
+            [TYPE]: STRING,
+            [FORMAT]: DATE
         }
     },
     [ID]: "https://rechtspraak.lawreader.nl/schema/doc-ld.json",
@@ -93,22 +100,16 @@ export const documentSchema: any = {
             [TYPE]: STRING,
             [PATTERN]: PATTERN_DATETIME
         },
-        ["issued"]: {
-            [TYPE]: STRING,
-            [FORMAT]: DATE
-        },
-        ["htmlIssued"]: {
-            [TYPE]: STRING,
-            [FORMAT]: DATE
-        },
+        [ISSUED]: _REF_DATE,
+        ["htmlIssued"]: _REF_DATE,
         ["publisher"]: array(_REF_RESOURCE_OBJECT),
         ["language"]: _REF_URI_STRING,
         ["replaces"]: array(_REF_URI_STRING),
         ["relation"]: array(resourceObject(true, true, {
             "aanleg": resourceObject(),
-            "type": resourceObject(true, false,{},{})
+            "type": resourceObject(true, false, {}, {})
         }, {
-            "gevolg": resourceObject(true, false,{},{})
+            "gevolg": resourceObject(true, false, {}, {})
         })),
         ["creator"]: resourceObject(
             true,
@@ -123,16 +124,18 @@ export const documentSchema: any = {
         ["procedure"]: array(_REF_RESOURCE_OBJECT),
         ["isReplacedBy"]: array(_REF_URI_STRING),
         ["references"]: array(resourceObject(true, true, {}, {
-            "jdi": {[TYPE]: STRING, [PATTERN]: PATTERN_JURICONNECT}
+            "jdi": {[TYPE]: STRING, [PATTERN]: PATTERN_JURICONNECT},
+            "cvdr": {[TYPE]: STRING, [PATTERN]: PATTERN_CVDR}
         })),
         ["subject"]: array(_REF_RESOURCE_OBJECT),
-        [DATE]: {
-            [TYPE]: STRING,
-            [FORMAT]: DATE
-        },
+        [DATE]: _REF_DATE,
         ["zaaknummer"]: array({[TYPE]: STRING}),
         [TYPE]: _REF_URI_STRING,
         ["coverage"]: _REF_URI_STRING,
+        ["temporal"]: {
+            [TYPE]: STRING,
+            [PATTERN]: "[0-9]{4}"
+        },
         ["hasVersion"]: array({[TYPE]: STRING}),
         ["corpus"]: {
             [TYPE]: STRING,
@@ -149,5 +152,8 @@ export const documentSchema: any = {
         // spatial: _REF_RESOURCE_OBJECT,
         spatial: _REF_URI_STRING
     },
+    required: [
+        ISSUED
+    ],
     additionalProperties: false
 };

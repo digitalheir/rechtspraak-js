@@ -2,6 +2,7 @@ import 'mocha';
 import RS from '../src/index';
 import * as fs from 'fs';
 import * as assert from "assert";
+import {RechtspraakMetadata} from "../lib/model/rechtspraak_metadata";
 
 describe('XML should convert to JSON-LD', function () {
     it('should render', function () {
