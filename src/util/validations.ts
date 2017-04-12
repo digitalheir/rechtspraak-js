@@ -2,6 +2,7 @@ import {Date, isDate, isUriWithProtocol, UriWithProtocol} from "../model/rechtsp
 export const REGEX_DCTERMS = /^dcterms:/;
 export const REGEX_URI = /^(([^:/?#]+):)?(\/\/([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?$/;
 export const REGEX_PSI_RECHTSPRAAK = /^https?:\/\/psi\.rechtspraak\.nl\//;
+export const HTTPS_DEEPLINK_RECHTSPRAAK_ID = "http://deeplink.rechtspraak.nl/uitspraak?id=";
 export const HTTPS_RECHTSPTRAAK_LAWREADER = "https://rechtspraak.lawreader.nl/";
 export const HTTPS_RECHTSPRAAK_LAWREADER_VOCAB = HTTPS_RECHTSPTRAAK_LAWREADER + "vocab/";
 export const REGEX_HTTPS = /^https?:\/\//;
@@ -11,9 +12,9 @@ export const REGEX_ECLI = /^(ECLI)(?::([A-Z0-9]+))+/;
 export const REGEX_STANDAARDEN_OVERHEID = /^https?:\/\/standaarden\.overheid\.nl\//;
 
 
-export function throwIfNotArray(array: any, name?: string): any[] {
+export function throwIfNotArray(array: any, name?: string, id?: string): any[] {
     if (Object.prototype.toString.call(array) !== '[object Array]')
-        throw new Error("Expected an array for " + name + ", instead got " + JSON.stringify(array));
+        throw new Error((id ? (id + ": ") : "") + "Expected an array for " + name + ", instead got " + JSON.stringify(array));
     return array;
 }
 

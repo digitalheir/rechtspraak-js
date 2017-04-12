@@ -6,8 +6,7 @@
   "typings": "index",
   "scripts": {
     "build": "npm run clean && npm run build:lib",
-    "pretest": "tsc test/test.ts",
-    "test": "mocha",
+    "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register",
     "build:lib": "tsc",
     "clean": "rimraf lib dist"
   },
@@ -39,7 +38,7 @@
     "typescript": "^2.1.1"
   },
   "dependencies": {
-    "xmldom": "^0.1.27",
-    "@types/xmldom": "^0.1.29"
+    "@types/xmldom": "^0.1.29",
+    "xmldom": "^0.1.27"
   }
 }

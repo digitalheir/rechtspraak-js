@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:GHAMS:2007:AZ8310</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2016-04-08T06:58:48</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2013-04-05</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:replaces rdfs:label="Vervangt">AZ8310</dcterms:replaces>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Gerechtshof_Amsterdam" scheme="overheid.RechterlijkeMacht">Gerechtshof Amsterdam</dcterms:creator>
+      <dcterms:date rdfs:label="Uitspraakdatum">2007-01-04</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">21.4758.06</psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak</dcterms:type>
+      <dcterms:coverage>NL</dcterms:coverage>
+      <dcterms:references rdfs:label="Wetsverwijzing" bwb:resourceIdentifier="1.0:v:BWB:BWBR0001854">Wetboek van Strafrecht</dcterms:references>
+      <dcterms:references rdfs:label="Wetsverwijzing" bwb:resourceIdentifier="1.0:v:BWB:BWBR0001854&amp;artikel=77k">Wetboek van Strafrecht 77k</dcterms:references>
+      <dcterms:references rdfs:label="Wetsverwijzing" bwb:resourceIdentifier="1.0:v:BWB:BWBR0001903">Wetboek van Strafvordering</dcterms:references>
+      <dcterms:references rdfs:label="Wetsverwijzing" bwb:resourceIdentifier="1.0:v:BWB:BWBR0001903&amp;artikel=66">Wetboek van Strafvordering 66</dcterms:references>
+      <dcterms:references rdfs:label="Wetsverwijzing" bwb:resourceIdentifier="1.0:v:BWB:BWBR0001903&amp;artikel=75">Wetboek van Strafvordering 75</dcterms:references>
+      <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+        <rdf:list>
+          <rdf:li>NS 2007, 40</rdf:li>
+          <rdf:li>NBSTRAF 2007/40</rdf:li>
+        </rdf:list>
+      </dcterms:hasVersion>
+    </rdf:Description>
+  </rdf:RDF>
+</open-rechtspraak>

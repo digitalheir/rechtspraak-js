@@ -5,8 +5,9 @@ import {makeLabel} from "./label";
 export interface Spatial extends StandardResourceObject {
 }
 
-export function getSpatial(meta2: any, _id: string): Spatial {
-    const spat = throwIfNotString(meta2, "spatial");
+export function getSpatial(meta: any, _id: string): Spatial | undefined {
+    if (!meta) return undefined;
+    const spat = throwIfNotString(meta, "spatial");
 
     // todo verify
     return idResourceNoUriCheck(

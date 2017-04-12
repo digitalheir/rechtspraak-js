@@ -200,19 +200,7 @@ export function toJsonLd(xml: Document): RechtspraakMetadata {
     const doc = xmlToJson(
         xml, 0
     );
-
-
-    const rdf = doc['rdf:RDF'];
-    if (!rdf) throw new Error('Expected rdf node to exist');
-    if (!rdf['rdf:Description']) throw new Error('Expected rdf:Description node to exist');
-    doc['rdf:RDF'] = undefined;
-
-    const doc2 = refineMetadata(rdf, doc);
-
-    if (doc2['language'] && doc2['language'] !== 'nl') throw new Error("Expected language to be 'nl' ");
-    if (doc2['coverage'] && doc2['coverage'] !== 'nl') throw new Error("Expected coverage to be 'nl' ");
-
-    return doc2;
+    return refineMetadata(doc);
 }
 
 export function toJsonLdFromXmlString(xmlString: string): RechtspraakMetadata {

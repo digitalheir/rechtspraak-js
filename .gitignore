@@ -16,7 +16,8 @@ jspm_packages
 /.idea/
 /lib/
 
-/*.js
+# try.js
+# /*.js
 /*.ts
 /src/**/*.js
 /test/**/*.js

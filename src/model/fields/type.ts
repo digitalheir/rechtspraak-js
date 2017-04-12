@@ -1,7 +1,8 @@
 import {UriWithProtocol} from "../rechtspraak_metadata";
 import {getResourceId} from "../convert-to-typed";
-import {mustHaveTextAndAttributes, REGEX_DCTERMS} from "../../util/validations";
+import {mustHaveTextAndAttributes} from "../../util/validations";
 
+//noinspection JSUnusedLocalSymbols
 export function getType(t:any, _id?:string):UriWithProtocol{
     if (t['@attributes']["resourceIdentifier"] === "" && t['#text'] === "Uitspraak")
         t['@attributes']["resourceIdentifier"] = 'http://psi.rechtspraak.nl/uitspraak';

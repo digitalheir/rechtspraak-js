@@ -1,0 +1,56 @@
+{
+  "_id": "ECLI:NL:GHARN:2007:53",
+  "accessRights": "public",
+  "owl:sameAs": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:GHARN:2007:53",
+  "metadataModified": "2013-04-24T19:13:44",
+  "issued": "2013-04-24",
+  "language": "https://rechtspraak.lawreader.nl/vocab/language/nl",
+  "date": "2007-01-26",
+  "zaaknummer": [
+    "04-01606"
+  ],
+  "publisher": [
+    {
+      "@id": "http://rechtspraak.nl/",
+      "rdfs:label": [
+        {
+          "@value": "Raad voor de Rechtspraak",
+          "@language": "nl"
+        }
+      ]
+    }
+  ],
+  "creator": {
+    "@id": "http://standaarden.overheid.nl/owms/terms/Gerechtshof_Arnhem",
+    "rdfs:label": [
+      {
+        "@value": "Gerechtshof Arnhem",
+        "@language": "nl"
+      }
+    ],
+    "scheme": "overheid.RechterlijkeMacht",
+    "originalIdentifier": "http://standaarden.overheid.nl/owms/terms/Gerechtshof_Arnhem"
+  },
+  "subject": [
+    {
+      "@id": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht",
+      "rdfs:label": [
+        {
+          "@value": "Bestuursrecht; Belastingrecht",
+          "@language": "nl"
+        }
+      ]
+    }
+  ],
+  "type": "http://psi.rechtspraak.nl/uitspraak",
+  "coverage": "nl",
+  "title": {
+    "@value": "ECLI:NL:GHARN:2007:53, Gerechtshof Arnhem, 2013-04-24",
+    "@language": "nl"
+  },
+  "source": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:GHARN:2007:53",
+  "about": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:GHARN:2007:53",
+  "couchDbUpdated": "2017-04-11T20:28:46.064Z",
+  "corpus": "Rechtspraak.nl",
+  "page": "https://rechtspraak.lawreader.nl/ecli/ECLI:NL:GHARN:2007:53"
+}

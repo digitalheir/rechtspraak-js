@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:RBAMS:2007:YB0083</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2015-11-26T21:43:21</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2015-11-26</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:isReplacedBy>ECLI:NL:TGDKG:2007:1</dcterms:isReplacedBy>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Rechtbank_Amsterdam" scheme="overheid.RechterlijkeMacht">Rechtbank Amsterdam</dcterms:creator>
+      <dcterms:date rdfs:label="Uitspraakdatum">2007-01-16</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">2006.173</psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak</dcterms:type>
+      <dcterms:coverage>NL</dcterms:coverage>
+    </rdf:Description>
+  </rdf:RDF>
+</open-rechtspraak>

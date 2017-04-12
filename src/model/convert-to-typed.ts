@@ -1,23 +1,21 @@
 import {
     Date,
     RechtspraakMetadata,
-    Relation,
     UriWithProtocol
 } from "./rechtspraak_metadata";
 
 import {
     throwIfNotString,
-    matchesAny, REGEX_HTTPS, REGEX_URI,
-    mustHaveTextAndAttributes, HTTPS_RECHTSPRAAK_LAWREADER_VOCAB,
     throwIfNotUriWithProtocol, throwIfNotDate, throwIfNotArray,
-    HTTPS_RECHTSPTRAAK_LAWREADER
+    HTTPS_RECHTSPRAAK_LAWREADER_VOCAB,
+    HTTPS_RECHTSPTRAAK_LAWREADER,
+    HTTPS_DEEPLINK_RECHTSPRAAK_ID,
+    REGEX_ECLI
 } from "../util/validations";
 import {deepEqual} from "assert";
 import {getCreator} from "./fields/creator";
 import {getProcedure} from "./fields/procedure";
 import {getReferences} from "./fields/reference";
-import {idResource, StandardResourceObject} from "./fields/standard-resource-object";
-import {makeLabel} from "./fields/label";
 import {getSubject} from "./fields/subject";
 import {getType} from "./fields/type";
 import {getCoverage} from "./fields/coverage";
@@ -25,7 +23,7 @@ import {getTemporal} from "./fields/temporal";
 import {getTitle} from "./fields/title";
 import {getPublisher} from "./fields/publisher";
 import {getSpatial} from "./fields/spatial";
-
+import {getRelation} from "./fields/relation";
 
 export function getResourceId(attrz: any/*todo*/, key?: string): string {
     if (!attrz)
@@ -43,13 +41,6 @@ export function getResourceId(attrz: any/*todo*/, key?: string): string {
     else
         throw new Error("No resourceIdentifier could be found: " + JSON.stringify(attrz));
 }
-
-function idResourceWithOriginal(id: string, originalId: string): StandardResourceObject {
-    const o: StandardResourceObject = idResource(id);
-    o.originalIdentifier = originalId;
-    return o;
-}
-
 
 function mergeDescriptionTags(rdf: any) {
     let description = rdf['rdf:Description'];
@@ -91,7 +82,6 @@ function mergeDescriptionTags(rdf: any) {
                     if (!(description0[k].match(/^ECLI:/))) throw new Error(JSON.stringify(description0[k]));
                     if (!(description1[k].match(/^http:\/\//))) throw new Error(JSON.stringify(description1[k]));
                     o[k] = description0[k];
-                    o['owl:sameAs'] = description1[k];
                     break;
                 default:
                     try {
@@ -137,6 +127,7 @@ function throwIfUnexpectedFieldInDoc(doc: any) {
     Object.keys(doc).map(k => {
         switch (k) {
             case '#text':
+            case 'abstract':
             case 'rdf:RDF':
                 break;
             default:
@@ -149,12 +140,18 @@ function throwIfUnexpectedFieldInDoc(doc: any) {
         }
     })
 }
-export default function refineMetadata(rdf: any, doc: any): RechtspraakMetadata {
-    if (rdf.abstract) doc.abstract = rdf.abstract;
-    rdf.abstract = undefined;
+export default function refineMetadata(doc: any): RechtspraakMetadata {
+    const rdf = doc['rdf:RDF'];
+    if (!rdf) throw new Error('Expected rdf node to exist');
+    if (!rdf['rdf:Description']) throw new Error('Expected rdf:Description node to exist');
+    doc['rdf:RDF'] = undefined;
+
 
     throwIfUnexpectedFieldInDoc(doc);
-    return refineMetadata2(mergeDescriptionTags(rdf));
+    let meta = mergeDescriptionTags(rdf);
+    if (rdf.abstract) meta.abstract = rdf.abstract;
+    else if (doc.abstract) meta.abstract = doc.abstract;
+    return refineMetadata2(meta);
 }
 
 
@@ -162,63 +159,30 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
     if (typeof meta !== 'object') throw new Error("Expected meta to be of type 'object'");
 
 
-    const str = (k: any): string => throwIfNotString(meta[k]);
+    const _id = throwIfNotString(meta['dcterms:identifier']);
+
+    const str = (k: any): string => throwIfNotString(meta[k], _id);
+    const optStr = (k: any): string | undefined => meta[k] ? throwIfNotString(meta[k], _id) : undefined;
+    const optDate = (k: any): Date | undefined => meta[k] ? throwIfNotDate(meta[k]) : undefined;
     const date = (k: any): Date => throwIfNotDate(meta[k]);
     const same = (k: any): any => meta[k];
     const uriP = (k: any, prefix?: string): Date => throwIfNotUriWithProtocol((prefix ? prefix : "") + meta[k], _id);
 
-    const _id = str('dcterms:identifier');
 
     const strArr = (k: any): string[] => {
         return throwIfNotArray(meta[k], k).map((s: any) => throwIfNotString(s, k, JSON.stringify(meta[k])));
     };
 
-    const uriPArr = (k: any, _id?: string): UriWithProtocol[] => {
-        return throwIfNotArray(meta[k], k).map((s: any) => throwIfNotUriWithProtocol(s, k, JSON.stringify(meta[k])));
+    const optStrArr = (k: any): string[] | undefined => {
+        return meta[k] ? strArr(k) : undefined;
     };
 
-    const optionalUriPArr = (k: any, _id?: string): undefined | UriWithProtocol[] => {
+    //noinspection JSUnusedLocalSymbols
+    const optUriPArr = (k: any): undefined | UriWithProtocol[] => {
         const object = meta[k];
         if (!object) return undefined;
-        return throwIfNotArray(object, k).map((s: any) => throwIfNotUriWithProtocol(s, k, JSON.stringify(object)));
+        return throwIfNotArray(object, k, _id).map((s: any) => throwIfNotUriWithProtocol(s, k, JSON.stringify(object)));
     };
-
-    const getRelation = (arr: any[]): Relation[] | undefined => arr ? arr.map((rel: any) => {
-        const attrs = [
-            "rdfs:label",
-            ["ecli:resourceIdentifier"/*, "bwb:resourceIdentifier"*/],
-            "psi:type",
-            "psi:aanleg"
-        ];
-        const rattrs = rel['@attributes'];
-        let gevolg = rattrs['psi:gevolg'];
-        if (!!rattrs && !!gevolg) attrs.push('psi:gevolg');
-        mustHaveTextAndAttributes(rel, true, ...attrs);
-        const id = rattrs["ecli:resourceIdentifier"];
-        if (!matchesAny(id, REGEX_HTTPS, REGEX_URI)) throw new Error("Unexpected resource identifier: " + id);
-        const aanlegUri = rattrs["psi:aanleg"];
-        if (!aanlegUri.match(/^http:\/\/psi\.rechtspraak\.nl\//)) throw new Error("Expected valid aanleg URI");
-        const typeUri = rattrs["psi:type"];
-        return {
-            '@id': id,
-            aanleg: idResourceWithOriginal(
-                HTTPS_RECHTSPRAAK_LAWREADER_VOCAB + 'dcterms:relation' + "/" +
-                encodeURI(aanlegUri.replace(/^http:\/\/psi\.rechtspraak\.nl\//, "")),
-                aanlegUri
-            ),
-            type: idResourceWithOriginal(
-                HTTPS_RECHTSPRAAK_LAWREADER_VOCAB + 'dcterms:relation' + "/" +
-                encodeURI(typeUri.replace(/^http:\/\/psi\.rechtspraak\.nl\//, "")),
-                typeUri
-            ),
-            'rdfs:label': [makeLabel(rel['#text'], 'nl')],
-            gevolg: gevolg ? idResourceWithOriginal(
-                HTTPS_RECHTSPRAAK_LAWREADER_VOCAB + 'dcterms:relation' + "/" +
-                encodeURI(gevolg.replace(/^http:\/\/psi\.rechtspraak\.nl\//, "")),
-                gevolg
-            ) : undefined
-        };
-    }) : undefined;
 
     if (
         meta['dcterms:abstract'] && !meta['dcterms:abstract']['@attributes'] && meta['dcterms:abstract']['@attributes']['resourceIdentifier'] === "../../rs:inhoudsindicatie"
@@ -266,36 +230,47 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
     });
 
 
+    const attrs = meta["@attributes"];
+
+    const about = !!attrs ? throwIfNotUriWithProtocol(attrs["rdf:about"]) : HTTPS_DEEPLINK_RECHTSPRAAK_ID + _id;
+
+    const creator = getCreator(meta['dcterms:creator'], _id);
+
+    const issued = date("issued");
     return {
         _id,
         "accessRights": str('dcterms:accessRights'),
-        "owl:sameAs": str('owl:sameAs'),
+        "owl:sameAs": about,
         "metadataModified": str("metadataModified"),
-        "contentModified": str("contentModified"),
-        "issued": date("issued"),
-        "htmlIssued": date("htmlIssued"),
+        "contentModified": optStr("contentModified"),
+        "issued": issued,
+        "htmlIssued": optDate("htmlIssued"),
         "language": uriP("dcterms:language", HTTPS_RECHTSPRAAK_LAWREADER_VOCAB + "language/"),
         "date": date("dcterms:date"),
         "abstract": same("abstract"),
-        "hasVersion": strArr("dcterms:hasVersion"),
-        "replaces": optionalUriPArr("dcterms:replaces"),
-        "isReplacedBy": optionalUriPArr("dcterms:isReplacedBy"),
-        "zaaknummer": strArr("psi:zaaknummer"),
+        "hasVersion": optStrArr("dcterms:hasVersion"),
+        "replaces": optStrArr("dcterms:replaces"),
+        "isReplacedBy": meta["dcterms:isReplacedBy"] ? strArr("dcterms:isReplacedBy").map(id => {
+            if (!id.match(REGEX_ECLI)) throw new Error("Is not replaced by an ECLI: " + _id);
+            return HTTPS_DEEPLINK_RECHTSPRAAK_ID + id;
+        }) : undefined,
+        "zaaknummer": optStrArr("psi:zaaknummer"),
         "hasPart": same("hasPart"),
 
         "publisher": getPublisher(meta['dcterms:publisher'], _id),
         "relation": getRelation(meta['dcterms:relation']),
-        "creator": getCreator(meta['dcterms:creator'], _id),
+        "creator": creator,
         "procedure": getProcedure(meta['psi:procedure'], _id),
         "references": getReferences(meta['dcterms:references'], _id),
         "subject": getSubject(meta['dcterms:subject'], _id),
         "type": getType(meta['dcterms:type'], _id),
         "coverage": getCoverage(meta['dcterms:coverage'], _id),
         "temporal": getTemporal(meta['dcterms:temporal'], _id),
-        "title": getTitle(meta['dcterms:title'], _id),
+        "title": getTitle(meta['dcterms:title'], _id, creator, issued),
         "spatial": getSpatial(meta['dcterms:spatial'], _id),
-        "source": uriP("rdf:about"),
-        "about": uriP("rdf:about"),
+
+        "source": about,
+        "about": about,
 
 
         "couchDbUpdated": new Date().toISOString(),

@@ -27,7 +27,8 @@ function throwErrorForUnexpectedFields(t: any) {
     });
 }
 
-export function getTemporal(t: any, _id?:string): Temporal {
+//noinspection JSUnusedLocalSymbols
+export function getTemporal(t: any, _id?: string): Temporal | undefined {
     // TODO verify   e.g.
     // ECLI:NL:RBZWB:2016:1440
     // ECLI:NL:RBZWB:2016:1473
@@ -36,6 +37,7 @@ export function getTemporal(t: any, _id?:string): Temporal {
     //     "start": {"@attributes": {"rdfs:label": "van"}, "#text": "2009"},
     //     "end": {"@attributes": {"rdfs:label": "tot"}, "#text": "2013"}
     // };
+    if (!t) return undefined;
     throwErrorForUnexpectedFields(t);
     return {
         'startDate': throwIfNotString(t.start['#text']),
