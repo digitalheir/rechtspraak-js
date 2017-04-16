@@ -5,7 +5,7 @@ node_modules/
 /src/
 test/
 gulpfile.js
-testrun.ts
+# testrun.ts
 webpack.config.js
 tsconfig.json
 /tslint.json
