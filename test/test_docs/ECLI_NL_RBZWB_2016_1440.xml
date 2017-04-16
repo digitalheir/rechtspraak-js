@@ -1,45 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <open-rechtspraak>
-  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <rdf:Description>
-      <dcterms:identifier>ECLI:NL:RBZWB:2016:1440</dcterms:identifier>
-      <dcterms:format>text/xml</dcterms:format>
-      <dcterms:accessRights>public</dcterms:accessRights>
-      <dcterms:modified>2016-04-12T15:21:47</dcterms:modified>
-      <dcterms:issued rdfs:label="Publicatiedatum">2016-03-11</dcterms:issued>
-      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
-      <dcterms:language>nl</dcterms:language>
-      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant" scheme="overheid.RechterlijkeMacht">Rechtbank Zeeland-West-Brabant</dcterms:creator>
-      <dcterms:date rdfs:label="Uitspraakdatum">2016-03-04</dcterms:date>
-      <psi:zaaknummer rdfs:label="Zaaknr">AWB - 15 _ 5561_5562_6430</psi:zaaknummer>
-      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak</dcterms:type>
-      <psi:procedure rdf:language="nl" rdfs:label="Procedure" resourceIdentifier="http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig">Eerste aanleg - enkelvoudig</psi:procedure>
-      <dcterms:coverage>NL</dcterms:coverage>
-      <dcterms:temporal rdfs:label="Periode">
-        <start rdfs:label="van">2009</start>
-        <end rdfs:label="tot">2013</end>
-      </dcterms:temporal>
-      <dcterms:spatial rdfs:label="Zittingsplaats">Tilburg</dcterms:spatial>
-      <dcterms:subject rdfs:label="Rechtsgebied" resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht">Bestuursrecht; Belastingrecht</dcterms:subject>
-      <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
-        <rdf:list>
-          <rdf:li>Rechtspraak.nl</rdf:li>
-        </rdf:list>
-      </dcterms:hasVersion>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440">
-      <dcterms:identifier>http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440</dcterms:identifier>
-      <dcterms:format>text/html</dcterms:format>
-      <dcterms:accessRights>public</dcterms:accessRights>
-      <dcterms:modified>2016-04-12T15:20:29</dcterms:modified>
-      <dcterms:issued rdfs:label="Publicatiedatum">2016-04-12</dcterms:issued>
-      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
-      <dcterms:language>nl</dcterms:language>
-      <dcterms:title rdf:language="nl">ECLI:NL:RBZWB:2016:1440 Rechtbank Zeeland-West-Brabant , 04-03-2016 / AWB - 15 _ 5561_5562_6430</dcterms:title>
-      <dcterms:abstract resourceIdentifier="../../rs:inhoudsindicatie" />
-    </rdf:Description>
-  </rdf:RDF>
-  <inhoudsindicatie id="ECLI:NL:RBZWB:2016:1440:INH" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli"
+             xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/"
+             xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl"
+             xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/"
+             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+        <rdf:Description>
+            <dcterms:identifier>ECLI:NL:RBZWB:2016:1440</dcterms:identifier>
+            <dcterms:format>text/xml</dcterms:format>
+            <dcterms:accessRights>public</dcterms:accessRights>
+            <dcterms:modified>2016-04-12T15:21:47</dcterms:modified>
+            <dcterms:issued rdfs:label="Publicatiedatum">2016-03-11</dcterms:issued>
+            <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+            <dcterms:language>nl</dcterms:language>
+            <dcterms:creator rdfs:label="Instantie"
+                             resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant"
+                             scheme="overheid.RechterlijkeMacht">Rechtbank Zeeland-West-Brabant
+            </dcterms:creator>
+            <dcterms:date rdfs:label="Uitspraakdatum">2016-03-04</dcterms:date>
+            <psi:zaaknummer rdfs:label="Zaaknr">AWB - 15 _ 5561_5562_6430</psi:zaaknummer>
+            <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak
+            </dcterms:type>
+            <psi:procedure rdf:language="nl" rdfs:label="Procedure"
+                           resourceIdentifier="http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig">Eerste
+                aanleg - enkelvoudig
+            </psi:procedure>
+            <dcterms:coverage>NL</dcterms:coverage>
+            <dcterms:temporal rdfs:label="Periode">
+                <start rdfs:label="van">2009</start>
+                <end rdfs:label="tot">2013</end>
+            </dcterms:temporal>
+            <dcterms:spatial rdfs:label="Zittingsplaats">Tilburg</dcterms:spatial>
+            <dcterms:subject rdfs:label="Rechtsgebied"
+                             resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht">
+                Bestuursrecht; Belastingrecht
+            </dcterms:subject>
+          <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+            <rdf:list>
+              <rdf:li>Rechtspraak.nl</rdf:li>
+              <rdf:li>FutD 2016-0743</rdf:li>
+            </rdf:list>
+          </dcterms:hasVersion>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440">
+            <dcterms:identifier>http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440</dcterms:identifier>
+            <dcterms:format>text/html</dcterms:format>
+            <dcterms:accessRights>public</dcterms:accessRights>
+            <dcterms:modified>2016-04-12T15:20:29</dcterms:modified>
+            <dcterms:issued rdfs:label="Publicatiedatum">2016-04-12</dcterms:issued>
+            <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+            <dcterms:language>nl</dcterms:language>
+            <dcterms:title rdf:language="nl">ECLI:NL:RBZWB:2016:1440 Rechtbank Zeeland-West-Brabant , 04-03-2016 / AWB -
+                15 _ 5561_5562_6430
+            </dcterms:title>
+            <dcterms:abstract resourceIdentifier="../../rs:inhoudsindicatie"/>
+        </rdf:Description>
+    </rdf:RDF>
+    <inhoudsindicatie id="ECLI:NL:RBZWB:2016:1440:INH" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <para>Vergrijpboeten omzetbelasting; gelijkheidsbeginsel. Aan belanghebbende zijn naheffingsaanslagen omzetbelasting met vergrijpboeten van 50% opgelegd. Alleen de hoogte van de opgelegde boeten is in geschil. De Belastingdienst heeft (ongepubliceerd) landelijk beleid gevormd voor de boete-oplegging in het kader van project Balansschulden OB. Dat beleid hield kortweg in dat bij balansschulden onder een bepaald bedrag wordt volstaan met een betaalverzuimboete van 10%. Op enig moment is het beleid gewijzigd in de zin dat een uitzondering is gemaakt voor gevallen van ‘ernstige bedenkingen’. De rechtbank is van oordeel dat de inspecteur niet aannemelijk heeft gemaakt dat ten tijde van de boete-oplegging het beleid reeds was gewijzigd. De rechtbank gaat er daarom van uit dat het eerdere beleid nog van toepassing was ten tijde van het opleggen van de boeten. Het is dan in strijd met het gelijkheidsbeginsel dat bij belanghebbende niet volstaan is met verzuimboeten van 10%. De rechtbank vermindert de boeten.</para>
     </inhoudsindicatie>
   <uitspraak id="ECLI:NL:RBZWB:2016:1440:DOC" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">

@@ -16,7 +16,7 @@ import {HAS_PART} from "./constants/schema-org";
 const NAME = "name";
 const ALTERNATE_NAME = "alternateName";
 const PATTERN_HTML_ID = "^[0-9](:[0-9])*$";
-const PATTERN_TYPE = "^CreativeWork$";
+const PATTERN_TYPE = "^Report";
 
 
 export default {

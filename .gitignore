@@ -18,6 +18,5 @@ jspm_packages
 
 # try.js
 # /*.js
-/*.ts
 /src/**/*.js
 /test/**/*.js

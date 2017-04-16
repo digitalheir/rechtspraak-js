@@ -11,23 +11,23 @@ function textValueWithCommonLabel(obj: any, label: (string | string[]), keyName?
     let thr;
     if (isStringArray(label)) {
         thr = label.reduce((cum, lab) => {
-            return cum && !(obj['@attributes'] && lab === obj['@attributes']['rdfs:label'])
+            return cum && !(obj["@attributes"] && lab === obj["@attributes"]["rdfs:label"]);
         }, true);
     } else
-        thr = !obj['@attributes'] || obj['@attributes']['rdfs:label'] !== label;
+        thr = !obj["@attributes"] || obj["@attributes"]["rdfs:label"] !== label;
     if (thr)
         throw new Error("Expected " + (keyName ? keyName : JSON.stringify(obj)) + " to look different than " + JSON.stringify(obj));
-    return obj['#text'];
+    return obj["#text"];
 }
 
 function setTextValueWithCommonLabel(obj: any, key: string, label: (string | string[])) {
     if (!obj[key]) return;
-    mustHaveTextAndAttributes(obj[key], true, 'rdfs:label');
+    mustHaveTextAndAttributes(obj[key], true, "rdfs:label");
     obj[key] = textValueWithCommonLabel(obj[key], label, key);
 }
 function forceToArray(possibleList: any): any[] {
     if (possibleList === null || possibleList === undefined) return [];
-    else if (Object.prototype.toString.call(possibleList) === '[object Array]') return possibleList;
+    else if (Object.prototype.toString.call(possibleList) === "[object Array]") return possibleList;
     else return [possibleList];
 }
 function forcePropertyToArray(obj: any, propname: string): void {
@@ -45,24 +45,24 @@ function forEach(nodes: NodeList, f: (s: Node) => any) {
 
 function extractAbstract(item: Node): (Abstract | undefined) {
     if (item.textContent !== null) {
-        const value: string = item.textContent.trim().replace(/\s\s+/g, ' ');
-        if (value.length > 1 && value !== '-') return {
-            abstractXml: '<?xml version="1.0" encoding="utf-8"?>' + item.toString(),
+        const value: string = item.textContent.trim().replace(/\s\s+/g, " ");
+        if (value.length > 1 && value !== "-") return {
+            abstractXml: "<?xml version=\"1.0\" encoding=\"utf-8\"?>" + item.toString(),
             "@value": value
         };
     }
 }
 
 function flattenOutRootElement(depth: number, obj: any) {
-    if (depth === 0 && obj['open-rechtspraak']) {
+    if (depth === 0 && obj["open-rechtspraak"]) {
         if (Object.keys(obj).length > 2
             ||
-            (Object.keys(obj).length === 2 && !!obj['#text'])
+            (Object.keys(obj).length === 2 && !!obj["#text"])
         ) {
             console.error(Object.keys(obj));
             throw new Error("Expected 1 key in 'open-rechtspraak'");
         }
-        obj = obj['open-rechtspraak'];
+        obj = obj["open-rechtspraak"];
     }
     return obj;
 }
@@ -100,18 +100,13 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
                 const childNodeName: string = item.nodeName;
                 //if (nodeName.match(/inhoudsindicatie/))console.log(depth, xml.nodeName);
                 if (depth === 1
-                    && childNodeName === 'inhoudsindicatie'
-                    && parent.nodeName === 'open-rechtspraak') {
+                    && childNodeName === "inhoudsindicatie"
+                    && parent.nodeName === "open-rechtspraak") {
                     obj.abstract = extractAbstract(item);
                 } else {
                     if (childNodeName.match(/uitspraak|conclusie/)) {
-                        //TODO
-                        // obj.innerText = item.textContent.trim().replace(/\s\s+/g, ' ');
-                        // const {innerHtml, toc} =  convertToHtml(item);
-                        // if (!innerHtml)
-                        //     throw new Error("Expected innerHTML to be set");
-                        // obj.innerHtml = innerHtml;
-                        // obj.hasPart = toc;
+                        if (!!item.textContent)
+                            obj.innerText = item.textContent.trim().replace(/\s\s+/g, " ");
                     } else {
                         if (typeof(obj[childNodeName]) === "undefined") {
                             // child doesn't exist yet
@@ -131,9 +126,12 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
                 }
             }
         });
-        if (obj['#text']) {
-            if (obj['#text'].push) obj['#text'] = obj['#text'].join('');
-            if (obj['#text'].length <= 0) obj['#text'] = undefined;
+        if (obj["#text"]) {
+            if (obj["#text"].push)
+                obj["#text"] = obj["#text"].join("");
+            obj["#text"] = obj["#text"].replace(/\s+/, " ");
+            if (obj["#text"].length <= 0)
+                obj["#text"] = undefined;
         }
     }
 
@@ -146,26 +144,26 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
 
 
         if (depth === 3) {
-            forcePropertyToArray(obj, 'psi:procedure');
-            forcePropertyToArray(obj, 'dcterms:references');
-            forcePropertyToArray(obj, 'dcterms:relation');
-            forcePropertyToArray(obj, 'dcterms:isReplacedBy');
-            forcePropertyToArray(obj, 'dcterms:replaces');
-            if (obj['dcterms:replaces']) obj['dcterms:replaces'] = obj['dcterms:replaces'].map(
+            forcePropertyToArray(obj, "psi:procedure");
+            forcePropertyToArray(obj, "dcterms:references");
+            forcePropertyToArray(obj, "dcterms:relation");
+            forcePropertyToArray(obj, "dcterms:isReplacedBy");
+            forcePropertyToArray(obj, "dcterms:replaces");
+            if (obj["dcterms:replaces"]) obj["dcterms:replaces"] = obj["dcterms:replaces"].map(
                 (replaces: any) => textValueWithCommonLabel(replaces, "Vervangt")
             );
 
-            setTextValueWithCommonLabel(obj, 'dcterms:issued', 'Publicatiedatum');
-            setTextValueWithCommonLabel(obj, 'dcterms:spatial', 'Zittingsplaats');
-            setTextValueWithCommonLabel(obj, 'dcterms:date', ['Uitspraakdatum', 'Datum genomen']);
+            setTextValueWithCommonLabel(obj, "dcterms:issued", "Publicatiedatum");
+            setTextValueWithCommonLabel(obj, "dcterms:spatial", "Zittingsplaats");
+            setTextValueWithCommonLabel(obj, "dcterms:date", ["Uitspraakdatum", "Datum genomen"]);
 
-            forcePropertyToArray(obj, 'psi:zaaknummer');
-            if (!!obj['psi:zaaknummer'])
-                obj['psi:zaaknummer'] = obj['psi:zaaknummer'].map(
-                    (z: any) => textValueWithCommonLabel(z, 'Zaaknr')
+            forcePropertyToArray(obj, "psi:zaaknummer");
+            if (!!obj["psi:zaaknummer"])
+                obj["psi:zaaknummer"] = obj["psi:zaaknummer"].map(
+                    (z: any) => textValueWithCommonLabel(z, "Zaaknr")
                 );
 
-            if (obj['dcterms:subject']) obj['dcterms:subject'] = forceToArray(obj['dcterms:subject']);
+            if (obj["dcterms:subject"]) obj["dcterms:subject"] = forceToArray(obj["dcterms:subject"]);
             // if (obj['psi:zaaknummer']) {
             // TODO parse in app
             // obj['psi:zaaknummer'] = obj['psi:zaaknummer'].split(/[,;]|(?: en )/).map(s=>s.trim()).filter(s=>s !== '');
@@ -173,26 +171,26 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
             //     console.error(obj['dcterms:identifier'] + ": Possible multiple values '" + s + "'")
             // )
             // }
-            if (obj['dcterms:hasVersion']) {
-                mustHaveTextAndAttributes(obj['dcterms:hasVersion'], false, 'rdfs:label', 'resourceIdentifier');
-                let hasVersionList = obj['dcterms:hasVersion']["rdf:list"];
+            if (obj["dcterms:hasVersion"]) {
+                mustHaveTextAndAttributes(obj["dcterms:hasVersion"], false, "rdfs:label", "resourceIdentifier");
+                let hasVersionList = obj["dcterms:hasVersion"]["rdf:list"];
                 if (!!hasVersionList)
-                    obj['dcterms:hasVersion'] = forceToArray(hasVersionList['rdf:li']).map(s => throwIfNotString(s, 'dcterms:hasVersion'));
+                    obj["dcterms:hasVersion"] = forceToArray(hasVersionList["rdf:li"]).map(s => throwIfNotString(s, "dcterms:hasVersion"));
             }
 
-            if (obj['dcterms:publisher'])
-                obj['dcterms:publisher'] = forceToArray(obj['dcterms:publisher']);
+            if (obj["dcterms:publisher"])
+                obj["dcterms:publisher"] = forceToArray(obj["dcterms:publisher"]);
         }
-        if (Object.keys(obj).length === 1 && !!obj['#text']) obj = obj['#text'];
+        if (Object.keys(obj).length === 1 && !!obj["#text"]) obj = obj["#text"];
     }
 
     ////
     //
     ////
 
-    if (typeof obj === 'object' && obj['@attributes'])
-        if (Object.keys(obj['@attributes']).filter(k => !!obj['@attributes'][k]).length <= 0)
-            obj['@attributes'] = undefined;
+    if (typeof obj === "object" && obj["@attributes"])
+        if (Object.keys(obj["@attributes"]).filter(k => !!obj["@attributes"][k]).length <= 0)
+            obj["@attributes"] = undefined;
     return obj;
 }
 

@@ -7,13 +7,16 @@ export interface ObjectTypeDefinition extends SchemaTypeDefinition {
     required?: string[],
     additionalProperties?: any,//TODO better type? it's a dictionary
 }
+
 export interface SchemaReference extends SchemaTypeDefinition {
     $ref: string
 }
+
 export interface StringTypeDefinition extends SchemaTypeDefinition {
     type: "string",
     pattern?: "string"
 }
+
 export interface ArrayTypeDefinition extends SchemaTypeDefinition {
     type: "array",
     items?: SchemaTypeDefinition,

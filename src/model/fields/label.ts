@@ -10,7 +10,7 @@ export interface LabelWithLanguage extends Label {
 
 export function makeLabel(value: string, lang: string): Label {
     return {
-        '@value': throwIfNotString(value),
-        '@language': throwIfNotString(lang)
+        '@value': throwIfNotString(value).trim(),
+        '@language': throwIfNotString(lang).trim()
     };
 }

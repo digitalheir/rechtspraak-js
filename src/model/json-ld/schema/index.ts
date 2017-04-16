@@ -1,5 +1,5 @@
-import hasPart from './hasPart'
-import label from './label'
+import hasPart from "./hasPart";
+import label from "./label";
 
 import {
     _REF,
@@ -83,7 +83,7 @@ export const documentSchema: any = {
                 },
                 [_VALUE]: {
                     [TYPE]: STRING
-                },
+                }
             },
             [ADDITIONAL_PROPERTIES]: false
         },
@@ -91,7 +91,10 @@ export const documentSchema: any = {
         //     [TYPE]: STRING
         // },
         [HAS_PART]: array({[_REF]: _DEF_HASPART}),
-        [ACCESS_RIGHTS]: _REF_URI_STRING,
+        [ACCESS_RIGHTS]: {
+            [TYPE]: STRING,
+            [PATTERN]: "public"
+        },
         ["metadataModified"]: {
             [TYPE]: STRING,
             [PATTERN]: PATTERN_DATETIME

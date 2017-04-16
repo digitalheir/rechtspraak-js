@@ -5,10 +5,11 @@ node_modules/
 /src/
 test/
 gulpfile.js
+testrun.ts
 webpack.config.js
 tsconfig.json
-tslint.json
-typings.json
+/tslint.json
+/typings.json
 typings
 dist/test
 
