@@ -1,7 +1,12 @@
 import {UriWithProtocol} from "../rechtspraak_metadata";
 
-//noinspection JSUnusedLocalSymbols
-
+/**
+ * NOTE: Must be IETF BCP 47 compliant
+ *
+ * @param c
+ * @param id
+ * @returns {string}
+ */
 export function getCoverage(c: string, id?: string): UriWithProtocol {
     const trimmed = c.trim();
     if (trimmed !== "NL")
