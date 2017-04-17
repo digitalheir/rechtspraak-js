@@ -36,6 +36,7 @@ describe('XML should convert to JSON-LD', function () {
         const docName = 'ECLI_NL_RBZWB_2016_1440';
 
         const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
+        console.log(JSON.stringify(generatedJson));
 
         assert.deepEqual(
             generatedJson,
@@ -47,7 +48,6 @@ describe('XML should convert to JSON-LD', function () {
         const docName = 'no_html_metadata';
         const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
 
-        console.log(JSON.stringify(generatedJson));
 
         assert.deepEqual(
             generatedJson,

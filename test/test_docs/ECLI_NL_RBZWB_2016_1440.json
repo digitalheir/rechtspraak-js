@@ -1,22 +1,176 @@
 {
+  "@context": {
+    "@base": "https://rechtspraak.lawreader.nl/vocab/",
+    "schema": "http://schema.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "frbr": "http://purl.org/vocab/frbr/core#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "psi": "http://psi.rechtspraak.nl/",
+    "ecli": "https://e-justice.europa.eu/ecli",
+    "cvdr": "http://decentrale.regelgeving.overheid.nl/cvdr/",
+    "eu": "http://publications.europa.eu/celex/",
+    "tr": "http://tuchtrecht.overheid.nl/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "lawly": "https://rechtspraak.lawreader.nl/vocab/",
+    "ECLI": "https://rechtspraak.lawreader.nl/id/ECLI:",
+    "_id": "@id",
+    "abstract": "dcterms:abstract",
+    "muhAccessRights": "lawly:accessRights/",
+    "accessRights": {
+      "@id": "dcterms:accessRights",
+      "@type": "@id"
+    },
+    "contentModified": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:dateTime"
+    },
+    "metadataModified": {
+      "@id": "lawly:metadataModified",
+      "@type": "xsd:dateTime"
+    },
+    "coverage": {
+      "@id": "dcterms:coverage",
+      "@type": "@id"
+    },
+    "creator": {
+      "@id": "dcterms:creator"
+    },
+    "date": {
+      "@id": "dcterms:date",
+      "@type": "xsd:date"
+    },
+    "htmlIssued": {
+      "@id": "lawly:htmlIssued",
+      "@type": "xsd:date"
+    },
+    "hasVersion": "dcterms:hasVersion",
+    "issued": {
+      "@id": "dcterms:issued",
+      "@type": "xsd:date"
+    },
+    "language": {
+      "@id": "dcterms:language",
+      "@type": "@id"
+    },
+    "procedure": "psi:procedure",
+    "references": "dcterms:references",
+    "replaces": {
+      "@id": "dcterms:replaces",
+      "@type": "@id"
+    },
+    "spatial": "dcterms:spatial",
+    "subject": "dcterms:subject",
+    "title": "dcterms:title",
+    "type": {
+      "@id": "dcterms:type",
+      "@type": "@id"
+    },
+    "zaaknummer": "psi:zaaknummer",
+    "dcterms:source": {
+      "@type": "@id"
+    },
+    "dcterms:isReferencedBy": {
+      "@type": "@id"
+    },
+    "dcterms:modified": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+      "@id": "dcterms:issued",
+      "@type": "xsd:date"
+    },
+    "dcterms:date": {
+      "@id": "dcterms:date",
+      "@type": "xsd:date"
+    },
+    "owl:sameAs": {
+      "@type": "@id"
+    },
+    "psi:aanleg": {
+      "@type": "@id"
+    },
+    "psi:gevolg": {
+      "@type": "@id"
+    },
+    "psi:typeRelatie": {
+      "@type": "@id"
+    },
+    "Vervangt": "http://purl.org/dc/terms/replaces",
+    "Procedure": "http://psi.rechtspraak.nl/procedure",
+    "Instantie": "http://purl.org/dc/terms/creator",
+    "Zaaknr": "http://psi.rechtspraak.nl/zaaknummer"
+  },
   "_id": "ECLI:NL:RBZWB:2016:1440",
-  "accessRights": "public",
-  "owl:sameAs": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440",
+  "accessRights": "muhAccessRights:public",
+  "issued": "2016-03-11",
   "metadataModified": "2016-04-12T15:21:47",
   "contentModified": "2016-04-12T15:20:29",
-  "issued": "2016-03-11",
   "htmlIssued": "2016-04-12",
-  "language": "https://rechtspraak.lawreader.nl/vocab/language/nl",
-  "date": "2016-03-04",
-  "abstract": {
-    "abstractXml": "<?xml version=\"1.0\" encoding=\"utf-8\"?><inhoudsindicatie id=\"ECLI:NL:RBZWB:2016:1440:INH\" lang=\"nl\" xml:space=\"preserve\" xmlns=\"http://www.rechtspraak.nl/schema/rechtspraak-1.0\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <para>Vergrijpboeten omzetbelasting; gelijkheidsbeginsel. Aan belanghebbende zijn naheffingsaanslagen omzetbelasting met vergrijpboeten van 50% opgelegd. Alleen de hoogte van de opgelegde boeten is in geschil. De Belastingdienst heeft (ongepubliceerd) landelijk beleid gevormd voor de boete-oplegging in het kader van project Balansschulden OB. Dat beleid hield kortweg in dat bij balansschulden onder een bepaald bedrag wordt volstaan met een betaalverzuimboete van 10%. Op enig moment is het beleid gewijzigd in de zin dat een uitzondering is gemaakt voor gevallen van ‘ernstige bedenkingen’. De rechtbank is van oordeel dat de inspecteur niet aannemelijk heeft gemaakt dat ten tijde van de boete-oplegging het beleid reeds was gewijzigd. De rechtbank gaat er daarom van uit dat het eerdere beleid nog van toepassing was ten tijde van het opleggen van de boeten. Het is dan in strijd met het gelijkheidsbeginsel dat bij belanghebbende niet volstaan is met verzuimboeten van 10%. De rechtbank vermindert de boeten.</para>\n    </inhoudsindicatie>",
-    "@value": "Vergrijpboeten omzetbelasting; gelijkheidsbeginsel. Aan belanghebbende zijn naheffingsaanslagen omzetbelasting met vergrijpboeten van 50% opgelegd. Alleen de hoogte van de opgelegde boeten is in geschil. De Belastingdienst heeft (ongepubliceerd) landelijk beleid gevormd voor de boete-oplegging in het kader van project Balansschulden OB. Dat beleid hield kortweg in dat bij balansschulden onder een bepaald bedrag wordt volstaan met een betaalverzuimboete van 10%. Op enig moment is het beleid gewijzigd in de zin dat een uitzondering is gemaakt voor gevallen van ‘ernstige bedenkingen’. De rechtbank is van oordeel dat de inspecteur niet aannemelijk heeft gemaakt dat ten tijde van de boete-oplegging het beleid reeds was gewijzigd. De rechtbank gaat er daarom van uit dat het eerdere beleid nog van toepassing was ten tijde van het opleggen van de boeten. Het is dan in strijd met het gelijkheidsbeginsel dat bij belanghebbende niet volstaan is met verzuimboeten van 10%. De rechtbank vermindert de boeten."
+  "owl:sameAs": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440",
+  "language": "nl",
+  "creator": {
+    "@id": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant",
+    "rdfs:label": [
+      {
+        "@value": "Rechtbank Zeeland-West-Brabant",
+        "@language": "nl"
+      }
+    ],
+    "scheme": "overheid.RechterlijkeMacht",
+    "originalIdentifier": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant"
   },
-  "hasVersion": [
-    "Rechtspraak.nl"
-  ],
+  "date": "2016-03-04",
   "zaaknummer": [
     "AWB - 15 _ 5561_5562_6430"
+  ],
+  "type": "http://psi.rechtspraak.nl/uitspraak",
+  "temporal": {
+    "startDate": "2009",
+    "endDate": "2013"
+  },
+  "spatial": {
+    "@id": "muhSpatial:Tilburg",
+    "rdfs:label": [
+      {
+        "@value": "Tilburg",
+        "@language": "nl"
+      }
+    ]
+  },
+  "subject": [
+    {
+      "@id": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht",
+      "rdfs:label": [
+        {
+          "@value": "Bestuursrecht; Belastingrecht",
+          "@language": "nl"
+        }
+      ]
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "muhHasVersion:Rechtspraak.nl",
+      "rdfs:label": [
+        {
+          "@value": "Rechtspraak.nl",
+          "@language": "nl"
+        }
+      ]
+    },
+    {
+      "@id": "muhHasVersion:FutD%202016-0743",
+      "rdfs:label": [
+        {
+          "@value": "FutD 2016-0743",
+          "@language": "nl"
+        }
+      ]
+    }
   ],
   "publisher": [
     {
@@ -29,17 +183,6 @@
       ]
     }
   ],
-  "creator": {
-    "@id": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant",
-    "rdfs:label": [
-      {
-        "@value": "Rechtbank Zeeland-West-Brabant",
-        "@language": "nl"
-      }
-    ],
-    "scheme": "overheid.RechterlijkeMacht",
-    "originalIdentifier": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant"
-  },
   "procedure": [
     {
       "@id": "http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig",
@@ -51,35 +194,14 @@
       ]
     }
   ],
-  "subject": [
-    {
-      "@id": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht",
-      "rdfs:label": [
-        {
-          "@value": "Bestuursrecht; Belastingrecht",
-          "@language": "nl"
-        }
-      ]
-    }
-  ],
-  "type": "http://psi.rechtspraak.nl/uitspraak",
-  "coverage": "nl",
-  "temporal": {
-    "startDate": "2009",
-    "endDate": "2013"
-  },
+  "coverage": "muhCoverage:nl",
   "title": {
-    "@value": "ECLI:NL:RBZWB:2016:1440 Rechtbank Zeeland-West-Brabant , 04-03-2016 / AWB - 15 _ 5561_5562_6430",
+    "@value": "ECLI:NL:RBZWB:2016:1440 Rechtbank Zeeland-West-Brabant , 04-03-2016 / AWB -\n                15 _ 5561_5562_6430",
     "@language": "nl"
   },
-  "spatial": {
-    "@id": "Tilburg",
-    "rdfs:label": [
-      {
-        "@value": "Tilburg",
-        "@language": "nl"
-      }
-    ]
+  "abstract": {
+    "abstractXml": "<?xml version=\"1.0\" encoding=\"utf-8\"?><inhoudsindicatie id=\"ECLI:NL:RBZWB:2016:1440:INH\" lang=\"nl\" xml:space=\"preserve\" xmlns=\"http://www.rechtspraak.nl/schema/rechtspraak-1.0\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <para>Vergrijpboeten omzetbelasting; gelijkheidsbeginsel. Aan belanghebbende zijn naheffingsaanslagen omzetbelasting met vergrijpboeten van 50% opgelegd. Alleen de hoogte van de opgelegde boeten is in geschil. De Belastingdienst heeft (ongepubliceerd) landelijk beleid gevormd voor de boete-oplegging in het kader van project Balansschulden OB. Dat beleid hield kortweg in dat bij balansschulden onder een bepaald bedrag wordt volstaan met een betaalverzuimboete van 10%. Op enig moment is het beleid gewijzigd in de zin dat een uitzondering is gemaakt voor gevallen van ‘ernstige bedenkingen’. De rechtbank is van oordeel dat de inspecteur niet aannemelijk heeft gemaakt dat ten tijde van de boete-oplegging het beleid reeds was gewijzigd. De rechtbank gaat er daarom van uit dat het eerdere beleid nog van toepassing was ten tijde van het opleggen van de boeten. Het is dan in strijd met het gelijkheidsbeginsel dat bij belanghebbende niet volstaan is met verzuimboeten van 10%. De rechtbank vermindert de boeten.</para>\n    </inhoudsindicatie>",
+    "@value": "Vergrijpboeten omzetbelasting; gelijkheidsbeginsel. Aan belanghebbende zijn naheffingsaanslagen omzetbelasting met vergrijpboeten van 50% opgelegd. Alleen de hoogte van de opgelegde boeten is in geschil. De Belastingdienst heeft (ongepubliceerd) landelijk beleid gevormd voor de boete-oplegging in het kader van project Balansschulden OB. Dat beleid hield kortweg in dat bij balansschulden onder een bepaald bedrag wordt volstaan met een betaalverzuimboete van 10%. Op enig moment is het beleid gewijzigd in de zin dat een uitzondering is gemaakt voor gevallen van ‘ernstige bedenkingen’. De rechtbank is van oordeel dat de inspecteur niet aannemelijk heeft gemaakt dat ten tijde van de boete-oplegging het beleid reeds was gewijzigd. De rechtbank gaat er daarom van uit dat het eerdere beleid nog van toepassing was ten tijde van het opleggen van de boeten. Het is dan in strijd met het gelijkheidsbeginsel dat bij belanghebbende niet volstaan is met verzuimboeten van 10%. De rechtbank vermindert de boeten."
   },
   "source": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440",
   "about": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440",
