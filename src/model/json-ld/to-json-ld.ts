@@ -87,8 +87,9 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
             }
         }
     } else if (parent.nodeType === 3) {
-        if (parent.nodeValue && parent.nodeValue.trim().length > 0) { // text
-            obj = parent.nodeValue;
+        if (parent.nodeValue && parent.nodeValue.trim().length > 0) {
+            // text
+            obj = parent.textContent;
         } else {
             obj = undefined;
         }
@@ -118,6 +119,7 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
                                 obj[childNodeName] = [];
                                 if (!(old && old.trim && old.trim().length <= 0)) obj[childNodeName].push(old);
                             }
+                            // text
                             if (!(item.nodeType === 3 && (!item.nodeValue || item.nodeValue.trim().length <= 0))) {
                                 obj[childNodeName].push(xmlToJson(item, depth + 1));
                             }
@@ -129,7 +131,7 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
         if (obj["#text"]) {
             if (obj["#text"].push)
                 obj["#text"] = obj["#text"].join("");
-            obj["#text"] = obj["#text"].replace(/\s+/, " ");
+            obj["#text"] = obj["#text"].trim().replace(/\s+/g, " ").trim();
             if (obj["#text"].length <= 0)
                 obj["#text"] = undefined;
         }

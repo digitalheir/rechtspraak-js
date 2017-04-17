@@ -52,7 +52,8 @@ function mergeDescriptionTags(rdf: any) {
     const description1 = description[1];
     if (typeof description0 !== "object")throw new Error(JSON.stringify(description0));
     if (typeof description1 !== "object")throw new Error(JSON.stringify(description1));
-    if (!(description0["dcterms:format"] === "text/xml" && (Object.keys(description1).length === 0 || description1["dcterms:format"] === "text/html")))
+    if (!(description0["dcterms:format"].trim() === "text/xml"
+        && (Object.keys(description1).length === 0 || description1["dcterms:format"].trim() === "text/html")))
         throw new Error(description0["dcterms:format"] + " and " + description1["dcterms:format"]);
 
     const o: any = {};
@@ -81,9 +82,10 @@ function mergeDescriptionTags(rdf: any) {
                     else o[k] = description0[k];
                     break;
                 case "dcterms:identifier":
-                    if (!(description0[k].match(/^ECLI:/))) throw new Error(JSON.stringify(description0[k]));
-                    if (!(description1[k].match(/^http:\/\//))) throw new Error(JSON.stringify(description1[k]));
-                    o[k] = description0[k];
+                    const ecli = description0[k].trim();
+                    if (!(ecli.match(/^ECLI:/))) throw new Error(JSON.stringify(ecli));
+                    if (!(description1[k].trim().match(/^http:\/\//))) throw new Error(JSON.stringify(description1[k]));
+                    o[k] = ecli;
                     break;
                 default:
                     try {
@@ -245,6 +247,7 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
     return {
         "@context": _context,
         _id,
+        "@type": "schema:Report",
         "accessRights": "muhAccessRights:" + encodeURI(str("dcterms:accessRights")),
         "issued": issued,
         "metadataModified": datetime("metadataModified"),

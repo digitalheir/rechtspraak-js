@@ -2,8 +2,8 @@ import * as fs from "fs";
 import {DOMParser} from "xmldom";
 import {toJsonLd} from "./src/model/json-ld/to-json-ld";
 
-// const folder = "/home/maarten/OpenDataUitspraken/";
-const folder = "/media/maarten/E0E68667E6863DB2/OpenDataUitspraken/";
+const folder = "/home/maarten/OpenDataUitspraken/";
+// const folder = "/media/maarten/E0E68667E6863DB2/OpenDataUitspraken/";
 
 function handleFolder(inFolder: string) {
     let docs = 0;

@@ -71,6 +71,7 @@ export interface Abstract {
 
 export interface RechtspraakMetadata {
     "@context": any;
+    "@type": string;
     "_id": string;
     "issued": Date;
     "htmlIssued"?: Date;

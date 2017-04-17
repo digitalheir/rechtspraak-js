@@ -29,13 +29,21 @@ export function throwIfNotString(str: any, extra?: string, ...extras: string[]):
 }
 
 export function throwIfNotDate(str: any, extra?: string, ...extras: string[]): Date {
-    if (isDate(str)) return str.trim();
-    else throw new Error("Expected " + JSON.stringify(str) + " to be a date. (" + extra + ")" + (extras.length ? " " + extras : ""));
+    if (typeof str === "string") {
+        const trimmed = str.trim();
+        if (isDate(trimmed)) return trimmed;
+    }
+
+    throw new Error("Expected " + JSON.stringify(str) + " to be a date. (" + extra + ")" + (extras.length ? " " + extras : ""));
 }
 
 export function throwIfNotDateTime(str: any, extra?: string, ...extras: string[]): DateTime {
-    if (isDateTime(str)) return str.trim();
-    else throw new Error("Expected " + JSON.stringify(str) + " to be a datetime. (" + extra + ")" + (extras.length ? " " + extras : ""));
+    if (typeof str === "string") {
+        const trimmed = str.trim();
+        if (isDateTime(trimmed))
+            return trimmed;
+    }
+    throw new Error("Expected " + JSON.stringify(str) + " to be a datetime. (" + extra + ")" + (extras.length ? " " + extras : ""));
 }
 
 export function throwIfNotUriWithProtocol(str: any, extra?: string, ...extras: string[]): UriWithProtocol {
