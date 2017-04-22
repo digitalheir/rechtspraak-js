@@ -17,7 +17,12 @@ export default {
     "ECLI": "https://rechtspraak.lawreader.nl/ecli/ECLI:",
     "_id": "@id",
     "abstract": "dcterms:abstract",
+
     "muhAccessRights": "lawly:accessRights/",
+    "muhCoverage": "lawly:coverage/",
+    "muhHasVersion": "lawly:hasVersion/",
+    "muhSpatial": "lawly:spatial/",
+
     "accessRights": {
         "@id": "dcterms:accessRights",
         "@type": "@id"

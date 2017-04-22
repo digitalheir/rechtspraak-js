@@ -19,6 +19,9 @@
     "_id": "@id",
     "abstract": "dcterms:abstract",
     "muhAccessRights": "lawly:accessRights/",
+    "muhCoverage": "lawly:coverage/",
+    "muhSpatial": "lawly:spatial/",
+    "muhHasVersion": "lawly:hasVersion/",
     "accessRights": {
       "@id": "dcterms:accessRights",
       "@type": "@id"
@@ -105,6 +108,7 @@
     "Zaaknr": "http://psi.rechtspraak.nl/zaaknummer"
   },
   "_id": "ECLI:NL:GHARN:2007:53",
+  "@type": "schema:Report",
   "accessRights": "muhAccessRights:public",
   "issued": "2013-04-24",
   "metadataModified": "2013-04-24T19:13:44",

@@ -20,8 +20,8 @@
     "abstract": "dcterms:abstract",
     "muhAccessRights": "lawly:accessRights/",
     "muhCoverage": "lawly:coverage/",
-    "muhHasVersion": "lawly:hasVersion/",
     "muhSpatial": "lawly:spatial/",
+    "muhHasVersion": "lawly:hasVersion/",
     "accessRights": {
       "@id": "dcterms:accessRights",
       "@type": "@id"
@@ -107,14 +107,14 @@
     "Instantie": "http://purl.org/dc/terms/creator",
     "Zaaknr": "http://psi.rechtspraak.nl/zaaknummer"
   },
-  "_id": "ECLI:NL:RBZWB:2016:1440",
+  "_id": "ECLI:NL:RBZWB:2016:210",
   "@type": "schema:Report",
   "accessRights": "muhAccessRights:public",
-  "issued": "2016-03-11",
-  "metadataModified": "2016-04-12T15:21:47",
-  "contentModified": "2016-04-12T15:20:29",
-  "htmlIssued": "2014-04-12",
-  "owl:sameAs": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440",
+  "issued": "1901-11-18",
+  "metadataModified": "2016-03-22T02:26:44",
+  "contentModified": "2016-03-11T11:47:31",
+  "htmlIssued": "2016-03-11",
+  "owl:sameAs": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:210",
   "language": "nl",
   "creator": {
     "@id": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant",
@@ -127,20 +127,20 @@
     "scheme": "overheid.RechterlijkeMacht",
     "originalIdentifier": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant"
   },
-  "date": "2016-03-04",
+  "date": "2016-01-19",
   "zaaknummer": [
-    "AWB - 15 _ 5561_5562_6430"
+    "AWB - 14 _ 6530"
   ],
   "type": "http://psi.rechtspraak.nl/uitspraak",
   "temporal": {
-    "startDate": "2009",
-    "endDate": "2013"
+    "startDate": "2011",
+    "endDate": "2012"
   },
   "spatial": {
-    "@id": "muhSpatial:Tilburg",
+    "@id": "muhSpatial:Middelburg",
     "rdfs:label": [
       {
-        "@value": "Tilburg",
+        "@value": "Middelburg",
         "@language": "nl"
       }
     ]
@@ -189,10 +189,10 @@
   ],
   "procedure": [
     {
-      "@id": "http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig",
+      "@id": "http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig",
       "rdfs:label": [
         {
-          "@value": "Eerste aanleg - enkelvoudig",
+          "@value": "Eerste aanleg - meervoudig",
           "@language": "nl"
         }
       ]
@@ -200,16 +200,16 @@
   ],
   "coverage": "muhCoverage:nl",
   "title": {
-    "@value": "ECLI:NL:RBZWB:2016:1440 Rechtbank Zeeland-West-Brabant , 04-03-2016 / AWB - 15 _ 5561_5562_6430",
+    "@value": "ECLI:NL:RBZWB:2016:210 Rechtbank Zeeland-West-Brabant , 19-01-2016 / AWB - 14 _ 6530",
     "@language": "nl"
   },
   "abstract": {
-    "abstractXml": "<?xml version=\"1.0\" encoding=\"utf-8\"?><inhoudsindicatie id=\"ECLI:NL:RBZWB:2016:1440:INH\" lang=\"nl\" xml:space=\"preserve\" xmlns=\"http://www.rechtspraak.nl/schema/rechtspraak-1.0\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <para>Vergrijpboeten omzetbelasting; gelijkheidsbeginsel. Aan belanghebbende zijn naheffingsaanslagen omzetbelasting met vergrijpboeten van 50% opgelegd. Alleen de hoogte van de opgelegde boeten is in geschil. De Belastingdienst heeft (ongepubliceerd) landelijk beleid gevormd voor de boete-oplegging in het kader van project Balansschulden OB. Dat beleid hield kortweg in dat bij balansschulden onder een bepaald bedrag wordt volstaan met een betaalverzuimboete van 10%. Op enig moment is het beleid gewijzigd in de zin dat een uitzondering is gemaakt voor gevallen van ‘ernstige bedenkingen’. De rechtbank is van oordeel dat de inspecteur niet aannemelijk heeft gemaakt dat ten tijde van de boete-oplegging het beleid reeds was gewijzigd. De rechtbank gaat er daarom van uit dat het eerdere beleid nog van toepassing was ten tijde van het opleggen van de boeten. Het is dan in strijd met het gelijkheidsbeginsel dat bij belanghebbende niet volstaan is met verzuimboeten van 10%. De rechtbank vermindert de boeten.</para>\n    </inhoudsindicatie>",
-    "@value": "Vergrijpboeten omzetbelasting; gelijkheidsbeginsel. Aan belanghebbende zijn naheffingsaanslagen omzetbelasting met vergrijpboeten van 50% opgelegd. Alleen de hoogte van de opgelegde boeten is in geschil. De Belastingdienst heeft (ongepubliceerd) landelijk beleid gevormd voor de boete-oplegging in het kader van project Balansschulden OB. Dat beleid hield kortweg in dat bij balansschulden onder een bepaald bedrag wordt volstaan met een betaalverzuimboete van 10%. Op enig moment is het beleid gewijzigd in de zin dat een uitzondering is gemaakt voor gevallen van ‘ernstige bedenkingen’. De rechtbank is van oordeel dat de inspecteur niet aannemelijk heeft gemaakt dat ten tijde van de boete-oplegging het beleid reeds was gewijzigd. De rechtbank gaat er daarom van uit dat het eerdere beleid nog van toepassing was ten tijde van het opleggen van de boeten. Het is dan in strijd met het gelijkheidsbeginsel dat bij belanghebbende niet volstaan is met verzuimboeten van 10%. De rechtbank vermindert de boeten."
+    "abstractXml": "<?xml version=\"1.0\" encoding=\"utf-8\"?><inhoudsindicatie id=\"ECLI:NL:RBZWB:2016:210:INH\" lang=\"nl\" xml:space=\"preserve\" xmlns=\"http://www.rechtspraak.nl/schema/rechtspraak-1.0\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <para>\nProcesbelang bij beroep strekkend tot een hogere verliesverrekeningsbeschikking? Goedkoopmansgebruik; stelselwijzing of herwaardering mogelijk in verband met het voorkomen van verliesdamping? Aan belanghebbende is voor het jaar 2011 een aanslag vennootschapsbelasting opgelegd van nihil en een verliesverrekeningsbeschikking vastgesteld. Voor het jaar 2012 is een aanslag vennootschapsbelasting opgelegd naar een belastbaar bedrag van € 85.958, waarin begrepen is een winst van € 81.605 ter zake de verkoop van onroerende zaken in 2012. De rechtbank oordeelt dat het beroep betreffende het jaar 2011 niet-ontvankelijk is. Met betrekking tot de aanslag is er geen procesbelang omdat deze reeds nihil is. Met betrekking tot de verliesverrekeningsbeschikking heeft belanghebbende geen procesbelang bij het door haar bepleite hogere bedrag aan verlies dat verrekend wordt. Het verkrijgen van duidelijkheid of herwaardering van haar onroerende zaken in 2011 mogelijk is, is onvoldoende. Het geschilpunt of herwaardering in 2011 mogelijk is, kan aan de orde komen in het beroep betreffende het jaar 2012. Ter zake van dat beroep oordeelt de rechtbank dat herwaardering in 2011 niet in overeenstemming is met goed koopmansgebruik. De stelselwijziging is gericht op een incidenteel fiscaal voordeel namelijk het voorkomen van verliesverdamping. Bijzondere omstandigheden die een stelselwijziging of een eenmalige opwaardering rechtvaardigen zijn niet aanwezig. Het beroep betreffende het jaar 2012 is ongegrond.</para>\n    </inhoudsindicatie>",
+    "@value": "Procesbelang bij beroep strekkend tot een hogere verliesverrekeningsbeschikking? Goedkoopmansgebruik; stelselwijzing of herwaardering mogelijk in verband met het voorkomen van verliesdamping? Aan belanghebbende is voor het jaar 2011 een aanslag vennootschapsbelasting opgelegd van nihil en een verliesverrekeningsbeschikking vastgesteld. Voor het jaar 2012 is een aanslag vennootschapsbelasting opgelegd naar een belastbaar bedrag van € 85.958, waarin begrepen is een winst van € 81.605 ter zake de verkoop van onroerende zaken in 2012. De rechtbank oordeelt dat het beroep betreffende het jaar 2011 niet-ontvankelijk is. Met betrekking tot de aanslag is er geen procesbelang omdat deze reeds nihil is. Met betrekking tot de verliesverrekeningsbeschikking heeft belanghebbende geen procesbelang bij het door haar bepleite hogere bedrag aan verlies dat verrekend wordt. Het verkrijgen van duidelijkheid of herwaardering van haar onroerende zaken in 2011 mogelijk is, is onvoldoende. Het geschilpunt of herwaardering in 2011 mogelijk is, kan aan de orde komen in het beroep betreffende het jaar 2012. Ter zake van dat beroep oordeelt de rechtbank dat herwaardering in 2011 niet in overeenstemming is met goed koopmansgebruik. De stelselwijziging is gericht op een incidenteel fiscaal voordeel namelijk het voorkomen van verliesverdamping. Bijzondere omstandigheden die een stelselwijziging of een eenmalige opwaardering rechtvaardigen zijn niet aanwezig. Het beroep betreffende het jaar 2012 is ongegrond."
   },
-  "source": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440",
-  "about": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:1440",
+  "source": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:210",
+  "about": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:210",
   "couchDbUpdated": "2017-04-11T20:28:46.064Z",
   "corpus": "Rechtspraak.nl",
-  "page": "https://rechtspraak.lawreader.nl/ecli/ECLI:NL:RBZWB:2016:1440"
+  "page": "https://rechtspraak.lawreader.nl/ecli/ECLI:NL:RBZWB:2016:210"
 }
