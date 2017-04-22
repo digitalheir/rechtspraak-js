@@ -14,7 +14,7 @@ export default {
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "lawly": "https://rechtspraak.lawreader.nl/vocab/",
-    "ECLI": "https://rechtspraak.lawreader.nl/id/ECLI:",
+    "ECLI": "https://rechtspraak.lawreader.nl/ecli/ECLI:",
     "_id": "@id",
     "abstract": "dcterms:abstract",
 
