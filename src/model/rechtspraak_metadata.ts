@@ -107,6 +107,6 @@ export interface RechtspraakMetadata {
     "page": UriWithProtocol;
     "title": Label;
     "spatial"?: Spatial;
-    "innerText"?: string;
+    "textContent"?: string;
     "schema:hasPart"?: HasPart[];
 }

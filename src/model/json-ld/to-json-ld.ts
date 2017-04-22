@@ -107,7 +107,7 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
                 } else {
                     if (childNodeName.match(/uitspraak|conclusie/)) {
                         if (!!item.textContent)
-                            obj.innerText = item.textContent.trim().replace(/\s\s+/g, " ");
+                            obj.textContent = item.textContent.trim().replace(/\s\s+/g, " ");
                     } else {
                         if (typeof(obj[childNodeName]) === "undefined") {
                             // child doesn't exist yet

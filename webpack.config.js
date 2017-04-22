@@ -9,7 +9,7 @@ const libraryName = 'rechtspraak';
 function getPlugins ({/*debug, */minify}) {
     //noinspection JSUnresolvedFunction
     const plugins = [
-        new webpack.DefinePlugin({
+        new webpack.DefinePlugin(
             'process.env.NODE_ENV': JSON.stringify(minify ? 'production' : 'development')
         }),
         new webpack.LoaderOptionsPlugin({
