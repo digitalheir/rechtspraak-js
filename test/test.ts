@@ -56,6 +56,46 @@ describe("XML should convert to JSON-LD", function () {
         );
     });
 
+    it("given no abstract, should render no abstract", function () {
+        const docName = "no_abstract";
+
+        const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
+        console.log(JSON.stringify(generatedJson));
+
+
+        assert.deepEqual(
+            generatedJson,
+            expectedJson
+        );
+    });
+
+    it("given \"-\" for abstract, should render no abstract", function () {
+        const docName = "ignore_abstract";
+
+        const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
+        console.log(JSON.stringify(generatedJson));
+
+
+        assert.deepEqual(
+            generatedJson,
+            expectedJson
+        );
+    });
+
+    it("given inline abstract, should render abstract", function () {
+        const docName = "inline_abstract";
+
+        try {
+            generateJsonFromXmlAndLoadExpectedJson(docName); //noinspection ExceptionCaughtLocallyJS
+            throw new Error("Test should have failed");
+        } catch (e) {
+            assert.equal(
+                "Expected different dcterms:abstract",
+                e.message
+            );
+        }
+    });
+
     it("given second description not present, should generate valid document", function () {
         const docName = "no_html_metadata";
         const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);

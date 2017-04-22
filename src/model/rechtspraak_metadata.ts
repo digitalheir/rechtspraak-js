@@ -51,11 +51,11 @@ export function isYear(s: string): s is DateTime {
 export interface HasPart {
     "@type": string;
     "@id": string;
-    name?: string;
-    alternateName?: string;
-    position?: string;
-    url: string;
-    hasPart?: HasPart[];
+    "schema:name"?: string;
+    "schema:alternateName"?: string;
+    "schema:position"?: string;
+    "schema:url": string;
+    "schema:hasPart"?: HasPart[];
 }
 
 export interface Procedure extends StandardResourceObject {
@@ -108,5 +108,5 @@ export interface RechtspraakMetadata {
     "title": Label;
     "spatial"?: Spatial;
     "innerText"?: string;
-    "hasPart"?: HasPart[];
+    "schema:hasPart"?: HasPart[];
 }

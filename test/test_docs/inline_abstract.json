@@ -15,14 +15,13 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "lawly": "https://rechtspraak.lawreader.nl/vocab/",
-    "muhAccessRights": "lawly:accessRights/",
-    "muhCoverage": "lawly:coverage/",
-    "muhSpatial": "lawly:spatial/",
-    "muhHasVersion": "lawly:hasVersion/",
-
     "ECLI": "https://rechtspraak.lawreader.nl/id/ECLI:",
     "_id": "@id",
     "abstract": "dcterms:abstract",
+    "muhAccessRights": "lawly:accessRights/",
+    "muhCoverage": "lawly:coverage/",
+    "muhHasVersion": "lawly:hasVersion/",
+    "muhSpatial": "lawly:spatial/",
     "accessRights": {
       "@id": "dcterms:accessRights",
       "@type": "@id"
@@ -203,10 +202,6 @@
   "title": {
     "@value": "ECLI:NL:RBZWB:2016:210 Rechtbank Zeeland-West-Brabant , 19-01-2016 / AWB - 14 _ 6530",
     "@language": "nl"
-  },
-  "abstract": {
-    "abstractXml": "<?xml version=\"1.0\" encoding=\"utf-8\"?><inhoudsindicatie id=\"ECLI:NL:RBZWB:2016:210:INH\" lang=\"nl\" xml:space=\"preserve\" xmlns=\"http://www.rechtspraak.nl/schema/rechtspraak-1.0\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <para>\nProcesbelang bij beroep strekkend tot een hogere verliesverrekeningsbeschikking? Goedkoopmansgebruik; stelselwijzing of herwaardering mogelijk in verband met het voorkomen van verliesdamping? Aan belanghebbende is voor het jaar 2011 een aanslag vennootschapsbelasting opgelegd van nihil en een verliesverrekeningsbeschikking vastgesteld. Voor het jaar 2012 is een aanslag vennootschapsbelasting opgelegd naar een belastbaar bedrag van € 85.958, waarin begrepen is een winst van € 81.605 ter zake de verkoop van onroerende zaken in 2012. De rechtbank oordeelt dat het beroep betreffende het jaar 2011 niet-ontvankelijk is. Met betrekking tot de aanslag is er geen procesbelang omdat deze reeds nihil is. Met betrekking tot de verliesverrekeningsbeschikking heeft belanghebbende geen procesbelang bij het door haar bepleite hogere bedrag aan verlies dat verrekend wordt. Het verkrijgen van duidelijkheid of herwaardering van haar onroerende zaken in 2011 mogelijk is, is onvoldoende. Het geschilpunt of herwaardering in 2011 mogelijk is, kan aan de orde komen in het beroep betreffende het jaar 2012. Ter zake van dat beroep oordeelt de rechtbank dat herwaardering in 2011 niet in overeenstemming is met goed koopmansgebruik. De stelselwijziging is gericht op een incidenteel fiscaal voordeel namelijk het voorkomen van verliesverdamping. Bijzondere omstandigheden die een stelselwijziging of een eenmalige opwaardering rechtvaardigen zijn niet aanwezig. Het beroep betreffende het jaar 2012 is ongegrond.</para>\n    </inhoudsindicatie>",
-    "@value": "Procesbelang bij beroep strekkend tot een hogere verliesverrekeningsbeschikking? Goedkoopmansgebruik; stelselwijzing of herwaardering mogelijk in verband met het voorkomen van verliesdamping? Aan belanghebbende is voor het jaar 2011 een aanslag vennootschapsbelasting opgelegd van nihil en een verliesverrekeningsbeschikking vastgesteld. Voor het jaar 2012 is een aanslag vennootschapsbelasting opgelegd naar een belastbaar bedrag van € 85.958, waarin begrepen is een winst van € 81.605 ter zake de verkoop van onroerende zaken in 2012. De rechtbank oordeelt dat het beroep betreffende het jaar 2011 niet-ontvankelijk is. Met betrekking tot de aanslag is er geen procesbelang omdat deze reeds nihil is. Met betrekking tot de verliesverrekeningsbeschikking heeft belanghebbende geen procesbelang bij het door haar bepleite hogere bedrag aan verlies dat verrekend wordt. Het verkrijgen van duidelijkheid of herwaardering van haar onroerende zaken in 2011 mogelijk is, is onvoldoende. Het geschilpunt of herwaardering in 2011 mogelijk is, kan aan de orde komen in het beroep betreffende het jaar 2012. Ter zake van dat beroep oordeelt de rechtbank dat herwaardering in 2011 niet in overeenstemming is met goed koopmansgebruik. De stelselwijziging is gericht op een incidenteel fiscaal voordeel namelijk het voorkomen van verliesverdamping. Bijzondere omstandigheden die een stelselwijziging of een eenmalige opwaardering rechtvaardigen zijn niet aanwezig. Het beroep betreffende het jaar 2012 is ongegrond."
   },
   "source": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:210",
   "about": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:210",

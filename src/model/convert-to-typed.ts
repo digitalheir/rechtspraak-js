@@ -192,7 +192,11 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
     };
 
     if (
-        meta["dcterms:abstract"] && !meta["dcterms:abstract"]["@attributes"] && meta["dcterms:abstract"]["@attributes"]["resourceIdentifier"] === "../../rs:inhoudsindicatie"
+        meta["dcterms:abstract"]
+        && !(
+            meta["dcterms:abstract"]["@attributes"]
+            && meta["dcterms:abstract"]["@attributes"]["resourceIdentifier"] === "../../rs:inhoudsindicatie"
+        )
     ) throw new Error("Expected different " + "dcterms:abstract");
 
     Object.keys(meta).forEach((k) => {
@@ -271,7 +275,7 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
             if (!id.match(REGEX_ECLI)) throw new Error("Is not replaced by an ECLI: " + _id);
             return HTTPS_DEEPLINK_RECHTSPRAAK_ID + id;
         }) : undefined,
-        "hasPart": meta["hasPart"],
+        // "schema:hasPart": meta["hasPart"], // never set
 
         "publisher": getPublisher(meta["dcterms:publisher"], _id),
         "relation": getRelation(meta["dcterms:relation"]),

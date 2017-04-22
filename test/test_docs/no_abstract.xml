@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<open-rechtspraak>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:ecli="https://e-justice.europa.eu/ecli"
+             xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/"
+             xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl"
+             xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/"
+             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+        <rdf:Description>
+            <dcterms:identifier>
+                ECLI:NL:RBZWB:2016:210
+            </dcterms:identifier>
+            <dcterms:format>
+                text/xml
+            </dcterms:format>
+            <dcterms:accessRights>
+                public
+            </dcterms:accessRights>
+            <dcterms:modified>
+                2016-03-22T02:26:44
+            </dcterms:modified>
+            <dcterms:issued rdfs:label="Publicatiedatum">
+                1901-11-18
+            </dcterms:issued>
+            <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">
+                Raad voor de Rechtspraak
+            </dcterms:publisher>
+            <dcterms:language>
+                nl
+            </dcterms:language>
+            <dcterms:creator rdfs:label="Instantie"
+                             resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant"
+                             scheme="overheid.RechterlijkeMacht">
+                Rechtbank Zeeland-West-Brabant
+            </dcterms:creator>
+            <dcterms:date rdfs:label="Uitspraakdatum">
+                2016-01-19
+            </dcterms:date>
+            <psi:zaaknummer rdfs:label="Zaaknr">
+                AWB - 14 _ 6530
+            </psi:zaaknummer>
+            <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">
+                Uitspraak
+            </dcterms:type>
+            <psi:procedure rdf:language="nl" rdfs:label="Procedure"
+                           resourceIdentifier="http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig">
+                Eerste aanleg
+                - meervoudig
+            </psi:procedure>
+            <dcterms:coverage>
+                NL
+            </dcterms:coverage>
+            <dcterms:temporal rdfs:label="Periode">
+                <start rdfs:label="van">2011</start>
+                <end rdfs:label="tot">2012</end>
+            </dcterms:temporal>
+            <dcterms:spatial rdfs:label="Zittingsplaats">
+                Middelburg
+            </dcterms:spatial>
+            <dcterms:subject rdfs:label="Rechtsgebied"
+                             resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht">
+                Bestuursrecht;
+                Belastingrecht
+            </dcterms:subject>
+            <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+                <rdf:list>
+                    <rdf:li>
+                        Rechtspraak.nl
+                    </rdf:li>
+                    <rdf:li>
+                        FutD 2016-0743
+                    </rdf:li>
+                </rdf:list>
+            </dcterms:hasVersion>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:210">
+            <dcterms:identifier>
+                http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:210
+            </dcterms:identifier>
+            <dcterms:format>
+                text/html
+            </dcterms:format>
+            <dcterms:accessRights>
+                public
+            </dcterms:accessRights>
+            <dcterms:modified>2016-03-11T11:47:31</dcterms:modified>
+            <dcterms:issued rdfs:label="Publicatiedatum">2016-03-11</dcterms:issued>
+            <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">
+                Raad voor de Rechtspraak
+            </dcterms:publisher>
+            <dcterms:language>
+                nl
+            </dcterms:language>
+            <dcterms:title rdf:language="nl">
+                ECLI:NL:RBZWB:2016:210 Rechtbank Zeeland-West-Brabant , 19-01-2016 / AWB -
+                14 _ 6530
+            </dcterms:title>
+        </rdf:Description>
+    </rdf:RDF>
+  <uitspraak id="ECLI:NL:RBZWB:2016:210:DOC" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <uitspraak.info>
+        <bridgehead role="bold">RECHTBANK </bridgehead>
+        <para />
+        <para />
+      </uitspraak.info>
+      <section role="procesverloop">
+        <title>
+          <nr>1</nr>Ontstaan en loop van het geding</title>
+        <para />
+        <section>
+          <title><nr>1.1.</nr></title>
+          <parablock>
+            <para>De inspecteur heeft aan belanghebbende voor het jaar 2011 een aanslag vennootschapsbelasting opgelegd van nihil. Tegelijk is daarbij een beschikking genomen waarbij het verrekende verlies is vastgesteld op € 82.896. </para>
+            <para>De inspecteur heeft aan belanghebbende voor het jaar 2012 een aanslag opgelegd naar een belastbaar bedrag van € 85.958 en daarbij bij beschikking belastingrente in rekening gebracht.</para>
+          </parablock>
+          <para />
+        </section>
+        <paragroup>
+          <nr>1.2.</nr>
+          <para>De inspecteur heeft bij uitspraken op bezwaar van 17 september 2014 en 16 maart 2015 de bezwaren tegen de in 1.1 vermelde aanslagen en beschikkingen ongegrond verklaard. </para>
+          <para />
+        </paragroup>
+        <section>
+          <title><nr>1.3.</nr></title>
+          <para>Belanghebbende heeft daartegen bij brieven van 28 oktober 2014 en 19 maart 2015, ontvangen bij de rechtbank op 29 oktober 2014 en 20 maart 2015, beroep ingesteld. Ter zake van deze beroepen heeft de griffier van belanghebbende een griffierecht geheven van € 328 en van € 331. De zaak met betrekking tot het jaar 2011 heeft procedurenummer 14/6530 (hierna: ook beroep 2011); de zaak met betrekking tot het jaar 2012 heeft procedurenummer 15/1554 (hierna ook: beroep 2012).</para>
+          <para />
+        </section>
+      </section>
+      <section>
+        <title>
+          <nr>2</nr>Feiten</title>
+        <para />
+        <parablock>
+          <para>Op grond van de stukken van het geding en het verhandelde ter zitting staat het volgende vast: </para>
+        </parablock>
+        <para />
+        <paragroup>
+          <nr>2.1.</nr>
+          <para>Belanghebbende verhuurde onroerende zaken. De huurder heeft de huur op 8 februari 2011 met ingang van 7 februari 2012 beëindigd. Door beëindiging van de activiteiten door de huurder in de onroerende zaken, stonden de onroerende zaken vanaf medio 2011 leeg. Op dat moment heeft belanghebbende besloten de onroerende zaken te verkopen. Op [verweerder] 2012 zijn de onroerende zaken aan een derde verkocht voor € 565.000. Daarbij heeft belanghebbende, onder aftrek van de verkoopkosten, een boekwinst gerealiseerd van € 81.605 (hierna: de boekwinst).</para>
+        </paragroup>
+        <section>
+          <title><nr>2.2.</nr></title>
+
+          <para>Per 31 december 2010 had belanghebbende € 143.277 aan nog te verrekenen verliezen, afkomstig uit de jaren 2001 en 2002. Belanghebbende heeft de onroerende zaken in de aangiften over de jaren tot en met 2010 voor de jaarwinstbepaling gewaardeerd op de kostprijs minus afschrijvingen. </para>
+          <para />
+        </section>
+        <paragroup>
+          <nr>2.3.</nr>
+          <para>Op 26 maart 2013 heeft belanghebbende aangifte vennootschapsbelasting 2011 gedaan. Belanghebbende heeft op de balans de onroerende zaken opgenomen voor € 551.553, te weten de boekwaarde begin 2011 van € 469.948 vermeerderd met een boekwinst van € 81.605. Deze opwaardering leidde tot een belastbare winst van € 164.501 en een belastbaar bedrag van € 21.224. Het verschil van € 143.277 is het volledige nog verrekenbare verlies (zie 2.2). </para>
+          <para />
+        </paragroup>
+      </section>
+      <section>
+        <title>
+          <nr>6</nr>Beslissing</title>
+        <para />
+        <parablock>
+          <para>De rechtbank:</para>
+        </parablock>
+        <itemizedlist mark="-">
+          <listitem>
+            <para>verklaart het beroep betreffende de aanslag vennootschapsbelasting 2011 en de daarbij behorende verliesverrekeningsbeschikking niet-ontvankelijk;</para>
+          </listitem>
+          <listitem>
+            <para>verklaart het beroep betreffende de aanslag vennootschapsbelasting 2012 en de daarbij gegeven beschikking belastingrente ongegrond.</para>
+          </listitem>
+        </itemizedlist>
+        <para />
+      </section>
+    </uitspraak>
+</open-rechtspraak>
