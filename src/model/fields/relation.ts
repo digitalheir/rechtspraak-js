@@ -39,6 +39,7 @@ export type Gevolg =
     | "gevolg#afwijzing vordering"
     | "gevolg#gegrondverklaring"
     ;
+
 export type RelationType =
     "conclusieVoorCassatie"
     | "tussenuitspraakBestuurlijkeLus"
@@ -100,7 +101,8 @@ const uriMappingRelationType: { [k: string]: RelationType } = {
     "tussenuitspraakBestuurlijkeLus": "tussenuitspraakBestuurlijkeLus",
     "conclusie": "conclusie",
     "hogerBeroep": "hogerBeroep",
-    "terugverwijzing": "terugverwijzing"
+    "terugverwijzing": "terugverwijzing",
+    "cassatie": "cassatie"
 };
 
 function getRelationType(uri: string, label: string, id?:string): RelationType {
