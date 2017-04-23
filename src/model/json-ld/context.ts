@@ -712,6 +712,16 @@ export const _context = {
         "owl:sameAs": "http://psi.rechtspraak.nl/rectificatieBesluit",
         "rdfs:label": [{"@value": "Te rectificeren uitspraak", "@language": "nl"}]
     },
+    "vervallenverklaring": {
+        "@id": "lawly:type/vervallenverklaring",
+        "owl:sameAs": "http://psi.rechtspraak.nl/vervallenverklaring",
+        "rdfs:label": [{"@value": "Vervallenverklaard", "@language": "nl"}]
+    },
+    "oorspronkelijkBesluitDefinitiefBesluit": {
+        "@id": "lawly:type/oorspronkelijkBesluitDefinitiefBesluit",
+        "owl:sameAs": "http://psi.rechtspraak.nl/oorspronkelijkBesluitDefinitiefBesluit",
+        "rdfs:label": [{"@value": "Oorspronkelijke uitspraak", "@language": "nl"}]
+    },
     "terugverwijzing": {
         "@id": "lawly:type/terugverwijzing",
         "owl:sameAs": "http://psi.rechtspraak.nl/terugverwijzing",
