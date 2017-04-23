@@ -1,5 +1,5 @@
 # Rechtspraak.js
-[![Build Status](https://travis-ci.org/digitalheir/rechtspraak-js.svg?branch=master)](https://travis-ci.org/digitalheir/rechtspraak-js)[![npm version](https://badge.fury.io/js/rechtspraak-nl.svg)](https://badge.fury.io/js/rechtspraak-nl)
+[![Build Status](https://travis-ci.org/digitalheir/rechtspraak-js.svg?branch=master)](https://travis-ci.org/digitalheir/rechtspraak-js)[![npm version](https://badge.fury.io/js/rechtspraak-nl.svg)](https://badge.fury.io/js/rechtspraak-nl)![License](https://img.shields.io/npm/l/rechtspraak-nl.svg)
 
 A bunch of utility functions to work with the open data in [Rechtspraak.nl](http://www.rechtspraak.nl/) and create well-formed JSON-LD.
 
