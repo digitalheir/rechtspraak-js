@@ -40,20 +40,22 @@ function handleDocument(path: string): any {
     } catch (error) {
         // reject({path, error});
         let m = error.message.match(
-            /^.*: Unexpected [a-zA-Z0-9:_-]+: (.*)\. Label: (.*)\. Leave an issue here:/
+            /^(.*): Unexpected [a-zA-Z0-9:_-]+: (.*)\. Label: (.*)\. Leave an issue here:/
         );
         if (m) {
-            if (!newones[m[1]]) {
-                newones[m[1]] = true;
-                let id = m[1].replace(/https?:\/\/psi\.rechtspraak\.nl\//, "");
+            let uri = m[2];
+            if (!newones[uri]) {
+                newones[uri] = true;
+                let id = uri.replace(/https?:\/\/psi\.rechtspraak\.nl\//, "");
                 console.log(
                     "\"" + id + "\"" + ": "
                 );
                 console.log(JSON.stringify(
                         {
                             "@id": id,
-                            "owl:sameAs": m[1],
-                            "rdfs:label": [{"@value": m[2], "@language": "nl"}]
+                            "owl:sameAs": uri,
+                            "rdfs:label": [{"@value": m[3], "@language": "nl"}],
+                            "example": m[0]
                         }
                     ) + ",");
             }
