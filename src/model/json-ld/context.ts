@@ -593,8 +593,8 @@ export const _context = {
         "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#niet bevoegd",
         "rdfs:label": [{"@value": "Niet bevoegd", "@language": "nl"}],
         "key": "gevolg"
-
     },
+
     "gevolg#gevolgd": {
         "@id": "gevolg#gevolgd",
         "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gevolgd",

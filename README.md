@@ -19,6 +19,31 @@ This URL will load the complete knowledge graph of Rechtspraak.nl, making use mo
 
 ## JSON Schema
 
+## Rechtspraak.nl metadata gotchas
+
+
+* Some `dcterms:type` triples don't have a resourceIdentifier, e.g. http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBMNE:2016:1637: `<dcterms:type rdf:language="nl" resourceIdentifier="">Uitspraak</dcterms:type>`
+* Some docs miss .nl in the URI; eg [ECLI:NL:CBB:2002:AD9059](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:CBB:2002:AD9059): `psi:type="http://psi.rechtspraak/conclusie"`
+* Many URIs aren't encoded properly, most notably the "gevolg" URIs: eg. `http://psi.rechtspraak.nl/gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan`. Considering [the official URI specification](https://tools.ietf.org/rfc/rfc3986.txt), spaces are illegal
+* * This also applies to some references, eg. in http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:HR:1992:AA2957: `1.0:v:BWB:BWBV0001506&artikel=7 (oud)&g=1992-12-23`
+
+Some issues derived from [an earlier report](http://leibniz-internship-report.herokuapp.com/rechtspraak.nl#rechtspraak-problems):
+* In general, [the W3C RDF validator](http://www.w3.org/RDF/Validator/rdfval?URI=data.rechtspraak.nl%2Fuitspraken%2Fcontent%3Fid%3DECLI%3ANL%3ACBB%3A2010%3ABN1294&PARSE=Parse+URI%3A+&TRIPLES_AND_GRAPH=PRINT_TRIPLES&FORMAT=PNG_EMBED) crashes on input documents
+* The subject of a triple is not always clear. There are two dcterms:modified properties described, and it is unclear which one refers to the date on which the document was modified and which one to the date on which the metadata was modified.
+* Values are usually not typed, for example in the case of dates.
+* Resource identifiers are not always used, when they easily can be. An example is the `dcterms:coverage` property. This might not seem important, such as in the case of dcterms:accessRights, which is fixed to the string literal public. But RDF processors typically do not treat two equal strings literals as the same concept: URIs are used for that. (Also, properties in the Dublin Core normally define a range which usually imply URIs.)
+* There are some ECLI identifiers that turn up when searching for documents that have a body, but actually do not have a body. Encountered are:
+* [ECLI:NL:RBNHO:2014:347](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBNHO:2014:347)
+* [ECLI:NL:RBAMS:2014:2748](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBAMS:2014:2748)
+* [ECLI:NL:GHDHA:2014:1688](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:GHDHA:2014:1688)
+* [ECLI:NL:RBOVE:2014:2747](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBOVE:2014:2747)
+
+* Property-specific issues:
+* * dcterms:references prefixes the resourceIdentifier attribute with the namespace of the corpus that the referent is in. This is not properly formed RDF.
+* * dcterms:subject: when a judgment is about multiple fields, a resource identifier is given that contains both subjects concatenated. An example is http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_socialezekerheidsrecht. It makes more sense to have one URI for 'bestuursrecht' and one URI for 'socialezekerheidsrecht'.
+* * psi:zaaknummer doesn't seem to split lists of identifiers correctly. A string like 97/8236 TW, 97/8241 TW is probably two case numbers, not one.
+* The XML defines a prefix that refers to the relative URI `bwb-dl`. Prefixing to relative URIs is a practice that has been deprecated by W3C.
+
 ## License
 
 [GPL v3](https://www.gnu.org/licenses/gpl.html). Note that this is a viral open source license. If you create derivatives, 

@@ -7,9 +7,6 @@ export type RsDocumentType = "uitspraak" | "conclusie";
 export function getType(t: any, _id?: string): RsDocumentType {
     if (t["@attributes"]["resourceIdentifier"] === "" && t["#text"] === "Uitspraak")
         t["@attributes"]["resourceIdentifier"] = "http://psi.rechtspraak.nl/uitspraak";
-    // e.g. http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBMNE:2016:1637
-    // <dcterms:type rdf:language="nl" resourceIdentifier="">Uitspraak</dcterms:type>
-    // NOTE should we notify rechtspraak.nl?
 
     mustHaveTextAndAttributes(t, true, "rdf:language", "resourceIdentifier");
     const resourceId: string = getResourceId(t["@attributes"], "type");

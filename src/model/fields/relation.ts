@@ -113,9 +113,6 @@ function getRelationType(uri: string, label: string, id?:string): RelationType {
     );
     const type: RelationType = uriMappingRelationType[shortId];
 
-    // TODO notify rechtspraak.nl:some docs miss .nl: ://psi.rechtspraak/conclusie
-    // /media/maarten/E0E68667E6863DB2/OpenDataUitspraken/ECLI_NL_CBB_2002_AD9059.xml
-
     const contextLabel: string = _context[type]["rdfs:label"][0]["@value"];
     if (!contextLabel) throw new Error("Expected label for " + type);
 
