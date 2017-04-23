@@ -1,5 +1,6 @@
 import "mocha";
 import * as RS from "../src/index";
+import {_context} from "../src/model/json-ld/context";
 import * as fs from "fs";
 import * as assert from "assert";
 
@@ -21,7 +22,9 @@ let generateJsonFromXml = function (docName: string) {
 };
 
 let getExpectedJson = function (docName: string) {
-    return JSON.parse(readFileToString(determineTestDocFileName(docName, "json")));
+    const json = JSON.parse(readFileToString(determineTestDocFileName(docName, "json")));
+    json["@context"] = _context;
+    return json;
 };
 let generateJsonFromXmlAndLoadExpectedJson = function (docName: string) {
     const expectedJson = getExpectedJson(docName);

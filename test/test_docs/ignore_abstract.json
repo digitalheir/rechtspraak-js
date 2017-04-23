@@ -19,7 +19,6 @@
     "muhCoverage": "lawly:coverage/",
     "muhSpatial": "lawly:spatial/",
     "muhHasVersion": "lawly:hasVersion/",
-
     "ECLI": "https://rechtspraak.lawreader.nl/id/ECLI:",
     "_id": "@id",
     "abstract": "dcterms:abstract",
@@ -66,7 +65,16 @@
       "@type": "@id"
     },
     "spatial": "dcterms:spatial",
-    "subject": "dcterms:subject",
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@vocab"
+    },
+    "bestuursrecht_belastingrecht":{
+      "@id":"rechtsgebied#bestuursrecht_belastingrecht",
+      "owl:sameAs":"http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht",
+      "rdfs:label":[{"@value":"Bestuursrecht; Belastingrecht","@language":"nl"}]
+    },
+
     "title": "dcterms:title",
     "type": {
       "@id": "dcterms:type",
@@ -132,7 +140,7 @@
   "zaaknummer": [
     "AWB - 14 _ 6530"
   ],
-  "type": "http://psi.rechtspraak.nl/uitspraak",
+  "type": "uitspraak",
   "temporal": {
     "startDate": "2011",
     "endDate": "2012"
@@ -147,15 +155,7 @@
     ]
   },
   "subject": [
-    {
-      "@id": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht",
-      "rdfs:label": [
-        {
-          "@value": "Bestuursrecht; Belastingrecht",
-          "@language": "nl"
-        }
-      ]
-    }
+    "bestuursrecht_belastingrecht"
   ],
   "hasVersion": [
     {
@@ -189,17 +189,9 @@
     }
   ],
   "procedure": [
-    {
-      "@id": "http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig",
-      "rdfs:label": [
-        {
-          "@value": "Eerste aanleg - meervoudig",
-          "@language": "nl"
-        }
-      ]
-    }
+    "eersteAanlegMeervoudig"
   ],
-  "coverage": "muhCoverage:nl",
+  "coverage": "nl",
   "title": {
     "@value": "ECLI:NL:RBZWB:2016:210 Rechtbank Zeeland-West-Brabant , 19-01-2016 / AWB - 14 _ 6530",
     "@language": "nl"

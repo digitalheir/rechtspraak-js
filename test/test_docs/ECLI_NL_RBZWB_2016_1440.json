@@ -131,7 +131,7 @@
   "zaaknummer": [
     "AWB - 15 _ 5561_5562_6430"
   ],
-  "type": "http://psi.rechtspraak.nl/uitspraak",
+  "type": "uitspraak",
   "temporal": {
     "startDate": "2009",
     "endDate": "2013"
@@ -146,15 +146,7 @@
     ]
   },
   "subject": [
-    {
-      "@id": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht",
-      "rdfs:label": [
-        {
-          "@value": "Bestuursrecht; Belastingrecht",
-          "@language": "nl"
-        }
-      ]
-    }
+    "bestuursrecht_belastingrecht"
   ],
   "hasVersion": [
     {
@@ -187,18 +179,8 @@
       ]
     }
   ],
-  "procedure": [
-    {
-      "@id": "http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig",
-      "rdfs:label": [
-        {
-          "@value": "Eerste aanleg - enkelvoudig",
-          "@language": "nl"
-        }
-      ]
-    }
-  ],
-  "coverage": "muhCoverage:nl",
+  "procedure": ["eersteAanlegEnkelvoudig"],
+  "coverage": "nl",
   "title": {
     "@value": "ECLI:NL:RBZWB:2016:1440 Rechtbank Zeeland-West-Brabant , 04-03-2016 / AWB - 15 _ 5561_5562_6430",
     "@language": "nl"
