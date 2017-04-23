@@ -6,21 +6,23 @@ Written in TypeScript, compiled to a Javascript commonjs module.
 ## Why?
 Rechtspraak.nl publishes information about a lot of Dutch court judgments. Although the source XML suggests that the data is distributed as an [RDF](https://www.w3.org/2001/sw/wiki/RDF) graph, it is rife with syntactical errors. Furthermore, Rechtspraak.nl provides no schema for its documents other than an incomplete PDF in natural language. So it's hard to know what to expect, especially for some of the more esoteric metadata fields.
 
-The purpose of this project is to formalize the data model of Rechtspraak.nl. I have done this by analyzing all existing documents (~2 million) on Rechtspraak.nl to generate a [JSON Schema](https://spacetelescope.github.io/understanding-json-schema/) and [Typescript typings](https://www.typescriptlang.org/) for the metadata associated with the court judgments. I have corrected some common errors in the source files (mostly to do with not properly encoding URIs) and generate valid [JSON-LD](http://json-ld.org/) (which is compatible with RDF).
+The purpose of this project is to formalize the data model of Rechtspraak.nl. I have done this by analyzing all existing documents (~2 million) on Rechtspraak.nl to generate a [JSON Schema](https://spacetelescope.github.io/understanding-json-schema/) and [Typescript typings](https://www.typescriptlang.org/) for the metadata associated with the court judgments. I have corrected some common errors in the source files (mostly to do with not properly encoding URIs) and generate valid [JSON-LD](http://json-ld.org/) (which is compatible with RDF) from them. 
 
 ## Data
 A dump of the metadata in sanitized JSON-LD is available at https://rechtspraak.lawreader.nl/_all.
 
 You can use most of the API from [CouchDB views](http://guide.couchdb.org/draft/views.html), ie: https://rechtspraak.lawreader.nl/_all?limit=100&skip=50 will limit your request to 100 docs after the first 50. Mind that you can also use `startkey` to paginate faster: https://rechtspraak.lawreader.nl/_all?startkey=%22ECLI:NL:CBB:2015:5%22&limit=50 will fetch the first 50 docs starting at [ECLI:NL:CBB:2015:5](https://rechtspraak.lawreader.nl/ecli/ECLI:NL:CBB:2015:5). The documents are ordered alphabetically by their ids.
 
-This URL will load the complete knowledge graph of Rechtspraak.nl, making use mostly of [dcterms](http://www.dublincore.org/documents/dcmi-terms/) and [schema.org](https://schema.org). I've invented my own URIs where appropriate. I'm planning to make them resolvable as well.
+This URL will load the complete knowledge graph of Rechtspraak.nl. I try to stick to the vocabularies used in the source documents (`dcterms`, and some from the Dutch government), and also introduce fields from [schema.org]. I've invented my own URIs where appropriate. In time I'm planning to make all of my own URIs resolvable as well.
 
 ## Types
+Code is written in Typescript, [compiled project](https://www.npmjs.com/package/rechtspraak-nl) supplies `d.ts` typing files.
 
 ## JSON Schema
+~ ~ TODO ~ ~ (for the impatient, look for source files to generate the JSON-LD document)
 
 ## Rechtspraak.nl metadata gotchas
-
+A collection of some of the syntactical errors I encountered:
 
 * Some `dcterms:type` triples don't have a resourceIdentifier, e.g. [ECLI:NL:RBMNE:2016:1637](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBMNE:2016:1637): `<dcterms:type rdf:language="nl" resourceIdentifier="">Uitspraak</dcterms:type>`
 * Some docs miss .nl in the URI; eg [ECLI:NL:CBB:2002:AD9059](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:CBB:2002:AD9059): `psi:type="http://psi.rechtspraak/conclusie"`
