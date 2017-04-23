@@ -40,7 +40,7 @@ function handleDocument(path: string): any {
     } catch (error) {
         // reject({path, error});
         let m = error.message.match(
-            /^(.*): Unexpected [a-zA-Z0-9:_-]+: (.*)\. Label: (.*)\. Leave an issue here:/
+            /^([^ ]*): Unexpected [a-zA-Z0-9:_-]+: (.*)\. Label: (.*)\. Leave an issue here:/
         );
         if (m) {
             let uri = m[2];
