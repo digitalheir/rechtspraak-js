@@ -5,6 +5,7 @@ export const REGEX_URI = /^(([^:/?#]+):)?(\/\/([^/?#]*))?([^?#]*)(\?([^#]*))?(#(
 export const REGEX_PSI_RECHTSPRAAK = /^https?:\/\/psi\.rechtspraak\.nl\//;
 export const HTTPS_DEEPLINK_RECHTSPRAAK_ID = "http://deeplink.rechtspraak.nl/uitspraak?id=";
 export const HTTPS_RECHTSPRAAK_LAWREADER = "https://rechtspraak.lawreader.nl/";
+export const HTTPS_ID_LAWREADER = "https://id.lawreader.nl/";
 export const HTTPS_RECHTSPRAAK_LAWREADER_VOCAB = HTTPS_RECHTSPRAAK_LAWREADER + "vocab/";
 export const REGEX_HTTPS = /^https?:\/\//;
 export const REGEX_JURICONNECT = /^((?:jci)?[0-9](?:\.(?:[0-9]+)))?:([cv]):(BWB):/;

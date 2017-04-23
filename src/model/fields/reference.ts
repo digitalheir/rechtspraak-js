@@ -1,4 +1,5 @@
 import {
+    HTTPS_ID_LAWREADER,
     mustHaveTextAndAttributes, REGEX_CVDR, REGEX_JURICONNECT,
     throwIfNotExactlyXAreTruthy
 } from "../../util/validations";
@@ -12,7 +13,7 @@ export interface Reference extends StandardResourceObject {
 }
 
 function getBwbRef(bwbVal: any, label: Label): Reference {
-    const id = "https://id.lawreader.nl/juriconnect/" + encodeURI(bwbVal.trim().replace(/\s/g, '_'));
+    const id = HTTPS_ID_LAWREADER + "juriconnect/" + encodeURI(bwbVal.trim().replace(/\s/g, '_'));
     if (!bwbVal.match(REGEX_JURICONNECT))throw new Error("Expected Juriconnect: " + bwbVal);
 
     const resour: Reference = idResource(id, label);

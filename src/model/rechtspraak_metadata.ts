@@ -9,6 +9,7 @@ import {Relation} from "./fields/relation";
 import {HasVersion} from "./fields/hasVersion";
 import {RsDocumentType} from "./fields/type";
 import {Procedure} from "./fields/procedure";
+import {Coverage} from "./fields/coverage";
 
 const URI_WITH_PROTOCOL_REGEX = /^(([^:/?#]+):)(\/\/([^/?#]*))([^?#]*)(\?([^#]*))?(#(.*))?/;
 
@@ -97,7 +98,7 @@ export interface RechtspraakMetadata {
     "temporal"?: Temporal;
     "zaaknummer"?: string[];
     "type": RsDocumentType;
-    "coverage": UriWithProtocol;
+    "coverage": Coverage;
     "hasVersion"?: HasVersion[];
     "corpus": string;
     "couchDbUpdated": string;
