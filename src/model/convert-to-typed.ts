@@ -10,7 +10,7 @@ import {
     throwIfNotUriWithProtocol, throwIfNotDate, throwIfNotArray,
     HTTPS_RECHTSPRAAK_LAWREADER,
     HTTPS_DEEPLINK_RECHTSPRAAK_ID,
-    REGEX_ECLI, throwIfNotDateTime
+    REGEX_ECLI, throwIfNotDateTime, throwIfContainsUnexpectedEncodedChars
 } from "../util/validations";
 import _context from "./json-ld/context";
 import {deepEqual} from "assert";
@@ -252,7 +252,7 @@ function refineMetadata2(meta: any): RechtspraakMetadata {
         "@context": _context,
         _id,
         "@type": "schema:Report",
-        "accessRights": "muhAccessRights:" + encodeURI(str("dcterms:accessRights")),
+        "accessRights": "muhAccessRights:" + throwIfContainsUnexpectedEncodedChars(str("dcterms:accessRights")),
         "issued": issued,
         "metadataModified": datetime("metadataModified"),
         "contentModified": optDateTime("contentModified"),

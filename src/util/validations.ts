@@ -13,6 +13,17 @@ export const REGEX_CVDR = /^(CVDR):([0-9_]+)/;
 export const REGEX_ECLI = /^(ECLI)(?::([A-Z0-9]+))+/;
 export const REGEX_STANDAARDEN_OVERHEID = /^https?:\/\/standaarden\.overheid\.nl\//;
 
+const REGEX_UNEXPECTED_ENCODED_CHARS = /[^._:a-zA-Z0-9-]/;
+
+
+export function throwIfContainsUnexpectedEncodedChars(str: string, id?: string) {
+    const encoded = encodeURI(str)
+        .replace(/\(/g, "%28")
+        .replace(/\)/g, "%29")
+    ;
+    if (encoded.match(REGEX_UNEXPECTED_ENCODED_CHARS)) throw new Error(id + ": Unexpected encoded URI: \"" + str
+        + "\". Leave an issue here: https://github.com/digitalheir/rechtspraak-js/issues ");
+}
 
 export function throwIfNotArray(array: any, name?: string, id?: string): any[] {
     if (Object.prototype.toString.call(array) !== "[object Array]")
@@ -46,7 +57,7 @@ export function unexpectedUri(k: string, uri: string, label: string, ecli?: stri
         + ". Leave an issue here: https://github.com/digitalheir/rechtspraak-js/issues to request to add it to the context.";
 }
 
-export function throwIfDivergentLabel(key: string, label: string, contextLabel: string){
+export function throwIfDivergentLabel(key: string, label: string, contextLabel: string) {
     if (contextLabel !== label) throw new Error("Divergent label for " + key + ": " + label + " != " + contextLabel);
 }
 

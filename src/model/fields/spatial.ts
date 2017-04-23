@@ -11,7 +11,7 @@ export function getSpatial(meta: any, _id: string): Spatial | undefined {
 
     // todo verify
     return idResourceNoUriCheck(
-        "muhSpatial:" + encodeURI(spat),
+        "muhSpatial:" + throwIfContainsUnexpectedEncodedChars(spat),
         makeLabel(spat, "nl")
     );
 }

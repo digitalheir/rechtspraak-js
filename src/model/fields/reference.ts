@@ -1,6 +1,6 @@
 import {
     HTTPS_ID_LAWREADER,
-    mustHaveTextAndAttributes, REGEX_CVDR, REGEX_JURICONNECT,
+    mustHaveTextAndAttributes, REGEX_CVDR, REGEX_JURICONNECT, throwIfContainsUnexpectedEncodedChars,
     throwIfNotExactlyXAreTruthy
 } from "../../util/validations";
 import {idResource, StandardResourceObject} from "./standard-resource-object";
@@ -13,7 +13,8 @@ export interface Reference extends StandardResourceObject {
 }
 
 function getBwbRef(bwbVal: any, label: Label): Reference {
-    const id = HTTPS_ID_LAWREADER + "juriconnect/" + encodeURI(bwbVal.trim().replace(/\s/g, '_'));
+    const encoded = throwIfContainsUnexpectedEncodedChars(bwbVal.trim().replace(/\s/g, "_"));
+    const id = HTTPS_ID_LAWREADER + "juriconnect/" + encoded;
     if (!bwbVal.match(REGEX_JURICONNECT))throw new Error("Expected Juriconnect: " + bwbVal);
 
     const resour: Reference = idResource(id, label);
@@ -23,7 +24,8 @@ function getBwbRef(bwbVal: any, label: Label): Reference {
 }
 
 function getCvdrRef(cvdrVal: any, label: Label): Reference {
-    const id = "https://id.lawreader.nl/cvdr/" + encodeURI(cvdrVal);
+    const encoded = throwIfContainsUnexpectedEncodedChars(cvdrVal);
+    const id = "https://id.lawreader.nl/cvdr/" + encoded;
     if (!cvdrVal.match(REGEX_CVDR))throw new Error("Expected CVDR: " + cvdrVal);
     const resour: Reference = idResource(id, label);
     resour.cvdr = cvdrVal;
@@ -34,12 +36,12 @@ export function getReferences(refs: any[], id?: string): Reference[] | undefined
     return refs ? refs.map((ref: any) => {
         mustHaveTextAndAttributes(ref, true, "rdfs:label", ["cvdr:resourceIdentifier", "bwb:resourceIdentifier"]);
 
-        const cvdrVal = ref['@attributes']["cvdr:resourceIdentifier"];
-        const bwbVal = ref['@attributes']["bwb:resourceIdentifier"];
+        const cvdrVal = ref["@attributes"]["cvdr:resourceIdentifier"];
+        const bwbVal = ref["@attributes"]["bwb:resourceIdentifier"];
 
         throwIfNotExactlyXAreTruthy(1, cvdrVal, bwbVal);
 
-        const label = makeLabel(ref['#text'], 'nl');
+        const label = makeLabel(ref["#text"], "nl");
 
         if (bwbVal) return getBwbRef(bwbVal, label);
         else if (cvdrVal) return getCvdrRef(cvdrVal, label);

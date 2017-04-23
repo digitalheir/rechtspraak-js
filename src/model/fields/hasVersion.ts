@@ -12,7 +12,7 @@ export function getHasVersion(hasVersion: any[], id?: string): HasVersion[] | un
 
     return hasVersion.map((str: any) => {
         return idResource(
-            "muhHasVersion:" + encodeURI(str),
+            "muhHasVersion:" + throwIfContainsUnexpectedEncodedChars(str),
             makeLabel(str, "nl")
         );
     });

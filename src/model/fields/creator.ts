@@ -10,7 +10,7 @@ function getLawReaderId(idFromRechtspraakNl: string) {
     let lawreaderId = idFromRechtspraakNl;
     if (idFromRechtspraakNl.match(REGEX_PSI_RECHTSPRAAK)) {
         lawreaderId = HTTPS_RECHTSPRAAK_LAWREADER_VOCAB + "creator" + "/" +
-            encodeURI(idFromRechtspraakNl.replace(REGEX_PSI_RECHTSPRAAK, ""));
+            throwIfContainsUnexpectedEncodedChars(idFromRechtspraakNl.replace(REGEX_PSI_RECHTSPRAAK, ""));
     } else if (idFromRechtspraakNl.match(REGEX_STANDAARDEN_OVERHEID)) {
     } else {
         console.warn("How to handle creator URI " + idFromRechtspraakNl + "?");
