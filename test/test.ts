@@ -50,7 +50,7 @@ describe("XML should convert to JSON-LD", function () {
         const docName = "complete_artificial_example";
 
         const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
-        console.log(JSON.stringify(generatedJson));
+        // console.log(JSON.stringify(generatedJson));
 
 
         assert.deepEqual(
@@ -63,7 +63,7 @@ describe("XML should convert to JSON-LD", function () {
         const docName = "no_abstract";
 
         const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
-        console.log(JSON.stringify(generatedJson));
+        // console.log(JSON.stringify(generatedJson));
 
 
         assert.deepEqual(
@@ -76,7 +76,7 @@ describe("XML should convert to JSON-LD", function () {
         const docName = "ECLI_NL_RBMNE_2016_1780";
 
         const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
-        console.log(JSON.stringify(generatedJson));
+        // console.log(JSON.stringify(generatedJson));
 
 
         assert.deepEqual(
@@ -89,7 +89,7 @@ describe("XML should convert to JSON-LD", function () {
         const docName = "ECLI_NL_CBB_1997_ZG0125";
 
         const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
-        console.log(JSON.stringify(generatedJson));
+        // console.log(JSON.stringify(generatedJson));
 
 
         assert.deepEqual(
@@ -102,7 +102,7 @@ describe("XML should convert to JSON-LD", function () {
         const docName = "ignore_abstract";
 
         const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
-        console.log(JSON.stringify(generatedJson));
+        // console.log(JSON.stringify(generatedJson));
 
 
         assert.deepEqual(
@@ -128,7 +128,7 @@ describe("XML should convert to JSON-LD", function () {
     it("given second description not present, should generate valid document", function () {
         const docName = "no_html_metadata";
         const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
-        console.log(JSON.stringify(generatedJson));
+        // console.log(JSON.stringify(generatedJson));
 
 
         assert.deepEqual(

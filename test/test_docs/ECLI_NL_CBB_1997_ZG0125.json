@@ -42,7 +42,7 @@
   ],
   "references": [
     {
-      "@id": "https://id.lawreader.nl/juriconnect/1.0:v:BWB:BWBR0005537&artikel=1:3&g=1997-10-14",
+      "@id": "https://id.lawreader.nl/juriconnect/1.0:v:BWB:BWBR0005537%26artikel%3D1:3%26g%3D1997-10-14",
       "rdfs:label": [
         {
           "@value": "Algemene wet bestuursrecht 1:3",
@@ -52,7 +52,7 @@
       "jdi": "1.0:v:BWB:BWBR0005537&artikel=1:3&g=1997-10-14"
     },
     {
-      "@id": "https://id.lawreader.nl/juriconnect/1.0:v:BWB:BWBR0001969&artikel=5&g=1997-10-14",
+      "@id": "https://id.lawreader.nl/juriconnect/1.0:v:BWB:BWBR0001969%26artikel%3D5%26g%3D1997-10-14",
       "rdfs:label": [
         {
           "@value": "Warenwet 5",
