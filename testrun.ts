@@ -38,33 +38,33 @@ function handleDocument(path: string): any {
         toJsonLd(xml);
         // etc
     } catch (error) {
-        // reject({path, error});
-        let m = error.message.match(
-            /^([^ ]*): Unexpected ([a-zA-Z0-9:_-]+): (.*)\. Label: (.*)\. Leave an issue here:/
-        );
-        if (m) {
-            let uri = m[3];
-            if (!newones[uri]) {
-                newones[uri] = true;
-                let id = uri.replace(/https?:\/\/psi\.rechtspraak\.nl\//, "");
-                console.log(
-                    "\"" + id + "\"" + ": "
-                );
-                console.log(JSON.stringify(
-                        {
-                            "@id": id,
-                            "owl:sameAs": uri,
-                            "rdfs:label": [{"@value": m[4], "@language": "nl"}],
-                            "key": m[2],
-                            "example": m[1]
-                        }
-                    ) + ",");
-            }
-        }
-        else {
+        // // reject({path, error});
+        // let m = error.message.match(
+        //     /^([^ ]*): Unexpected ([a-zA-Z0-9:_-]+): (.*)\. Label: (.*)\. Leave an issue here:/
+        // );
+        // if (m) {
+        //     let uri = m[3];
+        //     if (!newones[uri]) {
+        //         newones[uri] = true;
+        //         let id = uri.replace(/https?:\/\/psi\.rechtspraak\.nl\//, "");
+        //         console.log(
+        //             "\"" + id + "\"" + ": "
+        //         );
+        //         console.log(JSON.stringify(
+        //                 {
+        //                     "@id": id,
+        //                     "owl:sameAs": uri,
+        //                     "rdfs:label": [{"@value": m[4], "@language": "nl"}],
+        //                     "key": m[2],
+        //                     "example": m[1]
+        //                 }
+        //             ) + ",");
+        //     }
+        // }
+        // else {
             console.error(path);
             console.error(error.message);
-        }
+        // }
     }
 }
 

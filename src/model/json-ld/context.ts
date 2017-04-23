@@ -514,10 +514,20 @@ export const _context = {
         "owl:sameAs": "http://psi.rechtspraak.nl/uitspraak",
         "rdfs:label": [{"@value": "Uitspraak", "@language": "nl"}]
     },
+    "tussenuitspraakBestuurlijkeLus": {
+        "@id": "type/tussenuitspraakBestuurlijkeLus",
+        "owl:sameAs": "http://psi.rechtspraak.nl/tussenuitspraakBestuurlijkeLus",
+        "rdfs:label": [{"@value": "Tussenuitspraak bestuurlijke lus", "@language": "nl"}]
+    },
     "conclusie": {
         "@id": "type/conclusie",
         "owl:sameAs": "http://psi.rechtspraak.nl/conclusie",
         "rdfs:label": [{"@value": "Conclusie", "@language": "nl"}]
+    },
+    "conclusieVoorCassatie": {
+        "@id": "type/conclusieVoorCassatie",
+        "owl:sameAs": "http://psi.rechtspraak.nl/conclusieVoorCassatie",
+        "rdfs:label": [{"@value": "Conclusie voor cassatie", "@language": "nl"}]
     },
 
 
@@ -681,12 +691,17 @@ export const _context = {
         "@type": "@id"
     },
     "cassatie": {
-        "@id": "relation/cassatie",
+        "@id": "type/cassatie",
         "owl:sameAs": "http://psi.rechtspraak.nl/cassatie",
         "rdfs:label": [{"@value": "Cassatie", "@language": "nl"}]
     },
+    "terugverwijzing": {
+        "@id": "type/terugverwijzing",
+        "owl:sameAs": "http://psi.rechtspraak.nl/terugverwijzing",
+        "rdfs:label": [{"@value": "Terugverwijzing", "@language": "nl"}]
+    },
     "hogerBeroep": {
-        "@id": "relation/hogerBeroep",
+        "@id": "type/hogerBeroep",
         "owl:sameAs": "http://psi.rechtspraak.nl/hogerBeroep",
         "rdfs:label": [{"@value": "Hoger beroep", "@language": "nl"}]
     },

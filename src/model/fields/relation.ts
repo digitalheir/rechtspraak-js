@@ -39,7 +39,14 @@ export type Gevolg =
     | "gevolg#afwijzing vordering"
     | "gevolg#gegrondverklaring"
     ;
-export type RelationType = "conclusieVoorCassatie";
+export type RelationType =
+    "conclusieVoorCassatie"
+    | "tussenuitspraakBestuurlijkeLus"
+    | "conclusie"
+    | "hogerBeroep"
+    | "cassatie"
+    | "terugverwijzing"
+    ;
 
 export interface Relation extends StandardResourceObject {
     "gevolg"?: Gevolg;
@@ -88,16 +95,29 @@ function getGevolg(gevolg?: string, label?: string): Gevolg | undefined {
     }
 }
 
-// todo checkif label correct ;)
-function getRelationType(uri: string, label: string): RelationType {
-    switch (uri.replace(/^http:\/\/psi\.rechtspraak\.nl\//, "")) {
-        case "conclusieVoorCassatie":
-            return "conclusieVoorCassatie";
-        default:
-            throw new Error(
-                unexpectedUri("relation", uri, label)
-            );
-    }
+const uriMappingRelationType: { [k: string]: RelationType } = {
+    "conclusieVoorCassatie": "conclusieVoorCassatie",
+    "tussenuitspraakBestuurlijkeLus": "tussenuitspraakBestuurlijkeLus",
+    "conclusie": "conclusie",
+    "hogerBeroep": "hogerBeroep",
+    "terugverwijzing": "terugverwijzing"
+};
+
+function getRelationType(uri: string, label: string, id?:string): RelationType {
+
+    const shortId = uri.replace(/^http:\/\/psi\.rechtspraak(\.nl)?\//, "");
+    if (!uriMappingRelationType.hasOwnProperty(shortId)) throw new Error(
+        unexpectedUri("relation", uri, label, id)
+    );
+    const type: RelationType = uriMappingRelationType[shortId];
+
+    // TODO notify rechtspraak.nl:some docs miss .nl: ://psi.rechtspraak/conclusie
+    // /media/maarten/E0E68667E6863DB2/OpenDataUitspraken/ECLI_NL_CBB_2002_AD9059.xml
+
+    const contextLabel: string = _context[type]["rdfs:label"][0]["@value"];
+    if (!contextLabel) throw new Error("Expected label for " + type);
+
+    return type;
 }
 
 function getAanleg(aanlegUri: string, label: string): Aanleg {
@@ -111,7 +131,7 @@ function getAanleg(aanlegUri: string, label: string): Aanleg {
 
     return aanleg;
 }
-
+//todo make sure all sanitized ids decode to the original ids ;) in @context
 export const getRelation = (arr: any[]): Relation[] | undefined => arr ? arr.map((rel: any) => {
     const attrs = [
         "rdfs:label",
@@ -128,7 +148,7 @@ export const getRelation = (arr: any[]): Relation[] | undefined => arr ? arr.map
 
     const aanleg: Aanleg = getAanleg(rattrs["psi:aanleg"], "???");
 
-    const type: RelationType = getRelationType(rattrs["psi:type"], "???");
+    const type: RelationType = getRelationType(rattrs["psi:type"], "???", id);
 
     // eg http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:GHARN:2007:BA0218
     return {

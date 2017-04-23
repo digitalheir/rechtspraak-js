@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:PHR:2013:1528</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2014-09-25T15:11:34</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2013-12-02</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Parket_bij_de_Hoge_Raad" scheme="overheid.RechterlijkeMacht">Parket bij de Hoge Raad</dcterms:creator>
+      <dcterms:date rdfs:label="Datum genomen">2013-09-03</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">11/05455</psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="">Conclusie</dcterms:type>
+      <dcterms:coverage>NL</dcterms:coverage>
+    </rdf:Description>
+  </rdf:RDF>
+</open-rechtspraak>
