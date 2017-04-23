@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:CBB:1998:AU1323</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2015-11-12T13:42:48</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2013-04-04</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:replaces rdfs:label="Vervangt">AU1323</dcterms:replaces>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/College_van_Beroep_voor_het_bedrijfsleven" scheme="overheid.RechterlijkeMacht">College van Beroep voor het bedrijfsleven</dcterms:creator>
+      <dcterms:date rdfs:label="Uitspraakdatum">1998-12-15</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">AWB 97/306</psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak</dcterms:type>
+      <psi:procedure rdf:language="nl" rdfs:label="Procedure" resourceIdentifier="http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig">Eerste aanleg - meervoudig</psi:procedure>
+      <psi:procedure rdf:language="nl" rdfs:label="Procedure" resourceIdentifier="http://psi.rechtspraak.nl/procedure#eersteEnEnigeAanleg">Eerste en enige aanleg</psi:procedure>
+      <dcterms:coverage>NL</dcterms:coverage>
+      <dcterms:subject rdfs:label="Rechtsgebied" resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht">Bestuursrecht</dcterms:subject>
+      <dcterms:references rdfs:label="Wetsverwijzing" bwb:resourceIdentifier="1.0:v:BWB:BWBR0007746&amp;artikel=1&amp;g=1998-12-15">Wet vermindering afdracht loonbelasting en premie voor de volksverzekeringen 1</dcterms:references>
+      <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+        <rdf:list>
+          <rdf:li>Rechtspraak.nl</rdf:li>
+        </rdf:list>
+      </dcterms:hasVersion>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CBB:1998:AU1323">
+      <dcterms:identifier>http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CBB:1998:AU1323</dcterms:identifier>
+      <dcterms:format>text/html</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2013-04-04T22:35:54</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2005-08-23</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:title rdf:language="nl">ECLI:NL:CBB:1998:AU1323 College van Beroep voor het bedrijfsleven , 15-12-1998 / AWB 97/306</dcterms:title>
+      <dcterms:abstract resourceIdentifier="../../rs:inhoudsindicatie"/>
+    </rdf:Description>
+  </rdf:RDF>
+  <inhoudsindicatie id="ECLI:NL:CBB:1998:AU1323:INH" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <para>Wet vermindering afdracht loonbelasting en premie volksverzekeringen</para>
+    </inhoudsindicatie>
+  <uitspraak id="ECLI:NL:CBB:1998:AU1323:DOC" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <para>College van Beroep voor het bedrijfsleven</para>
+      <para/>
+      <para/>
+      <para/>
+      <parablock>
+        <para>No. AWB 97/306				15 december 1998</para>
+        <para>27000 Wet vermindering afdracht loonbelasting en</para>
+        <para>            premie volksverzekeringen</para>
+      </parablock>
+      <para/>
+      <para/>
+      <para/>
+      <para>Uitspraak in de zaak van:</para>
+      <para/>
+      <parablock>
+        <para>Coöperatieve Rozenzaailingen Verkoopvereniging Rosaco U.A., gevestigd te Noordbroek, gemeente Menterwolde, appellante,</para>
+        <para>gemachtigde: dr ir H.C.H. Schoenmakers, werkzaam bij het Subsidie Adviesbureau Planten, te Elst,</para>
+        <para>tegen</para>
+        <para>de Minister van Economische Zaken, zetelend te 's-Gravenhage, verweerder,</para>
+        <para>gemachtigden: ir H.S. Boerrigter, mr C. Cromheecke en drs C.M. van der Draay.</para>
+      </parablock>
+      <para/>
+      <para/>
+      <parablock>
+        <para>1.	Het verloop van de procedure</para>
+        <para>Op 24 februari 1997 heeft het College een beroepschrift van appellante ontvangen, waarbij beroep wordt ingesteld tegen een besluit van verweerder van 15 januari 1997.</para>
+        <para>Bij dit besluit heeft verweerder beslist op het bezwaar dat appellante heeft gemaakt tegen zijn weigering om een verklaring als thans bedoeld in de Wet verminde-ring afdracht loonbelasting en premie voor de volksverzekeringen af te geven. </para>
+        <para>Verweerder heeft op 14 mei 1997 een verweerschrift ingediend.</para>
+        <para>Op 22 september 1998 heeft het onderzoek ter zitting plaatsgevonden, waarbij partijen bij monde van hun gemachtigden hun standpunt nader hebben toegelicht. Aan de zijde van verweerder zijn tevens verschenen ing T.D.J. Fierens en J.D. Kooiman bc.</para>
+      </parablock>
+      <para/>
+      <parablock>
+        <para>2.	De grondslag van het geschil</para>
+        <para>2.1	Op 1 januari 1996 is in werking getreden de Wet van 15 december 1995 houdende vermindering afdracht loonbelasting en premie voor de volksverzekeringen (Stb. 1995, 635, hierna: de WVA).</para>
+        <para>De Wet Bevordering Speur- en ontwikkelingswerk (hierna: de WBSO) is bij de inwerking-treding van de WVA ingetrokken.</para>
+        <para>In de WVA is de afgifte van een S&amp;O-verklaring op gelijke wijze geregeld als in de WBSO. Zo is de in de WVA neergelegde definitie van speur- en ontwikkelingswerk identiek aan de voorheen in artikel 1, lid 1, aanhef en sub h, van de WBSO neergelegde begripsbepaling, te weten:</para>
+      </parablock>
+      <para/>
+      <para>"Artikel 1</para>
+      <para/>
+      <parablock>
+        <para>1. In deze wet en de daarop berustende bepalingen wordt verstaan onder:</para>
+        <para>(...)</para>
+        <para>l. speur- en ontwikkelingswerk: door een S&amp;O-inhoudingsplichtige, dan wel een S&amp;O-belastingplichtige, systematisch georganiseerde en in Nederland verrichte werkzaamheden, direct en uitsluitend gericht op technisch-wetenschappelijk onderzoek of de ontwikkeling van voor de S&amp;O-inhoudingsplichtige onderscheidenlijk de S&amp;O-belastingplichtige technisch nieuwe fysieke produkten of produktieprocessen of technisch nieuwe onderdelen van fysieke produkten of produktieprocessen, alsmede daaraan voorafgaand systematisch georganiseerd haalbaarheidsonderzoek;</para>
+        <para>(...)"</para>
+      </parablock>
+      <para/>
+      <para>In de voorheen op de WBSO, en per 1 januari 1996 op de WVA gebaseerde Afbakeningsregeling speur- en ontwikkelingswerk is voorts het volgende bepaald:</para>
+      <para/>
+      <parablock>
+        <para>"Artikel 1</para>
+        <para>Tot speur- en ontwikkelingswerk worden niet gerekend:</para>
+        <para>(...)</para>
+        <para>f. produktvergelijkend onderzoek, indien er geen samenhang is met ander speur- en ontwikkelingswerk;</para>
+        <para>(...)"</para>
+      </parablock>
+      <para/>
+      <parablock>
+        <para>2.2 - Appellante heeft op 14 november 1995 bij verweerder een aanvraag ingediend om een S&amp;O-verklaring. De aanvraag betrof blijkens de omschrijving in het aanvraagformulier "Veredelings- en teelttechnischonderzoek aan snijrozen-onderstammen".</para>
+        <para>- Bij besluit van 29 maart 1996 heeft verweerder de aanvraag afgewezen op grond van de volgende motivering:</para>
+      </parablock>
+      <para/>
+      <para>"Het aangevraagde project betreft het onderzoek en ontwikkelen van diverse teelttechnieken. Het gaat hierbij onder andere om een verbeterd rooisysteem, een verbeterde methode voor het bewaren/stratificeren van zaden en methoden voor het doden van bodempathogenen. Deze werkzaamheden zijn echter niet direct gericht op het ontwikkelen van een technisch nieuw fysiek produkt en/of een technisch nieuw produktieproces en/of technisch nieuwe onderdelen daarvan, maar hebben betrekking op het inrichten van bedrijfsvoeringsprocessen. Evenmin reken ik deze werkzaamheden tot technisch-wetenschappelijk onderzoek zoals bedoeld in artikel 1, lid 1, letter l van genoemde wet."</para>
+      <para/>
+      <para>- Appellante heeft tegen dat besluit een bezwaarschrift bij verweerder ingediend. In dit bezwaarschrift onderscheidt zij bij de werkzaamheden, opgegeven bij haar aanvraag, de volgende vijf deelprojecten:</para>
+      <para/>
+      <para>"1.De veredeling</para>
+      <para/>
+      <para>De veredeling is gericht op het verkrijgen van onderstammen met een verhoogde stekproduktie, een betere beworteling, een betere combinatiegeschiktheid en verbeterde resistenties. Dit S&amp;O-werk bestaat uit het verrichten van kruisingen, het uitzaaien en selecteren van kruisingsprodukten op tal van economisch belangrijke eigenschappen zoals ziekteresistenties, groeikracht, vertakking en plantopbouw, combinatiegeschiktheid, etcetera.</para>
+      <para/>
+      <para>(...)</para>
+      <para/>
+      <para>2. Het ontwikkelen van een systeem voor ziektenvrije pluggenteelt van onderstammen in steenwol i.p.v. de risicovolle teelt in de vollegrond</para>
+      <para/>
+      <parablock>
+        <para>De teelt van rozen-onderstammen in de vollegrond wordt in toenemende mate geplaagd door nematoden (grondaaltjes). Omdat steeds meer percelen voor de opkweek besmet raken en dit daarna jarenlang blijven, wordt het steeds moeilijker ziektevrije of ziekte-arme percelen te vinden. Daarnaast is het chemisch gewasbeschermingsmiddelengebruik van overheidswege beperkt en verschijnen er steeds agressievere aaltjes (pathotypen). De markt (inclusief de export) vraagt uitsluitend om gezond, aaltjesvrij uitgangsmateriaal. Rosaco U.A. ziet zich daarom genoodzaakt om een nieuw produktie-proces voor onderstammen te ontwikkelen. In 1996 is daarom R&amp;D-werk verricht naar de mogelijkheden van een systeem voor ziektenvrije pluggen-teelt van onderstammen in steenwol i.p.v. de vollegrondsteelt. Dit R&amp;D-werk behelst:</para>
+        <para>(1) onderzoek naar het kiemingsproces in steenwol</para>
+        <para>(2) onderzoek naar de beworteling van stekken. Hierbij vindt ook (produkt-vergelijkend) onderzoek plaats aan diverse typen en concentraties van bewortelingshormonen.</para>
+        <para>(3) produktvergelijkend onderzoek naar meststoffen en substraten om de beste meststoffen/substraten te kunnen selecteren. Dit vereist o.a. metingen aan groeisnelheid (metingen in de tijd), stengeldikte, bladoppervlak, biomassaproduktie, plantvorm, etc.</para>
+        <para>(4) fysiologisch onderzoek naar het effect van diverse belichtingen, temperatuurinstellingen en watergiften op de groei en ontwikkeling van de planten.</para>
+        <para>De diverse proefnemingen worden apart uitgevoerd van de commerciële produktie. Bovendien is deze produktiewijze nieuw voor Nederland. Mijns inziens hebben deze werkzaamheden dus direct en uitsluitend betrekking op het ontwikkelen van een technisch nieuw tastbaar produktieproces. Bovendien loopt Rosaco U.A. financieel risico met dit S&amp;O-werk omdat van tevoren nog niet vaststaat of het nieuwe produktieproces tecbnisch en economisch gerealiseerd kan worden.</para>
+      </parablock>
+      <para/>
+      <para>(...)</para>
+      <para/>
+      <para>3. Het ontwikkelen van methoden om bodempathogenen te doden (bijv. via warmwaterbehandeling)</para>
+      <para/>
+      <para>Zoals reeds bij deelproject 2. genoemd is, vormen aaltjes een steeds groter probleem. Naast het ontwikkelen van een geheel nieuw produktieproces, wordt ook gepoogd om reeds geïnfecteerd plantmateriaal te ontsmetten. Omdat van overheidswege veel werkzame gewasbeschermingsmiddelen verboden zijn, worden nieuwe bestrijdingswijzen gezocht. Rosaco U.A. verricht daarom S&amp;O-werk naar de mogelijkheden van bestrijding van aaltjes door warmwaterbehandeling van wortelstelsels. Dit kan door warm water toe te dienen aan de grond of door de wortels uit te spoelen onder warm water. De hoge temperatuur inactiveert de aaltjes terwijl de rozen-on-derstam-wortels er wel tegen kunnen gedurende korte tijd. Mogelijk zijn ook andere (biologische) middelen geschikt voor de bestrijding. Zo zijn recent nematofage schimmels beschreven in de wetenschappelijke literatuur. De nieuwe bestrijdingswijzen vereisen nog veel (produktvergelijkend) onderzoek. Zo is nog onbekend of eitjes en larven voldoende verwijderd en/of geïnactiveerd worden, of door de warmwaterbehandeling andere ziekteverwekkers hun kans schoon zien, en in hoeverre de planten last hebben van deze behandelingen. Met name de export stelt zeer strenge eisen aan de gezondheid van het plantmateriaal. Doorgaans wordt de zogenaamde "nul-tolerantie" gebruikt, hetgeen wil zeggen dat geen enkele ziektekiem aanwezig mag zijn, op straffe van strenge represailles. Omdat biologische bestrijding vaak uitgaat van het principe van een biologisch evenwicht, betekent dit voor veel middelen dat de nul-tolerantie niet haalbaar is met deze middelen. In hoeverre de alternatieve bestrijding succesvol gemaakt kan worden, is nog onbekend.</para>
+      <para/>
+      <para>Dit S&amp;O-werk is mijns inziens direct en uitsluitend gericht op het ontwikkelen van een technisch nieuw fysiek onderdeel van het produktie-proces van snijrozenonderstammen, namelijk de bestrijding van bodempathogenen. Bovendien loopt Rosaco U.A. financieel risico met dit S&amp;O-werk omdat vantevoren nog niet vaststaat welke bestrijdingswijze en welke chemicaliën voldoende effect sorteren c.q. het minst interfereren met de groei van de rozen-onderstammen.</para>
+      <para/>
+      <para>(...)</para>
+      <para/>
+      <para>4. Het ontwikkelen van betere methoden voor bewaring en stratificatie van onderstamzaden</para>
+      <para/>
+      <parablock>
+        <para>Bij de generatieve vermeerdering van rozen-onderstammen doen zich een aantal problemen voor bij Rosaco U.A.. Zo loopt de kiemkracht sterk terug tijdens de bewaring en verlopen het kunstmatig breken van kiemrust en het kiemingsproces zeer onregelmatig. Hierdoor moeten veel meer zaden gezaaid worden dan dat er zaailingen nodig zijn en verloopt de produktie van zaailingen niet uniform. Dit leidt tot extra werk omdat verspeningen in diverse stappen moeten worden uitgevoerd en omdat zaailingenbakken en -percelen langer aangehouden en verzorgd moeten worden dan bij een uniforme groei het geval geweest zou zijn. Rosaco U.A. wil dit produktie-proces verbeteren door het verrichten van speur- en ontwikkelingswerk. Het S&amp;O-werk is in 1996 gericht op:</para>
+        <para>(1) het onderzoeken van de effecten van koude bewaring (koeling, invriezing bij diverse temperaturen) op de kieming, (Het is bekend dat de ademhaling van zaden daalt bij lagere temperatuur. Het is echter ook bekend dat invriezing en koelen schade aan celmembranen veroorzaakt en dat deze schade bij sommige gewassen slecht te herstellen is. Voor roos is nog onbekend of koelen/invriezing werkt.)</para>
+        <para>(N.B. bewaring is nodig om het produktieproces te kunnen bufferen; zaden zijn slechts in een beperkte tijd van het jaar te produceren terwijl onderstammen jaarrond gevraagd worden.)</para>
+        <para>(2) het onderzoeken van de effecten van langzame imbibitie (vochtig maken) op de kiemkracht. (Hierdoor kan mogelijk membraanschade hersteld en voorkomen worden.)</para>
+        <para>(3) het onderzoeken van de effecten van diverse hormoonbehandelingen (o.a. gibberellines, en abscisinezuur) op de kiemrust en op het breken van kiemrust (voor roos is dit nog nooit onderzocht)</para>
+        <para>(4) het beperken van de ontwikkeling van ziekten tijdens het kiemingsproces. Hiervoor worden diverse gewasbeschermingsmiddelen en ontsmettingsmiddelen met elkaar vergeleken zodat de beste bestrijdingswijze bepaald kan worden (zie hiervoor s.v.p. ook deelproject 3.).</para>
+        <para>De bewaar- en kiemingsproblemen vereisen gedetailleerd, nog niet eerder uitgevoerd fysiologisch onderzoek door Rosaco U.A.. Om een idee te geven van kiemingsproblemen die zich voor kunnen doen: Zaden van met name tropische en subtropische planten kenmerken zich veelal door zeer specifieke voorwaarden voor kieming. Om een extreem geval te noemen: Zo is van de oranje/paars bloeiende Strelitzia reginae (kraanvogelplant) bekend dat zaden pas na 2 maanden bij 30-35?C kiemen. Komt de temperatuur in deze 2 maanden ook maar eenmaal onder de 30?C dan begint het kiemingsproces weer van voor af aan. Men is er nog niet in geslaagd om deze termijn te doorbreken met bijv. hormoonbehandelingen, osmotische varia-ties, zaadhuidbeschadiging of in vitro cultuur. Bij zaden van sla is, behalve de temperatuur en de aanwezigheid van water, de balans tussen rood en verrood licht bepalend voor de kieming. Diverse zaadproduktiebedrijven hebben in de laatste 5 jaren gespecialiseerde, vaak academisch opgeleide onderzoekers (zaadfysiologen !) aangesteld om de kieming van hun zaden te optimaliseren. Hierbij wordt veel onderzoek uitgevoerd naar "priming". Dit is een techniek waarbij d.m.v. diverse osmotische behandelingen met fysiologisch actieve zouten/suikers-oplossingen het kiemingsproces gestart ("getriggered") maar waarbij nét voor de eigenlijke kieming het zaad weer teruggedroogd en in rust gebracht wordt. Geprimed zaad kan daarna zeer vlug en uniform kiemen bij de opkweekbedrijven. Ook is zaadfysiologie een onderwerp waarop de laatste jaren diverse onderzoekers gepromoveerd zijn. Het onderzoek naar zaadbewaring, stratificatie en priming is hiermee zeer actueel.</para>
+        <para>Dat het verbeteren van de kieming van zaden van rozen-onderstammen onderzoek vereist, en dat dit vaak "trial and error"-werkzaamheden zijn, mag duidelijk zijn. Ook door na te gaan wat de klimatologische omstandigheden in herkomstgebieden zijn, kan vaak niet bepaald worden met welke temperatuur-, licht-, water en hormoonbehandelingen leiden tot kieming. </para>
+      </parablock>
+      <para/>
+      <para>(...)</para>
+      <para/>
+      <para>5. Het ontwikkelen van een verbeterd rooisysteem voor zaailingen</para>
+      <para/>
+      <para>Het voor Nederland nieuwe machinale rooisysteem wordt door en voor Rosaco U.A. en A B.V. ontwikkeld in samenwerking met derden (een mechanisatie/constructiebedrijf). De opgevoerde werkzaamheden hebben betrekking op het begeleiden bij de bouw en het begeleiden van de testen van het rooisysteem. Zonder deze begeleiding vanuit Rosaco U.A. en A B.V. kan het nieuwe rooisysteem niet ontwikkeld worden door het mechanisatie/constructiebedrijf. Bovendien wordt de nieuwe rooimachine speciaal ontwikkeld voor Rosaco U.A. en A B.V.(...)."</para>
+      <para/>
+      <parablock>
+        <para>- Appellante is op 17 oktober 1996 naar aanleiding van haar bezwaren door verweerder gehoord. Blijkens het verslag van het gehoor, dat zich bij de stukken bevindt, zijn de door appellante in haar bezwaarschrift onderscheiden deelprojecten ter hoorzitting successievelijk met haar besproken.</para>
+        <para>- Verweerder heeft vervolgens op 15 januari 1997 het bestreden besluit genomen.</para>
+      </parablock>
+      <para/>
+      <para>3.	Het bestreden besluit en het standpunt van verweerder</para>
+      <para/>
+      <parablock>
+        <para>Verweerder heeft bij het bestreden besluit zijn beslissing van 29 maart 1996 gedeeltelijk herzien en het project alsnog voor 30% toegekend. De toekenning had betrekking op de hiervoor genoemde deelprojecten 1 en 5. Voor het overige heeft verweerder zijn oorspronkelijke beslissing gehandhaafd en de daartegen door appellante gerichte bezwaren ongegrond verklaard. De inhoud van het bestreden besluit dat hier is aangehecht, wordt als hier herhaald en ingelast beschouwd.</para>
+        <para>In het verweerschrift en ter zitting heeft verweerder het bestreden besluit per deelproject als volgt toegelicht. </para>
+        <para>In deelproject 2 is sprake van het vaststellen van parameters op basis van de nodige praktijktests. De bouwstenen zijn op zichzelf niet nieuw en ook de combinatie van de bouwstenen leidt, anders dan appellante meent, niet tot een technisch nieuw functioneren van de elementen. Het betreft hier het bijstellen van het productieproces. Het in het kader van dit deelproject uitgevoerde productvergelijkend onderzoek kan voorts, gelet op het bepaalde bij artikel 1, onder f, van de Afbakeningsregeling, niet als S&amp;O-werk worden aangemerkt.</para>
+        <para>Met betrekking tot deelproject 3 kan niet anders worden geoordeeld dan dat appellante de geschiktheid van de verschillende bestrijdingsmethodes beoordeelt. Deze werkzaamheden zijn weer gericht op het positief stimuleren van een bestaand productieproces, aldus verweerder. In dit deelproject is ook sprake van productvergelijkend onderzoek dat om de hierboven genoemde reden niet als S&amp;O-werk kan worden aangemerkt.</para>
+        <para>Ten slotte zijn, zo is door appellante zelf ook aangegeven, de door haar in deelproject 4 – gericht op bewaring en stratificatie van onderstam-zaden - gebruikte middelen niet door haar zelf ontwikkeld. Naar verweerders mening zijn deze werkzaamheden echter niet gericht op het ontwikkelen van een zelfstandig technisch nieuw fysiek product of – proces, maar op optimalisatie van een reeds bestaand product of proces. </para>
+        <para>Na de toelichting in de bezwaarfase door appellante, werden de door haar als deelproject 1 opgevoerde werkzaamheden alsnog toegekend. Zij zijn door verweerder aangemerkt als te worden uitgevoerd in het kader van veredeling. Ter zitting heeft verweerder terzake de volgende toelichting gegeven. Veredeling wordt beschouwd als S&amp;O-werk, aangezien het kruisen van planten een proces is, gericht op de totstandkoming van een nieuw product. Als dat proces tot een eind is gekomen kan de ontwikkelaar op het ontwikkelde product een intellectueel eigendomsrecht aanvragen. De nà dit proces aan de plant uitgevoerde werkzaamheden zijn niet meer als S&amp;O-werk aan te- merken. Werkzaamheden in die fase worden geacht te zijn gericht op verbetering van het product of het productie-proces. Alleen wanneer daarbij weer "knelpunten" moeten worden overwonnen en aldus wordt gestreefd naar het totstandbrengen van een wezenlijk nieuw onderdeel van het productieproces, kan wel weer sprake zijn van S&amp;O-waardige werkzaamheden, aldus verweerder ter zitting.</para>
+        <para>Verweerder past in ieder geval sinds 1996 bij de uitvoering van de WBSO en de WVA, het criterium "al dan niet in het kader van veredeling" consequent toe. In 1994 en 1995 zijn mogelijk enige "aanvangsfouten" bij de beoordeling van de WBSO-aanvragen gemaakt.</para>
+        <para>Bij door appellante uitgevoerde werkzaamheden, die zij met een beroep op het gelijkheidsbeginsel gehonoreerd wil zien, overheersen de teelttechnische aspecten. In de acht door appellante met name genoemde gevallen was dat op één uitzondering na niet het geval. In die gevallen was overwegend sprake van veredeling. Volgens verweerder zouden de betreffende werkzaamheden ook thans niet anders worden beschouwd.  </para>
+      </parablock>
+      <para/>
+      <parablock>
+        <para>4.	Het standpunt van appellante</para>
+        <para>Appellante heeft ter ondersteuning van haar beroep, samenge-vat, het volgende aange-voerd.</para>
+        <para>De in de overgebleven deelprojecten door haar uitgevoerde werkzaamheden zijn wel degelijk gericht op technische vernieuwing, waartoe appellante per deelproject het volgende heeft aangevoerd:</para>
+        <para>Ad 2. Het ontwikkelen van een systeem voor ziektenvrije pluggenteelt van onder-stammen in steenwol i.p.v. de risicovolle teelt in de vollegrond</para>
+      </parablock>
+      <para/>
+      <parablock>
+        <para>"SENTER stelt dat de hierboven omschreven werkzaamheden niet gericht zijn op het daadwerkelijk ontwikkelen van een technisch nieuw fysiek proces door Rosaco en dat het fysieke element in dit deelproject ontbreekt. Ik ben het oneens met deze stelling. Normaliter worden rozen-onderstammen in de vollegrond geteeld. Het hierboven omschreven produktieproces is volstrekt nieuw, niet alleen voor Rosaco U.A. maar ook voor Nederland. Mijns inziens is dit nieuwe produktieproces fysiek omdat alle onderdelen c.q. bouwstenen (de rozen-onderstammen, de steenwol, de bewortelingshormonen, de meststoffen, de substraten, de belichtingen, de temperatuurinstellingen, en de watergiften) fysiek oftewel tastbaar oftewel lichamelijk oftewel een lichaam of gestalte hebbend oftewel een uiterlijk waarneembare vorm hebbend oftewel van of betreffende de natuur zijn (zie evt. van Dale Groot woordenboek der Nederlandse Taal). Alle onderdelen zijn te wegen, te meten, te zien en/of te voelen. De meeste onderdelen kan men door aanraking voelen, het bestaan of de aanwezigheid ervan constateren of de hoedanigheid ervan leren kennen. Zelfs licht bestaat uit fotonen met een massa, terwijl temperatuur omschreven kan worden als een kinetische toestand van een massa, terwijl temperatuur omschreven kan worden als een kinetische toestand van een massa c.q. moleculen met een specifiek impulsmoment.</para>
+        <para>De genoemde fysieke onderdelen c.q. bouwstenen zijn elk op zich niet nieuw. Wel nieuw is de combinatie van de afzonderlijke fysieke onderdelen c.q. bouwstenen. Deze onderdelen c.q. bouwstenen zijn/worden op grond van een groot aantal proefnemingen samengesmeed tot een nieuw en uniek produktieproces, dat mijns inziens niet anders dan ook fysiek kan zijn. Dit nieuwe produktieproces is mijns inziens direct vergelijkbaar met het ont-wikkelen van een nieuw electrisch apparaat dat opgebouwd is uit afzonderlijke, bestaande componenten (weerstanden, condensatoren, transistoren, etc.) Voor het ontwikkelen van het nieuwe apparaat kan S&amp;O-vermindering toegekend worden; voor de bouwstenen uiteraard niet."</para>
+      </parablock>
+      <para/>
+      <para>Ad 3 Het ontwikkelen van methoden om bodempathogenen te doden (bijv. via warmwaterbehandeling)</para>
+      <para/>
+      <parablock>
+        <para>"SENTER stelt dat Rosaco U.A. bij dit deelproject geen nieuwe producten, processen of onderdelen daarvan ontwikkelt, en dat het toepassen van gewijzigde teeltomstandigheden en teeltklimaat, waardoor planten zich in fysieke zin anders manifesteren, niet als ontwikkelingswerkzaamheden beschouwd worden omdat deze werkzaamheden gericht zijn op het positief stimuleren van het procesresultaat.</para>
+        <para>Ik ben het wederom oneens met deze stelling. Uit het bovenstaande blijkt mijns inziens dat Rosaco U.A. wel degelijk een zeer belangrijk, nieuw en extra procesonderdeel ontwikkelt, namelijk een nieuwe techniek oftewel een nieuwe behandeling, waarbij bodempathogenen bestreden worden door een specifieke warmtebehandeling. Daarnaast wordt op beperkte schaal onderzocht of biologische middelen (eventueel in combinatie met een warmwater behandeling) perspectief bieden. Deze techniek/behandeling wordt als een aparte, nieuwe unit ingebouwd in het bestaande produktieproces. De betreffende proefnemingen kunnen mijns inziens niet afgedaan worden met termen zoals "het toepassen van andere teeltomstandigheden en teeltklimaat" of "het positief stimuleren van het procesresultaat" omdat:</para>
+        <para>(a) vóóraf niet bekend was of de warmwaterbehandelingen mogelijk waren, m.a.w. of hiermee bodemaaltjes gedood/geremd konden worden, of de plantwortels hiertegen konden en wat de effecten op doorgroei en verdere ontwikkeling van zowel onderstam als ent waren. (Dit is nu gedeeltelijk opgehelderd);</para>
+        <para>(b) vóóraf niet bekend was wat deze andere "gewijzigde teeltomstandig-he-den en teeltklimaat" waren, m.a.w. er kan toch geen sprake zijn van toepassen als nog niet bekend is wat toegepast kan/moet worden en wanneer dit toegepast kan/moet worden;</para>
+        <para>(c) "het positief stimuleren van het procesresultaat" duidt op een situatie waarin het totale proces reeds aanwezig is, en door draaien aan knop-pen en afsluiters of andere kleine aanpassingen het procesresultaat gestimu-leerd wordt. Hier is echter sprake van het toevoegen van een nieuw, extra onderdeel aan een bestaand produktieproces."</para>
+      </parablock>
+      <para/>
+      <para>Ad 4 Het ontwikkelen van betere methoden voor bewaring en stratificatie van onderstamzaden</para>
+      <para/>
+      <para>"Rosaco U.A. is pas in 1995 gestart met R&amp;D-werk inzake stratificatie. (Er kan dus voor stratificatie sowieso geen sprake zijn van verbeteren en optimaliseren omdat het hier een nieuw onderdeel betreft) Bewaring van zaden werd tot in 1996 nog uitgevoerd bij kamertemperatuur. Pas vanaf 1995 werden proefnemingen uitgevoerd waarbij zaden gekoeld c.q. ingevro-ren werden. Het structurele R&amp;D-werk aan bewaring en stratificatie betreft een wezenlijke verbetering van het produktieproces door nieuw toegevoegde onderdelen. Met het R&amp;D-werk is inmiddels significante vooruitgang geboekt. Bewaring door koeling/invriezing laat ge-mid-deld 60% meer overleving na bewaring zien. Stratificatiebehandelingen laten inmiddels een sterk gestegen kieming zien. Gemiddeld kan nu tot 20% meer kieming gerealiseerd worden. Hierdoor zijn de produktiekosten nu al met circa 5% afgenomen en kan een veel uniformer produkt geleverd worden. Het omschrijven van deze structurele, wezenlijke, extra, nieuwe procesonderdelen als "het verbeteren en optimaliseren van een bestaand proces" doet hierbij mijns inziens geen recht aan de werkelijkheid.</para>
+      <para/>
+      <para>Ten aanzien van het fysieke aspect aan dit sterk verbeterde en dus nieuw te noemen produktieproces wil ik het volgende opmerken. Zoals in de deelprojecten 2 en 3 worden de afzonderlijke bouwstenen/onderdelen van het nieuwe produktieproces zoals koel/vrieskasten (voor bewaring en stratificatie), de hormonen, de gewasbeschermingsmiddelen, de ontsmettingsmiddelen, de zouten en suikers voor de osmotische oplossingen (allen voor stratificatie c.q. imbibitie c.q. priming) niet zelf ontwikkeld. Wel nieuw is de combinatie van de afzonderlijke fysieke onderdelen c.q. bouwstenen. Deze onderdelen c.q. bouwstenen zijn/worden op grond van een groot aantal proefnemingen samengesmeed tot een nieuw en uniek produktieproces, dat mijns inziens niet anders dan ook fysiek kan zijn. Dit nieuwe produktieproces is mijns inziens direct vergelijkbaar met het ontwikkelen van een nieuw electrisch apparaat dat opgebouwd is uit afzonderlijke, bestaande componenten (weerstanden, condensatoren, transistoren, etc). Voor het ontwikkelen van het nieuwe apparaat kan S&amp;O-vermindering toegekend worden; voor de bouwstenen uiteraard niet.</para>
+      <para/>
+      <para>Samengevat geldt mijns inziens dat Rosaco U.A. ook in dit deelproject een fysiek nieuw onderdeel van een produktieproces ontwikkelt, namelijk het onderdeel voor bewaring en stratificatie.</para>
+      <para/>
+      <para>Bij alle drie de deelprojecten wordt bovendien gebruik gemaakt van literatuurstudie en technisch overleg met andere telers en deskundigen. Daarnaast is van belang dat alle drie de deelprojecten ook van belang zijn voor het kunnen produceren van eigen, via veredeling ontwikkelde, onderstam-rassen."</para>
+      <para/>
+      <parablock>
+        <para>Voorts heeft appellante aangevoerd dat het teelttechnische werk dat veredelingsbedrijven doen, van hetzelfde type is, als het teelttechnische werk van opkweekbedrijven als van appellante. Zij acht onaanvaardbaar dat haar werkzaamheden die vergelijkbaar zijn met die van een veredelingsbedrijf, uitsluitend op grond van het doel worden afgewezen.</para>
+        <para>Bovendien merkte verweerder in 1994 en 1995 met dezelfde wettelijke beoordelingscriteria nog nagenoeg standaard alle WBSO aanvragen voor teelttechnisch speur- en ontwikkelingswerk aan als S&amp;O-werk. Dit gold niet alleen voor veredelingsbedrijven, maar ook voor bedrijven, die niet zelf-ontwikkeld uitgangsmateriaal voor de teelt produceerden.</para>
+        <para>Appellante heeft ten slotte acht voorbeelden aangehaald waarbij verweerder in 1996 aanvragen van veredelingsbedrijven, die ook teelttechnisch en fysiologisch speur- en ontwikkelingswerk uitvoeren, wèl heeft gehonoreerd. Die werkzaamheden waren niet bedoeld voor het selecteren van kruisingsproducten (aangezien het dan immers nog veredelingswerkzaamheden zouden zijn) maar voor het kunnen produceren of het verbeteren van de productie van een ontwikkeld, technisch nieuw fysiek product. </para>
+      </parablock>
+      <para/>
+      <parablock>
+        <para>5.	De beoordeling</para>
+        <para>Verweerder heeft de door appellante in deelprojecten 2 t/m 4 opgevoerde werk-zaamheden niet aangemerkt als speur- en ont-wikkelingswerk, waarvoor een S&amp;O- verklaring als door appellante gevraagd kan worden afgegeven. Het geschil spitst zich toe op de beantwoording van de vraag of verweerder aan de in geding zijnde werkzaamheden de kwalificatie "gericht op de ontwikkeling van technisch nieuwe (fysieke) produktieprocessen" als bedoeld in de hiervoor in rubriek 2. geciteerde definitie-bepaling op juiste gronden heeft onthouden. Dienaangaande overweegt het College als volgt.</para>
+        <para>Appellante heeft gesteld dat de onderhavige deelprojecten niet gericht zijn op technisch nieuwe (fysieke) producten maar op technisch nieuwe (fysieke) productieprocessen of onderdelen daarvan.</para>
+        <para>Hetgeen appellante met betrekking tot deze deelprojecten heeft gesteld biedt geen grond voor de conclusie dat de te ontwikkelen nieuwe productieprocessen zich ook in technisch opzicht onderscheiden van reeds bekende teelttechnieken. Niet in geschil is dat methoden als teelt op steenwol, behandeling van geïnfecteerde planten met warm water en zaadfysiologische behandeling door koeling, invriezing, langzame imbibitie of hormoonbehandeling als zodanig bekende technieken zijn. Dat de toepasssing van deze methoden in de teelt van rozen en rozenonderstammen nieuw is en dat daarvoor voorafgaand onderzoek en nieuwe combinaties of doseringen nodig zijn, maakt niet dat reeds hierom ook in technisch opzicht een nieuw productieproces wordt ontwikkeld. </para>
+        <para>Voorts overweegt het College dat niet aannemelijk is gemaakt dat appellantes werkzaamheden tevens het oplossen van technische knelpunten meebrengen die van zodanige aard zijn dat technisch nieuwe onderdelen aan het teeltproces moeten worden toegevoegd.</para>
+        <para>Appellantes grief dat verweerder in 1994 en 1995 als regel wel alle aanvra-gen voor teelttechnisch en fysiologisch speur- en ontwikkelingswerk honoreerde, leidt het College niet tot het oordeel dat in appellantes geval ten onrechte niet aan deze uitvoeringspraktijk is vastgehouden. Onder verwijzing naar de uitspraak van 1 juli 1997 in de zaak nr. 95/0337/062/231 (Expograph) overweegt het College dat, voor zover appellante hier doelt op een serie afwijkende beslissingen dateren uit een periode dat nog ervaring met de toepassing van de WBSO moest worden opgedaan, maar die anders zouden zijn uitgevallen bij de inmiddels ontwikkelde maatstaven, het beroep op het gelijkheidsbeginsel niet zover strekt, dat verweerder genoopt zou zijn bij de aanvang van de toepas-sing van de WBSO gemaakte "aanvangsfouten" te blijven herhalen.</para>
+        <para>Ten aanzien van de acht door appellante genoemde besluiten uit 1996 waarbij verweerder in – volgens haar gelijke </para>
+        <para>gevallen - S&amp;O-verklaringen werden afgegeven, overweegt het College ten slotte het volgende. </para>
+        <para>Verweerder heeft ter zake onweersproken medegedeeld dat in zeven van de door appellante genoemde gevallen, anders dan in het voorliggende geval, bij de werkzaamheden het veredelingsaspect overheerste en dat in één geval de toekenning op een vergissing in de feiten berustte. Het College ziet geen reden om aan de feitelijke juistheid van deze mededeling te twijfelen.</para>
+        <para>Niet kan worden geoordeeld dat in die omstandigheden sprake is van een situatie waarin gelijke gevallen op ongelijke wijze zijn beoordeeld, noch dat de ongelijkheid in het laatstvermelde geval moet leiden tot het alsnog honoreren van de door appellante gestelde aanspraken. </para>
+        <para>Zowel appellantes beroep op het gelijkheids- als op het vertrouwensbeginsel moeten dan ook falen.</para>
+        <para>De slotsom is dat verweerder de aanvraag om een S&amp;O-verklaring, voor zover betrekking hebbend op de hierboven in rubriek 2. onderscheiden deelprojecten 2 t/m 4 terecht heeft afgewezen. Het beroep moet derhalve ongegrond worden verklaard.</para>
+        <para>Het College acht geen termen aanwezig voor een kostenveroordeling met toepassing van artikel 8:75 van de Algemene wet bestuursrecht.</para>
+      </parablock>
+      <para/>
+      <parablock>
+        <para>6. De beslissing</para>
+        <para>Het College verklaart het beroep ongegrond.</para>
+      </parablock>
+      <para/>
+      <para>Aldus gewezen door mr R.R. Winter, mr D. Roemers, M.J. Kuiper, in tegenwoordigheid van mr A. Bruining, als griffier, en uitgesproken in het openbaar op 15 december 1998.</para>
+      <para/>
+      <para>w.g. R.R. Winter					w.g. A. Bruining</para>
+    </uitspraak>
+</open-rechtspraak>

@@ -37,16 +37,14 @@ export function throwIfNotDate(str: any, extra?: string, ...extras: string[]): D
     throw new Error("Expected " + JSON.stringify(str) + " to be a date. (" + extra + ")" + (extras.length ? " " + extras : ""));
 }
 
-export function unexpectedUri(k: string, uri: string, ecli?: string) {
+export function unexpectedUri(k: string, uri: string, label: string, ecli?: string) {
     return ecli + ": Unexpected " + k + ": "
         + uri
+        + ". Label: "
+        + label
         + ". Leave an issue here: https://github.com/digitalheir/rechtspraak-js/issues to request to add it to the context.";
 }
-export function throwUnexpectedUri(k: string, uri: string, ecli?: string): void {
-    throw new Error(
-        unexpectedUri(k, uri, ecli)
-    );
-}
+
 export function throwIfNotDateTime(str: any, extra?: string, ...extras: string[]): DateTime {
     if (typeof str === "string") {
         const trimmed = str.trim();

@@ -4,7 +4,7 @@ import {toJsonLd} from "./src/model/json-ld/to-json-ld";
 
 // const folder = "/home/maarten/OpenDataUitspraken/";
 const folder = "/media/maarten/E0E68667E6863DB2/OpenDataUitspraken/";
-
+const newones: any = {};
 function handleFolder(inFolder: string) {
     let docs = 0;
     console.log("in " + inFolder);
@@ -39,9 +39,29 @@ function handleDocument(path: string): any {
         // etc
     } catch (error) {
         // reject({path, error});
-
-        console.error(path);
-        console.error(error.message);
+        let m = error.message.match(
+            /^.*: Unexpected [a-zA-Z0-9:_-]+: (.*)\. Label: (.*)\. Leave an issue here:/
+        );
+        if (m) {
+            if (!newones[m[1]]) {
+                newones[m[1]] = true;
+                let id = m[1].replace(/https?:\/\/psi\.rechtspraak\.nl\//, "");
+                console.log(
+                    "\"" + id + "\"" + ": "
+                );
+                console.log(JSON.stringify(
+                        {
+                            "@id": id,
+                            "owl:sameAs": m[1],
+                            "rdfs:label": [{"@value": m[2], "@language": "nl"}]
+                        }
+                    ) + ",");
+            }
+        }
+        else {
+            console.error(path);
+            console.error(error.message);
+        }
     }
 }
 

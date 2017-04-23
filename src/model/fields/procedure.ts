@@ -1,16 +1,20 @@
 import {
-    mustHaveTextAndAttributes, throwUnexpectedUri, unexpectedUri
+    mustHaveTextAndAttributes, unexpectedUri
 } from "../../util/validations";
 import {getResourceId} from "../convert-to-typed";
 import {idResource} from "./standard-resource-object";
 import {makeLabel} from "./label";
 
 export type Procedure =
-    "eersteAanlegMeervoudig"
-    | "eersteAanlegEnkelvoudig"
-    | "voorlopigeVoorziening"
+    "procedure#eersteAanlegMeervoudig"
+    | "procedure#eersteAanlegEnkelvoudig"
+    | "procedure#verzet"
+    | "procedure#bodemzaak"
+    | "procedure#eersteEnEnigeAanleg"
+    | "procedure#voorlopigeVoorziening"
+    | "procedure#herziening"
     ;
-
+// todo check if label in context is correct ;)
 export function getSingleProcedure(proc: any, id?: string): Procedure {
     mustHaveTextAndAttributes(proc, true, "rdf:language", "rdfs:label", "resourceIdentifier");
     const language: string = proc["@attributes"]["rdf:language"];
@@ -18,13 +22,21 @@ export function getSingleProcedure(proc: any, id?: string): Procedure {
     const resourceId = getResourceId(proc["@attributes"], id + ": procedure");
     switch (resourceId) {
         case "http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig":
-            return "eersteAanlegMeervoudig";
+            return "procedure#eersteAanlegMeervoudig";
         case "http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig":
-            return "eersteAanlegEnkelvoudig";
+            return "procedure#eersteAanlegEnkelvoudig";
         case "http://psi.rechtspraak.nl/procedure#voorlopigeVoorziening":
-            return "voorlopigeVoorziening";
+            return "procedure#voorlopigeVoorziening";
+        case "http://psi.rechtspraak.nl/procedure#verzet":
+            return "procedure#verzet";
+        case "http://psi.rechtspraak.nl/procedure#bodemzaak":
+            return "procedure#bodemzaak";
+        case "http://psi.rechtspraak.nl/procedure#eersteEnEnigeAanleg":
+            return "procedure#eersteEnEnigeAanleg";
+        case "http://psi.rechtspraak.nl/procedure#herziening":
+            return "procedure#herziening";
         default:
-            throw new Error(unexpectedUri("procedure", resourceId, id));
+            throw new Error(unexpectedUri("procedure", resourceId, proc["#text"].trim(), id));
     }
 }
 

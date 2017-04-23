@@ -69,18 +69,38 @@ export const _context = {
         "@id": "psi:procedure",
         "@type": "@vocab"
     },
-    "eersteAanlegMeervoudig": {
-        "@id": "procedure/eersteAanlegMeervoudig",
+    "procedure#eersteAanlegMeervoudig": {
+        "@id": "procedure#eersteAanlegMeervoudig",
         "owl:sameAs": "http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig",
         "rdfs:label": [{"@value": "Eerste aanleg - meervoudig", "@language": "nl"}]
     },
-    "eersteAanlegEnkelvoudig": {
-        "@id": "procedure/eersteAanlegEnkelvoudig",
+    "procedure#verzet": {
+  "@id":"procedure#verzet",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#verzet",
+        "rdfs:label": [{"@value": "Verzet", "@language": "nl"}]
+    },
+    "procedure#bodemzaak": {
+  "@id":"procedure#bodemzaak",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#bodemzaak",
+        "rdfs:label": [{"@value": "Bodemzaak", "@language": "nl"}]
+    },
+    "procedure#herziening": {
+  "@id":"procedure#herziening",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#herziening",
+        "rdfs:label": [{"@value": "Herziening", "@language": "nl"}]
+    },
+    "procedure#eersteEnEnigeAanleg": {
+  "@id":"procedure#eersteEnEnigeAanleg",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#eersteEnEnigeAanleg",
+        "rdfs:label": [{"@value": "Eerste en enige aanleg", "@language": "nl"}]
+    },
+    "procedure#eersteAanlegEnkelvoudig": {
+  "@id":"procedure#eersteAanlegEnkelvoudig",
         "owl:sameAs": "http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig",
         "rdfs:label": [{"@value": "Eerste aanleg - enkelvoudig", "@language": "nl"}]
     },
-    "voorlopigeVoorziening": {
-        "@id": "procedure/voorlopigeVoorziening",
+    "procedure#voorlopigeVoorziening": {
+  "@id":"procedure#voorlopigeVoorziening",
         "owl:sameAs": "http://psi.rechtspraak.nl/procedure#voorlopigeVoorziening",
         "rdfs:label": [{"@value": "Voorlopige voorziening", "@language": "nl"}]
     },
@@ -94,12 +114,12 @@ export const _context = {
         "@id": "dcterms:subject",
         "@type": "@vocab"
     },
-    "bestuursrecht_belastingrecht": {
+    "rechtsgebied#bestuursrecht_belastingrecht": {
         "@id": "rechtsgebied#bestuursrecht_belastingrecht",
         "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht",
         "rdfs:label": [{"@value": "Bestuursrecht; Belastingrecht", "@language": "nl"}]
     },
-    "bestuursrecht": {
+    "rechtsgebied#bestuursrecht": {
         "@id": "rechtsgebied#bestuursrecht_belastingrecht",
         "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht",
         "rdfs:label": [{"@value": "Bestuursrecht", "@language": "nl"}]
@@ -153,8 +173,8 @@ export const _context = {
         "@type": "@vocab"
     },
 
-    "bekrachtiging/bevestiging": {
-        "@id": "gevolg/bekrachtiging%2Fbevestiging",
+    "gevolg#bekrachtiging/bevestiging": {
+        "@id": "gevolg#bekrachtiging%2Fbevestiging",
         "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#bekrachtiging/bevestiging",
         "rdfs:label": [{"@value": "Bekrachtiging / bevestiging", "@language": "nl"}]
     },
