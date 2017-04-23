@@ -46,27 +46,27 @@ export function getSingleProcedure(proc: any, id?: string): Procedure {
             return "procedure#eersteEnEnigeAanleg";
         case "http://psi.rechtspraak.nl/procedure#herziening":
             return "procedure#herziening";
-        case "http://psi.rechtspraak.nl/procedure#procedure#hogerBeroep":
+        case "http://psi.rechtspraak.nl/procedure#hogerBeroep":
             return "procedure#hogerBeroep";
-        case "http://psi.rechtspraak.nl/procedure#procedure#voorlopigeVoorzieningbodemzaak":
+        case "http://psi.rechtspraak.nl/procedure#voorlopigeVoorzieningbodemzaak":
             return "procedure#voorlopigeVoorzieningbodemzaak";
-        case "http://psi.rechtspraak.nl/procedure#procedure#vereenvoudigdeBehandeling":
+        case "http://psi.rechtspraak.nl/procedure#vereenvoudigdeBehandeling":
             return "procedure#vereenvoudigdeBehandeling";
-        case "http://psi.rechtspraak.nl/procedure#procedure#procesverbaal":
+        case "http://psi.rechtspraak.nl/procedure#procesverbaal":
             return "procedure#procesverbaal";
-        case "http://psi.rechtspraak.nl/procedure#procedure#proceskostenveroordeling":
+        case "http://psi.rechtspraak.nl/procedure#proceskostenveroordeling":
             return "procedure#proceskostenveroordeling";
-        case "http://psi.rechtspraak.nl/procedure#procedure#versneldeBehandeling":
+        case "http://psi.rechtspraak.nl/procedure#versneldeBehandeling":
             return "procedure#versneldeBehandeling";
-        case "http://psi.rechtspraak.nl/procedure#procedure#schadevergoedingsuitspraak":
+        case "http://psi.rechtspraak.nl/procedure#schadevergoedingsuitspraak":
             return "procedure#schadevergoedingsuitspraak";
-        case "http://psi.rechtspraak.nl/procedure#procedure#cassatie":
+        case "http://psi.rechtspraak.nl/procedure#cassatie":
             return "procedure#cassatie";
-        case "http://psi.rechtspraak.nl/procedure#procedure#mondelingeUitspraak":
+        case "http://psi.rechtspraak.nl/procedure#mondelingeUitspraak":
             return "procedure#mondelingeUitspraak";
-        case "http://psi.rechtspraak.nl/procedure#procedure#hogerBeroepKortGeding":
+        case "http://psi.rechtspraak.nl/procedure#hogerBeroepKortGeding":
             return "procedure#hogerBeroepKortGeding";
-        case "http://psi.rechtspraak.nl/procedure#procedure#wraking":
+        case "http://psi.rechtspraak.nl/procedure#wraking":
             return "procedure#wraking";
         default:
             throw new Error(unexpectedUri("procedure", resourceId, proc["#text"].trim(), id));

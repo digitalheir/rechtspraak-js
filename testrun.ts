@@ -7,7 +7,7 @@ const folder = "/media/maarten/E0E68667E6863DB2/OpenDataUitspraken/";
 const newones: any = {};
 function handleFolder(inFolder: string) {
     let docs = 0;
-    console.log("in " + inFolder);
+    // console.log("in " + inFolder);
     fs.readdirSync(inFolder).forEach(file => {
         const path = inFolder + file;
         const stat = fs.statSync(path);
@@ -55,8 +55,8 @@ function handleDocument(path: string): any {
                             "@id": id,
                             "owl:sameAs": uri,
                             "rdfs:label": [{"@value": m[4], "@language": "nl"}],
-                            "key": m[1],
-                            "example": m[0]
+                            "key": m[2],
+                            "example": m[1]
                         }
                     ) + ",");
             }
