@@ -1,4 +1,4 @@
-export default {
+export const _context = {
     "@base": "https://rechtspraak.lawreader.nl/vocab/",
     "schema": "http://schema.org/",
     "foaf": "http://xmlns.com/foaf/0.1/",
@@ -35,10 +35,16 @@ export default {
         "@id": "lawly:metadataModified",
         "@type": "xsd:dateTime"
     },
+
     "coverage": {
         "@id": "dcterms:coverage",
-        "@type": "@id"
+        "@type": "@vocab"
     },
+    "nl": {
+        "@id": "http://dbpedia.org/resource/Netherlands",
+        "rdfs:label": [{"@value": "Nederland", "@language": "nl"}]
+    },
+
     "creator": {
         "@id": "dcterms:creator"
     },
@@ -59,19 +65,54 @@ export default {
         "@id": "dcterms:language",
         "@type": "@id"
     },
-    "procedure": "psi:procedure",
+    "procedure": {
+        "@id": "psi:procedure",
+        "@type": "@vocab"
+    },
+    "eersteAanlegMeervoudig": {
+        "@id": "procedure/eersteAanlegMeervoudig",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig",
+        "rdfs:label": [{"@value": "Eerste aanleg - meervoudig", "@language": "nl"}]
+    },
+    "eersteAanlegEnkelvoudig": {
+        "@id": "procedure/eersteAanlegEnkelvoudig",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig",
+        "rdfs:label": [{"@value": "Eerste aanleg - enkelvoudig", "@language": "nl"}]
+    },
     "references": "dcterms:references",
     "replaces": {
         "@id": "dcterms:replaces",
         "@type": "@id"
     },
     "spatial": "dcterms:spatial",
-    "subject": "dcterms:subject",
+    "subject": {
+        "@id": "dcterms:subject",
+        "@type": "@vocab"
+    },
+    "bestuursrecht_belastingrecht": {
+        "@id": "rechtsgebied#bestuursrecht_belastingrecht",
+        "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht",
+        "rdfs:label": [{"@value": "Bestuursrecht; Belastingrecht", "@language": "nl"}]
+    },
+
     "title": "dcterms:title",
+
     "type": {
         "@id": "dcterms:type",
-        "@type": "@id"
+        "@type": "@vocab"
     },
+    "uitspraak": {
+        "@id": "type/uitspraak",
+        "owl:sameAs": "http://psi.rechtspraak.nl/uitspraak",
+        "rdfs:label": [{"@value": "Uitspraak", "@language": "nl"}]
+    },
+    "conclusie": {
+        "@id": "type/conclusie",
+        "owl:sameAs": "http://psi.rechtspraak.nl/conclusie",
+        "rdfs:label": [{"@value": "Conclusie", "@language": "nl"}]
+    },
+
+
     "zaaknummer": "psi:zaaknummer",
     "dcterms:source": {
         "@type": "@id"
@@ -97,14 +138,36 @@ export default {
     "psi:aanleg": {
         "@type": "@id"
     },
+
     "psi:gevolg": {
-        "@type": "@id"
+        "@type": "@vocab"
     },
+
+    "bekrachtiging/bevestiging": {
+        "@id": "gevolg/bekrachtiging%2Fbevestiging",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#bekrachtiging/bevestiging",
+        "rdfs:label": [{"@value": "Bekrachtiging / bevestiging", "@language": "nl"}]
+    },
+
+
     "psi:typeRelatie": {
         "@type": "@id"
     },
+    "cassatie": {
+        "@id": "relation/cassatie",
+        "owl:sameAs": "http://psi.rechtspraak.nl/cassatie",
+        "rdfs:label": [{"@value": "Cassatie", "@language": "nl"}]
+    },
+    "hogerBeroep": {
+        "@id": "relation/hogerBeroep",
+        "owl:sameAs": "http://psi.rechtspraak.nl/hogerBeroep",
+        "rdfs:label": [{"@value": "Hoger beroep", "@language": "nl"}]
+    },
+
     "Vervangt": "http://purl.org/dc/terms/replaces",
     "Procedure": "http://psi.rechtspraak.nl/procedure",
     "Instantie": "http://purl.org/dc/terms/creator",
     "Zaaknr": "http://psi.rechtspraak.nl/zaaknummer"
 };
+
+export default _context;

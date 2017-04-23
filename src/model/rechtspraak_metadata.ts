@@ -7,6 +7,8 @@ import {Spatial} from "./fields/spatial";
 import {Subject} from "./fields/subject";
 import {Relation} from "./fields/relation";
 import {HasVersion} from "./fields/hasVersion";
+import {RsDocumentType} from "./fields/type";
+import {Procedure} from "./fields/procedure";
 
 const URI_WITH_PROTOCOL_REGEX = /^(([^:/?#]+):)(\/\/([^/?#]*))([^?#]*)(\?([^#]*))?(#(.*))?/;
 
@@ -58,9 +60,6 @@ export interface HasPart {
     "schema:hasPart"?: HasPart[];
 }
 
-export interface Procedure extends StandardResourceObject {
-}
-
 export interface Creator extends StandardResourceObject {
     "scheme": string;
 }
@@ -97,7 +96,7 @@ export interface RechtspraakMetadata {
     "subject"?: Subject[];
     "temporal"?: Temporal;
     "zaaknummer"?: string[];
-    "type": UriWithProtocol;
+    "type": RsDocumentType;
     "coverage": UriWithProtocol;
     "hasVersion"?: HasVersion[];
     "corpus": string;

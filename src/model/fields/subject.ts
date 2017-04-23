@@ -1,17 +1,21 @@
-import {mustHaveTextAndAttributes} from "../../util/validations";
+import {mustHaveTextAndAttributes, unexpectedUri} from "../../util/validations";
 import {getResourceId} from "../convert-to-typed";
 import {makeLabel} from "./label";
 import {idResource, StandardResourceObject} from "./standard-resource-object";
 
-export interface Subject extends StandardResourceObject {
-}
+export type Subject = "bestuursrecht_belastingrecht";
+
 export function getSubject(sub: any[], id?: string): Subject[] | undefined {
     if (!sub) return undefined;
-    return sub.map((subj: any) => {
+    return sub.map((subj: any): Subject => {
         mustHaveTextAndAttributes(subj, true, "rdfs:label", "resourceIdentifier");
-        return idResource(
-            getResourceId(subj['@attributes'], id + ": subject"),
-            makeLabel(subj['#text'], 'nl')
-        );
+        const resourceId = getResourceId(subj["@attributes"], id + ": subject");
+
+        switch (resourceId) {
+            case "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht":
+                return "bestuursrecht_belastingrecht";
+            default:
+                throw new Error(unexpectedUri("subject", resourceId, id));
+        }
     });
 }
