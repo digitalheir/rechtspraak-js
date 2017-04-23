@@ -71,6 +71,7 @@ describe("XML should convert to JSON-LD", function () {
             expectedJson
         );
     });
+
     it("given bestuursrecht, should render correctly", function () {
         const docName = "ECLI_NL_CBB_1997_ZG0125";
 

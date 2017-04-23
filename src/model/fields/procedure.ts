@@ -13,6 +13,17 @@ export type Procedure =
     | "procedure#eersteEnEnigeAanleg"
     | "procedure#voorlopigeVoorziening"
     | "procedure#herziening"
+    | "procedure#hogerBeroep"
+    | "procedure#voorlopigeVoorzieningbodemzaak"
+    | "procedure#vereenvoudigdeBehandeling"
+    | "procedure#procesverbaal"
+    | "procedure#proceskostenveroordeling"
+    | "procedure#versneldeBehandeling"
+    | "procedure#schadevergoedingsuitspraak"
+    | "procedure#cassatie"
+    | "procedure#mondelingeUitspraak"
+    | "procedure#hogerBeroepKortGeding"
+    | "procedure#wraking"
     ;
 // todo check if label in context is correct ;)
 export function getSingleProcedure(proc: any, id?: string): Procedure {
@@ -35,6 +46,28 @@ export function getSingleProcedure(proc: any, id?: string): Procedure {
             return "procedure#eersteEnEnigeAanleg";
         case "http://psi.rechtspraak.nl/procedure#herziening":
             return "procedure#herziening";
+        case "http://psi.rechtspraak.nl/procedure#procedure#hogerBeroep":
+            return "procedure#hogerBeroep";
+        case "http://psi.rechtspraak.nl/procedure#procedure#voorlopigeVoorzieningbodemzaak":
+            return "procedure#voorlopigeVoorzieningbodemzaak";
+        case "http://psi.rechtspraak.nl/procedure#procedure#vereenvoudigdeBehandeling":
+            return "procedure#vereenvoudigdeBehandeling";
+        case "http://psi.rechtspraak.nl/procedure#procedure#procesverbaal":
+            return "procedure#procesverbaal";
+        case "http://psi.rechtspraak.nl/procedure#procedure#proceskostenveroordeling":
+            return "procedure#proceskostenveroordeling";
+        case "http://psi.rechtspraak.nl/procedure#procedure#versneldeBehandeling":
+            return "procedure#versneldeBehandeling";
+        case "http://psi.rechtspraak.nl/procedure#procedure#schadevergoedingsuitspraak":
+            return "procedure#schadevergoedingsuitspraak";
+        case "http://psi.rechtspraak.nl/procedure#procedure#cassatie":
+            return "procedure#cassatie";
+        case "http://psi.rechtspraak.nl/procedure#procedure#mondelingeUitspraak":
+            return "procedure#mondelingeUitspraak";
+        case "http://psi.rechtspraak.nl/procedure#procedure#hogerBeroepKortGeding":
+            return "procedure#hogerBeroepKortGeding";
+        case "http://psi.rechtspraak.nl/procedure#procedure#wraking":
+            return "procedure#wraking";
         default:
             throw new Error(unexpectedUri("procedure", resourceId, proc["#text"].trim(), id));
     }

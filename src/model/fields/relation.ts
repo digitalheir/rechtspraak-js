@@ -13,7 +13,11 @@ export function idResourceWithOriginal(id: string, originalId: string): Standard
 
 
 export type Aanleg = "latereAanleg";
-export type Gevolg = "gevolg#bekrachtiging/bevestiging";
+export type Gevolg = "gevolg#bekrachtiging/bevestiging"
+    | "gevolg#meerdere afhandelingswijzen"
+    | "gevolg#overig"
+    | "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan"
+    ;
 export type RelationType = "conclusieVoorCassatie";
 
 export interface Relation extends StandardResourceObject {
@@ -29,6 +33,12 @@ function getGevolg(gevolg?: string, label?: string): Gevolg | undefined {
         switch (gevolg.replace(/^http:\/\/psi\.rechtspraak\.nl\/gevolg#/, "")) {
             case "bekrachtiging/bevestiging":
                 return "gevolg#bekrachtiging/bevestiging";
+            case "gevolg#meerdere afhandelingswijzen":
+                return "gevolg#meerdere afhandelingswijzen";
+            case "gevolg#overig":
+                return "gevolg#overig";
+            case "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan":
+                return "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan";
             default:
                 throw new Error(unexpectedUri("gevolg", gevolg, label || "???"));
         }
