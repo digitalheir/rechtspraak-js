@@ -16,13 +16,12 @@ export const REGEX_STANDAARDEN_OVERHEID = /^https?:\/\/standaarden\.overheid\.nl
 const REGEX_UNEXPECTED_ENCODED_CHARS = /[^~._:a-zA-Z0-9%-]/;
 
 
-export function throwIfContainsUnexpectedEncodedChars(str: string, id?: string) {
+export function throwIfContainsUnexpectedEncodedChars(str: string, id?: string): string {
     const encoded = encodeURI(str)
         .replace(/!/g, "%21")
         .replace(/#/g, "%23")
         .replace(/\$/g, "%24")
 
-        .replace(/%/g, "%25")
 
         .replace(/&/g, "%26")
         .replace(/'/g, "%27")
@@ -43,6 +42,7 @@ export function throwIfContainsUnexpectedEncodedChars(str: string, id?: string) 
     const match = encoded.match(REGEX_UNEXPECTED_ENCODED_CHARS);
     if (match) throw new Error(id + ": Unexpected encoded URI: \"" + encoded
         + "\" (" + match[0] + "). Leave an issue here: https://github.com/digitalheir/rechtspraak-js/issues ");
+    return encoded;
 }
 
 export function throwIfNotArray(array: any, name?: string, id?: string): any[] {
