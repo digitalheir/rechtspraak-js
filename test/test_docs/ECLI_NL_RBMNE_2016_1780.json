@@ -1,151 +1,40 @@
 {
-  "@context": {
-    "@base": "https://rechtspraak.lawreader.nl/vocab/",
-    "schema": "http://schema.org/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "frbr": "http://purl.org/vocab/frbr/core#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "dcterms": "http://purl.org/dc/terms/",
-    "psi": "http://psi.rechtspraak.nl/",
-    "ecli": "https://e-justice.europa.eu/ecli",
-    "cvdr": "http://decentrale.regelgeving.overheid.nl/cvdr/",
-    "eu": "http://publications.europa.eu/celex/",
-    "tr": "http://tuchtrecht.overheid.nl/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "lawly": "https://rechtspraak.lawreader.nl/vocab/",
-    "muhAccessRights": "lawly:accessRights/",
-    "muhCoverage": "lawly:coverage/",
-    "muhSpatial": "lawly:spatial/",
-    "muhHasVersion": "lawly:hasVersion/",
-    "ECLI": "https://rechtspraak.lawreader.nl/id/ECLI:",
-    "_id": "@id",
-    "abstract": "dcterms:abstract",
-    "accessRights": {
-      "@id": "dcterms:accessRights",
-      "@type": "@id"
-    },
-    "contentModified": {
-      "@id": "dcterms:modified",
-      "@type": "xsd:dateTime"
-    },
-    "metadataModified": {
-      "@id": "lawly:metadataModified",
-      "@type": "xsd:dateTime"
-    },
-    "coverage": {
-      "@id": "dcterms:coverage",
-      "@type": "@id"
-    },
-    "creator": {
-      "@id": "dcterms:creator"
-    },
-    "date": {
-      "@id": "dcterms:date",
-      "@type": "xsd:date"
-    },
-    "htmlIssued": {
-      "@id": "lawly:htmlIssued",
-      "@type": "xsd:date"
-    },
-    "hasVersion": "dcterms:hasVersion",
-    "issued": {
-      "@id": "dcterms:issued",
-      "@type": "xsd:date"
-    },
-    "language": {
-      "@id": "dcterms:language",
-      "@type": "@id"
-    },
-    "procedure": "psi:procedure",
-    "references": "dcterms:references",
-    "replaces": {
-      "@id": "dcterms:replaces",
-      "@type": "@id"
-    },
-    "spatial": "dcterms:spatial",
-    "subject": "dcterms:subject",
-    "title": "dcterms:title",
-    "type": {
-      "@id": "dcterms:type",
-      "@type": "@id"
-    },
-    "zaaknummer": "psi:zaaknummer",
-    "dcterms:source": {
-      "@type": "@id"
-    },
-    "dcterms:isReferencedBy": {
-      "@type": "@id"
-    },
-    "dcterms:modified": {
-      "@id": "dcterms:modified",
-      "@type": "xsd:dateTime"
-    },
-    "dcterms:issued": {
-      "@id": "dcterms:issued",
-      "@type": "xsd:date"
-    },
-    "dcterms:date": {
-      "@id": "dcterms:date",
-      "@type": "xsd:date"
-    },
-    "owl:sameAs": {
-      "@type": "@id"
-    },
-    "psi:aanleg": {
-      "@type": "@id"
-    },
-    "psi:gevolg": {
-      "@type": "@id"
-    },
-    "psi:typeRelatie": {
-      "@type": "@id"
-    },
-    "Vervangt": "http://purl.org/dc/terms/replaces",
-    "Procedure": "http://psi.rechtspraak.nl/procedure",
-    "Instantie": "http://purl.org/dc/terms/creator",
-    "Zaaknr": "http://psi.rechtspraak.nl/zaaknummer"
-  },
-  "_id": "ECLI:NL:RBZWB:2016:210",
+  "_id": "ECLI:NL:RBMNE:2016:1780",
   "@type": "schema:Report",
   "accessRights": "muhAccessRights:public",
-  "issued": "1901-11-18",
-  "metadataModified": "2016-03-22T02:26:44",
-  "contentModified": "2016-03-11T11:47:31",
-  "htmlIssued": "2016-03-11",
-  "owl:sameAs": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:210",
+  "issued": "2016-04-01",
+  "metadataModified": "2016-06-30T09:21:35",
+  "contentModified": "2016-06-30T09:20:51",
+  "htmlIssued": "2016-04-12",
+  "owl:sameAs": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBMNE:2016:1780",
   "language": "nl",
   "creator": {
-    "@id": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant",
+    "@id": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Midden-Nederland",
     "rdfs:label": [
       {
-        "@value": "Rechtbank Zeeland-West-Brabant",
+        "@value": "Rechtbank Midden-Nederland",
         "@language": "nl"
       }
     ],
     "scheme": "overheid.RechterlijkeMacht",
-    "originalIdentifier": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Zeeland-West-Brabant"
+    "originalIdentifier": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Midden-Nederland"
   },
-  "date": "2016-01-19",
+  "date": "2016-03-25",
   "zaaknummer": [
-    "AWB - 14 _ 6530"
+    "AWB - 14 _ 5548"
   ],
   "type": "uitspraak",
-  "temporal": {
-    "startDate": "2011",
-    "endDate": "2012"
-  },
   "spatial": {
-    "@id": "muhSpatial:Middelburg",
+    "@id": "muhSpatial:Utrecht",
     "rdfs:label": [
       {
-        "@value": "Middelburg",
+        "@value": "Utrecht",
         "@language": "nl"
       }
     ]
   },
-  "subject":["rechtsgebied#bestuursrecht_belastingrecht"
+  "subject": [
+    "rechtsgebied#bestuursrecht"
   ],
   "hasVersion": [
     {
@@ -153,15 +42,6 @@
       "rdfs:label": [
         {
           "@value": "Rechtspraak.nl",
-          "@language": "nl"
-        }
-      ]
-    },
-    {
-      "@id": "muhHasVersion:FutD%202016-0743",
-      "rdfs:label": [
-        {
-          "@value": "FutD 2016-0743",
           "@language": "nl"
         }
       ]
@@ -178,20 +58,22 @@
       ]
     }
   ],
-  "procedure":["procedure#eersteAanlegMeervoudig"
+  "procedure": [
+    "procedure#eersteAanlegMeervoudig",
+    "procedure#tussenbeschikking"
   ],
   "coverage": "nl",
   "title": {
-    "@value": "ECLI:NL:RBZWB:2016:210 Rechtbank Zeeland-West-Brabant , 19-01-2016 / AWB - 14 _ 6530",
+    "@value": "ECLI:NL:RBMNE:2016:1780 Rechtbank Midden-Nederland , 25-03-2016 / AWB - 14 _ 5548",
     "@language": "nl"
   },
   "abstract": {
-    "abstractXml": "<?xml version=\"1.0\" encoding=\"utf-8\"?><inhoudsindicatie id=\"ECLI:NL:RBZWB:2016:210:INH\" lang=\"nl\" xml:space=\"preserve\" xmlns=\"http://www.rechtspraak.nl/schema/rechtspraak-1.0\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <para>\nProcesbelang bij beroep strekkend tot een hogere verliesverrekeningsbeschikking? Goedkoopmansgebruik; stelselwijzing of herwaardering mogelijk in verband met het voorkomen van verliesdamping? Aan belanghebbende is voor het jaar 2011 een aanslag vennootschapsbelasting opgelegd van nihil en een verliesverrekeningsbeschikking vastgesteld. Voor het jaar 2012 is een aanslag vennootschapsbelasting opgelegd naar een belastbaar bedrag van € 85.958, waarin begrepen is een winst van € 81.605 ter zake de verkoop van onroerende zaken in 2012. De rechtbank oordeelt dat het beroep betreffende het jaar 2011 niet-ontvankelijk is. Met betrekking tot de aanslag is er geen procesbelang omdat deze reeds nihil is. Met betrekking tot de verliesverrekeningsbeschikking heeft belanghebbende geen procesbelang bij het door haar bepleite hogere bedrag aan verlies dat verrekend wordt. Het verkrijgen van duidelijkheid of herwaardering van haar onroerende zaken in 2011 mogelijk is, is onvoldoende. Het geschilpunt of herwaardering in 2011 mogelijk is, kan aan de orde komen in het beroep betreffende het jaar 2012. Ter zake van dat beroep oordeelt de rechtbank dat herwaardering in 2011 niet in overeenstemming is met goed koopmansgebruik. De stelselwijziging is gericht op een incidenteel fiscaal voordeel namelijk het voorkomen van verliesverdamping. Bijzondere omstandigheden die een stelselwijziging of een eenmalige opwaardering rechtvaardigen zijn niet aanwezig. Het beroep betreffende het jaar 2012 is ongegrond.</para>\n    </inhoudsindicatie>",
-    "@value": "Procesbelang bij beroep strekkend tot een hogere verliesverrekeningsbeschikking? Goedkoopmansgebruik; stelselwijzing of herwaardering mogelijk in verband met het voorkomen van verliesdamping? Aan belanghebbende is voor het jaar 2011 een aanslag vennootschapsbelasting opgelegd van nihil en een verliesverrekeningsbeschikking vastgesteld. Voor het jaar 2012 is een aanslag vennootschapsbelasting opgelegd naar een belastbaar bedrag van € 85.958, waarin begrepen is een winst van € 81.605 ter zake de verkoop van onroerende zaken in 2012. De rechtbank oordeelt dat het beroep betreffende het jaar 2011 niet-ontvankelijk is. Met betrekking tot de aanslag is er geen procesbelang omdat deze reeds nihil is. Met betrekking tot de verliesverrekeningsbeschikking heeft belanghebbende geen procesbelang bij het door haar bepleite hogere bedrag aan verlies dat verrekend wordt. Het verkrijgen van duidelijkheid of herwaardering van haar onroerende zaken in 2011 mogelijk is, is onvoldoende. Het geschilpunt of herwaardering in 2011 mogelijk is, kan aan de orde komen in het beroep betreffende het jaar 2012. Ter zake van dat beroep oordeelt de rechtbank dat herwaardering in 2011 niet in overeenstemming is met goed koopmansgebruik. De stelselwijziging is gericht op een incidenteel fiscaal voordeel namelijk het voorkomen van verliesverdamping. Bijzondere omstandigheden die een stelselwijziging of een eenmalige opwaardering rechtvaardigen zijn niet aanwezig. Het beroep betreffende het jaar 2012 is ongegrond."
+    "abstractXml": "<?xml version=\"1.0\" encoding=\"utf-8\"?><inhoudsindicatie id=\"ECLI:NL:RBMNE:2016:1780:INH\" lang=\"nl\" xml:space=\"preserve\" xmlns=\"http://www.rechtspraak.nl/schema/rechtspraak-1.0\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <parablock>\n        <para>Wob rijkbrede fraude</para>\n        <para>Wob, artikel 11 van de Wob, motivering, tussenuitspraak </para>\n      </parablock>\n      <para/>\n      <para>Bestuurlijke lus, eiseres heeft een Wob verzoek gedaan om documenten die zien op ‘Rijkbrede aanpak van fraude’. Verweerder heeft 63 documenten gevonden en gedeeltelijk openbaar gemaakt. De rb heeft in de tussenuitspraak de documenten nagelopen. Verweerder heeft de meeste documenten geweigerd met toepassing van artikel 11 van de Wob. Deze grond heeft verweerder te breed ingezet en moet beter gemotiveerd worden. Vooral weigering van de 900 mails behoeft nadere motivering. Ter zitting is al gebleken dat de integrale weigering van deze e-mails op deze grond, niet juist is; het gaat bijvoorbeeld ook om persoonsgegevens. Rb heeft behoefte aan ordening van de grote hoeveelheid gedingstukken om een goede toetsing van het besluit te kunnen uitvoeren.</para>\n    </inhoudsindicatie>",
+    "@value": "Wob rijkbrede fraude Wob, artikel 11 van de Wob, motivering, tussenuitspraak Bestuurlijke lus, eiseres heeft een Wob verzoek gedaan om documenten die zien op ‘Rijkbrede aanpak van fraude’. Verweerder heeft 63 documenten gevonden en gedeeltelijk openbaar gemaakt. De rb heeft in de tussenuitspraak de documenten nagelopen. Verweerder heeft de meeste documenten geweigerd met toepassing van artikel 11 van de Wob. Deze grond heeft verweerder te breed ingezet en moet beter gemotiveerd worden. Vooral weigering van de 900 mails behoeft nadere motivering. Ter zitting is al gebleken dat de integrale weigering van deze e-mails op deze grond, niet juist is; het gaat bijvoorbeeld ook om persoonsgegevens. Rb heeft behoefte aan ordening van de grote hoeveelheid gedingstukken om een goede toetsing van het besluit te kunnen uitvoeren."
   },
-  "source": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:210",
-  "about": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBZWB:2016:210",
+  "source": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBMNE:2016:1780",
+  "about": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBMNE:2016:1780",
   "couchDbUpdated": "2017-04-11T20:28:46.064Z",
   "corpus": "Rechtspraak.nl",
-  "page": "https://rechtspraak.lawreader.nl/ecli/ECLI:NL:RBZWB:2016:210"
+  "page": "https://rechtspraak.lawreader.nl/ecli/ECLI:NL:RBMNE:2016:1780"
 }
