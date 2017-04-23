@@ -79,6 +79,11 @@ export const _context = {
         "owl:sameAs": "http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig",
         "rdfs:label": [{"@value": "Eerste aanleg - enkelvoudig", "@language": "nl"}]
     },
+    "voorlopigeVoorziening": {
+        "@id": "procedure/voorlopigeVoorziening",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#voorlopigeVoorziening",
+        "rdfs:label": [{"@value": "Voorlopige voorziening", "@language": "nl"}]
+    },
     "references": "dcterms:references",
     "replaces": {
         "@id": "dcterms:replaces",
@@ -93,6 +98,11 @@ export const _context = {
         "@id": "rechtsgebied#bestuursrecht_belastingrecht",
         "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht",
         "rdfs:label": [{"@value": "Bestuursrecht; Belastingrecht", "@language": "nl"}]
+    },
+    "bestuursrecht": {
+        "@id": "rechtsgebied#bestuursrecht_belastingrecht",
+        "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht",
+        "rdfs:label": [{"@value": "Bestuursrecht", "@language": "nl"}]
     },
 
     "title": "dcterms:title",

@@ -8,6 +8,7 @@ import {makeLabel} from "./label";
 export type Procedure =
     "eersteAanlegMeervoudig"
     | "eersteAanlegEnkelvoudig"
+    | "voorlopigeVoorziening"
     ;
 
 export function getSingleProcedure(proc: any, id?: string): Procedure {
@@ -20,6 +21,8 @@ export function getSingleProcedure(proc: any, id?: string): Procedure {
             return "eersteAanlegMeervoudig";
         case "http://psi.rechtspraak.nl/procedure#eersteAanlegEnkelvoudig":
             return "eersteAanlegEnkelvoudig";
+        case "http://psi.rechtspraak.nl/procedure#voorlopigeVoorziening":
+            return "voorlopigeVoorziening";
         default:
             throw new Error(unexpectedUri("procedure", resourceId, id));
     }

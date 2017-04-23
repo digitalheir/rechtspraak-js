@@ -71,6 +71,18 @@ describe("XML should convert to JSON-LD", function () {
             expectedJson
         );
     });
+    it("given bestuursrecht, should render correctly", function () {
+        const docName = "ECLI_NL_CBB_1997_ZG0125";
+
+        const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
+        console.log(JSON.stringify(generatedJson));
+
+
+        assert.deepEqual(
+            generatedJson,
+            expectedJson
+        );
+    });
 
     it("given \"-\" for abstract, should render no abstract", function () {
         const docName = "ignore_abstract";

@@ -1,0 +1,77 @@
+{
+  "_id": "ECLI:NL:CBB:1997:ZG0125",
+  "@type": "schema:Report",
+  "accessRights": "muhAccessRights:public",
+  "issued": "2013-04-08",
+  "metadataModified": "2015-11-11T08:47:59",
+  "owl:sameAs": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CBB:1997:ZG0125",
+  "language": "nl",
+  "creator": {
+    "@id": "http://standaarden.overheid.nl/owms/terms/College_van_Beroep_voor_het_bedrijfsleven",
+    "rdfs:label": [
+      {
+        "@value": "College van Beroep voor het bedrijfsleven",
+        "@language": "nl"
+      }
+    ],
+    "scheme": "overheid.RechterlijkeMacht",
+    "originalIdentifier": "http://standaarden.overheid.nl/owms/terms/College_van_Beroep_voor_het_bedrijfsleven"
+  },
+  "date": "1997-10-14",
+  "zaaknummer": [
+    "97/1143/17000"
+  ],
+  "type": "uitspraak",
+  "subject": [
+    "bestuursrecht"
+  ],
+  "replaces": [
+    "ZG0125"
+  ],
+  "publisher": [
+    {
+      "@id": "http://rechtspraak.nl/",
+      "rdfs:label": [
+        {
+          "@value": "Raad voor de Rechtspraak",
+          "@language": "nl"
+        }
+      ]
+    }
+  ],
+  "procedure": [
+    "voorlopigeVoorziening"
+  ],
+  "references": [
+    {
+      "@id": "https://id.lawreader.nl/juriconnect/1.0:v:BWB:BWBR0005537&artikel=1:3&g=1997-10-14",
+      "rdfs:label": [
+        {
+          "@value": "Algemene wet bestuursrecht 1:3",
+          "@language": "nl"
+        }
+      ],
+      "jdi": "1.0:v:BWB:BWBR0005537&artikel=1:3&g=1997-10-14"
+    },
+    {
+      "@id": "https://id.lawreader.nl/juriconnect/1.0:v:BWB:BWBR0001969&artikel=5&g=1997-10-14",
+      "rdfs:label": [
+        {
+          "@value": "Warenwet 5",
+          "@language": "nl"
+        }
+      ],
+      "jdi": "1.0:v:BWB:BWBR0001969&artikel=5&g=1997-10-14"
+    }
+  ],
+  "coverage": "nl",
+  "title": {
+    "@value": "ECLI:NL:CBB:1997:ZG0125, College van Beroep voor het bedrijfsleven, 2013-04-08",
+    "@language": "nl"
+  },
+  "source": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CBB:1997:ZG0125",
+  "about": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CBB:1997:ZG0125",
+  "couchDbUpdated": "2017-04-11T20:28:46.064Z",
+  "corpus": "Rechtspraak.nl",
+  "page": "https://rechtspraak.lawreader.nl/ecli/ECLI:NL:CBB:1997:ZG0125"
+}
