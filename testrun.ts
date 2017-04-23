@@ -40,10 +40,10 @@ function handleDocument(path: string): any {
     } catch (error) {
         // reject({path, error});
         let m = error.message.match(
-            /^([^ ]*): Unexpected [a-zA-Z0-9:_-]+: (.*)\. Label: (.*)\. Leave an issue here:/
+            /^([^ ]*): Unexpected ([a-zA-Z0-9:_-]+): (.*)\. Label: (.*)\. Leave an issue here:/
         );
         if (m) {
-            let uri = m[2];
+            let uri = m[3];
             if (!newones[uri]) {
                 newones[uri] = true;
                 let id = uri.replace(/https?:\/\/psi\.rechtspraak\.nl\//, "");
@@ -54,7 +54,8 @@ function handleDocument(path: string): any {
                         {
                             "@id": id,
                             "owl:sameAs": uri,
-                            "rdfs:label": [{"@value": m[3], "@language": "nl"}],
+                            "rdfs:label": [{"@value": m[4], "@language": "nl"}],
+                            "key": m[1],
                             "example": m[0]
                         }
                     ) + ",");
