@@ -1,4 +1,4 @@
-import {throwIfNotString} from "../../util/validations";
+import {throwIfContainsUnexpectedEncodedChars, throwIfNotString} from "../../util/validations";
 import {idResourceNoUriCheck, StandardResourceObject} from "./standard-resource-object";
 import {makeLabel} from "./label";
 

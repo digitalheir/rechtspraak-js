@@ -1,4 +1,4 @@
-import {mustHaveTextAndAttributes} from "../../util/validations";
+import {mustHaveTextAndAttributes, throwIfContainsUnexpectedEncodedChars} from "../../util/validations";
 import {getResourceId} from "../convert-to-typed";
 import {makeLabel} from "./label";
 import {idResource, StandardResourceObject} from "./standard-resource-object";
