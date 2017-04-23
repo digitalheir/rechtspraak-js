@@ -1,7 +1,5 @@
 # Rechtspraak.js
-A bunch of utility functions to work with the open data in [Rechtspraak.nl](http://www.rechtspraak.nl/) and create pretty, well-formed JSON-LD. 
-
-Written in TypeScript, compiled to a Javascript commonjs module.
+A bunch of utility functions to work with the open data in [Rechtspraak.nl](http://www.rechtspraak.nl/) and create well-formed JSON-LD.
 
 ## Why?
 Rechtspraak.nl publishes information about a lot of Dutch court judgments. Although the source XML suggests that the data is distributed as an [RDF](https://www.w3.org/2001/sw/wiki/RDF) graph, it is rife with syntactical errors. Furthermore, Rechtspraak.nl provides no schema for its documents other than an incomplete PDF in natural language. So it's hard to know what to expect, especially for some of the more esoteric metadata fields.
