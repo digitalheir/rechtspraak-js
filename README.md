@@ -6,7 +6,7 @@ Written in TypeScript, compiled to a Javascript commonjs module.
 ## Why?
 Rechtspraak.nl publishes information about a lot of Dutch court judgments. Although the source XML suggests that the data is distributed as an [RDF](https://www.w3.org/2001/sw/wiki/RDF) graph, it is rife with syntactical errors. Furthermore, Rechtspraak.nl provides no schema for its documents other than an incomplete PDF in natural language. So it's hard to know what to expect, especially for some of the more esoteric metadata fields.
 
-So the purpose of this project is to formalize the data model of Rechtspraak.nl. I have done this by analyzing all existing documents (~2 million) on Rechtspraak.nl to generate a [JSON Schema](https://spacetelescope.github.io/understanding-json-schema/) and [Typescript typings](https://www.typescriptlang.org/) for the metadata associated with the court judgments. I have corrected some common errors in the source files (mostly to do with not properly encoding URIs) and generate valid [JSON-LD](http://json-ld.org/) (which is compatible with RDF).
+The purpose of this project is to formalize the data model of Rechtspraak.nl. I have done this by analyzing all existing documents (~2 million) on Rechtspraak.nl to generate a [JSON Schema](https://spacetelescope.github.io/understanding-json-schema/) and [Typescript typings](https://www.typescriptlang.org/) for the metadata associated with the court judgments. I have corrected some common errors in the source files (mostly to do with not properly encoding URIs) and generate valid [JSON-LD](http://json-ld.org/) (which is compatible with RDF).
 
 ## Data
 A dump of the metadata in sanitized JSON-LD is available at https://rechtspraak.lawreader.nl/_all.
