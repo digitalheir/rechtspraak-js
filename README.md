@@ -20,7 +20,8 @@ Code is written in Typescript, [compiled project](https://www.npmjs.com/package/
 ~ ~ TODO ~ ~ (for the impatient, look for source files to generate the JSON-LD document)
 
 ## Rechtspraak.nl metadata gotchas
-A collection of some of the syntactical errors I encountered:
+
+Here is a list of some of the syntactical errors I encountered in the data offering for Rechtspraak.nl, which are sanitized in this work.
 
 * Some `dcterms:type` triples don't have a resourceIdentifier, e.g. [ECLI:NL:RBMNE:2016:1637](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBMNE:2016:1637): `<dcterms:type rdf:language="nl" resourceIdentifier="">Uitspraak</dcterms:type>`
 * Some docs miss .nl in the URI; eg [ECLI:NL:CBB:2002:AD9059](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:CBB:2002:AD9059): `psi:type="http://psi.rechtspraak/conclusie"`
