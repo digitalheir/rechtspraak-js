@@ -13,7 +13,7 @@ export const REGEX_CVDR = /^(CVDR):([0-9_]+)/;
 export const REGEX_ECLI = /^(ECLI)(?::([A-Z0-9]+))+/;
 export const REGEX_STANDAARDEN_OVERHEID = /^https?:\/\/standaarden\.overheid\.nl\//;
 
-const REGEX_UNEXPECTED_ENCODED_CHARS = /[^~._:a-zA-Z0-9-]/;
+const REGEX_UNEXPECTED_ENCODED_CHARS = /[^~._:a-zA-Z0-9%]/;
 
 
 export function throwIfContainsUnexpectedEncodedChars(str: string, id?: string) {
