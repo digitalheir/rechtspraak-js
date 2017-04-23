@@ -13,14 +13,33 @@ export const REGEX_CVDR = /^(CVDR):([0-9_]+)/;
 export const REGEX_ECLI = /^(ECLI)(?::([A-Z0-9]+))+/;
 export const REGEX_STANDAARDEN_OVERHEID = /^https?:\/\/standaarden\.overheid\.nl\//;
 
-const REGEX_UNEXPECTED_ENCODED_CHARS = /[^._:a-zA-Z0-9-]/;
+const REGEX_UNEXPECTED_ENCODED_CHARS = /[^~._:a-zA-Z0-9-]/;
 
 
 export function throwIfContainsUnexpectedEncodedChars(str: string, id?: string) {
     const encoded = encodeURI(str)
+        .replace(/!/g, "%21")
+        .replace(/#/g, "%23")
+        .replace(/\$/g, "%24")
+
+        .replace(/%/g, "%25")
+
+        .replace(/&/g, "%26")
+        .replace(/'/g, "%27")
         .replace(/\(/g, "%28")
         .replace(/\)/g, "%29")
-    ;
+        .replace(/\*/g, "%2A")
+        .replace(/\+/g, "%2B")
+        .replace(/,/g, "%2C")
+        .replace(/\//g, "%2F")
+        // .replace(/:/g, "%3A")
+        .replace(/;/g, "%3B")
+        .replace(/=/g, "%3D")
+        .replace(/\?/g, "%3F")
+        .replace(/@/g, "%40")
+        .replace(/\[/g, "%5B")
+        .replace(/]/g, "%5D");
+
     if (encoded.match(REGEX_UNEXPECTED_ENCODED_CHARS)) throw new Error(id + ": Unexpected encoded URI: \"" + str
         + "\". Leave an issue here: https://github.com/digitalheir/rechtspraak-js/issues ");
 }
