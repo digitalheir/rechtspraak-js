@@ -53,3 +53,6 @@ Some issues derived from [an earlier report](http://leibniz-internship-report.he
 [GPL v3](https://www.gnu.org/licenses/gpl.html). Note that this is a viral open source license. If you create derivatives, 
 you **must** publish your code under compatible license terms. 
 Please support free software. 
+
+## Contact 
+Inquiries go to Maarten Trompper (maartentrompper@gmail.com)
