@@ -145,8 +145,7 @@
       }
     ]
   },
-  "subject": [
-    "bestuursrecht_belastingrecht"
+  "subject":["rechtsgebied#bestuursrecht_belastingrecht"
   ],
   "hasVersion": [
     {

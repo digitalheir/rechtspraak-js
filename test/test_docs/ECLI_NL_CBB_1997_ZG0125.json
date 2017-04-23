@@ -22,8 +22,7 @@
     "97/1143/17000"
   ],
   "type": "uitspraak",
-  "subject": [
-    "bestuursrecht"
+  "subject":["rechtsgebied#bestuursrecht"
   ],
   "replaces": [
     "ZG0125"
@@ -39,8 +38,7 @@
       ]
     }
   ],
-  "procedure": [
-    "voorlopigeVoorziening"
+  "procedure":["procedure#voorlopigeVoorziening"
   ],
   "references": [
     {

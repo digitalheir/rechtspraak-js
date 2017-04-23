@@ -154,8 +154,7 @@
       }
     ]
   },
-  "subject": [
-    "bestuursrecht_belastingrecht"
+  "subject":["rechtsgebied#bestuursrecht_belastingrecht"
   ],
   "hasVersion": [
     {
@@ -188,8 +187,7 @@
       ]
     }
   ],
-  "procedure": [
-    "eersteAanlegMeervoudig"
+  "procedure":["procedure#eersteAanlegMeervoudig"
   ],
   "coverage": "nl",
   "title": {

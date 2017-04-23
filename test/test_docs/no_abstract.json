@@ -146,8 +146,7 @@
       }
     ]
   },
-  "subject": [
-    "bestuursrecht_belastingrecht"
+  "subject":["rechtsgebied#bestuursrecht_belastingrecht"
   ],
   "hasVersion": [
     {
@@ -180,7 +179,7 @@
       ]
     }
   ],
-  "procedure": ["eersteAanlegMeervoudig"],
+  "procedure":["procedure#eersteAanlegMeervoudig"],
   "coverage": "nl",
   "title": {
     "@value": "ECLI:NL:RBZWB:2016:210 Rechtbank Zeeland-West-Brabant , 19-01-2016 / AWB - 14 _ 6530",

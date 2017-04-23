@@ -1,9 +1,10 @@
 import {
     matchesAny, mustHaveTextAndAttributes,
-    REGEX_HTTPS, REGEX_URI, unexpectedUri
+    REGEX_HTTPS, REGEX_URI, throwIfDivergentLabel, unexpectedUri
 } from "../../util/validations";
 import {makeLabel} from "./label";
 import {idResource, StandardResourceObject} from "./standard-resource-object";
+import {_context} from "../json-ld/context";
 
 export function idResourceWithOriginal(id: string, originalId: string): StandardResourceObject {
     const o: StandardResourceObject = idResource(id);
@@ -11,12 +12,32 @@ export function idResourceWithOriginal(id: string, originalId: string): Standard
     return o;
 }
 
+export type Aanleg =
+    "latereAanleg"
+    | "eerdereAanleg"
+    ;
 
-export type Aanleg = "latereAanleg";
-export type Gevolg = "gevolg#bekrachtiging/bevestiging"
+export type Gevolg =
+    "gevolg#bekrachtiging/bevestiging"
     | "gevolg#meerdere afhandelingswijzen"
     | "gevolg#overig"
+    | "gevolg#meerdere afhandelingswijzen"
+    | "gevolg#overig"
+    | "gevolg#niet ontvankelijk"
+    | "gevolg#niet bevoegd"
+    | "gevolg#gevolgd"
     | "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan"
+    | "gevolg#(Gedeeltelijke) vernietiging met verwijzen"
+    | "gevolg#(Gedeeltelijke) vernietiging met terugwijzen"
+    | "gevolg#onduidelijk"
+    | "gevolg#contrair"
+    | "gevolg#gedeeltelijk contrair"
+    | "gevolg#toewijzing"
+    | "gevolg#verzet toegewezen"
+    | "gevolg#afwijzing"
+    | "gevolg#verzet ongegrond"
+    | "gevolg#afwijzing vordering"
+    | "gevolg#gegrondverklaring"
     ;
 export type RelationType = "conclusieVoorCassatie";
 
@@ -25,23 +46,46 @@ export interface Relation extends StandardResourceObject {
     "aanleg": Aanleg;
     "type": RelationType;
 }
+export const uriMappingGevolg: { [k: string]: Gevolg } = {
+    "bekrachtiging/bevestiging": "gevolg#bekrachtiging/bevestiging",
+    "meerdere afhandelingswijzen": "gevolg#meerdere afhandelingswijzen",
+    "overig": "gevolg#overig",
+    "(Gedeeltelijke) vernietiging en zelf afgedaan": "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan",
+    "niet ontvankelijk": "gevolg#niet ontvankelijk",
+    "niet bevoegd": "gevolg#niet bevoegd",
+    "gevolgd": "gevolg#gevolgd",
+    "(Gedeeltelijke) vernietiging met verwijzen": "gevolg#(Gedeeltelijke) vernietiging met verwijzen",
+    "(Gedeeltelijke) vernietiging met terugwijzen": "gevolg#(Gedeeltelijke) vernietiging met terugwijzen",
+    "onduidelijk": "gevolg#onduidelijk",
+    "contrair": "gevolg#contrair",
+    "gedeeltelijk contrair": "gevolg#gedeeltelijk contrair",
+    "toewijzing": "gevolg#toewijzing",
+    "verzet toegewezen": "gevolg#verzet toegewezen",
+    "afwijzing": "gevolg#afwijzing",
+    "verzet ongegrond": "gevolg#verzet ongegrond",
+    "afwijzing vordering": "gevolg#afwijzing vordering",
+    "gegrondverklaring": "gevolg#gegrondverklaring"
+};
+
+export const uriMappingAanleg: { [k: string]: Aanleg } = {
+    "http://psi.rechtspraak.nl/latereAanleg": "latereAanleg",
+    "http://psi.rechtspraak.nl/eerdereAanleg": "eerdereAanleg"
+};
 
 function getGevolg(gevolg?: string, label?: string): Gevolg | undefined {
     if (!gevolg)
         return undefined;
-    else
-        switch (gevolg.replace(/^http:\/\/psi\.rechtspraak\.nl\/gevolg#/, "")) {
-            case "bekrachtiging/bevestiging":
-                return "gevolg#bekrachtiging/bevestiging";
-            case "gevolg#meerdere afhandelingswijzen":
-                return "gevolg#meerdere afhandelingswijzen";
-            case "gevolg#overig":
-                return "gevolg#overig";
-            case "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan":
-                return "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan";
-            default:
-                throw new Error(unexpectedUri("gevolg", gevolg, label || "???"));
-        }
+    else {
+        const id = gevolg.replace(/^http:\/\/psi\.rechtspraak\.nl\/gevolg#/, "");
+
+        const mappingGevolg = uriMappingGevolg[id];
+        if (!mappingGevolg) throw new Error(unexpectedUri("gevolg", gevolg, label || "???"));
+
+        const contextLabel: string = _context[mappingGevolg]["rdfs:label"][0]["@value"];
+        if (!contextLabel) throw new Error("Expected label for " + mappingGevolg);
+
+        return mappingGevolg;
+    }
 }
 
 // todo checkif label correct ;)
@@ -57,12 +101,15 @@ function getRelationType(uri: string, label: string): RelationType {
 }
 
 function getAanleg(aanlegUri: string, label: string): Aanleg {
-    switch (aanlegUri.replace(/^http:\/\/psi\.rechtspraak\.nl\/gevolg#/, "")) {
-        case "latereAanleg":
-            return "latereAanleg";
-        default:
-            throw new Error(unexpectedUri("aanleg", aanlegUri, label));
-    }
+    const id = aanlegUri.replace(/^http:\/\/psi\.rechtspraak\.nl\/gevolg#/, "");
+
+    const aanleg = uriMappingAanleg[id];
+    if (!aanleg) throw new Error(unexpectedUri("aanleg", aanlegUri, label || "???"));
+
+    const contextLabel: string = _context[aanleg]["rdfs:label"][0]["@value"];
+    if (!contextLabel) throw new Error("Expected label for " + aanleg);
+
+    return aanleg;
 }
 
 export const getRelation = (arr: any[]): Relation[] | undefined => arr ? arr.map((rel: any) => {

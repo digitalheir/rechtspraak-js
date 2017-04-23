@@ -45,6 +45,11 @@ export function unexpectedUri(k: string, uri: string, label: string, ecli?: stri
         + ". Leave an issue here: https://github.com/digitalheir/rechtspraak-js/issues to request to add it to the context.";
 }
 
+export function throwIfDivergentLabel(key: string, label: string, contextLabel: string){
+    if (contextLabel !== label) throw new Error("Divergent label for " + key + ": " + label + " != " + contextLabel);
+}
+
+
 export function throwIfNotDateTime(str: any, extra?: string, ...extras: string[]): DateTime {
     if (typeof str === "string") {
         const trimmed = str.trim();
