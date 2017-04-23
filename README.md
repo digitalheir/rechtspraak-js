@@ -9,7 +9,8 @@ Rechtspraak.nl publishes information about a lot of Dutch court judgments. Altho
 The purpose of this project is to formalize the data model of Rechtspraak.nl. I have done this by analyzing all existing documents (~2 million) on Rechtspraak.nl to generate a [JSON Schema](https://spacetelescope.github.io/understanding-json-schema/) and [Typescript typings](https://www.typescriptlang.org/) for the metadata associated with the court judgments. I have corrected some common errors in the source files (mostly to do with not properly encoding URIs) and generate valid [JSON-LD](http://json-ld.org/) (which is compatible with RDF) from them. 
 
 ## Data
-A dump of the metadata in sanitized JSON-LD is available at https://rechtspraak.lawreader.nl/_all. This URL will load the complete knowledge graph of Rechtspraak.nl. Be warned that it is multiple gigabyes in size. 
+
+A dump of the metadata in sanitized JSON-LD is available at https://rechtspraak.lawreader.nl/_all. This URL will load the complete knowledge graph of Rechtspraak.nl. Be warned that it is multiple gigabyes in size.
 
 For accessing subsets of the knowledge graph, you can use most of the API from [CouchDB views](http://guide.couchdb.org/draft/views.html), ie: https://rechtspraak.lawreader.nl/_all?limit=100&skip=50 will limit your request to 100 docs after the first 50. Mind that you can also use `startkey` to paginate faster: [_all?startkey="ECLI:NL:CBB:2015:5"&limit=50](https://rechtspraak.lawreader.nl/_all?startkey=%22ECLI:NL:CBB:2015:5%22&limit=50) will fetch the first 50 docs starting at [ECLI:NL:CBB:2015:5](https://rechtspraak.lawreader.nl/ecli/ECLI:NL:CBB:2015:5). Note that the documents are ordered alphabetically by their ids. 
 
