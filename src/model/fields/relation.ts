@@ -47,6 +47,8 @@ export type RelationType =
     | "hogerBeroep"
     | "cassatie"
     | "terugverwijzing"
+    | "rectificatieBesluit"
+    | "definitiefNaRectificatie"
     ;
 
 export interface Relation extends StandardResourceObject {
@@ -102,8 +104,10 @@ const uriMappingRelationType: { [k: string]: RelationType } = {
     "conclusie": "conclusie",
     "hogerBeroep": "hogerBeroep",
     "terugverwijzing": "terugverwijzing",
-    "cassatie": "cassatie"
-};
+    "rectificatieBesluit": "rectificatieBesluit",
+    "cassatie": "cassatie",
+    "definitiefNaRectificatie": "definitiefNaRectificatie",
+    };
 
 function getRelationType(uri: string, label: string, id?:string): RelationType {
 

@@ -702,6 +702,16 @@ export const _context = {
         "owl:sameAs": "http://psi.rechtspraak.nl/cassatie",
         "rdfs:label": [{"@value": "Cassatie", "@language": "nl"}]
     },
+    "definitiefNaRectificatie": {
+        "@id": "lawly:type/definitiefNaRectificatie",
+        "owl:sameAs": "http://psi.rechtspraak.nl/definitiefNaRectificatie",
+        "rdfs:label": [{"@value": "Uitspraak na rectificatie", "@language": "nl"}]
+    },
+    "rectificatieBesluit": {
+        "@id": "lawly:type/rectificatieBesluit",
+        "owl:sameAs": "http://psi.rechtspraak.nl/rectificatieBesluit",
+        "rdfs:label": [{"@value": "Te rectificeren uitspraak", "@language": "nl"}]
+    },
     "terugverwijzing": {
         "@id": "lawly:type/terugverwijzing",
         "owl:sameAs": "http://psi.rechtspraak.nl/terugverwijzing",
