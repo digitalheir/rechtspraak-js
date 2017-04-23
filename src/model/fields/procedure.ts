@@ -38,6 +38,7 @@ export type Procedure =
     | "procedure#prejudicieleSpoedprocedure(PPU)"
     | "procedure#conservatoireMaatregel"
     | "procedure#rekestprocedure"
+    | "procedure#tussenbeschikking"
     ;
 
 const uriMappingProcedure: { [k: string]: Procedure } = {
@@ -59,6 +60,9 @@ const uriMappingProcedure: { [k: string]: Procedure } = {
     "mondelingeUitspraak": "procedure#mondelingeUitspraak",
     "hogerBeroepKortGeding": "procedure#hogerBeroepKortGeding",
     "wraking": "procedure#wraking",
+    "tussenbeschikking": "procedure#tussenbeschikking",
+    "\ntussenbeschikking": "procedure#tussenbeschikking",
+    "\ntussenbeschikking\n": "procedure#tussenbeschikking",
     "tussenuitspraakBestuurlijkeLus": "procedure#tussenuitspraakBestuurlijkeLus",
     "prejudicieelVerzoek": "procedure#prejudicieelVerzoek",
     "beschikking": "procedure#beschikking",
@@ -76,7 +80,8 @@ const uriMappingProcedure: { [k: string]: Procedure } = {
     "rekestprocedure": "procedure#rekestprocedure"
 };
 
-// todo check if label in context is correct ;)
+// todo check if label in context is correct ... ;)
+
 export function getSingleProcedure(proc: any, id?: string): Procedure {
     mustHaveTextAndAttributes(proc, true, "rdf:language", "rdfs:label", "resourceIdentifier");
     const language: string = proc["@attributes"]["rdf:language"];

@@ -118,6 +118,13 @@ export const _context = {
         "key": "procedure",
         "example": "ECLI:NL:CBB:2013:184"
     },
+    "procedure#tussenbeschikking": {
+        "@id": "procedure#tussenbeschikking",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#tussenbeschikking",
+        "rdfs:label": [{"@value": "Tussenbeschikking", "@language": "nl"}],
+        "key": "procedure",
+        "example": "ECLI:NL:RBMNE:2016:1780"
+    },
     "procedure#prejudicieelVerzoek": {
         "@id": "procedure#prejudicieelVerzoek",
         "owl:sameAs": "http://psi.rechtspraak.nl/procedure#prejudicieelVerzoek",

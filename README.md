@@ -26,6 +26,7 @@ This URL will load the complete knowledge graph of Rechtspraak.nl, making use mo
 * Some docs miss .nl in the URI; eg [ECLI:NL:CBB:2002:AD9059](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:CBB:2002:AD9059): `psi:type="http://psi.rechtspraak/conclusie"`
 * Many URIs aren't encoded properly, most notably the "gevolg" URIs: eg. `http://psi.rechtspraak.nl/gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan`. Considering [the official URI specification](https://tools.ietf.org/rfc/rfc3986.txt), spaces are illegal in URIs.
   * This also applies to some references, eg. in http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:HR:1992:AA2957: `1.0:v:BWB:BWBV0001506&artikel=7 (oud)&g=1992-12-23`
+  * Most dramatically, the URI `http://psi.rechtspraak.nl/procedure#&#xA;tussenbeschikking&#xA` contains line feeds (see [ECLI:NL:RBMNE:2016:1780](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBMNE:2016:1780))
 
 Some issues derived from [an earlier report](http://leibniz-internship-report.herokuapp.com/rechtspraak.nl#rechtspraak-problems):
 * In general, [the W3C RDF validator](http://www.w3.org/RDF/Validator/rdfval?URI=data.rechtspraak.nl%2Fuitspraken%2Fcontent%3Fid%3DECLI%3ANL%3ACBB%3A2010%3ABN1294&PARSE=Parse+URI%3A+&TRIPLES_AND_GRAPH=PRINT_TRIPLES&FORMAT=PNG_EMBED) crashes on input documents
