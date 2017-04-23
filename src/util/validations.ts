@@ -22,7 +22,6 @@ export function throwIfContainsUnexpectedEncodedChars(str: string, id?: string):
         .replace(/#/g, "%23")
         .replace(/\$/g, "%24")
 
-        .replace(/%/g, "%25")
 
         .replace(/&/g, "%26")
         .replace(/'/g, "%27")
