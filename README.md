@@ -35,10 +35,10 @@ Some issues derived from [an earlier report](http://leibniz-internship-report.he
 * Values are usually not typed, for example in the case of dates.
 * Resource identifiers are not always used, when they easily can be. An example is the `dcterms:coverage` property. This might not seem important, such as in the case of dcterms:accessRights, which is fixed to the string literal public. But RDF processors typically do not treat two equal strings literals as the same concept: URIs are used for that. (Also, properties in the Dublin Core normally define a range which usually imply URIs.)
 * There are some ECLI identifiers that turn up when searching for documents that have a body, but actually do not have a body. Encountered are:
-* [ECLI:NL:RBNHO:2014:347](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBNHO:2014:347)
-* [ECLI:NL:RBAMS:2014:2748](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBAMS:2014:2748)
-* [ECLI:NL:GHDHA:2014:1688](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:GHDHA:2014:1688)
-* [ECLI:NL:RBOVE:2014:2747](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBOVE:2014:2747)
+  * [ECLI:NL:RBNHO:2014:347](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBNHO:2014:347)
+  * [ECLI:NL:RBAMS:2014:2748](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBAMS:2014:2748)
+  * [ECLI:NL:GHDHA:2014:1688](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:GHDHA:2014:1688)
+  * [ECLI:NL:RBOVE:2014:2747](http://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBOVE:2014:2747)
 
 * Property-specific issues:
   * `dcterms:references` prefixes the resourceIdentifier attribute with the namespace of the corpus that the referent is in. This is not properly formed RDF.
