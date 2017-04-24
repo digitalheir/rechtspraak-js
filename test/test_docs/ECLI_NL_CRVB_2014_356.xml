@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:CRVB:2014:356</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2014-07-16T04:00:29</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2014-02-07</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Centrale_Raad_van_Beroep" scheme="overheid.RechterlijkeMacht">Centrale Raad van Beroep</dcterms:creator>
+      <dcterms:date rdfs:label="Uitspraakdatum">2014-01-29</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">11-3630 AWBZ-R</psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak</dcterms:type>
+      <psi:procedure rdf:language="nl" rdfs:label="Procedure" resourceIdentifier="http://psi.rechtspraak.nl/procedure#hogerBeroep">Hoger beroep</psi:procedure>
+      <dcterms:coverage>NL</dcterms:coverage>
+      <dcterms:subject rdfs:label="Rechtsgebied" resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_socialezekerheidsrecht">Bestuursrecht; Socialezekerheidsrecht</dcterms:subject>
+      <dcterms:relation rdfs:label="Formele relatie" ecli:resourceIdentifier="ECLI:NL:CRVB:2013:1368" psi:type="http://psi.rechtspraak.nl/rectificatieBesluit" psi:aanleg="http://psi.rechtspraak.nl/eerdereAanleg">Te rectificeren uitspraak: ECLI:NL:CRVB:2013:1368</dcterms:relation>
+      <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+        <rdf:list>
+          <rdf:li>Rechtspraak.nl</rdf:li>
+        </rdf:list>
+      </dcterms:hasVersion>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CRVB:2014:356">
+      <dcterms:identifier>http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CRVB:2014:356</dcterms:identifier>
+      <dcterms:format>text/html</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2014-02-07T14:17:19</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2014-02-07</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:title rdf:language="nl">ECLI:NL:CRVB:2014:356 Centrale Raad van Beroep , 29-01-2014 / 11-3630 AWBZ-R</dcterms:title>
+      <dcterms:abstract resourceIdentifier="../../rs:inhoudsindicatie"/>
+    </rdf:Description>
+  </rdf:RDF>
+  <inhoudsindicatie id="ECLI:NL:CRVB:2014:356:INH" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <parablock>
+        <para>Uitspraak tot rectificatie van de uitspraak van de Raad van 31 juli 2013, </para>
+        <para>11/3630 AWBZ. Zie ECLI:NL:CRVB:2013:2995 voor de gerectificeerde tekst.</para>
+      </parablock>
+    </inhoudsindicatie>
+  <uitspraak id="ECLI:NL:CRVB:2014:356:DOC" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <para>11/3630 AWBZ-R </para>
+      <parablock>
+        <para>Datum uitspraak: 29 januari 2014</para>
+        <para>Centrale Raad van Beroep</para>
+        <para>Meervoudige kamer</para>
+      </parablock>
+      <parablock>
+        <para>Uitspraak tot rectificatie van de uitspraak van de Raad van 31 juli 2013, </para>
+        <para>11/3630 AWBZ</para>
+      </parablock>
+      <parablock>
+        <para>Partijen:</para>
+      </parablock>
+      <parablock>
+        <para>[Naam executeur] te [woonplaats executeur] als executeur van de nalatenschap van [Betrokkene] (appellant)</para>
+      </parablock>
+      <parablock>
+        <para>Centraal Administratiekantoor (CAK)</para>
+      </parablock>
+      <parablock>
+        <para>PROCESVERLOOP</para>
+        <para>De Raad heeft geconstateerd dat in de uitspraak van 31 juli 2013 met het kenmerk </para>
+        <para>11/3630 AWBZ ten onrechte geen proceskostenvergoeding is toegekend voor het indienen van het verzetschrift van 1 juli 2009 bij de rechtbank. Dit betekent dat voor het indienen van het beroepschrift bij de rechtbank moet worden toegekend € 472,- en 0,5 x € 472,- =</para>
+        <para>€ 236,- voor het verzetschrift, totaal € 708,- voor het beroep.</para>
+      </parablock>
+      <parablock>
+        <para>De Raad heeft daarin aanleiding gezien partijen in de gelegenheid te stellen zich schriftelijk uit te laten over een rectificatie van de uitspraak.</para>
+      </parablock>
+      <parablock>
+        <para>Appellant heeft een reactie gegeven.</para>
+      </parablock>
+      <section role="overwegingen">
+        <title>OVERWEGINGEN</title>
+        <para/>
+        <parablock>
+          <para>De Raad wijzigt de uitspraak van 31 juli 2013 als volgt.</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>De laatste zin van overweging 3 dient te zijn als hieronder is weergegeven.</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>De tot 4 augustus 2009 gemaakte proceskosten worden bepaald op € 472,- in bezwaar en </para>
+          <para>€ 708,- in beroep, totaal € 1.180,- aan kosten van rechtsbijstand.</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>De beslissing wordt gewijzigd als hieronder is weergegeven</para>
+        </parablock>
+        <para/>
+        <para/>
+      </section>
+      <section role="beslissing">
+        <title>BESLISSING</title>
+        <para/>
+        <parablock>
+          <para>De Centrale Raad van Beroep</para>
+        </parablock>
+        <para/>
+        <itemizedlist mark="-">
+          <listitem>
+            <para>wijst het verzoek tot schadevergoeding af;</para>
+          </listitem>
+          <listitem>
+            <para>veroordeelt het CAK in de kosten van appellant tot een bedrag van in totaal € 1.180,-.</para>
+          </listitem>
+        </itemizedlist>
+        <para/>
+        <para/>
+        <parablock>
+          <para>Aan deze uitspraak tot rectificatie is een gerectificeerd exemplaar van de oorspronkelijke uitspraak gehecht. De gerectificeerde uitspraak zal worden gepubliceerd op rechtspraak.nl.</para>
+        </parablock>
+      </section>
+      <section role="beslissing">
+        <title>BESLISSING</title>
+        <para/>
+        <parablock>
+          <para>De Centrale Raad van Beroep rectificeert de uitspraak van 31 juli 2013, 11/3630 AWBZ als in de overwegingen is weergegeven.</para>
+        </parablock>
+        <para/>
+        <para/>
+        <parablock>
+          <para>Deze uitspraak is gedaan door R.M. van Male als voorzitter en A.J. Schaap en </para>
+          <para>G. van Zeben-de Vries als leden, in tegenwoordigheid van M.D.F. de Moor als griffier. De beslissing is uitgesproken in het openbaar op 29 januari 2014.</para>
+        </parablock>
+        <para/>
+        <para/>
+        <para/>
+        <parablock>
+          <para>					(getekend) R.M. van Male</para>
+        </parablock>
+        <para/>
+        <para/>
+        <para/>
+        <parablock>
+          <para>					(getekend) M.D.F. de Moor</para>
+        </parablock>
+        <para/>
+        <para/>
+        <para/>
+        <parablock>
+          <para>JvC</para>
+        </parablock>
+      </section>
+    </uitspraak>
+</open-rechtspraak>

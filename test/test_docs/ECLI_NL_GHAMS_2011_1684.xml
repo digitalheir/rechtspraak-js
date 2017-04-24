@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:GHAMS:2011:1684</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2015-11-16T11:56:59</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2013-04-29</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Gerechtshof_Amsterdam" scheme="overheid.RechterlijkeMacht">Gerechtshof Amsterdam</dcterms:creator>
+      <dcterms:date rdfs:label="Uitspraakdatum">2011-05-24</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">200.058.091-01 </psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak</dcterms:type>
+      <psi:procedure rdf:language="nl" rdfs:label="Procedure" resourceIdentifier="http://psi.rechtspraak.nl/procedure#hogerBeroep">Hoger beroep</psi:procedure>
+      <dcterms:coverage>NL</dcterms:coverage>
+      <dcterms:spatial rdfs:label="Zittingsplaats">Amsterdam</dcterms:spatial>
+      <dcterms:subject rdfs:label="Rechtsgebied" resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#civielRecht">Civiel recht</dcterms:subject>
+      <dcterms:relation rdfs:label="Formele relatie" ecli:resourceIdentifier="ECLI:NL:GHAMS:2015:1191" psi:type="http://psi.rechtspraak.nl/tussenuitspraak" psi:aanleg="http://psi.rechtspraak.nl/latereAanleg">Einduitspraak: ECLI:NL:GHAMS:2015:1191</dcterms:relation>
+      <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+        <rdf:list>
+          <rdf:li>Rechtspraak.nl</rdf:li>
+        </rdf:list>
+      </dcterms:hasVersion>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:GHAMS:2011:1684">
+      <dcterms:identifier>http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:GHAMS:2011:1684</dcterms:identifier>
+      <dcterms:format>text/html</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2015-07-14T10:39:01</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2015-07-14</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:title rdf:language="nl">ECLI:NL:GHAMS:2011:1684 Gerechtshof Amsterdam , 24-05-2011 / 200.058.091-01 </dcterms:title>
+      <dcterms:abstract resourceIdentifier="../../rs:inhoudsindicatie"/>
+    </rdf:Description>
+  </rdf:RDF>
+  <inhoudsindicatie id="ECLI:NL:GHAMS:2011:1684:INH" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <para>Tussenarrest. Wijziging van eis niet in strijd met goede procesorde. Nadere instructie.</para>
+    </inhoudsindicatie>
+  <uitspraak id="ECLI:NL:GHAMS:2011:1684:DOC" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <uitspraak.info>
+        <para/>
+        <para/>
+        <para/>
+        <para/>
+        <parablock>
+          <para>	GERECHTSHOF AMSTERDAM</para>
+          <para>	VIERDE MEERVOUDIGE BURGERLIJKE KAMER</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>	ARREST</para>
+          <para/>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>	in de zaak van:</para>
+        </parablock>
+        <para/>
+        <para/>
+        <para/>
+        <orderedlist numeration="arabic">
+          <listitem>
+            <para>de stichting STICHTING CONTINUÏTEIT SWW II,</para>
+          </listitem>
+          <listitem>
+            <para>de stichting STICHTING WERKNEMERSBELANGEN WATERLAND II,</para>
+          </listitem>
+          <listitem>
+            <para>de besloten vennootschap met beperkte aansprakelijkheid WATERLAND PRIVATE EQUITY FUND II B.V.,</para>
+          </listitem>
+        </orderedlist>
+        <para>allen gevestigd te Bussum;</para>
+        <para>4. de rechtspersoon naar Duits recht WATERLAND PRIVATE EQUITY GmbH, gevestigd te Düsseldorf (Duitsland);</para>
+        <para>5. de besloten vennootschap met beperkte aansprakelijkheid WATERLAND PRIVATE EQUITY INVESTMENTS B.V.,</para>
+        <para>6. de besloten vennootschap met beperkte aansprakelijkheid WATERLAND PRIVATE EQUITY FUND III B.V.,</para>
+        <parablock>
+          <para>beiden gevestigd te Bussum;</para>
+          <para>APPELLANTEN,</para>
+          <para>advocaat : <emphasis role="underline">mr. E.J. Henrichs</emphasis> te Amsterdam,</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>t e g e n</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>[GEÏNTIMEERDE], wonend te [adres], </para>
+          <para>GEÏNTIMEERDE,</para>
+          <para>advocaat : <emphasis role="underline">mr. J.H.B. Crucq</emphasis> te Amsterdam. </para>
+        </parablock>
+        <para/>
+        <para/>
+        <para/>
+        <para/>
+      </uitspraak.info>
+      <section>
+        <title>
+          <nr>1</nr>Het geding in hoger beroep</title>
+        <para/>
+        <parablock>
+          <para>De appellanten worden hierna ook gezamenlijk Waterland c.s., afzonderlijk respectievelijk Continuïteit, SWW, Fund II, Waterland GmbH, Investments en Fund III, de geïntimeerde ook [geïntimeerde] genoemd.</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>Bij dagvaarding van 20 januari 2010 zijn de appellanten in hoger beroep gekomen van een vonnis van de rechtbank Amsterdam van 28 oktober 2009, onder zaak-/rolnummer 371437 / HA ZA 07-1555 gewezen tussen [geïntimeerde] als eiser in conventie, verweerder in reconventie, en de appellanten als gedaagden in conventie, eiseressen in reconventie (hierna ook: het vonnis). </para>
+          <para>
+            <?linebreak?>Bij memorie hebben de appellanten zes grieven voorgedragen, een aantal bescheiden in het geding gebracht, bewijs aangeboden en geconcludeerd, zakelijk, dat het hof het vonnis zal vernietigen en, opnieuw rechtdoende, uitvoerbaar bij voorraad, alsnog de conventionele vorderingen van [geïntimeerde] zal afwijzen en de reconventionele vorderingen van de appellanten, zoals geformuleerd in de appeldagvaarding, zal toewijzen, met beslissing over de kosten, te vermeerderen met de wettelijke rente als bedoeld in artikel 6:119 BW vanaf 14 dagen na de datum van het arrest.</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>Bij akte, verleend op 14 december 2010, hebben de appellanten hun eis wat betreft de reconventie gewijzigd en verminderd zoals geformuleerd in die akte. </para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>Bij memorie heeft [geïntimeerde] geantwoord, zijn conventionele eis gewijzigd, een aantal bescheiden in het geding gebracht en geconcludeerd, zakelijk, dat het hof – zo begrijpt het hof – het vonnis zal bekrachtigen ten aanzien van de beslissingen over de beslag- en proceskosten en over de uitvoerbaarheid bij voorraad van die beslissingen, en zal vernietigen voor het overige, de gewijzigde vorderingen van de appellanten zal afwijzen en de gewijzigde conventionele vorderingen van [geïntimeerde], zoals geformuleerd in die memorie, zal toewijzen, met beslissing over de kosten, uitvoerbaar bij voorraad. </para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>Op 11 mei 2011 hebben de partijen de zaak door hun voormelde advocaten doen bepleiten, beiden aan de hand van aantekeningen die aan het hof zijn overgelegd. Desgevraagd hebben de partijen enige verdere inlichtingen gegeven. </para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>Ten slotte is arrest gevraagd.</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>De inhoud van de overgelegde stukken van beide instanties wordt beschouwd als hier ingevoegd.</para>
+        </parablock>
+        <para/>
+        <para/>
+        <parablock>
+          <para>2. <emphasis role="underline">De wijziging (en vermindering) in hoger beroep van de eis in conventie en in reconventie</emphasis></para>
+        </parablock>
+        <para/>
+        <paragroup>
+          <nr>2.1</nr>
+          <para>Tegen de wijziging van de eis in reconventie, zoals gedaan bij voormelde akte, is geen bezwaar gemaakt. Het hof acht de wijziging niet in strijd met de eisen van een goede procesorde, zodat op de gewijzigde en verminderde eis in reconventie recht zal worden gedaan.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.2 (</nr>
+          <para>Eerst) bij de pleidooien in hoger beroep hebben de appellanten bezwaar gemaakt tegen één onderdeel van de wijziging van de eis in conventie, zoals gedaan bij de memorie van [geïntimeerde], te weten de vordering, zakelijk, tot hoofdelijke veroordeling van Fund II en Investments om aan [geïntimeerde] te betalen – ter zake van interimdividend Fund II over het jaar 2007 – een bedrag van € 1.350.235 met rente (de interimdividendvordering).</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.3</nr>
+          <para>De appellanten betogen dat deze wijziging in strijd is met een goede procesorde, en wel om de volgende redenen. De wijziging is bij memorie van antwoord gedaan en houdt een nieuwe vordering in die haaks staat op de inperking van het geschil die de partijen in deze zaak hebben beoogd met de tussen hen overeengekomen regeling (het hof begrijpt: zoals neergelegd in het proces-verbaal van de terechtzitting van de voorzieningenrechter in de rechtbank Amsterdam van 18 juni 2010, dat in het geding is gebracht). Bovendien gaat het om een nieuwe, losstaande vordering die nu in een toch al ingewikkeld geschil aanhangig wordt gemaakt.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.4</nr>
+          <para>[geïntimeerde] heeft daartegen ingebracht dat de interim-dividendvordering deel uitmaakte van zijn vordering in kort geding tegen Continuïteit, immers een onderdeel was van zijn vordering in kort geding, zoals gewijzigd bij memorie van antwoord en incidentele grieven, in de procedure tussen Continuïteit en [geïntimeerde] in hoger beroep van een vonnis van de voorzieningenrechter in de rechtbank Amsterdam van 25 maart 2010. Volgens [geïntimeerde] komt de wijziging in de onderhavige bodemzaak niet in strijd met een goede procesorde.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.5</nr>
+          <para>Laatstgenoemd hoger beroep in kort geding, waarin de pleidooien nader waren bepaald op 11 mei 2011, gelijktijdig met de pleidooien in de onderhavige zaak, is op de dag vóór 11 mei 2011 ingetrokken. Alle stukken van het ingetrokken hoger beroep zijn ook in de onderhavige zaak in het geding gebracht. Evengenoemde memorie behoort tot de stukken van het ingetrokken hoger beroep.      </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.6</nr>
+          <para>Het hof stelt vast dat de interimdividendvordering, voor zover tegen Continuïteit gericht, deel uitmaakte van “vordering II” van [geïntimeerde], zoals bij evengenoemde memorie (die van 8 juni 2010 dateert) gewijzigd en gespecificeerd. Het bedrag van de interim-dividendvordering, € 1.350.235, vormt een component van het totale bedrag, € 4.541.065, van die “vordering II”. Het hof stelt verder vast dat het ingetrokken hoger beroep in de kort-gedingzaak zeer nauw samenhangt met de onderhavige zaak. De regeling, zoals neergelegd in voornoemd proces-verbaal van 18 juni 2010, biedt onvoldoende houvast voor de bewering dat de introductie van de interimdividendvordering haaks staat op de bij die regeling overeengekomen inperking van het geschil zoals dat toen in kort geding aanhangig was. Ook het feit dat de vordering nu in een toch al ingewikkeld geschil aanhangig wordt gemaakt, brengt niet mee dat sprake kan zijn van onredelijke bemoeilijking van de verdediging of onredelijke vertraging van het geding. Gelet op dit alles doet zich geen strijd met een goede procesorde voor doordat de interimdividendvordering alsnog, door de eiswijziging, in de onderhavige zaak aanhangig wordt gemaakt. Het bezwaar van de appellanten wordt verworpen. Ook ambtshalve acht het hof de wijziging op dit punt niet in strijd met de eisen van een goede procesorde.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.7</nr>
+          <para>Tegen de wijziging van de eis in conventie, zoals gedaan bij voormelde memorie, is voor het overige geen bezwaar gemaakt. Het hof acht de wijziging ook voor dit overige niet in strijd met de eisen van een goede procesorde.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.8</nr>
+          <para>Derhalve zal ook op de gewijzigde eis in conventie recht worden gedaan.</para>
+          <para/>
+          <para/>
+        </paragroup>
+      </section>
+      <section>
+        <title>
+          <nr>3</nr>De voortgang van de zaak in hoger beroep</title>
+        <para/>
+        <paragroup>
+          <nr>3.1</nr>
+          <para>Het hof acht de zaak in hoger beroep nog niet voldoende geïnstrueerd, ten aanzien van de grieven I tot en met II van de appellanten. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>3.2</nr>
+          <para>Deze grieven komen op tegen oordelen in het vonnis in de rechtsoverwegingen 4.6 en 4.7, waarin de rechtbank onderzoekt of de door de appellanten gestelde feiten en omstandigheden, ingeval van beoordeling door de Nederlandse rechter op de voet van artikel 7:685, tweede lid, BW, zijn aan te merken als veranderingen in de omstandigheden die van dien aard zijn dat de arbeidsovereenkomst (tussen Waterland GmbH en [geïntimeerde]) billijkheidshalve dadelijk of na korte tijd behoort te eindigen. De grieven zijn voornamelijk toegelicht met de bewering dat [geïntimeerde] al lange tijd onvoldoende functioneerde en ondanks klachten en aansporingen zijn prestaties niet verbeterde, welke bewering nader is uitgewerkt in de memorie van de appellanten (sustenu’s 20-31). Bij hun pleidooi voor het hof hebben de appellanten, goeddeels voor het eerst, een concrete feitelijke onderbouwing van die bewering gegeven (pleitnotities mr. Henrichs, 4-25). [geïntimeerde] heeft hiertegen het bezwaar gemaakt dat hij op deze feitelijke onderbouwing bij het pleidooi aan zijn kant niet naar behoren kon reageren.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>3.3</nr>
+          <para>Het hof herinnert eraan dat in het vonnis is overwogen dat de appellanten pas gaandeweg de procedure (in eerste aanleg) en dan nog steeds maar mondjesmaat en hoofdzakelijk alleen in algemene bewoordingen invulling hebben gegeven aan de verwijten die zij [geïntimeerde] zeggen te maken, waarbij de rechtbank wees op de tot in detail gemotiveerde brief van [geïntimeerde] van 14 maart 2007. In het vonnis is ook vastgesteld dat [geïntimeerde] in die brief de verwijten bestreed, die Waterland GmbH in haar brief van 21 februari 2007 ten grondslag had gelegd aan de opzegging van de arbeidsovereenkomst. Dit alles hebben appellanten in hoger beroep niet bestreden. Ook is niet bestreden dat Lahmanns brief van 14 maart 2007 onbeantwoord is gebleven.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>3.4</nr>
+          <para>Tegen de achtergrond van deze gang van zaken is het bezwaar van [geïntimeerde] gegrond. Er is evenwel geen goede reden om de bedoelde, namens de appellanten bij pleidooi gegeven, feitelijke onderbouwing zonder meer ter zijde te stellen. Het gaat niet om nieuwe grieven maar om feitelijke onderbouwing van tijdig aangevoerde grieven. Het hof zal daarom [geïntimeerde] in de gelegenheid stellen zich alsnog schriftelijk uit te laten tot reactie hierop, waartoe de zaak naar de rol zal worden verwezen. Het beginsel van hoor en wederhoor brengt mee dat, indien [geïntimeerde] daarvan gebruik maakt, de appellanten de gelegenheid moet worden geboden weer schriftelijk te reageren op Lahmanns uitlatingen. Nadat deze gelegenheid of gelegenheden zijn geboden, kan weer arrest worden gevraagd.</para>
+          <para/>
+          <para/>
+        </paragroup>
+      </section>
+      <section role="beslissing">
+        <title>
+          <nr>4</nr>De beslissing</title>
+        <para/>
+        <parablock>
+          <para>Het hof:</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>verwijst de zaak naar de <emphasis role="underline">rol van 14 juni 2011</emphasis> voor het vragen van <emphasis role="underline">akte aan de kant van [geïntimeerde] van een schriftelijke uitlating, uitsluitend</emphasis> tot reactie op de namens de appellanten bij pleidooi op 11 mei 2011 gegeven concrete feitelijke onderbouwing (pleitnotities mr. Henrichs, 4-25) van de voormelde bewering;</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>verstaat dat, indien [geïntimeerde] akte vraagt als hiervóór bedoeld, de appellanten op hun beurt akte mogen vragen van een schriftelijke uitlating van hun kant, <emphasis role="underline">uitsluitend</emphasis> tot reactie op die schriftelijke uitlating van [geïntimeerde];</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>houdt iedere verdere beslissing aan.</para>
+        </parablock>
+        <para/>
+        <para/>
+        <parablock>
+          <para>Dit arrest is gewezen door mrs. E.E. van Tuyll van Serooskerken-Röell, J.M.J. Chorus en N. van Lingen en door de rolraadsheer in het openbaar uitgesproken op 24 mei 2011.</para>
+        </parablock>
+      </section>
+    </uitspraak>
+</open-rechtspraak>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:RBAMS:2012:BZ5426</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2015-11-12T11:08:53</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2013-04-08</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:replaces rdfs:label="Vervangt">ECLI:NL:RBALK:2012:BW8387</dcterms:replaces>
+      <dcterms:replaces rdfs:label="Vervangt">ECLI:NL:RBALK:2012:2234</dcterms:replaces>
+      <dcterms:replaces rdfs:label="Vervangt">BZ5426</dcterms:replaces>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Rechtbank_Amsterdam" scheme="overheid.RechterlijkeMacht">Rechtbank Amsterdam</dcterms:creator>
+      <dcterms:date rdfs:label="Uitspraakdatum">2012-06-07</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">11-930 t/m 11-943</psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak</dcterms:type>
+      <psi:procedure rdf:language="nl" rdfs:label="Procedure" resourceIdentifier="http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig">Eerste aanleg - meervoudig</psi:procedure>
+      <dcterms:coverage>NL</dcterms:coverage>
+      <dcterms:spatial rdfs:label="Zittingsplaats">Amsterdam</dcterms:spatial>
+      <dcterms:subject rdfs:label="Rechtsgebied" resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht">Bestuursrecht</dcterms:subject>
+      <dcterms:relation rdfs:label="Formele relatie" ecli:resourceIdentifier="ECLI:NL:HR:2013:477" psi:type="http://psi.rechtspraak.nl/sprongcassatie" psi:aanleg="http://psi.rechtspraak.nl/latereAanleg" psi:gevolg="http://psi.rechtspraak.nl/gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan">Sprongcassatie: ECLI:NL:HR:2013:477, (Gedeeltelijke) vernietiging en zelf afgedaan</dcterms:relation>
+      <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+        <rdf:list>
+          <rdf:li>Rechtspraak.nl</rdf:li>
+          <rdf:li>Belastingblad 2012/363</rdf:li>
+          <rdf:li>V-N 2012/53.23.21</rdf:li>
+          <rdf:li>FutD 2012-1627</rdf:li>
+        </rdf:list>
+      </dcterms:hasVersion>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBAMS:2012:BZ5426">
+      <dcterms:identifier>http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBAMS:2012:BZ5426</dcterms:identifier>
+      <dcterms:format>text/html</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2013-09-26T09:04:11</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2013-09-26</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:title rdf:language="nl">ECLI:NL:RBAMS:2012:BZ5426 Rechtbank Amsterdam , 07-06-2012 / 11-930 t/m 11-943</dcterms:title>
+      <dcterms:abstract resourceIdentifier="../../rs:inhoudsindicatie"/>
+    </rdf:Description>
+  </rdf:RDF>
+  <inhoudsindicatie id="ECLI:NL:RBAMS:2012:BZ5426:INH" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <para>De systematiek van de Wet WOZ schrijft in artikel 16 voor dat bij de waardebepaling eerst de objectafbakening moet plaatsvinden alvorens tot waardering van het object kan worden overgegaan. Bij de objectafbakening heeft als uitgangspunt te gelden dat de kleinste zelfstandig bruikbare eenheid dient te worden bepaald. In de onderhavige zaak is niet in geschil dat het gebouw [naam] bestaat uit meerdere zelfstandig te gebruiken gedeelten, te weten etages, die ook fasegewijs in gebruik kunnen worden genomen. Nu eiseres de afbakening van de door verweerder te onderscheiden objecten als zodanig niet heeft betwist en ook de rechtbank geen aanleiding ziet om aan de juistheid daarvan te twijfelen, is er voor de toepassing van de zogenoemde complextheorie geen plaats. De objectafbakening verloopt in deze dan ook onafhankelijk van de kwalificatie van het object in het kader van de Wet OB.</para>
+    </inhoudsindicatie>
+  <uitspraak id="ECLI:NL:RBAMS:2012:BZ5426:DOC" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <uitspraak.info>
+        <bridgehead role="bold">RECHTBANK AMSTERDAM</bridgehead>
+        <para>Sector bestuursrecht</para>
+        <para/>
+        <parablock>
+          <para>zaaknummers: AWB 11/930 t/m 11/943</para>
+        </parablock>
+        <para/>
+        <bridgehead role="bold">uitspraak van de meervoudige kamer van 7 juni 2012 in de zaken tussen:</bridgehead>
+        <para/>
+        <parablock>
+          <para>
+            <emphasis role="bold">Stichting Philips pensioenfonds, </emphasis>te Eindhoven, eiseres</para>
+          <para>(gemachtigde: drs. C.J.M. Noordermeer Van Loo),</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>en</para>
+        </parablock>
+        <para/>
+        <bridgehead role="bold">de heffingsambtenaar van de gemeente Amsterdam, verweerder</bridgehead>
+        <para>(mr. B. Brekveld).</para>
+        <para/>
+        <para/>
+      </uitspraak.info>
+      <section role="procesverloop">
+        <title>Procesverloop</title>
+        <para/>
+        <parablock>
+          <para>Bij beschikkingen van 31 augustus 2010 heeft verweerder ter uitvoering van de Wet waardering onroerende zaken (Wet WOZ) de waarden van de objecten van eiseres aan de[adres] te [woonplaats] voor het belastingjaar 2010 vastgesteld.</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>Bij uitspraak op bezwaar van 21 februari 2011 (de bestreden uitspraak) heeft verweerder het bezwaar van eiseres gegrond verklaard en de WOZ-waarden van deze objecten nader vastgesteld.</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>Eiseres heeft tegen de bestreden uitspraak beroep ingesteld. </para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>Verweerder heeft een verweerschrift ingediend.</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>Het onderzoek ter zitting heeft plaatsgevonden op 18 april 2012, alwaar de zaken gevoegd zijn behandeld. Eiseres is ter zitting namens haar gemachtigde vertegenwoordigd door <?linebreak?>[gemachtigde]. Verweerder is verschenen in de persoon van mr. M. Brekveld, bijgestaan door T.R. Sint en R.G. Gordinou de Gouberville, taxateurs, en [naam].</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>De rechtbank heeft de termijn voor het doen van uitspraak verlengd. </para>
+        </parablock>
+        <para/>
+      </section>
+      <section>
+        <title>Feiten</title>
+        <para/>
+        <paragroup>
+          <nr>1.</nr>
+          <para>De rechtbank neemt de volgende, door partijen niet betwiste, feiten als vaststaand aan. Eiseres is eigenares en verhuurster van de objecten. De objecten zijn gelegen in het gebouw[naam]te Amsterdam en zijn gelegen aan de: </para>
+          <para/>
+          <parablock>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres]</para>
+            <para>[adres].</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.</nr>
+          <para>Het gebouw[naam]heeft een totaal verhuurbaar vloeroppervlak van circa 11.643 m² kantoorruimte, verdeeld over de begane grond en 13 bovengelegen verdiepingen.[naam]is gebouwd met het oogmerk de beschikbare kantoorruimte te verhuren als beleggingsobject. Bij het ontwerp en de bouw is rekening gehouden met een flexibele indeling die kan worden afgestemd op de wensen van de huurder. Een huurder kan, mits beschikbaar, een ruimte huren van elke gewenste omvang. Het gebouw beschikt over een centrale hal met een receptie, een toegangscontrolesysteem, een gemeenschappelijke parkeergarage, een centrale lift, een centrale verwarmingsinstallatie en gedeelde technische voorzieningen. Op 1 januari 2007 is de eerste kantoorruimte, te weten[adres], verhuurd. De kantoorruimten [adres], [adres]) en [adres] zijn met ingang van respectievelijk 1 oktober 2007, 1 juni 2007 en 1 mei 2007 verhuurd.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>3.</nr>
+          <para>De bestreden uitspraak gaat over de waarden van de objecten van eiseres die verweerder voor het belastingjaar 2010 heeft vastgesteld. Verweerder is daarbij uitgegaan van 1 januari 2009 als waardepeildatum. </para>
+          <para/>
+        </paragroup>
+      </section>
+      <section role="overwegingen">
+        <title>Geschil en beoordeling</title>
+        <para/>
+        <paragroup>
+          <nr>4.</nr>
+          <para>Verweerder stelt zich op het standpunt dat waarderingskwesties per voor de Wet WOZ afgebakend object dienen te worden beoordeeld. Gelet op het bepaalde in artikel 16 van de Wet WOZ is de eerste ingebruikname van het desbetreffende, afgebakende object van belang. Die bepaalt in hoeverre de huurwaarde exclusief dan wel inclusief btw dient te worden gewaardeerd in het kader van de Wet WOZ. De door eiseres aangehaalde ‘complextheorie’ kan volgens verweerder daarom niet worden gevolgd. De procedure waarnaar eiseres verwijst betreft een zaak over omzetbelasting. De huurwaarde stelt verweerder vast op € 267 inclusief btw per m².</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.</nr>
+          <parablock>
+            <para>Eiseres voert primair aan dat volgens de zogenoemde complextheorie het gehele gebouw[naam]op 1 januari 2007 feitelijk in gebruik is genomen door het met ingang van die datum verhuren van de [adres]. Dit heeft volgens eiseres tot gevolg dat het gehele gebouw op de waardepeildatum al twee jaar in gebruik is genomen en op grond van artikel 11, eerste lid, onder a, 1º van de Wet op de omzetbelasting 1968 (Wet OB) exclusief btw geleverd kan worden. Eiseres stelt dat daarom de waardering van haar objecten exclusief btw dient te geschieden. Eiseres stelt dat de huurwaarde voor het gebouw[naam]in zijn geheel op € 225 exclusief btw per m² dient te worden bepaald.</para>
+            <para>Subsidiair stelt eiseres dat de ingebruikname door de verhuur in de loop van 2007 van de drie WOZ-objecten gelegen aan de [adres], [adres] en [adres] ertoe moet leiden dat die WOZ-objecten op grond van artikel 18, derde lid, onder c, van de Wet WOZ, exclusief btw moeten worden gewaardeerd. Tussen de waardepeildatum (1 januari 2009) en voorafgaande aan het begin van het kalenderjaar waarvoor de waarde wordt vastgesteld (2010) is voor deze drie objecten gaan gelden dat zij reeds (meer dan) twee jaar in gebruik zijn genomen. Het “lopen uit de tweejaarstermijn” is volgens eiseres een specifiek voor de onroerende zaak geldende bijzondere omstandigheid.</para>
+            <para>Voorts bestrijdt eiseres de hoogte van de door verweerder voor de proceskosten in de bezwaarfase toegekende vergoeding.</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.</nr>
+          <para>In het verweerschrift heeft verweerder, wat betreft het subsidiaire standpunt van eiseres, aangevoerd dat artikel 18, derde lid, onderdeel c, van de Wet WOZ slechts van toepassing is bij een zeer beperkte groep onroerende zaken, die concreet aanwijsbaar dient te zijn. Volgens verweerder is het btw-waarderingsvraagstuk niet specifiek, niet bijzonder en beperkt het zich niet tot een beperkte groep van aanwijsbare onroerende zaken.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>7.</nr>
+          <para>Het is volgens vaste rechtspraak aan verweerder om te bewijzen dat hij de WOZ-waarden niet te hoog heeft vastgesteld.</para>
+          <para>
+            <?linebreak?>
+          </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>8.</nr>
+          <para>Uit de gedingstukken en het verhandelde ter zitting blijkt dat verweerder de <?linebreak?>WOZ-waarden van de objecten van eiseres heeft bepaald volgens de huurwaardekapitalisatiemethode. Eiseres heeft het gebruik van deze methode niet betwist en ook de rechtbank komt het gebruik van deze methode in deze zaken niet onjuist voor. De door verweerder gehanteerde kapitalisatiefactor van 11,2 is evenmin in geschil. Het geding spitst zich toe op de vraag of de huurwaarde € 225 exclusief btw per m² moet worden bepaald, zoals eiseres voorstaat, of € 267 inclusief btw per m², zoals verweerder voorstaat.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>9.</nr>
+          <para>De systematiek van de Wet WOZ schrijft in artikel 16 voor dat bij de waardebepaling eerst de objectafbakening moet plaatsvinden alvorens tot waardering van het object kan worden overgegaan. Bij de objectafbakening heeft als uitgangspunt te gelden dat de kleinste zelfstandig bruikbare eenheid dient te worden bepaald. In de onderhavige zaak is niet in geschil dat het gebouw[naam]bestaat uit meerdere zelfstandig te gebruiken gedeelten, te weten etages, die ook fasegewijs in gebruik kunnen worden genomen. Nu eiseres de afbakening van de door verweerder te onderscheiden objecten als zodanig niet heeft betwist en ook de rechtbank geen aanleiding ziet om aan de juistheid daarvan te twijfelen, is er voor de toepassing van de zogenoemde complextheorie geen plaats. De objectafbakening verloopt in deze dan ook onafhankelijk van de kwalificatie van het object in het kader van de Wet OB.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>10.</nr>
+          <para>De jurisprudentie (onder meer het arrest van het gerechtshof Amsterdam van 2 januari 2006, nr. 04/00854) waarnaar eiseres in haar beroepschrift ter staving van haar standpunt verwijst, leidt niet tot een ander oordeel, nu deze ziet op kwesties met betrekking tot heffingen op grond van de Wet OB. Bepalend in die zaken is of gesproken kan worden van een levering in de zin van artikel 3, eerste lid, onderdeel h, van de Wet OB. Onder meer het gerechtshof oordeelt dat daarvan sprake kan zijn zonder dat het gehele goed onmiddellijk en volledig feitelijk in gebruik is genomen. Een dergelijke fictieve benadering van de levering van een gebouw verhoudt zich echter niet met de objectgewijze benadering van de wet WOZ. De uitkomst van die zaken is in deze, waar het gaat om een waardebepaling in het kader van de Wet WOZ, dan ook niet relevant. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>11.</nr>
+          <para>Verder haalt eiseres jurisprudentie (onder meer het arrest van de Hoge Raad van 9 maart 2006, LJN: AX6523) aan die betrekking heeft op een WOZ-waardering op basis van de methode van de gecorrigeerde vervangingswaarde. De rechtbank overweegt dat de wetgever ten aanzien van deze waarderingsmethodiek welbewust een subjectief element in de waardering heeft gebracht, te weten de omzetbelastingpositie van de eigenaar. De eigenaar kan bij de stichting van een identiek object de in rekening gebrachte omzetbelasting al dan niet in aftrek brengen. Indien aftrek mogelijk is zal de omzetbelasting, ook binnen de tweejaarstermijn, geen deel van de waarde uitmaken. Bij waardering volgens de huurwaardekapitalisatiemethode is de aftrek van de omzetbelasting een de koper persoonlijk betreffende omstandigheid. Verwijzing naar deze jurisprudentie kan eiseres dus evenmin baten.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>12.</nr>
+          <para>De rechtbank concludeert dan ook dat verweerder per te onderscheiden object dient te bezien of al naar gelang de datum van de ingebruikname van het object de huurwaarde inclusief dan wel exclusief btw moet worden bepaald. Dat heeft verweerder ook gedaan. Hetgeen eiseres dienaangaande heeft betoogd faalt. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>13.</nr>
+          <para>Het subsidiaire standpunt van eiseres kan evenmin onderschreven worden. De rechtbank overweegt dat van een situatie als bedoeld in artikel 18, derde lid, van de Wet WOZ geen sprake is, nu dit artikel enkel ziet op een wijziging of verandering aan het object zelf. In het feit dat eiseres de drie door haar aangehaalde objecten in de loop van 2007 heeft verhuurd, ziet de rechtbank dan ook geen aanleiding om niet uit te gaan van de waarde op de waardepeildatum.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>14.</nr>
+          <para>Gelet op het voorgaande komt de rechtbank tot de conclusie dat verweerder de WOZ-waarden van de objecten van eiseres voor het belastingjaar 2010 niet te hoog heeft bepaald door uit te gaan van de huurwaarde van € 267 inclusief btw per m². </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>15.</nr>
+          <para>Verweerder stelt in de bestreden uitspraak de wegingsfactor voor de in bezwaar verrichte rechtskundige bijstand vast op 0,5. Volgens verweerder is de juridische bijstand van beperkte aard omdat er wordt verwezen naar de werkzaamheden van de taxateur. Wat betreft de kosten van de taxateur is verweerder uitgegaan van 4 uur x € 50 inclusief btw. Redengevend hiervoor acht verweerder dat het aannemelijk is dat de werkzaamheden van de taxateur – te weten het verzamelen en analyseren van relevante marktgegevens, het verzamelen van relevante objectgegevens en het bepalen van de WOZ-waarden  – minder tijd in beslag nemen dan de door eiseres opgevoerde 6,5 uur. De analyses zijn volgens verweerder al eerder in breder verband gemaakt en de objectgegevens zijn al door eiseres verzameld.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>16.</nr>
+          <para>Eiseres stelt dat verweerder ten onrechte een wegingsfactor van 0,5 voor de in de bezwaarfase door een derde verleende rechtsbijstand heeft toegepast. Ter zitting bepleit zij voor zowel de bezwaar- als de beroepsfase een wegingsfactor van 1 en toepassing van de factor 1,5 in verband met het aantal samenhangende zaken. Verder is eiseres van mening dat verweerder wat betreft de kosten van de taxateur ten onrechte is uitgegaan van een uurtarief van € 50 inclusief btw in plaats van € 81,23. Ter zitting voert eiseres aan dat moet worden uitgegaan van 5 uur in plaats van de in beroep aangehaalde 6,5 uur. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>17.</nr>
+          <para>Wat betreft de gehanteerde wegingsfactor in de bezwaarfase overweegt de rechtbank dat als uitgangspunt heeft te gelden dat een zaak als gemiddeld moet worden aangemerkt, tenzij er duidelijke redenen zijn om hiervan af te wijken. Een lichter gewicht dient door verweerder te worden gemotiveerd. De rechtbank is van oordeel dat de wegingsfactor licht in beginsel is voorbehouden aan zaken waarbij geen beoordeling van het materiële geschil plaatsvindt. In dit geval betreft het echter een procedure waarbij eiseres de door verweerder vastgestelde WOZ-waarden bestrijdt en daarmee materieel het geschil is beoordeeld. De omstandigheid dat de rechtsbijstandsverlener gebruik heeft gemaakt van de gegevens van de taxateur maakt dit niet anders. Daarbij hebben zowel de gemachtigde van eiseres als de door haar ingeschakelde taxateur werkzaamheden verricht binnen het eigen vakgebied; de eerste als rechtsbijstandverlener, de tweede als taxateur. Zij beheersen onderscheiden specialismen en hebben hun werkzaamheden gescheiden verricht. Gelet hierop kan naar het oordeel van de rechtbank niet worden gezegd dat beider werkzaamheden zodanig met elkaar verweven zijn dat sprake is van werkzaamheden van één dienstverlener. Bij de vergoeding op grond van artikel 7:15, tweede lid van de Awb moeten dan ook beider kosten – afzonderlijk – in aanmerking worden genomen. De rechtbank is dan ook van oordeel dat verweerder onvoldoende aannemelijk heeft gemaakt dat hier kan worden afgeweken van de wegingsfactor gemiddeld. Dit brengt de rechtbank tot de conclusie dat verweerder het gewicht van de zaak ten onrechte als licht in plaats in gemiddeld heeft aangemerkt. Verder heeft verweerder verzuimd een factor toe te kennen voor het aantal samenhangende zaken.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>18.</nr>
+          <para>Gelet op het voorgaande dienen de kosten voor door een derde beroepsmatig verleende rechtsbijstand in bezwaar naar het oordeel van de rechtbank te worden bepaald op € 654.  Dit bedrag is het product van 2 (punten voor het opstellen van het bezwaarschrift en het verschijnen bij de hoorzitting) en € 218 (waarde per punt), 1 (gewicht van de zaak: gemiddeld) en 1,5 (vier of meer samenhangende zaken).  </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>19.</nr>
+          <para>Met betrekking tot het te vergoeden uurtarief voor de werkzaamheden van een taxateur stelt de rechtbank vast dat daarover in het van toepassing zijnde Besluit tarieven in strafzaken 2003 (Bts) geen specifiek tarief is opgenomen. In de Nota van Toelichting (NvT) bij het Bts staat over artikel 6: “Het artikel stelt het maximum uurtarief vast voor vergoedingen voor werkzaamheden waarvoor elders in het besluit geen speciaal tarief is bepaald. De vraag of voor deze werkzaamheden het maximum uurtarief of een lager tarief geldt, is afhankelijk van de mate van wetenschappelijke of bijzondere aard van de werkzaamheden.” (NvT, Stb. 2003, 330, p. 11). Gelet hierop is de rechtbank van oordeel dat het te hanteren tarief wordt bepaald door de mate van wetenschappelijke of bijzondere aard van de werkzaamheden. Weliswaar is een taxateur een deskundige als bedoeld in artikel 1, onder b, van het Bpb maar op grond van de gedingstukken stelt de rechtbank vast dat de taxatiewerkzaamheden in dit geval niet van zodanig wetenschappelijke of bijzondere aard zijn dat daaraan het maximumtarief dient te worden toegekend. De rechtbank vindt een vergoeding van € 50,- per uur exclusief btw daarom voldoende. Dat de taxateur zelf een hoger uurtarief hanteert maakt dit niet anders. Hierbij neemt de rechtbank in aanmerking dat de volgens het Bpb toe te kennen vergoedingen, waaronder de vergoedingen van kosten van een deskundige die aan een partij verslag heeft uitgebracht, niet bedoeld zijn als volledige schadevergoeding maar als tegemoetkoming in de kosten. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>20.</nr>
+          <para>De rechtbank zal, zoals door eiseres is bepleit, het aantal uren dat aan de taxatiewerkzaamheden is besteed vaststellen op vijf. Dit aantal komt de rechtbank niet onredelijk voor.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>21.</nr>
+          <para>Uit het voorgaande volgt dat het beroep gegrond is en het bestreden besluit, voor zover met betrekking hebbende op de proceskosten in bezwaar met betrekking tot het verlenen van rechtsbijstand en het deskundigenrapport voor vernietiging in aanmerking komt wegens strijd met het zorgvuldigheidsbeginsel als bedoeld in artikel 3:2 van de Algemene wet bestuursrecht (Awb) en het motiveringsbeginsel neergelegd in artikel 7:12, eerste lid, van de Awb. De rechtbank zal ter finale geschillenbeslechting met toepassing van artikel 8:72, vierde lid, van de Awb zelf in de zaak voorzien.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>22.</nr>
+          <para>De rechtbank zal gelet op hetgeen hiervoor is overwogen verweerder op grond van artikel 7:15, tweede lid, van de Awb veroordelen in de door eiseres in verband met de behandeling van het bezwaar gemaakte proceskosten ten bedrage van € 654 voor de verleende rechtsbijstand en ten bedrage van € 250 (5 uur x € 50 exclusief btw) voor het inschakelen van een deskundige (taxateur). De rechtbank zal bepalen dat deze uitspraak in zoverre in de plaats treedt van de vernietigde uitspraak op bezwaar. Verweerder hoeft dus geen nieuwe beslissing te nemen op het bezwaarschrift van eiseres</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>23.</nr>
+          <para>Nu het beroep gegrond is ziet de rechtbank tevens aanleiding om verweerder te veroordelen in de kosten die eiseres voor de behandeling van haar beroep redelijkerwijs heeft moeten maken. Deze kosten heeft de rechtbank, met toepassing van het Besluit proceskosten bestuursrecht, vastgesteld op € 1.311 voor door een derde beroepsmatig verleende rechtsbijstand. Dit bedrag is het product van 2 (punten voor het opstellen van het beroepschrift en het verschijnen ter zitting ) en € 437 (waarde per punt), 1 (gewicht van de zaak: gemiddeld) en 1,5 (samenhangende zaken). Verder dient verweerder het door eiseres betaalde griffierecht te vergoeden.</para>
+          <para/>
+          <para/>
+          <para/>
+        </paragroup>
+      </section>
+      <section role="beslissing">
+        <title>Beslissing</title>
+        <para/>
+        <parablock>
+          <para>De rechtbank </para>
+        </parablock>
+        <para/>
+        <itemizedlist mark="-">
+          <listitem>
+            <para>verklaart het beroep gegrond;</para>
+          </listitem>
+          <listitem>
+            <para>vernietigt de uitspraak op bezwaar van 21 februari 2011 voor zover het betreft de proceskostenvergoeding;</para>
+          </listitem>
+          <listitem>
+            <para>bepaalt dat verweerder de proceskosten van eiseres in de bezwaarfase ten bedrage van <?linebreak?>€ 654 voor kosten rechtsbijstand en € 250 voor de kosten van de deskundige vergoedt en bepaalt dat deze uitspraak in zoverre in de plaats treedt van het vernietigde gedeelte van de uitspraak op bezwaar;</para>
+          </listitem>
+        </itemizedlist>
+        <itemizedlist mark="-">
+          <listitem>
+            <para>veroordeelt verweerder in de aan de zijde van eiseres redelijkerwijs gemaakte proceskosten in de beroepsfase ten bedrage van € 1.311;</para>
+          </listitem>
+          <listitem>
+            <para>bepaalt dat de betaling van de totale proceskosten van € 2.215 geschiedt aan eiseres;</para>
+          </listitem>
+        </itemizedlist>
+        <para>- bepaalt dat verweerder aan eiseres het door eiseres betaalde griffierecht van € 302 vergoedt.</para>
+        <para/>
+        <parablock>
+          <para>Deze uitspraak is gedaan door mr. T. Luigjes, voorzitter, en mr. drs. C.M. Van Wechem en <?linebreak?><?linebreak?>mr. W.A. Swildens, leden, in tegenwoordigheid van mr. S.C. Jacobs, griffier. <?linebreak?>De beslissing is in het openbaar uitgesproken op 7 juni 2012.</para>
+        </parablock>
+        <para/>
+        <para/>
+        <para/>
+        <parablock>
+          <para>griffier	</para>
+          <para>		rechter</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>afschrift verzonden aan partijen op:</para>
+        </parablock>
+        <para/>
+      </section>
+      <section>
+        <title>Rechtsmiddel</title>
+        <para>Tegen deze uitspraak kan binnen zes weken na de dag van verzending daarvan hoger beroep worden ingesteld bij het gerechtshof te Amsterdam.</para>
+        <para/>
+      </section>
+    </uitspraak>
+</open-rechtspraak>

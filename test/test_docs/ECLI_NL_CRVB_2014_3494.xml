@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:CRVB:2014:3494</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2014-10-29T13:10:01</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2014-10-29</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Centrale_Raad_van_Beroep" scheme="overheid.RechterlijkeMacht">Centrale Raad van Beroep</dcterms:creator>
+      <dcterms:date rdfs:label="Uitspraakdatum">2014-01-28</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">14-3462 WWB-VV-R</psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak</dcterms:type>
+      <psi:procedure rdf:language="nl" rdfs:label="Procedure" resourceIdentifier="http://psi.rechtspraak.nl/procedure#voorlopigeVoorzieningbodemzaak">Voorlopige voorziening+bodemzaak</psi:procedure>
+      <dcterms:coverage>NL</dcterms:coverage>
+      <dcterms:subject rdfs:label="Rechtsgebied" resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_socialezekerheidsrecht">Bestuursrecht; Socialezekerheidsrecht</dcterms:subject>
+      <dcterms:relation rdfs:label="Formele relatie" ecli:resourceIdentifier="ECLI:NL:CRVB:2014:3488" psi:type="http://psi.rechtspraak.nl/definitiefNaRectificatie" psi:aanleg="http://psi.rechtspraak.nl/latereAanleg">Uitspraak na rectificatie: ECLI:NL:CRVB:2014:3488</dcterms:relation>
+      <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+        <rdf:list>
+          <rdf:li>Rechtspraak.nl</rdf:li>
+        </rdf:list>
+      </dcterms:hasVersion>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CRVB:2014:3494">
+      <dcterms:identifier>http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:CRVB:2014:3494</dcterms:identifier>
+      <dcterms:format>text/html</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2014-10-29T13:09:03</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2014-10-29</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:title rdf:language="nl">ECLI:NL:CRVB:2014:3494 Centrale Raad van Beroep , 28-01-2014 / 14-3462 WWB-VV-R</dcterms:title>
+      <dcterms:abstract resourceIdentifier="../../rs:inhoudsindicatie"/>
+    </rdf:Description>
+  </rdf:RDF>
+  <inhoudsindicatie id="ECLI:NL:CRVB:2014:3494:INH" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <para>Uitspraak tot rectificatie van de uitspraak van de voorzieningenrechter van de Raad van 29 juli 2014, 14/3462 WWB-VV en 14/2378 WWB), zie ECLI:NL:CRVB:2014:3488 voor de gerectificeerde tekst.</para>
+    </inhoudsindicatie>
+  <uitspraak id="ECLI:NL:CRVB:2014:3494:DOC" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <para>14/3462 WWB-VV-R, 14/2378 WWB-R </para>
+      <para>Centrale Raad van Beroep</para>
+      <para>Voorzieningenrechter</para>
+      <parablock>
+        <para>Uitspraak tot rectificatie van de uitspraak van de voorzieningenrechter van de Raad van 29 juli 2014, 14/3462 WWB-VV en 14/2378 WWB</para>
+      </parablock>
+      <parablock>
+        <para>Partijen:</para>
+      </parablock>
+      <parablock>
+        <para>[Verzoekster]te [woonplaats] (verzoekster)</para>
+      </parablock>
+      <parablock>
+        <para>het college van burgemeester en wethouders van Tilburg (college)</para>
+      </parablock>
+      <parablock>
+        <para>PROCESVERLOOP</para>
+        <para>De voorzieningenrechter van de Raad heeft, naar aanleiding van de brief van </para>
+        <para>mr. R.A.H. van Huijgevoort van 4 augustus 2014,vastgesteld dat zijn uitspraak van </para>
+        <para>29 juli 2014 een kennelijke fout in de beslissing bevat en daarin aanleiding gezien het college in de gelegenheid te stellen zich schriftelijk uit te laten over een rectificatie van de uitspraak.</para>
+      </parablock>
+      <parablock>
+        <para>Het college heeft van die gelegenheid geen gebruik gemaakt.</para>
+      </parablock>
+      <section>
+        <title>OVERWEGINGEN</title>
+        <para>1. De voorzieningenrechter van de Raad heeft vastgesteld dat in de overweging van de uitspraak ten onrechte de door verzoekster gemaakte reiskosten ten bedrage van € 24,20 ten behoeve van het bijwonen van de zitting niet in de berekening zijn meegenomen.</para>
+        <para/>
+        <para>2. De voorzieningenrechter van de Raad zal de onder 1 vermelde vergissing herstellen op de in het dictum aangegeven wijze. </para>
+        <para/>
+        <para>3. Aan deze uitspraak tot rectificatie is een gerectificeerd exemplaar van de oorspronkelijke uitspraak gehecht. De gerectificeerde uitspraak zal worden gepubliceerd op rechtspraak.nl en de oorspronkelijke uitspraak zal daaruit worden verwijderd. Het ECLI-nummer van de gerectificeerde uitspraak zal gelijk zijn aan dat van de oorspronkelijke uitspraak.</para>
+      </section>
+      <section role="beslissing">
+        <title>BESLISSING</title>
+        <parablock>
+          <para>De voorzieningenrechter van de Centrale Raad van Beroep rectificeert zijn uitspraak van </para>
+          <para>29 juli 2014, 14/3462 WWB-VV en 14/ 2378 WWB, als volgt:</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>Aan de rechtsoverweging 5 wordt toegevoegd “wat betreft verleende rechtsbijstand en op </para>
+          <para>€ 24,20 voor gemaakte reiskosten.”.</para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>De beslissing wordt op het punt van de proceskosten gewijzigd in: </para>
+          <para>“- veroordeelt het college in de proceskosten van verzoekster tot een bedrag van € 1.972,20;”.</para>
+        </parablock>
+        <para/>
+        <para/>
+        <parablock>
+          <para>Deze uitspraak is gedaan door C. van Viegen, in tegenwoordigheid van M.R. Schuurman als griffier. De beslissing is uitgesproken in het openbaar op 28 oktober 2014.</para>
+        </parablock>
+        <para/>
+        <para/>
+        <para/>
+        <parablock>
+          <para>(getekend) C. van Viegen</para>
+        </parablock>
+        <para/>
+        <para/>
+        <para/>
+        <parablock>
+          <para>(getekend) M.R. Schuurman</para>
+        </parablock>
+        <para/>
+        <para/>
+      </section>
+      <bridgehead>HD</bridgehead>
+    </uitspraak>
+</open-rechtspraak>
