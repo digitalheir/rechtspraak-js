@@ -275,6 +275,11 @@ export const _context = {
         "owl:sameAs": "http://psi.rechtspraak.nl/procedure#herziening",
         "rdfs:label": [{"@value": "Herziening", "@language": "nl"}]
     },
+    "procedure#herroeping": {
+        "@id": "lawly:procedure#herroeping",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#herroeping",
+        "rdfs:label": [{"@value": "Herroeping", "@language": "nl"}]
+    },
     "procedure#eersteEnEnigeAanleg": {
         "@id": "lawly:procedure#eersteEnEnigeAanleg",
         "owl:sameAs": "http://psi.rechtspraak.nl/procedure#eersteEnEnigeAanleg",
@@ -567,11 +572,21 @@ export const _context = {
     "psi:gevolg": {
         "@type": "@vocab"
     },
+    "gevolg#strekt tot vernietiging": {
+        "@id": "lawly:gevolg#strekt%20tot%20vernietiging",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#strekt tot vernietiging",
+        "rdfs:label": [{"@value": "Strekt tot vernietiging", "@language": "nl"}],
+    },
     "gevolg#meerdere afhandelingswijzen": {
         "@id": "lawly:gevolg#meerdere%20afhandelingswijzen",
         "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#meerdere afhandelingswijzen",
         "rdfs:label": [{"@value": "Meerdere afhandelingswijzen", "@language": "nl"}],
-        "key": "gevolg"
+    },
+    "gevolg#prejudiciële beslissing": {
+        "@id": "lawly:gevolg#prejudici%C3%ABle%20beslissing",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#prejudiciële beslissing",
+        "rdfs:label": [{"@value": "Prejudiciële beslissing", "@language": "nl"}],
+
 
     },
     "gevolg#overig": {
@@ -702,6 +717,21 @@ export const _context = {
         "owl:sameAs": "http://psi.rechtspraak.nl/cassatie",
         "rdfs:label": [{"@value": "Cassatie", "@language": "nl"}]
     },
+    "prejudicieleVraag": {
+        "@id": "lawly:type/prejudicieleVraag",
+        "owl:sameAs": "http://psi.rechtspraak.nl/prejudicieleVraag",
+        "rdfs:label": [{"@value": "Prejudiciële vraag", "@language": "nl"}]
+    },
+    "ontnemingsvordering": {
+        "@id": "lawly:type/ontnemingsvordering",
+        "owl:sameAs": "http://psi.rechtspraak.nl/ontnemingsvordering",
+        "rdfs:label": [{"@value": "Ontnemingsvordering", "@language": "nl"}]
+    },
+    "inachtnemingPrejudicieleBeslissing": {
+        "@id": "lawly:type/inachtnemingPrejudicieleBeslissing",
+        "owl:sameAs": "http://psi.rechtspraak.nl/inachtnemingPrejudicieleBeslissing",
+        "rdfs:label": [{"@value": "Inachtneming prejudiciële beslissing", "@language": "nl"}]
+    },
     "definitiefNaRectificatie": {
         "@id": "lawly:type/definitiefNaRectificatie",
         "owl:sameAs": "http://psi.rechtspraak.nl/definitiefNaRectificatie",
@@ -721,11 +751,24 @@ export const _context = {
         "@id": "lawly:type/oorspronkelijkBesluitDefinitiefBesluit",
         "owl:sameAs": "http://psi.rechtspraak.nl/oorspronkelijkBesluitDefinitiefBesluit",
         "rdfs:label": [{"@value": "Oorspronkelijke uitspraak", "@language": "nl"}]
+    },  "tussenuitspraak": {
+        "@id": "lawly:type/tussenuitspraak",
+        "owl:sameAs": "http://psi.rechtspraak.nl/tussenuitspraak",
+        "rdfs:label": [{"@value": "Tussenuitspraak", "@language": "nl"}]
+    },"herziening": {
+        "@id": "lawly:type/herziening",
+        "owl:sameAs": "http://psi.rechtspraak.nl/herziening",
+        "rdfs:label": [{"@value": "Herziening", "@language": "nl"}]
     },
     "terugverwijzing": {
         "@id": "lawly:type/terugverwijzing",
         "owl:sameAs": "http://psi.rechtspraak.nl/terugverwijzing",
         "rdfs:label": [{"@value": "Terugverwijzing", "@language": "nl"}]
+    },
+    "verwijzing": {
+        "@id": "lawly:type/verwijzing",
+        "owl:sameAs": "http://psi.rechtspraak.nl/verwijzing",
+        "rdfs:label": [{"@value": "Verwijzing", "@language": "nl"}]
     },
     "hogerBeroep": {
         "@id": "lawly:type/hogerBeroep",

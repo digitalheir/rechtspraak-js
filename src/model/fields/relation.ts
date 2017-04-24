@@ -19,8 +19,9 @@ export type Aanleg =
 
 export type Gevolg =
     "gevolg#bekrachtiging/bevestiging"
-    | "gevolg#meerdere afhandelingswijzen"
     | "gevolg#overig"
+    | "gevolg#strekt tot vernietiging"
+    | "gevolg#prejudiciële beslissing"
     | "gevolg#meerdere afhandelingswijzen"
     | "gevolg#overig"
     | "gevolg#niet ontvankelijk"
@@ -44,13 +45,19 @@ export type RelationType =
     "conclusieVoorCassatie"
     | "tussenuitspraakBestuurlijkeLus"
     | "conclusie"
+    | "prejudicieleVraag"
     | "hogerBeroep"
     | "cassatie"
+    | "herziening"
+    | "verwijzing"
     | "terugverwijzing"
     | "rectificatieBesluit"
+    | "ontnemingsvordering"
     | "definitiefNaRectificatie"
     | "vervallenverklaring"
     | "oorspronkelijkBesluitDefinitiefBesluit"
+    | "inachtnemingPrejudicieleBeslissing"
+    | "tussenuitspraak"
     ;
 
 export interface Relation extends StandardResourceObject {
@@ -61,6 +68,8 @@ export interface Relation extends StandardResourceObject {
 export const uriMappingGevolg: { [k: string]: Gevolg } = {
     "bekrachtiging/bevestiging": "gevolg#bekrachtiging/bevestiging",
     "meerdere afhandelingswijzen": "gevolg#meerdere afhandelingswijzen",
+    "prejudiciële beslissing": "gevolg#prejudiciële beslissing",
+    "strekt tot vernietiging": "gevolg#strekt tot vernietiging",
     "overig": "gevolg#overig",
     "(Gedeeltelijke) vernietiging en zelf afgedaan": "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan",
     "niet ontvankelijk": "gevolg#niet ontvankelijk",
@@ -103,7 +112,11 @@ function getGevolg(gevolg?: string, label?: string): Gevolg | undefined {
 const uriMappingRelationType: { [k: string]: RelationType } = {
     "conclusieVoorCassatie": "conclusieVoorCassatie",
     "tussenuitspraakBestuurlijkeLus": "tussenuitspraakBestuurlijkeLus",
+    "prejudicieleVraag": "prejudicieleVraag",
     "conclusie": "conclusie",
+    "herziening": "herziening",
+    "verwijzing": "verwijzing",
+    "ontnemingsvordering": "ontnemingsvordering",
     "hogerBeroep": "hogerBeroep",
     "terugverwijzing": "terugverwijzing",
     "rectificatieBesluit": "rectificatieBesluit",
@@ -111,6 +124,8 @@ const uriMappingRelationType: { [k: string]: RelationType } = {
     "definitiefNaRectificatie": "definitiefNaRectificatie",
     "vervallenverklaring": "vervallenverklaring",
     "oorspronkelijkBesluitDefinitiefBesluit": "oorspronkelijkBesluitDefinitiefBesluit",
+    "tussenuitspraak": "tussenuitspraak",
+    "inachtnemingPrejudicieleBeslissing": "inachtnemingPrejudicieleBeslissing",
     };
 
 function getRelationType(uri: string, label: string, id?:string): RelationType {

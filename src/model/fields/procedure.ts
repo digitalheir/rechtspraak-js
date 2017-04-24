@@ -9,6 +9,7 @@ export type Procedure =
     | "procedure#eersteAanlegEnkelvoudig"
     | "procedure#verzet"
     | "procedure#bodemzaak"
+    | "procedure#herroeping"
     | "procedure#eersteEnEnigeAanleg"
     | "procedure#voorlopigeVoorziening"
     | "procedure#herziening"
@@ -47,6 +48,7 @@ const uriMappingProcedure: { [k: string]: Procedure } = {
     "voorlopigeVoorziening": "procedure#voorlopigeVoorziening",
     "verzet": "procedure#verzet",
     "bodemzaak": "procedure#bodemzaak",
+    "herroeping": "procedure#herroeping",
     "eersteEnEnigeAanleg": "procedure#eersteEnEnigeAanleg",
     "herziening": "procedure#herziening",
     "hogerBeroep": "procedure#hogerBeroep",
