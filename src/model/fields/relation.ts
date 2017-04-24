@@ -84,7 +84,6 @@ export const uriMappingGevolg: { [k: string]: Gevolg } = {
     "toewijzing": "gevolg#toewijzing",
     "verzet toegewezen": "gevolg#verzet toegewezen",
     "afwijzing": "gevolg#afwijzing",
-    "sprongcassatie": "sprongcassatie",
     "verzet ongegrond": "gevolg#verzet ongegrond",
     "afwijzing vordering": "gevolg#afwijzing vordering",
     "gegrondverklaring": "gevolg#gegrondverklaring"
@@ -116,6 +115,7 @@ const uriMappingRelationType: { [k: string]: RelationType } = {
     "tussenuitspraakBestuurlijkeLus": "tussenuitspraakBestuurlijkeLus",
     "prejudicieleVraag": "prejudicieleVraag",
     "conclusie": "conclusie",
+    "sprongcassatie": "sprongcassatie",
     "herziening": "herziening",
     "verwijzing": "verwijzing",
     "ontnemingsvordering": "ontnemingsvordering",
