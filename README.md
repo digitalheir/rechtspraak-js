@@ -12,7 +12,9 @@ This work is a tangible step forward towards machine readable legal data.
 
 ## Data
 
-A dump of the metadata in sanitized JSON-LD is available at https://rechtspraak.lawreader.nl/_all (⚠ the database is currently still filling up, it will take a couple of days to complete). This URL will load the complete knowledge graph of Rechtspraak.nl. Be warned that it is multiple gigabyes in size.
+### ⚠ the database is currently still filling up, it will take a couple of days to complete
+
+A dump of the sanitized metadata is available at https://rechtspraak.lawreader.nl/_all. This URL will load the complete knowledge graph of Rechtspraak.nl. This page returns a JSON document of multiple gigabyes in size. The object has two fields: `@context`, which provides the URI mappings and `@graph`, which is an array filled with the actual data ([see JSON-LD specification for more information](http://json-ld.org/spec/latest/json-ld/#named-graphs)). I recommend using a streaming JSON parser like [Oboe.js](https://oboejs.com/) to consume the data.
 
 For accessing subsets of the knowledge graph, you can use most of the API from [CouchDB views](http://guide.couchdb.org/draft/views.html), ie: https://rechtspraak.lawreader.nl/_all?limit=100&skip=50 will limit your request to 100 docs after the first 50. Mind that you can also use `startkey` to paginate faster: [_all?startkey="ECLI:NL:CBB:2015:5"&limit=50](https://rechtspraak.lawreader.nl/_all?startkey=%22ECLI:NL:CBB:2015:5%22&limit=50) will fetch the first 50 docs starting at [ECLI:NL:CBB:2015:5](https://rechtspraak.lawreader.nl/ecli/ECLI:NL:CBB:2015:5). Note that the documents are ordered alphabetically by their ids. 
 
