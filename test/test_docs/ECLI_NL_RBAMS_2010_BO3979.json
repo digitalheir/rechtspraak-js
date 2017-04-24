@@ -1,0 +1,95 @@
+{
+  "_id": "ECLI:NL:RBAMS:2010:BO3979",
+  "@type": "schema:Report",
+  "accessRights": "muhAccessRights:public",
+  "issued": "2013-04-05",
+  "metadataModified": "2015-11-12T14:52:09",
+  "contentModified": "2013-04-05T07:13:12",
+  "htmlIssued": "2010-11-15",
+  "owl:sameAs": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBAMS:2010:BO3979",
+  "language": "nl",
+  "creator": {
+    "@id": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Amsterdam",
+    "rdfs:label": [
+      {
+        "@value": "Rechtbank Amsterdam",
+        "@language": "nl"
+      }
+    ],
+    "scheme": "overheid.RechterlijkeMacht",
+    "originalIdentifier": "http://standaarden.overheid.nl/owms/terms/Rechtbank_Amsterdam"
+  },
+  "date": "2010-09-07",
+  "zaaknummer": [
+    "AWB 10-2582 WW44"
+  ],
+  "type": "uitspraak",
+  "spatial": {
+    "@id": "muhSpatial:Amsterdam",
+    "rdfs:label": [
+      {
+        "@value": "Amsterdam",
+        "@language": "nl"
+      }
+    ]
+  },
+  "subject": [
+    "rechtsgebied#bestuursrecht"
+  ],
+  "hasVersion": [
+    {
+      "@id": "muhHasVersion:Rechtspraak.nl",
+      "rdfs:label": [
+        {
+          "@value": "Rechtspraak.nl",
+          "@language": "nl"
+        }
+      ]
+    }
+  ],
+  "replaces": [
+    "BO3979"
+  ],
+  "publisher": [
+    {
+      "@id": "http://rechtspraak.nl/",
+      "rdfs:label": [
+        {
+          "@value": "Raad voor de Rechtspraak",
+          "@language": "nl"
+        }
+      ]
+    }
+  ],
+  "relation": [
+    {
+      "@id": "ECLI:NL:RBSGR:2009:BI4396",
+      "aanleg": "eerdereAanleg",
+      "type": "verzet",
+      "rdfs:label": [
+        {
+          "@value": "Op verzet tegen : ECLI:NL:RBSGR:2009:BI4396, (Gedeeltelijke) vernietiging en zelf afgedaan",
+          "@language": "nl"
+        }
+      ],
+      "gevolg": "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan"
+    }
+  ],
+  "procedure": [
+    "procedure#eersteAanlegMeervoudig"
+  ],
+  "coverage": "nl",
+  "title": {
+    "@value": "ECLI:NL:RBAMS:2010:BO3979 Rechtbank Amsterdam , 07-09-2010 / AWB 10-2582 WW44",
+    "@language": "nl"
+  },
+  "abstract": {
+    "abstractXml": "<?xml version=\"1.0\" encoding=\"utf-8\"?><inhoudsindicatie id=\"ECLI:NL:RBAMS:2010:BO3979:INH\" lang=\"nl\" xml:space=\"preserve\" xmlns=\"http://www.rechtspraak.nl/schema/rechtspraak-1.0\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <para>Vaststelling schadevergoeding overschrijding redelijke termijn ex 6 EVRM.  De rechtbank overweegt dat in het forfaitaire systeem, zoals neergelegd in de jurisprudentie van de Afdeling, niet uitdrukkelijk rekening is gehouden met situaties als hier aan de orde, waarin twintig eisers gezamenlijk om schadevergoeding verzoeken. De rechtbank ziet daarom aanleiding om te komen tot een meer genuanceerde benadering, waarbij de hoogte van de tarieven binnen het forfaitaire systeem tot uitgangspunt wordt genomen, maar de hoogte van de schadevergoeding wordt toegespitst op de werkelijke duur van de overschrijding.</para>\n    </inhoudsindicatie>",
+    "@value": "Vaststelling schadevergoeding overschrijding redelijke termijn ex 6 EVRM. De rechtbank overweegt dat in het forfaitaire systeem, zoals neergelegd in de jurisprudentie van de Afdeling, niet uitdrukkelijk rekening is gehouden met situaties als hier aan de orde, waarin twintig eisers gezamenlijk om schadevergoeding verzoeken. De rechtbank ziet daarom aanleiding om te komen tot een meer genuanceerde benadering, waarbij de hoogte van de tarieven binnen het forfaitaire systeem tot uitgangspunt wordt genomen, maar de hoogte van de schadevergoeding wordt toegespitst op de werkelijke duur van de overschrijding."
+  },
+  "source": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBAMS:2010:BO3979",
+  "about": "http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBAMS:2010:BO3979",
+  "couchDbUpdated": "2017-04-11T20:28:46.064Z",
+  "corpus": "Rechtspraak.nl",
+  "page": "https://rechtspraak.lawreader.nl/ecli/ECLI:NL:RBAMS:2010:BO3979"
+}

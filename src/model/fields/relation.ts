@@ -45,7 +45,10 @@ export type RelationType =
     "conclusieVoorCassatie"
     | "tussenuitspraakBestuurlijkeLus"
     | "conclusie"
+    | "conclusieVoorSprongcassatie"
     | "prejudicieleVraag"
+    | "verzet"
+    | "nadereConclusie"
     | "hogerBeroep"
     | "cassatie"
     | "herziening"
@@ -66,6 +69,7 @@ export interface Relation extends StandardResourceObject {
     "aanleg": Aanleg;
     "type": RelationType;
 }
+//noinspection JSNonASCIINames
 export const uriMappingGevolg: { [k: string]: Gevolg } = {
     "bekrachtiging/bevestiging": "gevolg#bekrachtiging/bevestiging",
     "meerdere afhandelingswijzen": "gevolg#meerdere afhandelingswijzen",
@@ -115,6 +119,9 @@ const uriMappingRelationType: { [k: string]: RelationType } = {
     "tussenuitspraakBestuurlijkeLus": "tussenuitspraakBestuurlijkeLus",
     "prejudicieleVraag": "prejudicieleVraag",
     "conclusie": "conclusie",
+    "nadereConclusie": "nadereConclusie",
+    "conclusieVoorSprongcassatie": "conclusieVoorSprongcassatie",
+    "verzet": "verzet",
     "sprongcassatie": "sprongcassatie",
     "herziening": "herziening",
     "verwijzing": "verwijzing",

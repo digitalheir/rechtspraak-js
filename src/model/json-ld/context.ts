@@ -526,11 +526,6 @@ export const _context = {
         "owl:sameAs": "http://psi.rechtspraak.nl/uitspraak",
         "rdfs:label": [{"@value": "Uitspraak", "@language": "nl"}]
     },
-    "tussenuitspraakBestuurlijkeLus": {
-        "@id": "lawly:type/tussenuitspraakBestuurlijkeLus",
-        "owl:sameAs": "http://psi.rechtspraak.nl/tussenuitspraakBestuurlijkeLus",
-        "rdfs:label": [{"@value": "Tussenuitspraak bestuurlijke lus", "@language": "nl"}]
-    },
     "conclusie": {
         "@id": "lawly:type/conclusie",
         "owl:sameAs": "http://psi.rechtspraak.nl/conclusie",
@@ -540,6 +535,26 @@ export const _context = {
         "@id": "lawly:type/conclusieVoorCassatie",
         "owl:sameAs": "http://psi.rechtspraak.nl/conclusieVoorCassatie",
         "rdfs:label": [{"@value": "Conclusie voor cassatie", "@language": "nl"}]
+    },
+    "tussenuitspraakBestuurlijkeLus": {
+        "@id": "lawly:type/tussenuitspraakBestuurlijkeLus",
+        "owl:sameAs": "http://psi.rechtspraak.nl/tussenuitspraakBestuurlijkeLus",
+        "rdfs:label": [{"@value": "Tussenuitspraak bestuurlijke lus", "@language": "nl"}]
+    },
+    "verzet": {
+        "@id": "lawly:type/verzet",
+        "owl:sameAs": "http://psi.rechtspraak.nl/verzet",
+        "rdfs:label": [{"@value": "Verzet", "@language": "nl"}]
+    },
+    "nadereConclusie": {
+        "@id": "lawly:type/nadereConclusie",
+        "owl:sameAs": "http://psi.rechtspraak.nl/nadereConclusie",
+        "rdfs:label": [{"@value": "Nadere conclusie", "@language": "nl"}]
+    },
+    "conclusieVoorSprongcassatie": {
+        "@id": "lawly:type/conclusieVoorSprongcassatie",
+        "owl:sameAs": "http://psi.rechtspraak.nl/conclusieVoorSprongcassatie",
+        "rdfs:label": [{"@value": "Conclusie voor sprongcassatie", "@language": "nl"}]
     },
 
 

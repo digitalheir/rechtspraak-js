@@ -85,6 +85,19 @@ describe("XML should convert to JSON-LD", function () {
         );
     });
 
+    it("given verzet, should render correctly", function () {
+        const docName = "ECLI_NL_RBAMS_2010_BO3979";
+
+        const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
+        console.log(JSON.stringify(generatedJson));
+
+
+        assert.deepEqual(
+            generatedJson,
+            expectedJson
+        );
+    });
+
     it("given bestuursrecht, should render correctly", function () {
         const docName = "ECLI_NL_CBB_1997_ZG0125";
 
