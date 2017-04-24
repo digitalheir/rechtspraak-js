@@ -51,6 +51,7 @@ export type RelationType =
     | "herziening"
     | "verwijzing"
     | "terugverwijzing"
+    | "sprongcassatie"
     | "rectificatieBesluit"
     | "ontnemingsvordering"
     | "definitiefNaRectificatie"
@@ -83,6 +84,7 @@ export const uriMappingGevolg: { [k: string]: Gevolg } = {
     "toewijzing": "gevolg#toewijzing",
     "verzet toegewezen": "gevolg#verzet toegewezen",
     "afwijzing": "gevolg#afwijzing",
+    "sprongcassatie": "sprongcassatie",
     "verzet ongegrond": "gevolg#verzet ongegrond",
     "afwijzing vordering": "gevolg#afwijzing vordering",
     "gegrondverklaring": "gevolg#gegrondverklaring"

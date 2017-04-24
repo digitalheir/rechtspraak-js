@@ -722,6 +722,11 @@ export const _context = {
         "owl:sameAs": "http://psi.rechtspraak.nl/prejudicieleVraag",
         "rdfs:label": [{"@value": "Prejudiciële vraag", "@language": "nl"}]
     },
+    "sprongcassatie": {
+        "@id": "lawly:type/sprongcassatie",
+        "owl:sameAs": "http://psi.rechtspraak.nl/sprongcassatie",
+        "rdfs:label": [{"@value": "Sprongcassatie", "@language": "nl"}]
+    },
     "ontnemingsvordering": {
         "@id": "lawly:type/ontnemingsvordering",
         "owl:sameAs": "http://psi.rechtspraak.nl/ontnemingsvordering",
