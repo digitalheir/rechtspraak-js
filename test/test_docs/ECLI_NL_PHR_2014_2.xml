@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:PHR:2014:2</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2016-04-07T16:52:21</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2014-01-21</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Parket_bij_de_Hoge_Raad" scheme="overheid.RechterlijkeMacht">Parket bij de Hoge Raad</dcterms:creator>
+      <dcterms:date rdfs:label="Datum genomen">2014-01-16</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">13/03330</psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/conclusie">Conclusie</dcterms:type>
+      <dcterms:coverage>NL</dcterms:coverage>
+      <dcterms:subject rdfs:label="Rechtsgebied" resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht">Bestuursrecht; Belastingrecht</dcterms:subject>
+      <dcterms:relation rdfs:label="Formele relatie" ecli:resourceIdentifier="ECLI:NL:PHR:2014:69" psi:type="http://psi.rechtspraak.nl/nadereConclusie" psi:aanleg="http://psi.rechtspraak.nl/latereAanleg">Nadere conclusie: ECLI:NL:PHR:2014:69</dcterms:relation>
+      <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+        <rdf:list>
+          <rdf:li>Rechtspraak.nl</rdf:li>
+          <rdf:li>V-N 2014/8.19 met annotatie van Kluwer</rdf:li>
+          <rdf:li>FutD 2014-0181</rdf:li>
+          <rdf:li>Anna Gunn annotatie in NTFR 2014/742</rdf:li>
+        </rdf:list>
+      </dcterms:hasVersion>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:PHR:2014:2">
+      <dcterms:identifier>http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:PHR:2014:2</dcterms:identifier>
+      <dcterms:format>text/html</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2015-02-18T13:25:39</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2014-01-24</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:title rdf:language="nl">ECLI:NL:PHR:2014:2 Parket bij de Hoge Raad , 16-01-2014 / 13/03330</dcterms:title>
+      <dcterms:abstract resourceIdentifier="../../rs:inhoudsindicatie"/>
+    </rdf:Description>
+  </rdf:RDF>
+  <inhoudsindicatie id="ECLI:NL:PHR:2014:2:INH" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <para>Afwijzing verzoek fiscale eenheid met Nederlandse kleindochters zonder voeging van EU-tussenhoudster; strijd met EU-vestigingsvrijheid? Strijd met art. 24(5) OESO-Modelverdrag? Uitleg HvJ EU Papillon in het licht van het posterieure arrest X Holding BV; maatregel zonder onderscheid; verschillen met Britse group relief en Franse intégration fiscale; omgekeerde discriminatie? </para>
+      <para/>
+      <para>Feiten: de belanghebbende wil met haar in Nederland gevestigde kleindochters een fiscale eenheid (f.e.) ex art. 15 Wet Vpb aangaan. De tussenhoudsters zijn in Griekenland c.q. Spanje gevestigd; om hun voeging wordt niet verzocht. Het voegingsverzoek is afgewezen.</para>
+      <para/>
+      <para>In geschil is of deze afwijzing in strijd is met de vrijheid van vestiging ex art. 49 VwEU of de nondiscriminatiebepalingen in de belastingverdragen met Spanje en Griekenland. </para>
+      <para/>
+      <para>De Rechtbank zag een ongelijke behandeling van de grensoverschrijdende situatie, maar ook een rechtvaardiging, nl. de noodzaak om dubbele verliesverrekening te voorkomen. Het Hof heeft in hoger beroep geoordeeld dat aan de belanghebbende in het geheel geen beroep op art. 49 VwEU toekomt omdat haar situatie een geheel interne is en oordeelde het beroep op de belastingverdragen zonder feitelijke grondslag c.q. onvoldoende beargumenteerd.</para>
+      <para/>
+      <para>Cassatiemiddelen belanghebbende: (i) art. 49 VwEU is wel degelijk van toepassing en is geschonden door de weigering van de gewenste Papillon-eenheid en (ii) de afwijzing van het beroep op art. 26(4) belastingverdrag met Spanje en art. 26(5) belastingverdrag met Griekenland is onbegrijpelijk en onjuist.</para>
+      <para/>
+      <parablock>
+        <para>Ad (i) meent A.-G. Wattel dat belanghebbendes geval inderdaad binnen bereik van art. 49 VwEU valt. Haar wordt een keuze onthouden die in een vergelijkbaar intern geval wel bestaat (voeging van ook de tussenhoudsters). Weliswaar zou, als de tussenhoudsters in Nederland waren gevestigd, een fiscale eenheid zonder voeging van tussenhoudsters evenmin mogelijk zijn geweest, zodat in zoverre geen ongelijke behandeling bestaat, maar in een intern geval zou de gewenste eenheid wel mogelijk zijn geweest door voeging van de tussenhoudsters terwijl zij in belanghebbendes situatie in geen geval tot stand kan komen. De belanghebbende beroept zich op het arrest van het HvJ EU in de zaak C-418/07, Papillon (over de Franse intégration fiscale). </para>
+        <para>Uit het nadien gewezen arrest C-337/08, X Holding BV (over de Nederlandse fiscale eenheid) blijkt dat de keuze die de belanghebbende wordt onthouden aan haar niet op grond van EU-recht toch geboden moet worden: de beperking van het f.e.-regime tot in Nederland gevestigde vennootschappen (en vaste inrichtinen) is weliswaar een beperking van de vestigingsvrijheid, maar wordt gerechtvaardigd door de noodzaak tot evenwichtige verdeling van de heffingsbevoegdheid, misbruikbestrijding en voorkoming van dubbele verliesverrekening. De belanghebbende heeft voorts niet verzocht om een behandeling die gelijk is aan die in het vergelijkbare interne geval, maar om een gunstiger behandeling, nl. om een voeging die in een vergelijkbaar intern geval niet beschikbaar is. Dat staat op gespannen voet met het Twaalfde protocol EVRM en daarmee met de artt. 20 en 21 EU-Handvest.</para>
+        <para>Daarmee rijst de vraag of Papillon meebrengt dat in een grensoverschrijdend geval een begunstigende behandeling moet worden verleend of het posterieure X Holding BV-arrest impliceert dat dat niet het geval is. Daarover waren volgens de AG prejudicieel vragen aan het HvJ EU te stellen in aanvulling op de reeds bij dat Hof aanhangige vragen in de door het Hof Amsterdam verwezen gevoegde zaken C-39/13, SCA Group Holding, C-40/13, X. AG e.a., en C-41/13, MSA International Holdings.</para>
+      </parablock>
+      <para/>
+      <parablock>
+        <para>Ad (ii) merkt de AG op dat de nondiscriminatiebepalingen in belastingverdragen zien op ongelijke behandeling gebaseerd op de vestiging in de andere Staat van de aandeelhouders van de betrokken onderneming. De belanghebbende stelt niet dat zij ongelijk behandeld wordt wegens de vestigingsplaats van haar aandeelhouders. Zij stelt kennelijk, en kennelijk namens haar Nederlandse kleindochters, dat dezen gediscrimineerd worden op grond van de vestigingsplaats van hun aandeelhouders (de tussenhoudsters). Veronderstellende dat de belanghebbende in deze procedure haar kleindochters kan vertegenwoordigen in deze, acht AG deze stelling ongegrond. De ingeroepen nondiscriminatiebepalingen zijn volgens hem ratione personae niet van toepassing. De kleindochters wordt de mogelijkheid tot voeging met de belanghebbende niet onthouden op grond van het inwonerschap van de tussenhoudsters, maar op grond van de niet-onderworpenheid van die tussenhoudsters in Nederland. Indien de tussenhoudsters in Nederland een vaste inrichting zouden hebben waaraan het aandelenbezit in de kleindochters toe te rekenen zou zijn geweest, dan was de gewenste consolidatie wél mogelijk geweest, hoewel beide tussenhoudsters nog steeds inwoner van Spanje resp. Griekenland zouden zijn geweest.</para>
+        <para>Ten overvloede merkt hij op dat zich geen discriminatie voordoet omdat in een interne situatie voeging zonder tussenhoudsters evenmin mogelijk is. Het commentaar bij het OESO-Modelbelastingverdrag is er duidelijk over dat het nondiscriminatie-artikel niet dient tot grensoverschrijdende fiscale consolidatie. Aan belanghebbendes geval (grootmoeder en kleindochter binnen één verdragsland) is uiteraard niet gedacht omdat een belastingverdrag en de OESO Committee on fiscal affairs daar niet over gaan. Het is daarmee zijns inziens volstrekt onwaarschijnlijk dat de OESO-Commentatoren zouden hebben gewild dat art. 24(5) OESO-Model zou kunnen dienen om - in strijd met nationaal recht en in privilegiërende afwijking van de vergelijkbare interne situatie - een voeging tussen een binnenlandse grootmoeder en kleindochter af te dwingen door simpel een tussenhoudster in het andere verdragsland te organiseren. Daar komt nog bij dat de belanghebbende helemaal geen gebruik wenst te maken van de keuze tegen het ontbreken waarvan zij zich verzet.</para>
+      </parablock>
+      <para/>
+      <para>Conclusie: middel (ii) ongegrond; naar aanleiding van middel (i) met spoed aanvullende prejudiciële vragen aan het HvJ EU stellen.</para>
+    </inhoudsindicatie>
+  <conclusie id="ECLI:NL:PHR:2014:2:DOC" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <conclusie.info>
+        <bridgehead role="bold smallcaps">Procureur-Generaal bij de Hoge Raad der Nederlanden</bridgehead>
+        <para/>
+        <parablock>
+          <para>
+            <emphasis role="smallcaps">mr. P.J. Wattel</emphasis>
+          </para>
+          <para>
+            <emphasis role="smallcaps">Advocaat-Generaal</emphasis>
+          </para>
+        </parablock>
+        <para/>
+        <parablock>
+          <para>
+            <emphasis role="bold">Conclusie</emphasis> van <emphasis role="bold">16 januari 2014 </emphasis>inzake:</para>
+        </parablock>
+        <para/>
+        <para/>
+        <informaltable>
+          <tgroup cols="2">
+            <colspec colname="colA"/>
+            <colspec colname="colB"/>
+            <tbody>
+              <row>
+                <entry>
+                  <para>Nr. Hoge Raad: 13/03330</para>
+                </entry>
+                <entry>
+                  <para>
+                    <emphasis role="bold">[X] B.V.</emphasis>
+                  </para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>Nr. Rechtbank: AWB 11/1084</para>
+                  <para>Nr. Gerechtshof: BK-12/00151</para>
+                </entry>
+                <entry>
+                  <para/>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>Derde Kamer A </para>
+                </entry>
+                <entry>
+                  <para>
+                    <emphasis role="bold">tegen</emphasis>
+                  </para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para/>
+                </entry>
+                <entry>
+                  <para/>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>Vennootschapsbelasting 2008</para>
+                  <para/>
+                  <para/>
+                </entry>
+                <entry>
+                  <para>
+                    <emphasis role="bold">de Staatssecretaris van Financiën</emphasis>
+                  </para>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+      </conclusie.info>
+      <section>
+        <title>
+          <nr>1</nr>Overzicht</title>
+        <paragroup>
+          <nr>1.1</nr>
+          <para>[X] BV (de belanghebbende) wil met haar kleindochter-vennootschappen [B] Holdings BV ([B]) en [A] BV ([A]) een fiscale eenheid ex art. 15 Wet Vennootschapsbelasting 1969 (Wet Vpb) vormen. Alle deze vennootschappen zijn naar Nederlands recht opgericht en in Nederland gevestigd. De tussenliggende dochtervennootschappen (de tussenhoudsters) zijn in Griekenland c.q. Spanje gevestigd; hun voeging wordt niet verzocht. De Inspecteur heeft het voegingsverzoek afgewezen en het bezwaar tegen die afwijzing ongegrond verklaard.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>1.2</nr>
+          <para>In geschil is of deze afwijzing in strijd is met de vrijheid van vestiging ex art. 49 Verdrag betreffende de werking van de Europese Unie (VwEU). De rechtbank Den Haag heeft een ongelijke behandeling van de grensoverschrijdende situatie geconstateerd ten opzichte van de binnenlandse, maar ook een rechtvaardiging daarvoor, nl. de noodzaak om dubbele verliesverrekening te voorkomen. Het hof Den Haag heeft in hoger beroep geoordeeld dat aan de belanghebbende in het geheel geen beroep op art. 49 VwEU toekomt omdat haar situatie een geheel interne is. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>1.3</nr>
+          <para>De belanghebbende betoogt in cassatie (i) dat haar geval wel degelijk binnen bereik van art. 49 VwEU valt en dat de weigering van de gewenste fiscale eenheid de EU-vrijheid van vestiging schendt en (ii) dat de weigering ook de non-discriminatieregels in art. 26(4) belastingverdrag met Spanje en art. 26(5) belastingverdrag met Griekenland schendt. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>1.4</nr>
+          <para>Ad (i) meen ik dat belanghebbendes geval inderdaad binnen bereik van art. 49 VwEU valt en dat haar een keuze wordt onthouden die in een vergelijkbaar intern geval wel geboden wordt (voeging van ook de tussenhoudsters). Als de tussenhoudsters in Nederland waren gevestigd, zou weliswaar een fiscale eenheid zonder voeging van tussenhoudsters evenmin mogelijk zijn geweest, zodat in zoverre geen ongelijkheid bestaat, maar in een intern geval zou de gewenste eenheid wel <emphasis role="italic">mogelijk</emphasis> zijn geweest (door voeging van de tussenhoudsters), terwijl zij in belanghebbendes situatie in geen geval tot stand kan komen. De belanghebbende wijst op het arrest van het HvJ EU in de zaak C-418/07, <emphasis role="italic">Papillon</emphasis>. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>1.5</nr>
+          <para>Ruim ná de zaak <emphasis role="italic">Papillon</emphasis> (over de Franse <emphasis role="italic">intégration fiscale</emphasis>) heeft het HvJ EU arrest gewezen in zaak C-337/08, <emphasis role="italic">X Holding BV</emphasis>, over de Nederlandse fiscale eenheid. Hij oordeelde dat de keuze die de belanghebbende in casu wordt onthouden (voeging van haar EU-tussenhoudsters) niet op grond van EU-recht geboden hoeft te worden: de beperking van het Nederlandse fiscale-eenheidsregime tot vennootschappen die in Nederland gevestigd zijn (of aldaar een vaste inrichting hebben), is weliswaar een beperking van de vestigingsvrijheid, maar wordt gerechtvaardigd door de noodzaak tot evenwichtige verdeling van heffingsbevoegdheid, misbruikbestrijding en voorkoming van dubbele verliesverrekening. De enige ongelijke behandeling ten opzichte van de interne situatie die in casu bestaat, is dus gerechtvaardigd. Daar komt bij dat de belanghebbende <emphasis role="italic">niet</emphasis> heeft verzocht de keuze te mogen maken die haar wordt onthouden in vergelijking met een intern geval. Zij heeft immers niet verzocht om een behandeling die gelijk is aan die in het vergelijkbare interne geval, maar om een gunstiger behandeling, nl. om een voeging die in een vergelijkbaar intern geval niet mogelijk is, hetgeen op gespannen voet staat met het Twaalfde protocol EVRM en daarmee met de artt. 20 en 21 EU-Handvest van de grondrechten. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>1.6</nr>
+          <para>Daarmee rijst de vraag of de zaak <emphasis role="italic">Papillon</emphasis> meebrengt dat in een grensoverschrijdend geval een dergelijke begunstigende behandeling moet worden verleend of dat het posterieure <emphasis role="italic">X Holding BV</emphasis>-arrest impliceert dat dat niet het geval is. Daarover waren mijns inziens prejudicieel vragen aan het HvJ EU te stellen in aanvulling op de reeds bij dat Hof aanhangige vragen in de door het Hof Amsterdam verwezen zaken C-39/13, <emphasis role="italic">SCA Group Holding</emphasis>, C-40/13, <emphasis role="italic">X. AG e.a.,</emphasis> en C-41/13, <emphasis role="italic">MSA International Holdings</emphasis>.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>1.7</nr>
+          <para>Ad (ii) merk ik op dat de ingeroepen nondiscriminatiebepalingen in de toepasselijke belastingverdragen zien op ongelijke behandeling op basis van de vestigingsstaat van de aandeelhouders van de betrokken onderneming. De belanghebbende stelt niet dat zij ongelijk behandeld wordt wegens de vestigingsplaats van <emphasis role="italic">haar</emphasis> aandeelhouders. Zij stelt kennelijk - en kennelijk namens haar Nederlandse kleindochters - dat dezen gediscrimineerd worden op grond van de vestigingsplaats van <emphasis role="italic">hun</emphasis> aandeelhouders (de tussenhoudsters). Veronderstellende dat zij in deze procedure haar kleindochters op dit punt kan vertegenwoordigen, meen ik dat haar stelling ongegrond is. De ingeroepen nondiscriminatiebepalingen <emphasis role="italic">ratione personae</emphasis> zijn mijns inziens niet van toepassing. De kleindochters wordt de mogelijkheid tot voeging met de belanghebbende niet onthouden op grond van het <emphasis role="italic">inwonerschap</emphasis> van de tussenhoudsters, maar op grond van de <emphasis role="italic">niet-onderworpenheid</emphasis> van die tussenhoudsters in Nederland. Indien de tussenhoudsters in Nederland een vaste inrichting zouden hebben onderhouden waaraan het aandelenbezit in de kleindochters toe te rekenen zou zijn geweest, dan was de gewenste consolidatie wél mogelijk geweest, hoewel beide tussenhoudsters nog steeds <emphasis role="italic">inwoner</emphasis> van Spanje resp. Griekenland zouden zijn geweest.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>1.8</nr>
+          <para>Ten overvloede meen ik dat zich geen discriminatie voordoet. In een interne situatie is een fiscale eenheid zonder tussenhoudsters evenmin mogelijk. Het commentaar bij het OESO-Modelbelastingverdrag is er duidelijk over dat het nondiscriminatie-artikel niet kan worden ingeroepen om grensoverschrijdend fiscaal te consolideren. Aan belanghebbendes geval (grootmoeder en kleindochter binnen één verdragsland) is niet gedacht; uiteraard niet, want daarover gaan een belastingverdrag en de OESO <emphasis role="italic">Committee on fiscal affairs</emphasis> niet. Het is daarmee mijns inziens volstrekt onwaarschijnlijk dat de OESO-Commentatoren zouden hebben gewild dat art. 24(5) OESO-Model zou kunnen dienen om - in strijd met nationaal recht en in privilegiërende afwijking van de vergelijkbare interne situatie - een voeging tussen een binnenlandse grootmoeder en kleindochter af te dwingen door simpel een tussenhoudster in het andere verdragsland te organiseren. Daar komt nog bij dat de belanghebbende helemaal geen gebruik wenst te maken van de keuze tegen het ontbreken waarvan zij zich verzet.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>1.9</nr>
+          <para>Ik acht belanghebbendes middel (ii) daarom ongegrond en geef u in overweging naar aanleiding van haar middel (i) aanvullende prejudiciële vragen aan het HvJ EU te stellen. </para>
+          <para/>
+        </paragroup>
+      </section>
+      <section>
+        <title>
+          <nr>2</nr>De feiten en het geding in feitelijke instanties</title>
+        <parablock>
+          <para> </para>
+          <para>
+            <emphasis role="italic">De feiten</emphasis>
+          </para>
+        </parablock>
+        <paragroup>
+          <nr>2.1</nr>
+          <para>De belanghebbende is opgericht naar Nederlands recht en statutair en feitelijk gevestigd in Nederland. Zij houdt alle aandelen in de in Spanje gevestigde vennootschap [C] S.L.U. ([C]), die geen vaste inrichting in Nederland heeft, maar wel alle aandelen houdt in [A] BV ([A]), die naar Nederlands recht is opgericht en statutair en feitelijk in Nederland is gevestigd. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.2</nr>
+          <para>De belanghebbende houdt voorts alle aandelen in de in Griekenland gevestigde [D] S.A. ([D]), die geen vaste inrichting in Nederland heeft. [D] houdt 9,43% van de aandelen in de in Griekenland gevestigde [E] S.A. ([E]) waarin de belanghebbende zelf rechtstreeks 89,95% van de aandelen houdt. 0,62% van de aandelen in [E] is in bezit van derden. [E] heeft geen vaste inrichting in Nederland, maar houdt wel alle aandelen in [B] Holdings B.V. ([B]) die is opgericht naar Nederlands recht en statutair en feitelijk in Nederland is gevestigd. Middellijk houdt de belanghebbende aldus 99,38% van de aandelen in [B]. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.3</nr>
+          <para>Het bovenstaande kan als volgt in worden samengevat:</para>
+          <mediaobject>
+            <imageobject>
+              <imagedata align="center" scale="100" fileref="2cd9bd53-bb3b-4471-9669-143a1f7a067b" depth="350" width="443" format="image/png"/>
+            </imageobject>
+          </mediaobject>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.4</nr>
+          <parablock>
+            <para>De belanghebbende heeft de Inspecteur in december 2008 verzocht om vanaf 1 oktober 2008 met [A] en [B] beschouwd te worden als een fiscale eenheid ex art. 15 Wet Vpb met de belanghebbende als moedermaatschappij. De Inspecteur heeft dit verzoek afgewezen, waartegen de belanghebbende bezwaar heeft gemaakt dat door de Inspecteur ongegrond is verklaard. De belanghebbende is tegen die uitspraak in beroep gegaan bij de rechtbank Haarlem, die het beroepschrift doorgezonden heeft naar de rechtbank Den Haag. </para>
+            <para>
+              <emphasis role="italic">De uitspraak van de rechtbank Den Haag</emphasis>
+            </para>
+          </parablock>
+        </paragroup>
+        <paragroup>
+          <nr>2.5</nr>
+          <para>Voor de Rechtbank was in geschil of de Inspecteur terecht belanghebbendes verzoek heeft afgewezen, met name of de Nederlandse fiscale-eenheidseisen ex art. 15 Wet Vpb de vrijheid van vestiging ex art. 49 VwEU schenden. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.6</nr>
+          <para>De belanghebbende acht zich in haar vestigingsvrijheid belemmerd en ziet daarvoor geen rechtvaardiging. Zij verwijst naar het arrest van het Hof van Justitie van de Europese Unie (HvJ EU) in de (Franse) zaak <emphasis role="italic">Papillon</emphasis><footnote-ref linkend="_42d84059-54c3-4eb2-b8fd-ae0e44f223fb"/>, welke zaak zij vergelijkbaar acht met de hare. Volgens de Inspecteur wordt het VwEU niet geactiveerd omdat belanghebbendes geval een geheel interne situatie betreft. Voorts schendt art. 15 Wet Vpb zijns inziens de vrijheid van vestiging niet omdat de Nederlandse wet geen onderscheid maakt naar oprichtingsrecht of vestigingsplaats van niet-gevoegde tussenhoudsters: waar de tussenhoudster ook is gevestigd, een kleindochter kan nooit gevoegd worden als de tussenhoudster niet gevoegd wordt. Als al sprake zou zijn van onderscheid, dan is het gerechtvaardigd en proportioneel in verband met de gevaren van misbruik en dubbele verliesaftrek. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.7</nr>
+          <parablock>
+            <para>De Rechtbank heeft geoordeeld dat de belanghebbende, nu zij haar Nederlandse kleindochters houdt via EU-dochters, beroep toekomt op art. 49 VwEU. Zij constateerde voorts een ongelijke behandeling, nu de belastingplichtige in een geheel interne situatie wél de mogelijkheid zou hebben gehad om ook de tussenhoudsters te voegen om aldus de gewenste eenheid met de kleindochters te bewerkstelligen. Die keuze wordt haar in het grensoverschrijdende geval onthouden. De Rechtbank meende daarom, mede verwijzende naar HvJ EU <emphasis role="italic">X Holding</emphasis>,<footnote-ref linkend="_6100b7cb-d0bb-44d7-8e82-f98f17c30969"/> dat art. 15(2) en (3)(c) Wet Vpb leidt tot in beginsel verboden ongelijke behandeling op grond van de plaats van de zetel van de tussenhoudsters:</para>
+            <para>“2.12 Gelet op de doelstelling van de bepalingen van de fiscale eenheid is de rechtbank van oordeel dat de situatie waarin een in Nederland gevestigde moedermaatschappij een fiscale eenheid wil vormen met haar eveneens in Nederland gevestigde kleindochtervennootschap via een in Nederland gevestigde dochtervennootschap objectief vergelijkbaar is met de situatie waarin diezelfde moedermaatschappij deze fiscale eenheid tracht te bereiken met een door een buitenlandse dochtervennootschap gehouden in Nederland gevestigde kleindochter-vennootschap. Dit heeft tot gevolg dat artikel 15, tweede lid, in verbinding met het derde lid, onderdeel c, Wet Vpb leidt tot een ongelijke behandeling op grond van de plaats waar de zetel van de tussenhoudster zich bevindt. Dit levert een beperking op die in beginsel ingevolge de verdragsbepalingen inzake de vrijheid van vestiging verboden is (vergelijk punt 24 X Holding). De rechtbank neemt hierbij in aanmerking dat ook in de zaak die heeft geleid tot Papillon sprake was van een regeling die als voorwaarde voor consolidatie tussen de in Frankrijk gevestigde moedervennootschap en de eveneens in Frankrijk gevestigde kleindochtermaatschappij stelde dat ook de in Frankrijk gevestigde tussenhoudster werd opgenomen in het Franse 'integration fiscal'.”</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.8</nr>
+          <parablock>
+            <para>Onder verwijzing naar <emphasis role="italic">Papillon</emphasis> en <emphasis role="italic">X Holding</emphasis> heeft de Rechtbank vervolgens onderzocht of een rechtvaardiging bestaat voor de geconstateerde ongelijke behandeling en zo ja, of de Nederlandse regels in het licht daarvan geschikt en proportioneel zijn. Zij achtte het gevaar van bilaterale dubbele verliesverrekening een toereikende rechtvaardiging voor weigering van een fiscale eenheid. Zij overwoog voorts (r.o. 2.21) dat als de in art. 15(2) en (3) Wet Vpb gestelde voorwaarden disproportioneel zouden zijn, het niet aan de rechter zou zijn om rechtsherstel te bieden, maar het aan de wetgever zou zijn om een regeling te ontwerpen die wel aan de communautaire vereisten zou voldoen:</para>
+            <para>“2.18 Allereerst zal de rechtbank ingaan op het risico van wat verweerder [Inspecteur; PJW] noemt unilaterale dubbele verliesverrekening. Dit doet zich voor ingeval verliezen die (deels) zijn veroorzaakt door de Nederlandse kleindochter tot uitdrukking komen bij de moedermaatschappij door middel van de door haar in de buitenlandse tussenhoudster gehouden aandelen. Dit terwijl die verliezen eveneens binnen de fiscale eenheid rechtstreeks worden verrekend met de winsten van de moedermaatschappij. Ook in de situatie dat de deelnemingsvrijstelling van toepassing is op de aandelen in de buitenlandse tussenhoudster bestaat dit gevaar van dubbele verliesverrekening, namelijk ingeval van liquidatie van de buitenlandse tussenhoudster waarbij op de voet van artikel 13d Wet Vpb verliezen in aanmerking worden genomen, terwijl die verliezen reeds binnen de fiscale eenheid tussen moedermaatschappij en kleindochtermaatschappij tot uitdrukking zijn gebracht. Verweerder heeft in dit verband verder gewezen op de situatie dat een lening door de moedermaatschappij wordt verstrekt aan de buitenlandse tussenhoudster. Door verliezen van de in Nederland gevestigde kleindochtervennootschap kan deze vordering in waarde dalen en ten laste komen van de winst van de moedervennootschap, terwijl het verlies van de kleindochtervennootschap tevens in de winst van de fiscale eenheid tot uitdrukking is gekomen. Nu het gevaar van unilaterale dubbele verliesverrekening bij Papillon expliciet ter zijde is geschoven als rechtvaardigingsgrond en Nederland reeds een vergaande regeling voor een fiscale eenheid met de vaste inrichting van een buitenlandse tussenhoudster kent, waarin juist bepalingen zijn opgenomen ter voorkoming van unilaterale dubbele verliesverrekening, zou een weigering van de fiscale eenheid uitsluitend op deze grond naar het oordeel van de rechtbank niet proportioneel zijn. </para>
+          </parablock>
+        </paragroup>
+        <paragroup>
+          <nr>2.19</nr>
+          <para>Vervolgens zal de rechtbank ingaan op het gevaar van wat verweerder noemt bilaterale dubbele verliesverrekening, namelijk naast potentiële dubbele verliesverrekening in Nederland ontstaat ook de mogelijkheid van additionele verliesverrekening in Spanje dan wel Griekenland door waardedaling van de aandelen en/of vorderingen op de Nederlandse kleindochters). Ook bestaat dat risico als de Nederlandse kleindochters over een vaste inrichting in Spanje en/of Griekenland zouden beschikken en aldaar nogmaals verlies zou kunnen worden verrekend als Spanje en/of Griekenland een consolidatieregime kennen dat vergelijkbaar is met dat van Nederland. Bilaterale dubbele verliesverrekening is in het arrest Papillon niet aan de orde geweest. Het door verweerder geconstateerde gevaar van bilaterale dubbele verliesverrekening bestaat in beginsel ook als geen fiscale eenheid wordt gevormd. Dat neemt naar het oordeel van de rechtbank echter niet weg dat bij voeging met de Nederlandse grootmoeder, de verliezen van de kleindochter niet alleen in het andere land mogelijk kunnen worden verrekend, maar ook met winsten van andere dochtermaatschappijen die gevoegd zijn in de fiscale eenheid met de (groot)moeder. Dat laatste is, zoals verweerder terecht stelt, evident onmogelijk als er geen fiscale eenheid is. Naar het oordeel van de rechtbank is het door verweerder genoemde gevaar van bilaterale dubbele verliesverrekening, dat wil zeggen verrekening van hetzelfde verlies met winsten in meerdere lidstaten, een rechtvaardigingsgrond de fiscale eenheid te weigeren.</para>
+        </paragroup>
+        <paragroup>
+          <nr>2.20</nr>
+          <para>Verweerder stelt verder dat andere vormen van belastingontwijking mogelijk blijven in de onderhavige situatie. Verweerder heeft onder meer genoemd verplaatsing van de zetel van de tussenhoudster naar een andere lidstaat en wijziging van de wetgeving in het desbetreffende EU land. Immers, de fiscale eenheid wordt voor onbepaalde tijd toegestaan en kan onmogelijk alle situaties van oneigenlijk gebruik afdekken. De rechtbank is van oordeel dat ook deze risico's rechtvaardigingsgronden opleveren om de fiscale eenheid te weigeren.</para>
+        </paragroup>
+        <paragroup>
+          <nr>2.21</nr>
+          <para>Gegeven de oordelen onder 2.19 en 2.20 is vervolgens de vraag of het onthouden van een fiscale eenheid aan eiseres en haar in Nederland gevestigde kleindochters geschikt en evenredig is om de daarmee nagestreefde doelstellingen te bereiken. Naar het oordeel van de rechtbank is dit het geval. Weliswaar zou, indien slechts het gevaar bestond van unilaterale dubbele verliesverrekening, weigering van de fiscale eenheid aan eiseres disproportioneel zijn (2.18), maar de gevolgen van de vorming van een fiscale eenheid en de eisen die daaraan gesteld worden, zijn meeromvattend, gegeven de risico's onder 2.19 en 2.20 (vergelijk arrest Hoge Raad 24 juni 2011, nr. 09/05115, LJN: BN3537). Dit betekent dat de bestaande regeling voor de vaste inrichting niet zonder meer analoog kan worden toegepast ter voorkoming van de andere door verweerder aangevoerde risico's. Ten overvloede merkt de rechtbank op dat als al zou moeten worden aangenomen dat de huidige regeling van de fiscale eenheid met de in artikel 15, tweede en derde lid, Wet Vpb gestelde voorwaarden disproportioneel is, het in dit geval niet aan de rechter is om rechtsherstel te bieden, maar het aan de wetgever is om daarvoor in de plaats een regeling te vormen die wel aan de communautaire vereisten voldoet, gegeven de vele vormen waarin de fiscale eenheid zich zou kunnen voordoen.” </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.9</nr>
+          <parablock>
+            <para>De Rechtbank heeft belanghebbendes beroep daarom ongegrond verklaard. De belanghebbende heeft daartegen hoger beroep ingesteld bij het Gerechtshof Den Haag. </para>
+            <para>
+              <emphasis role="italic">De uitspraak van het Hof Den Haag</emphasis>
+            </para>
+          </parablock>
+        </paragroup>
+        <paragroup>
+          <nr>2.10</nr>
+          <para>De belanghebbende betoogde in hoger beroep dat de Rechtbank ten onrechte een rechtvaardiging had gezien in het gevaar van internationale dubbele verliesverrekening, nu zij immers zelf overwoog dat dat risico evenzeer bestaat als geen fiscale eenheid bestaat. Voorts laten de Spaanse en Griekse belastingwetgevingen volgens haar niet toe dat verliezen van de Nederlandse kleindochters in aftrek komen op Spaanse respectievelijk Griekse belastbare winst, zodat gevaar van internationale dubbele verliesverrekening zich niet voordoet. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.11</nr>
+          <para>De Inspecteur beriep zich in hoger beroep op de noodzaak tot evenwichtige verdeling van de heffingsbevoegdheid, tot voorkoming van nationale en internationale dubbele verliesverrekening, tot behoud van fiscale coherentie van het Nederlandse systeem van geconsolideerde heffing van vennootschapsbelasting en tot voorkoming van belastingontwijking. De weigering van fiscale consolidatie is volgens hem geschikt en proportioneel voor het bereiken van die doelen. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.12</nr>
+          <para>Voor het Hof bracht de belanghebbende als nieuw geschilpunt op dat Nederland discrimineert op basis van aandeelhouderschap, zulks in strijd met de nondiscriminatiebepalingen in art. 26(4) van het belastingverdrag met Spanje<footnote-ref linkend="_1546de59-d93c-42e6-be1c-a844e436095c"/> en art. 26(5) van het belastingverdrag met Griekenland:<footnote-ref linkend="_a167eca6-1512-4e1b-bad6-9a40835b2c80"/> als de tussenhoudsters in Nederland zouden zijn gevestigd, had de mogelijkheid bestaan de kleindochters te voegen door (ook) de tussenhoudsters te voegen. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.13</nr>
+          <para>Volgens de Inspecteur bieden die nondiscriminatiebepalingen geen basis voor ondernemingen met buitenlandse aandeelhouders om een beroep te doen op fiscale-consolidatiemogelijkheden tussen ondernemingen die (wél) inwoner zijn. Zelfs als art. 24(5) OESO-modelverdrag ook grensoverschrijdende fiscale consolidatie zou omspannen, meent de Inspecteur dat de belanghebbende en haar kleindochters niet slechter behandeld worden dan indien de tussenhoudsters in Nederland zouden zijn gevestigd: ook dan zouden de kleindochters immers niet met de belanghebbende gevoegd kunnen worden zonder tevens de tussenhoudsters te voegen.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.14</nr>
+          <parablock>
+            <para>Het Hof heeft belanghebbendes beroep op het VwEU afgewezen omdat zij de casus als een geheel interne situatie beschouwde, die daarom buiten bereik valt van de alleen voor grensoverschrijdende gevallen geschreven EU-verkeersvrijheden. Het heeft ook belanghebbendes beroep op de verdragsrechtelijke non-discriminatiebepalingen afgewezen: </para>
+            <para>“7.7. Belanghebbende stelt dat de Inspecteur met het afwijzen van het verzoek de in artikel 49 VWEU gewaarborgde vrijheid van vestiging heeft geschonden. Bij de beoordeling van die stelling dient eerst de vraag te worden beantwoord of belanghebbende, [A] en [B] toegang hebben tot het VWEU.</para>
+          </parablock>
+        </paragroup>
+        <paragroup>
+          <nr>7.8.</nr>
+          <para>Het Hof beantwoordt die vraag ontkennend omdat wat betreft die in Nederland gevestigde en werkzame vennootschappen sprake is van een geheel interne aangelegenheid. Volgens vaste jurisprudentie van het Hof van Justitie komt in die situatie aan belanghebbende geen beroep toe op het VWEU. De rechtbank heeft dit miskend.</para>
+        </paragroup>
+        <paragroup>
+          <nr>7.9.</nr>
+          <para>Belanghebbende heeft nog betoogd dat de weigering van de Inspecteur het verzoek tot een fiscale eenheid te honoreren in strijd is met artikel 26, vierde lid van het Belastingverdrag Nederland-Spanje, onderscheidenlijk met artikel 26, vijfde lid van het Belastingverdrag Nederland- Griekenland, hetgeen zou inhouden dat sprake is van verboden discriminatie. Dit standpunt mist feitelijke grondslag en ontbeert overigens een dragende argumentatie. Het moet derhalve worden verworpen.” </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>2.15</nr>
+          <para>Het Hof heeft daarom belanghebbendes hogere beroep ongegrond verklaard en de uitspraak van de Rechtbank bevestigd onder verbetering van gronden. </para>
+          <para/>
+        </paragroup>
+      </section>
+      <section>
+        <title>
+          <nr>3</nr>Het geding in cassatie</title>
+        <para> </para>
+        <paragroup>
+          <nr>3.1</nr>
+          <para>De belanghebbende heeft tijdig en regelmatig cassatieberoep ingesteld. De staatssecretaris van Financiën (de Staatssecretaris) heeft een verweerschrift ingediend. De partijen hebben elkaar niet van re- en dupliek gediend. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>3.2</nr>
+          <para>De belanghebbende stelt twee middelen voor, die ik als volgt samenvat: (i) schending van art. 49 VwEU doordat het Hof ten onrechte geoordeeld heeft dat zich een geheel interne situatie zou voordoen en daarom aan de belanghebbende geen beroep op het VwEU zou toekomen, dat dan ook niet geschonden zou zijn; (ii) schending van art. 26(4) belastingverdrag met Spanje en art. 26(5) belastingverdrag met Griekenland, art. 94 Grondwet en art. 8:77(1)(b) Algemene wet bestuursrecht, doordat het Hof belanghebbendes beroep op die bepalingen heeft verworpen op onjuiste en onbegrijpelijke gronden, nu sprake is van aandeelhouderschapsdiscriminatie die onder die bepalingen verboden wordt.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>3.3</nr>
+          <parablock>
+            <para>De Staatssecretaris refereert ad (i) aan uw oordeel over de vraag of al dan niet toegang tot de EU-verkeersvrijheden bestaat. Inhoudelijk verwijst hij naar de bij zijn verweer gevoegde schriftelijke opmerkingen die hij bij het HvJ EU heeft ingediend in de bij dat Hof aanhangige gevoegde Nederlandse zaken C-39/13, C-40/13 en C-41/13 over vergelijkbare vragen van het Hof Amsterdam over de Nederlandse fiscale-eenheidseisen.<footnote-ref linkend="_9f81bdad-c42a-4d2f-b94b-611fa5e4a1ce"/> Hij geeft u in overweging belanghebbendes zaak aan te houden totdat het HvJ in die zaken arrest zal hebben gewezen.</para>
+            <para>Ad (ii) meent de Staatssecretaris dat de nondiscriminatiebepalingen in de belastingverdragen niet nopen tot toepassing van de voor inwoners geldende fiscale consolidatiemogelijkheden ook op ondernemingen met een buitenlandse aandeelhouder.</para>
+          </parablock>
+          <para/>
+        </paragroup>
+      </section>
+      <section>
+        <title>
+          <nr>4</nr>De fiscale eenheid in de vennootschapsbelasting</title>
+        <para> </para>
+        <paragroup>
+          <nr>4.1</nr>
+          <parablock>
+            <para>Art. 15 Wet Vpb luidde in 2008 onder meer als volgt:<footnote-ref linkend="_4d8d5208-1b3c-4a36-8ab1-e7e5353ed1f3"/></para>
+            <para>“1. Ingeval een belastingplichtige (moedermaatschappij) de juridische en economische eigendom bezit van ten minste 95 percent van de aandelen in het nominaal gestorte kapitaal van een andere belastingplichtige (dochtermaatschappij) wordt op verzoek van beide belastingplichtigen de belasting van hen geheven alsof er één belastingplichtige is, in die zin dat de werkzaamheden en het vermogen van de dochtermaatschappij deel uitmaken van de werkzaamheden en het vermogen van de moedermaatschappij. De belasting wordt geheven bij de moedermaatschappij. De belastingplichtigen tezamen worden in dat geval aangemerkt als fiscale  eenheid. Van een fiscale eenheid kan meer dan één dochtermaatschappij deel uitmaken.</para>
+            <para>(…).</para>
+            <para>3. Het eerste lid vindt slechts toepassing indien:</para>
+            <para>(…);</para>
+            <para>c. beide belastingplichtigen in Nederland zijn gevestigd en ingeval op een belastingplichtige de Belastingregeling voor het Koninkrijk dan wel een verdrag ter voorkoming van dubbele belasting van toepassing is, die belastingplichtige tevens volgens die regeling onderscheidenlijk dat verdrag geacht wordt in Nederland te zijn gevestigd;</para>
+            <para>4. (…). Voorts kan, in afwijking van het derde lid, onderdeel c, een belastingplichtige die op grond van de nationale wet of op grond van de Belastingregeling voor het Koninkrijk dan wel een verdrag ter voorkoming van dubbele belasting niet in Nederland is gevestigd maar wel een onderneming drijft met behulp van een in Nederland aanwezige vaste inrichting, onder bij algemene maatregel van bestuur te stellen voorwaarden, deel uitmaken van een fiscale eenheid voorzover het heffingsrecht over de uit die onderneming genoten winst ingevolge de Belastingregeling voor het Koninkrijk dan wel een verdrag ter voorkoming van dubbele belasting aan Nederland is toegewezen indien:</para>
+            <para>a. de plaats van de werkelijke leiding van deze belastingplichtige is gelegen in de Nederlandse Antillen, Aruba, een lidstaat van de Europese Unie of een staat in de relatie waarmee een met Nederland gesloten verdrag ter voorkoming van dubbele belasting van toepassing is waarin een bepaling is opgenomen die discriminatie van vaste inrichtingen verbiedt;</para>
+            <para>b. de belastingplichtige, bedoeld in onderdeel a, een naamloze vennootschap of een besloten vennootschap met beperkte aansprakelijkheid, dan wel een daarmee naar aard en inrichting vergelijkbaar lichaam is; en</para>
+            <para>c. in het geval de belastingplichtige, bedoeld in onderdeel a, als moedermaatschappij deel uitmaakt van de fiscale eenheid – het aandelenbezit, bedoeld in het eerste lid, in de dochtermaatschappij behoort tot het vermogen van de in Nederland aanwezige vaste inrichting van deze moedermaatschappij.</para>
+            <para>(…).</para>
+            <para>6. De fiscale eenheid eindigt:</para>
+            <para>(…).</para>
+            <para>d. op gezamenlijk verzoek van de moedermaatschappij en de dochtermaatschappij met ingang van het in het verzoek genoemde tijdstip doch niet eerder dan met ingang van de datum van indiening van het verzoek; met dien verstande dat indien de fiscale eenheid ten aanzien van één of meer dochtermaatschappijen wordt beëindigd, de fiscale eenheid daardoor niet eveneens ten aanzien van de andere belastingplichtigen wordt beëindigd.</para>
+            <para>(…).</para>
+            <para>8. Het verzoek bedoeld in het eerste lid en zesde lid, onderdeel d, wordt gedaan bij de inspecteur belast met de aanslagregeling van de moedermaatschappij. De inspecteur beslist op het verzoek bij voor bezwaar vatbare beschikking.</para>
+            <para>(…).”</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>4.2</nr>
+          <para>In beginsel wordt elk belastingplichtig lichaam zelfstandig in de heffing van vennootschapsbelasting betrokken. De wetgever heeft echter fiscale consolidatie van concernvennootschappen mogelijk gemaakt in verband met de economische werkelijkheid dat een concern bedrijfseconomisch en commercieel als een geïntegreerde onderneming fungeert, die alleen om organisatorische, aansprakelijkheids- of andere civielrechtelijke redenen is opgedeeld in meer civielrechtelijke entiteiten.<footnote-ref linkend="_b047c723-f10c-4a85-b5a8-fe959005f2cb"/> Een fiscale eenheid doet aangifte vennootschapsbelasting en wordt belast alsof er één belastingplichtige is. Het vermogen en de werkzaamheden van de gevoegde dochtermaatschappijen wordt fiscaal toegerekend aan de moedermaatschappij. Alle civielrechtelijk bestaande intra-groepsverhoudingen, -leningen, en -transacties worden fiscaalrechtelijk onzichtbaar. De belangrijkste fiscale voordelen daarvan zijn dat positieve en negatieve resultaten van de gevoegde maatschappijen met elkaar gesaldeerd worden (zowel horizontaal als verticaal: zowel binnen het jaar als over de jaargrens) en dat fiscaal geen winst – maar ook geen verlies - wordt genomen op intra-concerntransacties en -financieringen. Aan een fiscale eenheid zijn ook nadelen verbonden. Voor een overzicht verwijs ik naar de bij het verweerschrift van de Staatssecretaris gevoegde schriftelijke opmerkingen voor het HvJ EU in de Amsterdamse zaken.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>4.3</nr>
+          <para>Op 1 januari 2003 is art. 15 Wet Vpb gewijzigd,<footnote-ref linkend="_503bdf5a-487f-45d6-b5b8-2c8a3d353977"/> onder meer om een einde te maken aan grensoverschrijdende fiscale eenheden met naar Nederlands recht opgerichte, maar feitelijk buitenslands gevestigde vennootschappen. De wetgever achtte grensoverschrijdende fiscale eenheden onwenselijk omdat zij inbreuk maken op de fiscale jurisdictie van de betrokken Staten.<footnote-ref linkend="_f188299a-5054-49cf-a0d0-32557a1ed242"/> De vestigingsplaatsfictie van art. 2(4) Wet Vpb voor naar Nederlands recht opgerichte lichamen werd daarom uitgeschakeld voor de toepassing van art. 15 Wet Vpb. Sindsdien kunnen alleen feitelijk in Nederland gevestigde lichamen deel uitmaken van een fiscale eenheid, alsmede Nederlandse vaste inrichtingen van in EU- en Verdragsstaten gevestigd lichamen (art. 15(4) Wet Vpb). </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>4.4</nr>
+          <para>De in een fiscale eenheid gevoegde maatschappijen worden voor de toepassing van alle overige bepalingen van de Wet Vpb aangemerkt als één belastingplichtige.<footnote-ref linkend="_b17fcfef-607c-42de-ba0c-68e804224f9e"/> Een fiscale eenheid tussen een grootmoeder en een kleindochter is niet mogelijk zonder ook de tussenliggende dochter te voegen: voor voeging is steeds een ononderbroken keten van minimaal 95% rechtstreeks houdsterschap vereist, onder meer omdat anders het gevaar van dubbele verliesverrekening bestaat, bijvoorbeeld bij liquidatie van een verlieslijdende gevoegde dochtervennootschap, of op een lening van een niet-gevoegde concernvennootschap aan een verlieslijdende gevoegde dochter. Als een tussenhoudster een lening heeft verstrekt aan een verliesgevende dochter, kan zij de vordering op de dochter afwaarderen als die door de dochterverliezen onvolwaardig wordt. Kan die dochter een fiscale eenheid met de grootmoeder aangaan, dan wordt het verlies van de kleindochter ook bij grootmoeder in aanmerking genomen. De anti-misbruikwetgeving van art. 15ab t/m 15aj Wet Vpb ziet niet op dergelijke gevallen; ook daaruit blijkt dat de wetgever niet heeft gewild dat een fiscale eenheid aangegaan kan worden zonder tussenhoudsters te voegen. </para>
+          <para/>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>4.5</nr>
+          <parablock>
+            <para>De regering achtte de beperking van de fiscale eenheid tot ingezetenen en vaste inrichtingen van niet-ingezetenen niet in strijd met EG-recht (thans: EU-recht) of met nondiscriminatiebepalingen in belastingverdragen:<footnote-ref linkend="_590f095b-0de1-46d8-bc9f-12bb6a604cbe"/></para>
+            <para>“De leden van de fracties van PvdA en CDA vragen zich af waarom niet tevens is geregeld dat twee feitelijk in Nederland gevestigde dochtermaatschappijen van een buitenlandse moedermaatschappij die niet over een Nederlandse vaste inrichting beschikt, een fiscale eenheid kunnen vormen. Dit is – aldus deze leden – wel mogelijk op grond van artikel 24, vijfde lid, OESO-modelverdrag en artikel 43 van het EG-verdrag. Dit wordt eveneens aangevoerd in punt 14.i) van het commentaar van de Orde. Een fiscale eenheid tussen zustermaatschappijen past niet binnen het fiscale eenheidsregime. Bij een fiscale eenheid vindt namelijk altijd – net als in de commerciële jaarrekening – verticale consolidatie plaats. De gedachte hierachter is dat resultaten van een dochtermaatschappij wel de moedermaatschappij, maar niet de zustermaatschappij aangaan. De reikwijdte van artikel 24, vijfde lid, OESO-modelverdrag en artikel 43 EG-Verdrag wordt naar mijn mening niet zo geïnterpreteerd dat aan Nederlandse zustermaatschappijen van een buitenlandse moedermaatschappij de mogelijkheid gegeven moet worden een fiscale eenheid te vormen indien de buitenlandse moedermaatschappij niet over een Nederlandse vaste inrichting beschikt waaraan de aandelen van de twee Nederlandse dochtermaatschappijen moeten worden toegerekend.</para>
+            <para>(…)</para>
+            <para>Tevens vragen deze leden [van de fracties van GPV en RPF; PJW] waarom een Nederlandse kleindochter van een Belgische dochter van een Nederlandse moedermaatschappij niet kan deelnemen aan een fiscale eenheid terwijl dat wel zou kunnen als de Belgische dochtermaatschappij een vaste inrichting in Nederland zou hebben. </para>
+            <para>Gegeven de geschetste situatie, waarbij de Nederlandse moedermaatschappij de juridische en economische eigendom heeft van ten minste 95% van de aandelen in de Belgische dochtermaatschappij kan worden gesteld dat op grond van het directe belang van de moedermaatschappij in de in Nederland gelegen vaste inrichting het in de lijn van het fiscale eenheidsregime ligt een fiscale eenheid toe te staan voor deze in Nederland gelegen vaste inrichting. Indien echter de Belgische dochtermaatschappij haar activiteiten in Nederland laat plaatsvinden in een Nederlandse kleindochter is niet langer sprake van een direct economisch en juridisch belang voor de vorming van een fiscale eenheid.” </para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>5. <emphasis role="bold">De EU-vestigingsvrijheid, grensoverschrijdende concernstructuren en fiscale           integratie van resultaten van concernvennootschappen</emphasis></para>
+          </parablock>
+        </paragroup>
+        <paragroup>
+          <nr>5.1</nr>
+          <para>Op de EU-verkeersvrijheden, waaronder de vestigingsvrijheid voor in de EU gevestigde ondernemers en rechtspersonen, kan geen beroep gedaan worden indien geen sprake is van een EU-grensoverschrijdende situatie, maar een geheel binnenlandse situatie. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.2</nr>
+          <para>Bij de EU-lidstaten bestaat de angst dat als het EU-recht grensoverschrijdende fiscale consolidatie van concerns of grensoverschrijdende integratie of verhandeling van resultaten van groepsvennootschappen zou eisen, zulks tot nationale of internationale dubbele verliesverrekening, ongerechtvaardigde verliesimport, transactiewinstverplaatsing en manipulatieve verplaatsing van stille reserves kan leiden en daarmee tot misbruik en grondslaguitholling. Het arrest <emphasis role="italic">Marks &amp; Spencer II</emphasis><footnote-ref linkend="_cc6be43c-936f-4bf9-b7af-6c293ac362a9"/> van het HvJ EU hield in dat opzicht een zekere geruststelling in: het Verenigd Koninkrijk hoefde zijn binnenlandse intraconcern-verliesoverdrachtstelsel (<emphasis role="italic">group relief</emphasis>) niet op grond van de EU-vestigingsvrijheid toe te passen op verliezen van niet in het VK gevestigde dochtervennootschappen. Alleen indien een buitenlandse dochter met verlies is geliquideerd of anderszins vast staat dat haar verliezen niet meer afgetrokken zullen kunnen worden in de jurisdictie waar zij ontstaan zijn (‘no possibilities’), is de thuisjurisdictie van het concern verplicht om die definitieve dochterverliezen te importeren. Sindsdien wordt voor de Britse belastingrechter – en ook voor het HvJ EU<footnote-ref linkend="_a9fd30b8-f62f-484e-8cfd-3d9195f77a94"/> – geprocedeerd over de vraag wat deze <emphasis role="italic">no possibilities</emphasis> test inhoudt en of de daaraan aangepaste Britse wetgeving op dat punt niet nog steeds te beperkend is.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.4</nr>
+          <para>Verontrustender voor de Lidstaten leek het arrest van het HvJ EU in de zaak <emphasis role="italic">Société Papillon</emphasis>,<footnote-ref linkend="_267d1341-40c2-42f6-9504-f3e93301c2dd"/> over het Franse <emphasis role="italic">intégration fiscale</emphasis> regime. Dat regime maakt het mogelijk de resultaten van minstens 95%-dochtervennootschappen fiscaal te integreren in die van hun moeder en bepaalde intercompany-verhoudingen en –transacties fiscaal uit te schakelen. Hoewel dat regime verder gaat dan de Britse <emphasis role="italic">group relief</emphasis>, die slechts handel in verliezen binnen concerns en zelfs tussen concerns en consortia inhoudt en waarin het verhandelde verlies niet over een ononderbroken keten van vennootschappen loopt (maar rechtstreeks ‘verkocht’ kan worden aan enige groepsvennootschap met winst, al is wel verbondenheid vereist), wijkt ook het Franse systeem op belangrijke punten af van de Nederlandse facultatieve volledige fiscale consolidatie van moeder en dochters tot één belastingplichtige. Het Franse systeem is met name veel minder flexibel omdat onder meer vereist is dat een <emphasis role="italic">intégration</emphasis> minstens vijf jaar wordt voortgezet (met <emphasis role="italic">recapture</emphasis> sancties) en dat alleen de hoogst in de <emphasis role="italic">corporate tree</emphasis> geplaatste in Frankrijk gevestigde vennootschap als consolidatiepunt kan dienen. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.4</nr>
+          <parablock>
+            <para>Het HvJ EU achtte in de zaak <emphasis role="italic">Papillon</emphasis> de weigering van resultaatsintegratie tussen een Franse kleindochter en een Franse grootmoeder wegens tussenligging van een niet in Frankrijk – maar in Nederland - gevestigde tussenhoudster in beginsel in strijd met de vrijheid van vestiging. Indien de tussenhoudster in Frankrijk gevestigd zou zijn geweest, was de beoogde <emphasis role="italic">intégration</emphasis> weliswaar evenmin mogelijk geweest zonder de tussenhoudster daarin te betrekken, maar in dat geval was integratie van de tussenhoudster wel <emphasis role="italic">mogelijk</emphasis> geweest; een buitenlandse tussenhoudster kon hoe dan ook niet geïntegreerd worden. In het licht van het doel van de <emphasis role="italic">intégration fiscale</emphasis> (binnenlandse resultatenintegratie binnen een geïntegreerd concern) achtte het HvJ de situatie van een in Frankrijk gevestigde grootmoeder en kleindochter waarbij de laatste wordt gehouden door een eveneens in Frankrijk gevestigde tussenhoudster niet onvergelijkbaar met de situatie van een in Frankrijk gevestigde grootmoeder en kleindochter waarbij de laatste wordt gehouden door een in een andere lidstaat gevestigde tussenhoudster: </para>
+            <para>“27. Ten einde het bestaan van een discriminatie vast te stellen, moet de vergelijkbaarheid van een communautaire situatie met een zuiver interne situatie worden onderzocht, daarbij rekening houdend met de door de betrokken nationale bepalingen nagestreefde doeleinden (zie in die zin arresten Metallgesellschaft e.a., reeds aangehaald, punt 60, en 18 juli 2007, Oy AA, C-231/05, Jurispr. blz. I-6373, punt 38). </para>
+            <para>28. In het hoofdgeding strekken de betrokken bepalingen van de CGI ertoe, een uit een moeder- met haar dochter- en kleindochtervennootschappen bestaande groep zoveel mogelijk gelijk te stellen met een vennootschap met meerdere vaste inrichtingen doordat de mogelijkheid wordt geboden de resultaten van elke vennootschap te consolideren. </para>
+            <para>29. Die doelstelling kan zowel worden bereikt in de situatie van een in een lidstaat ingezeten moedervennootschap die ook in die lidstaat ingezeten kleindochtervennootschappen via een eveneens ingezeten dochtervennootschap houdt, als in de situatie van een in diezelfde lidstaat ingezeten moedervennootschap die daar eveneens ingezeten kleindochtervennootschappen houdt, maar via een in een andere lidstaat gevestigde dochtervennootschap. </para>
+            <para>30. Gelet op de doelstelling van de bepalingen van de CGI die in het hoofdgeding aan de orde zijn, zijn deze twee situaties dus objectief vergelijkbaar. </para>
+            <para>31. Bijgevolg leidt de in het hoofdgeding ter discussie staande belastingregeling tot een ongelijke behandeling op grond van de plaats waar zich de zetel bevindt van de dochtervennootschap via welke de ingezeten moedervennootschap de ingezeten kleindochtervennootschappen houdt. </para>
+            <para>32. Doordat zij op het vlak van de belastingen communautaire situaties ten opzichte van zuiver interne situaties benadelen, leveren de in het hoofdgeding aan de orde zijnde bepalingen van de CGI dus een beperking op die in beginsel ingevolge de verdragsbepalingen inzake de vrijheid van vestiging verboden is.”</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>Opmerkelijk is dat het HvJ EU tot ongelijke behandeling concludeert, kennelijk – duidelijk zijn de overwegingen op dat punt niet – op de grond dat in de binnenlandsituatie (wél) de mogelijkheid bestaat om de resultaten van de tussenhoudster (en daarmee die van de kleindochters) mee te integreren. Dat is opmerkelijk omdat <emphasis role="italic">Société Papillon</emphasis> de resultaten van haar (Nederlandse) tussenhoudster <emphasis role="italic">niet</emphasis> wilde mee-integreren: zij verzocht om een resultaatsintegratie die in een puur binnenlandse situatie evenmin mogelijk was, nl. integratie van de resultaten van kleindochter en grootmoeder <emphasis role="italic">zonder</emphasis> tussenhoudster-resultaten. Het HvJ EU vergeleek <emphasis role="italic">Société Papillon</emphasis>’s situatie dus met een onbestaanbare binnenlandsituatie. Wellicht om die reden twijfelt het Gerechtshof Amsterdam over de vraag welke de juiste vergelijkingsmaatstaf is die in <emphasis role="italic">Papillon</emphasis>-achtige gevallen aangelegd moet worden bij de beoordeling van het Nederlandse fiscale-eenheidsregime: het Hof Amsterdam heeft over die vergelijkingsmaatstaf in de bij het HvJ EU aanhangige gevoegde zaken C-39/13, <emphasis role="italic">SCA Group Holding</emphasis>, C-40/13, <emphasis role="italic">X. AG e.a.,</emphasis> en C-41/13, <emphasis role="italic">MSA International Holdings</emphasis>, onder meer de volgende prejudiciële vraag gesteld:<footnote-ref linkend="_630a1a6b-e686-402b-9032-a1e112397d52"/></para>
+            <para>“Vraag 1:</para>
+            <para>Is sprake van een beperking van de vrijheid van vestiging in de zin van artikel 43 EG juncto artikel 48 EG, doordat aan belanghebbende de toepassing van de Nederlandse regeling van de fiscale eenheid op de werkzaamheden en het vermogen van de in Nederland gevestigde (achter)kleindochtervennootschappen [X2], [X3]en [X4] wordt onthouden?</para>
+            <para>Is, in dat kader, in het licht van de met de Nederlandse regeling van de fiscale eenheid nagestreefde doelstellingen (…), de situatie van de (achter) kleindochtervennootschappen [X2], [X3] en [X4] objectief vergelijkbaar (…) met (i) de situatie van in Nederland gevestigde vennootschappen die (klein)dochter zijn van een in Nederland gevestigde tussenhoudster-vennootschap welke niet ervoor heeft gekozen dat zij met haar in Nederland gevestigde moedervennootschap in een fiscale eenheid is gevoegd en die derhalve als kleindochter-vennootschappen evenmin als [X2], [X3]en [X4] toegang tot de regeling van de fiscale eenheid met - uitsluitend - haar grootmoedervennootschap hebben, dan wel met (ii) de situatie van in Nederland gevestigde kleindochtervennootschappen die er tezamen met haar in Nederland gevestigde moeder/tussenhoudstervennootschap voor hebben gekozen een fiscale eenheid met hun in Nederland gevestigde (groot)moedervennootschap te vormen en wier werkzaamheden en vermogen derhalve, anders dan die van [X2], [X3]en [X4], fiscaal worden geconsolideerd?”</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.5</nr>
+          <para>Uit de geciteerde overwegingen van het HvJ EU in de zaak <emphasis role="italic">Papillon</emphasis> blijkt mijns inziens dat het eerste cassatiemiddel van onze belanghebbende gegrond is: haar situatie is geen interne situatie, maar juist grensoverschrijdend als gevolg van haar secundaire vestiging in Spaanse en Griekse tussenhoudsters, die zich weer secundair in Nederland hebben gevestigd in Nederlandse kleindochters. Toegang tot de EU-verkeersvrijheden is daarmee gegeven en het oordeel van het Hof Den Haag is op dat punt dus onjuist. </para>
+        </paragroup>
+        <paragroup>
+          <parablock>
+            <para>
+              <?linebreak?>5.6	Het HvJ EU heeft in de zaak <emphasis role="italic">Papillon</emphasis> vervolgens onderzocht of een rechtvaardiging bestond voor de door hem bevonden ongelijke behandeling van de grensoverschrijdende situatie. Frankrijk wees op het gevaar van dubbele unilaterale verliesverrekening (dubbele verliesverrekening binnen de Franse jurisdictie), zulks in strijd met de fiscale coherentie, nl. éénmaal bij de moeder door de <emphasis role="italic">intégration</emphasis> en nogmaals bij de moeder doordat zij haar deelneming in de tussenhoudster zou kunnen afwaarderen. De interveniërende lidstaten Duitsland en Nederland wezen op de noodzaak om evenwichtige verdeling van heffingsbevoegdheid tussen de lidstaten te handhaven en om belastingontwijking tegen te gaan; rechtvaardigingsgronden die aanvaard zijn in de genoemde zaak <emphasis role="italic">Marks &amp; Spencer II</emphasis> bij intraconcern-verlieshandel en in de latere zaak <emphasis role="italic">Oy AA</emphasis><footnote-ref linkend="_a00e3ef4-dc6f-40d2-b866-0132ef6212e5"/> bij spiegelbeeldige intraconcern-winstoverheveling (<emphasis role="italic">group contribution</emphasis>). Het HvJ EU zag echter geen relevant verband met die twee zaken, nu die over grensoverschrijdende resultaatoverheveling gingen, terwijl het in <emphasis role="italic">Papillon</emphasis> ging om binnen één jurisdictie ontstane resultaten van grootmoeder en kleindochter. Wel erkende hij dat verstoring van de coherentie van het Franse heffingsstelsel mogelijk was door dubbele binnenlandse verliesverrekening, maar categorische uitsluiting van resultaatsintegratie tussen grootmoeder en kleindochter op grond van niet-ingezetenschap van de tussenhoudster achtte hij disproportioneel omdat tegenbewijs door informatieverstrekking mogelijk moest zijn:</para>
+            <para>“34  In dat verband moet in de eerste plaats worden opgemerkt dat de Duitse en de Nederlandse regering in de door hen bij het Hof ingediende schriftelijke opmerkingen hebben betoogd dat de uit de betrokken regelgeving voortvloeiende beperking van de vrijheid van vestiging gerechtvaardigd zou kunnen zijn door de noodzaak om de verdeling van de heffingsbevoegdheid tussen de lidstaten te handhaven.</para>
+          </parablock>
+          <para>35 Deze regeringen verwijzen op dit punt naar het arrest van 13 december 2005, Marks &amp; Spencer (C 446/03, Jurispr. blz. I 10837), en het arrest Oy AA, reeds aangehaald, en beweren dat de beperking die is ingesteld bij de bepalingen van de CGI die in het hoofdgeding aan de orde zijn, noodzakelijk is om te voorkomen dat verliezen dubbel worden verrekend en om belastingontwijking te bestrijden.</para>
+          <para>36 Deze rechtvaardigingen gaan niet op.</para>
+          <para>37 In de zaken die aanleiding hebben gegeven tot de reeds aangehaalde arresten Marks &amp; Spencer en Oy AA, hadden de gestelde vragen immers betrekking op het feit dat rekening was gehouden met verliezen die waren geboekt in een andere lidstaat dan die waarin de belastingbetaler gevestigd was en op een gevaar voor belastingontwijking.</para>
+          <para>38 In de omstandigheden van het hoofdgeding rijzen deze vragen niet, nu het verzoek om een prejudiciële beslissing ertoe strekt te vernemen of de omstandigheid dat een in één lidstaat ingezeten vennootschap niet het voordeel kan genieten van de fiscale-integratieregeling met haar kleindochtervennootschappen die eveneens in die staat zijn ingezeten wanneer de vennootschap die als tussenschakel fungeert in een andere lidstaat gevestigd is, een beperking oplevert, en niet of de niet-ingezeten dochtervennootschap onder deze regeling zou moeten vallen.</para>
+          <para>39 In het hoofdgeding rijst de vraag naar de inaanmerkingneming van de winsten en verliezen van tot de betrokken groep behorende vennootschappen enkel ten aanzien van vennootschappen die ingezeten zijn in eenzelfde lidstaat. De gestelde vraag heeft derhalve betrekking op de inaanmerkingneming van verliezen die in één en dezelfde lidstaat zijn geboekt, hetgeen ook het gevaar voor belastingontwijking bij voorbaat uitsluit.</para>
+          <para>40 Bijgevolg kan de beperking die is vastgesteld in de punten 22 tot en met 32 van het onderhavige arrest, niet worden gerechtvaardigd met een beroep op de verdeling van de heffingsbevoegdheid tussen de lidstaten.</para>
+          <para>41 In de tweede plaats moet worden opgemerkt dat de verwijzende rechter wenst te vernemen of de betrokken beperking gerechtvaardigd kan zijn door de noodzaak de samenhang van het belastingstelsel te waarborgen, waarbij de Franse regering in haar bij het Hof ingediende schriftelijke opmerkingen meent dat dit in het hoofdgeding het geval is.</para>
+          <para>42 De verwijzende rechter merkt op dat nu de niet-ingezeten dochtervennootschap noodzakelijkerwijze blijft uitgesloten van toepassing van de fiscale-integratieregeling, aangezien zij in Frankrijk niet aan vennootschapsbelasting is onderworpen, de samenhang van het stelsel van neutralisering van transacties binnen de groep wordt aangetast, daar immers transacties waarbij die dochtervennootschap betrokken is anders worden behandeld dan die waarbij een ingezeten dochtervennootschap betrokken is en aanleiding kunnen geven tot dubbele aftrek in vergelijking met een stelsel waarbij enkel aan die belasting onderworpen vennootschappen betrokken zijn.</para>
+          <para>43 In dat verband heeft het Hof reeds erkend dat de noodzaak om de samenhang van een belastingstelsel te bewaren een beperking van de uitoefening van de door het Verdrag gewaarborgde verkeersvrijheden kan rechtvaardigen (arresten van 28 januari 1992, Bachmann, C 204/90, Jurispr. blz. I 249, punt 28; 7 september 2004, Manninen, C 319/02, Jurispr. blz. I 7477, punt 42, en Keller Holding, reeds aangehaald, punt 40).</para>
+          <para>44 Een beroep op een dergelijke rechtvaardigingsgrond kan volgens het Hof evenwel alleen slagen indien er een rechtstreeks verband bestaat tussen het betrokken fiscale voordeel en de verrekening van dat voordeel door een bepaalde belastingheffing (arrest van 14 november 1995, Svensson en Gustavsson, C 484/93, Jurispr. blz. I 3955, punt 18; reeds aangehaalde arresten ICI, punt 29; Manninen, punt 42, en Keller Holding, punt 40), welk rechtstreeks verband op basis van de door de betrokken belastingregeling nagestreefde doelstelling moet worden aangetoond (arrest Manninen, reeds aangehaald, punt 43, en arrest van 28 februari 2008, Deutsche Shell, C 293/06, nog niet gepubliceerd in de Jurisprudentie, punt 39).</para>
+          <para>45 De Franse regering zet in het hoofdgeding uiteen dat de fiscale-integratieregeling voorziet in de fiscale consolidatie van vennootschappen en, ter compensatie daarvan, in neutralisering van sommige transacties tussen de vennootschappen van de groep overeenkomstig de artikelen 223 B, 223 D en 223 F CGI.</para>
+          <para>46 In dat verband moet worden opgemerkt dat door de neutralisering van de verschillende transacties binnen de groep, onder meer dubbele verliesverrekening bij ingezeten vennootschappen die onder de fiscale integratieregeling vallen, kan worden vermeden.</para>
+          <para>47 Immers, ingeval een kleindochtervennootschap verlies maakt, zal de dochtervennootschap normaal gesproken voorzieningen aanleggen voor de waardevermindering van haar participatie in de kleindochtervennootschap. Om deze reden zal ook de moedervennootschap voorzieningen aanleggen voor de waardevermindering van haar participatie in de dochtervennootschap. Nu het om één en hetzelfde verlies gaat, dat bij de kleindochtervennootschap is ontstaan, zullen, als al deze ondernemingen onder de fiscale-integratieregeling vallen, als gevolg van het neutralisatiemechanisme de voorzieningen voor de waardevermindering bij de dochtervennootschap en de moedervennootschap buiten beschouwing worden gelaten.</para>
+          <para>48 Wanneer echter de dochtervennootschap een niet-ingezeten vennootschap is, zal dubbel rekening worden gehouden met de bij de kleindochtervennootschap geboekte verliezen, namelijk een eerste keer in de vorm van directe verliezen bij deze laatste en nog een keer in de vorm van een voorziening die door de moedervennootschap wordt aangelegd voor de waardevermindering van haar participatie in die dochtervennootschap, aangezien de interne operaties niet zullen worden geneutraliseerd nu de niet-ingezeten dochtervennootschap niet onder de fiscale-integratieregeling valt.</para>
+          <para>49 In een dergelijk geval moet worden vastgesteld dat ingezeten vennootschappen de voordelen van de fiscale-integratieregeling genieten in de vorm van consolidatie van de resultaten en de onmiddellijke inaanmerkingneming van de verliezen van alle vennootschappen die onder die regeling vallen, zonder dat de verliezen van de kleindochtervennootschap en de voorzieningen van de moedervennootschap kunnen worden geneutraliseerd.</para>
+          <para>50 Derhalve zal het rechtstreekse verband dat in de fiscale-integratieregeling bestaat tussen de belastingvoordelen en de neutralisering van transacties binnen de groep, teniet worden gedaan, hetgeen de samenhang van die regeling aantast.</para>
+          <para>51 Door bijgevolg het voordeel van de fiscale-integratieregeling aan een ingezeten moedervennootschap die daaronder ingezeten kleindochtervennootschappen wil scharen te weigeren indien zij deze laatste via een niet-ingezeten dochtervennootschap houdt, waarborgen de bepalingen van de CGI die in het hoofdgeding aan de orde zijn de samenhang van die regeling.</para>
+          <para>52 Deze nationale regeling mag echter niet verder gaan dan noodzakelijk is om deze doelstelling te bereiken. Anders gezegd, deze doelstelling mag niet ook met voor de vrijheid van vestiging minder beperkende maatregelen worden bereikt.</para>
+          <para>53 De Franse regering betoogt in dit verband dat bedoelde bepalingen van de CGI noodzakelijk zijn geworden omdat de Franse belastingautoriteiten moeilijk kunnen verifiëren of er gevaar voor dubbele verliesverrekening bestaat wanneer een niet-ingezeten dochtervennootschap de tussenschakel vormt tussen de moedervennootschap en haar kleindochtervennootschappen. Het bedrag van een voorziening stemt gewoonlijk niet overeen met de omvang van het verlies van de dochtervennootschap en het is eenvoudigweg onmogelijk om de precieze oorsprong van een voorziening te achterhalen.</para>
+          <para>54 Op dat punt moet worden opgemerkt dat praktische moeilijkheden op zich niet kunnen volstaan om schending van een door het Verdrag gewaarborgde vrijheid te rechtvaardigen (arresten van 4 maart 2004, Commissie/Frankrijk, C 334/02, Jurispr. blz. I 2229, punt 29; 14 september 2006, Centro di Musicologia Walter Stauffer, C 386/04, Jurispr. blz. I 8203, punt 48, en 12 december 2006, Test Claimants in the FII Group Litigation, C 446/04, Jurispr. blz. I 11753, punt 70).</para>
+          <para>55 Vervolgens moet eraan worden herinnerd dat de communautaire regelgeving, te weten richtlijn 77/799/EEG van de Raad van 19 december 1977 betreffende de wederzijdse bijstand van de bevoegde autoriteiten van de lidstaten op het gebied van de directe belastingen (JO L 336, blz. 15), de lidstaten de mogelijkheid biedt om van de bevoegde autoriteiten van de andere lidstaten alle inlichtingen te verlangen die relevant kunnen zijn voor de vaststelling van het precieze bedrag van de vennootschapsbelasting.</para>
+          <para>56 Ten slotte moet worden toegevoegd dat, zoals de advocaat-generaal heeft opgemerkt in punt 66 van haar conclusie, de betrokken belastingautoriteiten van de moedervennootschap de documenten kunnen verlangen die zij noodzakelijk achten om te beoordelen of de voorzieningen van die vennootschap voor waardeverminderingen van haar participaties in het kapitaal van haar dochtervennootschap indirect – via voorzieningen van de tussenvennootschap – kunnen worden toegeschreven aan een verlies van die dochtervennootschap (zie in die zin arresten Centro di Musicologia Walter Stauffer, reeds aangehaald, punt 49; 30 januari 2007, Commissie/Denemarken, C 150/04, Jurispr. blz. I 1163, punt 54; 29 maart 2007, Rewe Zentralfinanz, C 347/04, Jurispr. blz. I 2647, punt 57, en 11 oktober 2007, ELISA, C 451/05, Jurispr. blz. I 8251, punt 95).</para>
+          <para>57 In de betrekkingen tussen lidstaten bieden de door de belastingautoriteiten gevraagde of verstrekte inlichtingen des te meer de mogelijkheid om na te gaan of de in de nationale wettelijke regeling gestelde voorwaarden vervuld zijn, nu op de boekhouding van vennootschappen communautaire harmonisatiemaatregelen van toepassing zijn, zodat de mogelijkheid bestaat om betrouwbare en controleerbare gegevens te verstrekken over een in een andere lidstaat gevestigde vennootschap (zie in die zin arrest van 18 december 2007, A, C 101/05, Jurispr. blz. I 11531, punt 62).</para>
+          <para>58 Wanneer dus in een lidstaat ingezeten moedervennootschappen verzoeken om toepassing van de fiscale-integratieregeling met kleindochtervennootschappen die via in een andere lidstaat gevestigde dochtervennootschappen worden gehouden, zoals in het hoofdgeding het geval is, kunnen de belastingautoriteiten van de eerste staat deze dochtervennootschappen vragen alle bewijzen over te leggen die zij noodzakelijk achten om volledig inzicht te krijgen in de door die laatsten getroffen voorzieningen.</para>
+          <para>59 In Frankrijk gevestigde vennootschappen die ingezeten kleindochtervennootschappen houden via in een andere lidstaat ingezeten dochtervennootschappen en die om die reden het voordeel van de fiscale integratieregeling wordt onthouden, mogen op grond van de bepalingen van de CGI die in het hoofdgeding aan de orde zijn, geen bewijselementen overleggen op grond waarvan kan worden vastgesteld dat er geen gevaar voor dubbele verliesverrekening is.</para>
+          <para>60 Deze regelgeving belet de ingezeten vennootschappen derhalve in alle omstandigheden, het bewijs te leveren dat er in het kader van de fiscale-integratieregeling geen dubbele verliesverrekening plaats vindt.</para>
+          <para>61 Hieruit volgt dat de doelstelling, de samenhang van het belastingstelsel te waarborgen, ook kan worden bereikt met maatregelen die de vrijheid van vestiging minder beperken.</para>
+          <para>62 Derhalve gaan de bepalingen van de CGI die in het hoofdgeding aan de orde zijn, verder dan noodzakelijk is om deze doelstelling te bereiken en kunnen zij dus niet gerechtvaardigd worden door de noodzaak, de samenhang van het belastingstelsel te waarborgen.” </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.7</nr>
+          <para>Uit dit arrest kan de conclusie getrokken worden dat in een <emphasis role="italic">intégration fiscale</emphasis>-systeem de integratie van positieve en negatieve <emphasis role="italic">binnenlandse</emphasis> resultaten van ingezeten concernvennootschapsresultaten niet, althans niet categorisch, uitgesloten mag worden uitsluitend wegens aanwezigheid van een of meer niet-ingezeten concernvennootschappen; integratie van de binnenlandse resultaten van de ingezeten groepsvennootschappen mag in geval van een grensoverschrijdende concernstructuur slechts uitgesloten worden als die integratie als gevolg van die grensoverschrijdende concernstructuur reëel gevaar van grondslaguitholling oplevert, met name door dubbele <emphasis role="italic">binnenlandse</emphasis> verliesneming via het grensoverschrijdende element in de concernstructuur. Dat is op zichzelf geen verrassende uitkomst, gezien ’s Hofs eerdere arresten in de zaken C-141/99, <emphasis role="italic">AMID</emphasis>,<footnote-ref linkend="_91285168-e345-41a7-84f8-2a5cbac7f644"/> C-250/95, <emphasis role="italic">Futura Participations</emphasis>,<footnote-ref linkend="_70d15cd1-f799-4357-9b1f-67f4770223a4"/> C-264/96, <emphasis role="italic">ICI v Colmer</emphasis>,<footnote-ref linkend="_5202dc9d-15ab-4a08-ab10-3d87182a87a5"/> en C-431/01, <emphasis role="italic">Mertens</emphasis>.<footnote-ref linkend="_fd14d4eb-de6a-402c-9aaf-9ac0bf5486e4"/> Al die zaken betroffen de weigering van verrekening van positieve en negatieve <emphasis role="italic">binnenlandse</emphasis> resultaten wegens de aanwezigheid van een grensoverschrijdend element. Een vergelijkbare benadering vertoont ook ‘s Hofs latere arrest in de zaak C-18/11, <emphasis role="italic">Philips Electronics</emphasis>,<footnote-ref linkend="_3a009920-5c10-4baa-b250-7ce27efa9304"/> over de Britse weigering van verrekening van een <emphasis role="italic">Brits</emphasis> vaste-inrichtingsverlies van een Nederlandse concernvennootschap met <emphasis role="italic">Britse</emphasis> winst van een Britse concernvennootschap.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.8</nr>
+          <para>Daartegenover staan de genoemde zaken <emphasis role="italic">Marks &amp; Spencer II </emphasis>en<emphasis role="italic"> Oy AA</emphasis>, alsmede de zaken C-337/08, <emphasis role="italic">X Holding BV</emphasis>,<footnote-ref linkend="_6b9dd635-3c7f-498b-aa3c-615cfae28751"/> en C-123/11, <emphasis role="italic">A Oy</emphasis>.<footnote-ref linkend="_134982e1-176c-48c7-a2ce-74b640902ece"/> Al die zaken betroffen (pogingen tot)  grensoverschrijdende resultatenintegratie tussen concernvennootschappen uit <emphasis role="italic">verschillende</emphasis> Lidstaten. Uit die zaken blijkt dat de lidstaten <emphasis role="italic">grensoverschrijdende</emphasis> resultaatsintegratie tussen groepsvennootschappen (categorisch) mogen uitsluiten wegens (abstract) gevaar van verstoring van de evenwichtige verdeling van de heffingsbevoegdheid, internationale dubbele verliesaftrek en/of misbruik. Dat is slechts anders, zoals boven bleek, als een verlies van een groepsvennootschap definitief niet meer gecompenseerd zal kunnen worden in de jurisdictie waar het is geleden; alsdan moet dat definitieve verlies in de andere jurisdictie verrekend worden alsof het een aldaar geleden groepsvennootschapsverlies zou zijn. Aan dit rijtje arresten over grensoverschrijdende resultaatsintegratie tussen verbonden <emphasis role="italic">vennootschappen</emphasis> in verschillende lidstaten kunnen toegevoegd worden twee arresten over (niet-)import in de hoofdhuisstaat van verliezen van een <emphasis role="italic">vaste inrichting</emphasis> in een andere Lidstaat: de zaken C-414/06, <emphasis role="italic">Lidl Belgium</emphasis>,<footnote-ref linkend="_8a20beff-9b1b-4a6d-8ed6-505b46464653"/> en  C‑157/07, <emphasis role="italic">Krankenheim Ruhesitz</emphasis>.<footnote-ref linkend="_ccf7f796-1725-4d7e-a34b-f1f567c640e5"/> Ook uit die zaken blijkt dat de Lidstaten <emphasis role="italic">grensoverschrijdende</emphasis> intra-concern resultaten-<emphasis role="italic">pooling</emphasis> in beginsel niet hoeven toe te staan.<footnote-ref linkend="_8a7df0a9-c7f3-49b7-b6f6-02c05ef8977e"/></para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.9</nr>
+          <para>Het HvJ EU onderscheidt dus duidelijk twee categorieën van gevallen: (i) fiscale integratie van resultaten van groepsvennootschappen die alle binnen <emphasis role="italic">dezelfde</emphasis> jurisdictie zijn ontstaan, en die geweigerd wordt (louter) omdat het concern (ook) groepsvennootschappen in andere EU-lidstaten heeft, en (ii) fiscale integratie van resultaten van (groeps-)vennootschappen die in <emphasis role="italic">verschillende</emphasis> jurisdicties zijn ontstaan. Ter zake van de eerste groep is ongelijke behandeling op grond van de aanwezigheid van een buitenlandaspect in beginsel verboden, behoudens concreet gevaar voor <emphasis role="italic">double dips</emphasis> of (ander) misbruik. In deze gevallen moet minstens tegenbewijs toegelaten zijn. Ter zake van de tweede groep is het andersom: daar is de hoofdregel dat grensoverschrijdende resultaatsintegratie - die in puur interne situaties wél toegepast zou worden - in beginsel (in abstracto) geweigerd mag worden, met als uitzondering het geval van definitieve verliezen van een (geliquideerde) groepsvennootschap in de andere jurisdictie. In de hieronder (5.12) geciteerde r.o. 25 en 26 van de genoemde zaak C-18/11, <emphasis role="italic">Philips Electronics</emphasis>, maakt het HvJ EU het onderscheid tussen deze twee categorieën gevallen met zoveel woorden.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.10</nr>
+          <parablock>
+            <para>De genoemde zaak C-337/08, <emphasis role="italic">X Holding BV</emphasis>,<footnote-ref linkend="_98f64f91-dab2-4c5d-8120-091ea3fffb59"/> betrof een geval uit de tweede in 5.9 genoemde categorie, nl. grensoverschrijdende fiscale consolidatie. Een Nederlandse vennootschap wilde een fiscale eenheid aangaan met haar Belgische dochtervennootschap. Het HvJ achtte deze grensoverschrijdende situatie op basis van de ratio van de regeling weliswaar vergelijkbaar met een puur binnenlandse moeder-dochter-verhouding, maar achtte de Nederlandse weigering van consolidatie niettemin gerechtvaardigd: </para>
+            <para>“24. De situatie van een ingezeten moedervennootschap die met een ingezeten dochteronderneming een fiscale eenheid wil vormen, is uit het oogpunt van de doelstelling van een belastingregeling als die welke in het hoofdgeding aan de orde is, objectief vergelijkbaar met de situatie van een ingezeten moedervennootschap die met een niet-ingezeten dochteronderneming een fiscale eenheid wil vormen, voor zover beide in aanmerking willen komen voor de voordelen van deze regeling, waardoor met name de winst en het verlies van de in de fiscale eenheid opgenomen vennootschappen kunnen worden geconsolideerd op het niveau van de moedervennootschap en de intragroepstransacties fiscaal neutraal kunnen blijven. </para>
+            <para>25. Onderzocht dient te worden of een verschil in behandeling als dat in het hoofdgeding wordt gerechtvaardigd door een dwingende reden van algemeen belang.</para>
+            <para>26. Een dergelijk verschil is slechts gerechtvaardigd wanneer het geschikt is om de nagestreefde doelstelling te verwezenlijken en niet verder gaat dan noodzakelijk is voor de verwezenlijking van dat doel (zie in die zin arresten van 15 mei 1997, Futura Participations en Singer, C-250/95, Jurispr. blz. I-2471, punt 26, en 11 maart 2004, de Lasteyrie du Saillant, C-9/02, Jurispr. blz. I-2409, punt 49, en arrest Marks &amp; Spencer, reeds aangehaald, punt 35). </para>
+            <para>27. De regeringen die opmerkingen bij het Hof hebben ingediend, voeren aan dat het in het hoofdgeding aan de orde zijnde verschil in behandeling met name gerechtvaardigd is om de verdeling van de heffingsbevoegdheid tussen de lidstaten te handhaven. </para>
+            <para>28. In dit verband zij eraan herinnerd dat de handhaving van de verdeling van de heffingsbevoegdheid tussen de lidstaten het noodzakelijk kan maken, op de bedrijfsactiviteiten van de in een van deze staten gevestigde vennootschappen zowel ter zake van winst als ter zake van verlies uitsluitend de fiscale regels van die lidstaat toe te passen (zie arrest Marks &amp; Spencer, reeds aangehaald, punt 45, en arrest van 15 mei 2008, Lidl Belgium, C-414/06, Jurispr. blz. I-3601, punt 31). </para>
+            <para>29. Zou vennootschappen de mogelijkheid worden geboden, te opteren voor verrekening van hun verliezen in de lidstaat waar hun vestiging is gelegen dan wel in een andere lidstaat, dan zou de evenwichtige verdeling van de heffingsbevoegdheid tussen de lidstaten immers groot gevaar lopen, aangezien de belastinggrondslag in de eerste lidstaat zou worden vermeerderd en in de tweede zou worden verminderd met het bedrag van de overgedragen verliezen (zie reeds aangehaalde arresten Marks &amp; Spencer, punt 46; Oy AA, punt 55, en Lidl Belgium, punt 32). </para>
+            <para>30. Hetzelfde geldt voor een fiscale integratieregeling als die welke in het hoofdgeding aan de orde is.</para>
+            <para>31. Aangezien de moedervennootschap vrijelijk kan beslissen om met haar dochteronderneming een fiscale eenheid te vormen en van het ene op het andere jaar even vrijelijk kan beslissen om die fiscale eenheid op te heffen, zou zij met de mogelijkheid om een niet-ingezeten dochteronderneming in de fiscale eenheid op te nemen, de vrijheid hebben om te kiezen welke belastingregeling op de verliezen van deze dochteronderneming van toepassing is en waar deze verliezen worden verrekend.</para>
+            <para>32. Wanneer de contouren van de fiscale eenheid aldus kunnen worden gewijzigd, zou, wanneer de mogelijkheid werd aanvaard om een niet-ingezeten dochteronderneming daarin op te nemen, dit ertoe leiden dat de moedervennootschap vrijelijk kan kiezen in welke lidstaat de verliezen van deze dochteronderneming in mindering worden gebracht (zie in die zin reeds aangehaalde arresten, Oy AA, punt 56, en Lidl Belgium, punt 34).</para>
+            <para>33. Een fiscale regeling als die welke in het hoofdgeding aan de orde is, is derhalve gerechtvaardigd uit hoofde van de noodzaak om de verdeling van de heffingsbevoegdheid tussen de lidstaten te handhaven.</para>
+            <para>34. Nu deze regeling geschikt is om de verwezenlijking van deze doelstelling te waarborgen, dient nog te worden onderzocht of zij niet verder gaat dan noodzakelijk is om deze doelstelling te bereiken (zie in die zin met name arrest Marks &amp; Spencer, reeds aangehaald, punt 53).</para>
+            <para>35. X Holding en de Commissie van de Europese Gemeenschappen voeren ter zake aan dat de vorming van een fiscale eenheid op het nationale grondgebied erop neerkomt dat ingezeten dochterondernemingen fiscaal gezien worden gelijkgesteld met vaste inrichtingen. Volgens hen kunnen, naar analogie, niet-ingezeten dochterondernemingen in het kader van een grensoverschrijdende fiscale eenheid op dezelfde wijze worden behandeld als buitenlandse vaste inrichtingen. De verliezen van een buitenlandse vaste inrichting kunnen tijdelijk worden verrekend met de winst van de moedervennootschap overeenkomstig een regeling van voorlopige verliesoverdracht in combinatie met een inhaalregeling voor latere aanslagjaren. Vergeleken met het verbod voor een ingezeten moedervennootschap om met een niet-ingezeten dochteronderneming een fiscale eenheid te vormen, kan toepassing van deze regeling op niet-ingezeten dochterondernemingen een minder ingrijpende maatregel zijn om de beoogde doelstelling te bereiken. </para>
+            <para>36. Met dit betoog kan evenwel niet worden ingestemd.</para>
+            <para>37. Zoals de advocaat-generaal in punt 51 van haar conclusie heeft opgemerkt, impliceert de beslissing van een lidstaat om de tijdelijke verrekening van verliezen van een buitenlandse vaste inrichting op de plaats van de hoofdzetel van de onderneming toe te staan, immers niet dat ook niet-ingezeten dochterondernemingen van een ingezeten moedervennootschap deze mogelijkheid moet worden geboden. </para>
+            <para>38. Vaste inrichtingen die in een andere lidstaat zijn gevestigd, en niet-ingezeten dochterondernemingen bevinden zich immers niet in een vergelijkbare situatie wat de verdeling van de heffingsbevoegdheid betreft zoals die voortvloeit uit een verdrag als het dubbelbelastingverdrag, en inzonderheid de artikelen 7, lid 1, en 23, lid 2, ervan. Terwijl een dochteronderneming als zelfstandige rechtspersoon onbeperkt belastingplichtig is in de staat die partij is bij een dergelijk verdrag en waar zij haar zetel heeft, ligt dit immers anders voor een in een andere lidstaat gevestigde vaste inrichting, die in beginsel en ten dele onderworpen blijft aan de fiscale jurisdictie van de lidstaat van oorsprong. </para>
+            <para>39. Het is juist dat het Hof in andere gevallen heeft geoordeeld dat de vrije keuze die artikel 43, eerste alinea, tweede volzin, EG de economische subjecten biedt met betrekking tot de rechtsvorm die het best bij de uitoefening van hun werkzaamheden in een andere lidstaat past, niet mag worden beperkt door discriminerende fiscale bepalingen (zie in die zin arresten Commissie/Frankrijk, reeds aangehaald, punt 22, en Oy AA, reeds aangehaald, punt 40, en arrest van 23 februari 2006, CLT-UFA, C 253/03, Jurispr. blz. I 1831, punt 14).</para>
+            <para>40. De lidstaat van oorsprong blijft evenwel vrij te bepalen onder welke voorwaarden en op welk niveau de verschillende vestigingsvormen van nationale vennootschappen die in het buitenland een activiteit uitoefenen, zullen worden belast, mits deze vestigingsvormen daardoor niet worden gediscrimineerd ten opzichte van vergelijkbare nationale vestigingen (arrest van 6 december 2007, Columbus Container Services, C 298/05, Jurispr. blz. I 10451, punten 51 en 53). Aangezien – zoals in punt 38 van het onderhavige arrest is uiteengezet – in een andere lidstaat gevestigde vaste inrichtingen en niet-ingezeten dochterondernemingen zich niet in een vergelijkbare situatie bevinden wat de verdeling van de heffingsbevoegdheid betreft, is de lidstaat van oorsprong bijgevolg niet verplicht om op niet-ingezeten dochterondernemingen dezelfde fiscale regeling toe te passen als die welke geldt voor buitenlandse vaste inrichtingen.</para>
+            <para>41. In een situatie als die in het hoofdgeding, waarin het belastingvoordeel in kwestie bestaat in de mogelijkheid voor ingezeten moedervennootschappen en hun ingezeten dochterondernemingen om te worden belast als waren zij één fiscale eenheid, zou elke uitbreiding van dit voordeel tot grensoverschrijdende situaties dus tot gevolg hebben dat (…) moedervennootschappen vrijelijk kunnen kiezen in welke lidstaat zij de verliezen van hun niet-ingezeten dochteronderneming in mindering brengen (zie, mutatis mutandis, arrest Oy AA, reeds aangehaald, punt 64). </para>
+            <para>42. Gelet op het voorgaande, dient een fiscale regeling als die welke in het hoofdgeding aan de orde is, te worden beschouwd als evenredig met de daarmee nagestreefde doelstellingen. </para>
+            <para>43. Derhalve dient op de prejudiciële vraag te worden geantwoord dat de artikelen 43 EG en 48 EG zich niet verzetten tegen de wettelijke regeling van een lidstaat die een moedervennootschap de mogelijkheid biedt om met haar ingezeten dochteronderneming een fiscale eenheid te vormen, doch niet toestaat dat een dergelijke fiscale eenheid wordt gevormd met een niet-ingezeten dochteronderneming omdat laatstgenoemde vennootschap voor de belasting van haar winst niet is onderworpen aan de belastingwet van deze lidstaat.”</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>Ook het dictum is duidelijk: Lidstaten hoeven ingezeten moeders van niet-onderworpen niet-ingezeten dochters niet de mogelijkheid tot fiscale integratie of fiscale consolidatie te bieden die zij wél bieden aan ingezeten moeders van ingezeten (althans onderworpen) dochters. </para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.11</nr>
+          <parablock>
+            <para>Uit HR BNB 2011/244<footnote-ref linkend="_f5f09ebd-73e9-4323-b314-11ffe281243e"/> volgt dat u uit <emphasis role="italic">X Holding BV</emphasis> opmaakt dat (ook) het HvJ EU het fiscale-eenheidsregime als één <emphasis role="italic">package deal</emphasis> ziet waaruit geen separate <emphasis role="italic">cherries</emphasis> geplukt kunnen worden, zodat niet <emphasis role="italic">per aspect</emphasis> van de fiscale eenheid getoetst wordt of weigering van voeging gerechtvaardigd en proportioneel is. Het is alles of niets: </para>
+            <para>"3.4.2. (...) Het unierecht verzet zich echter niet tegen een wettelijke regeling van een lidstaat die een moedervennootschap de mogelijkheid biedt om met haar ingezeten dochteronderneming een fiscale eenheid te vormen, doch die niet toestaat dat een dergelijke eenheid wordt gevormd met een niet-ingezeten dochteronderneming omdat laatstgenoemde vennootschap voor de belasting van haar winst niet is onderworpen aan de belastingwet van deze lidstaat (zie HvJ 25 februari 2010, X Holding B.V., C-337/08, BNB 2010/166). Dit geldt ook indien voor de vennootschap waarmee belanghebbende zich wil vergelijken het doorslaggevende voordeel van het aangaan van een fiscale eenheid erin is gelegen dat het bepaalde in artikel 20, lid 4, van de Wet daardoor niet van toepassing is op de desbetreffende belastingplichtige. De gevolgen van een fiscale eenheid zijn immers meeromvattend en zij verschillen niet naar gelang de reden die de belastingplichtige had om een fiscale eenheid te willen aangaan.</para>
+            <para>Het aan de orde zijnde verschil in behandeling op het punt van het aangaan van een fiscale eenheid is gerechtvaardigd uit hoofde van de noodzaak om de verdeling van de heffingsbevoegdheid tussen de lidstaten te handhaven. De regeling van de fiscale eenheid is voorts evenredig met de daarmee nagestreefde doelstellingen (zie de punten 37-42 van het hiervoor genoemde arrest). Naar niet voor redelijke twijfel vatbaar is, geldt dit voor alle verschillen in behandeling die bij de vaststelling van de aanslag voortvloeien uit de omstandigheid dat bij een fiscale eenheid voor de vennootschapsbelasting de werkzaamheden en het vermogen van de dochtermaatschappij worden geacht deel uit te maken van de werkzaamheden en het vermogen van de moedermaatschappij. De doorwerking van deze consolidatie naar de regeling voor verliescompensatie, waartoe ook artikel 20, lid 4, van de Wet behoort, vormt een dergelijk uit het wezen van de fiscale eenheid voor de vennootschapsbelasting voortvloeiend verschil."</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.12</nr>
+          <parablock>
+            <para>De genoemde zaak C-18/11 <emphasis role="italic">Philips Electronics</emphasis><footnote-ref linkend="_8ac4c17a-6f78-48e5-b514-58373a0418df"/> betrof een geval uit de eerste in 5.9 genoemde categorie (integratie van resultaten van concernonderdelen die alle binnen één fiscale jurisdictie zijn ontstaan). Het ging om een in Nederland gevestigde vennootschap met een verlieslatende vaste inrichting (v.i.) in het Verenigd Koninkrijk (VK). Het concern waartoe de Nederlandse vennootschap behoorde, wilde haar Britse v.i.-verlies volgens de Britse <emphasis role="italic">group relief</emphasis> regels overdragen aan een winstgevende Britse dochtervennootschap van de Nederlandse vennootschap. Dat was niet toegestaan omdat niet verzekerd was dat het Britse v.i.-verlies niet ook elders (bijvoorbeeld in Nederland) ten laste van de belastbare winst zou worden gebracht. Een dergelijke beperking werd niet gesteld in geval van verliezen van een ingezeten vennootschap. Het HvJ achtte verliezen geleden door een in het VK gelegen vaste inrichting van een niet-ingezeten vennootschap objectief vergelijkbaar met verliezen van een ingezeten vennootschap (r.o. 19). Hij aanvaardde niet de noodzaken van evenwichtige verdeling van heffingsbevoegdheid en voorkoming van internationale dubbele verliesverrekening als rechtvaardiging voor de ongunstige extra voorwaarde in de v.i.-situatie, vooral niet omdat mogelijke aftrek van het v.i.-verlies in Nederland (die overigens in beginsel ingehaald wordt bij latere v.i.-winsten) geen beperking inhoudt van de Britse heffingsbevoegdheid:</para>
+            <para>“28. In de tweede plaats kan de nationale regeling van de lidstaat van ontvangst, zelfs als het voorkomen van dubbele verliesverrekening als zelfstandige rechtvaardigingsgrond kon worden ingeroepen, daardoor in een geval als in het hoofdgeding aan de orde hoe dan ook niet worden gerechtvaardigd. </para>
+            <para>29. In het hoofdgeding gaat het namelijk om de vraag of de lidstaat van ontvangst bepaalde voorwaarden kan stellen voor de overdracht via groepsaftrek van verliezen die zijn geleden door een in die lidstaat gelegen vaste inrichting van een niet-ingezeten vennootschap aan een ingezeten vennootschap, terwijl voor de overdracht van verliezen die een ingezeten vennootschap in die lidstaat heeft geleden, een overeenkomstige voorwaarde niet geldt. </para>
+            <para>30. In een dergelijk geval wordt de heffingsbevoegdheid van de lidstaat waarin de vaste inrichting is gelegen, niet geraakt door het risico dat deze verliezen zowel in de lidstaat van ontvangst, waarin de vaste inrichting is gelegen, als in de lidstaat waarin zich de zetel van de niet-ingezeten vennootschap bevindt, in aanmerking worden genomen. </para>
+            <para>31. Zoals de advocaat-generaal in de punten 49 en volgende van haar conclusie opmerkt, vallen de verliezen die door de vaste inrichting van LG.PD Netherlands in het Verenigd Koninkrijk zijn overgedragen aan Philips Electronics UK, een in het Verenigd Koninkrijk gevestigde vennootschap, hoe dan ook onder de heffingsbevoegdheid van het Verenigd Koninkrijk. Aan deze heffingsbevoegdheid wordt geenszins afgedaan doordat de overgedragen verliezen in voorkomend geval ook in Nederland kunnen worden verrekend. </para>
+            <para>32. Derhalve kan in omstandigheden als in het hoofdgeding aan de orde de lidstaat waarin de vaste inrichting is gelegen het voorkomen van dubbele verliesverrekening als zodanig niet aangrijpen om de verrekening van verliezen uit te sluiten op grond dat deze eveneens kunnen worden verrekend in de lidstaat waarin zich de zetel van de niet-ingezeten vennootschap bevindt. </para>
+            <para>33. De lidstaat van ontvangst, op het grondgebied waarvan de vaste inrichting is gelegen, kan zijn regeling in een situatie als in het hoofdgeding aan de orde dus hoe dan ook niet rechtvaardigen met een zelfstandig beroep op het risico van dubbele verliesverrekening. </para>
+            <para>34. Om de redenen die in de punten 23 tot en met 33 van dit arrest zijn genoemd, geldt hetzelfde voor een combinatie van het handhaven van de evenwichtige verdeling van de heffingsbevoegdheid tussen de lidstaten en het voorkomen van dubbele verliesrekening. </para>
+            <para>35. Uit het voorgaande volgt dat op de tweede vraag dient te worden geantwoord dat een beperking van de vrijheid van een niet-ingezeten vennootschap om zich in een andere lidstaat te vestigen, zoals in het hoofdgeding aan de orde, niet kan worden gerechtvaardigd door dwingende redenen van algemeen belang ontleend aan het voorkomen van dubbele verliesverrekening, het handhaven van een evenwichtige verdeling van de heffingsbevoegdheid tussen de lidstaten of een combinatie van deze twee gronden.”  </para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>Marres maakt uit dit arrest, met name r.o. 28, op dat het HvJ EU in het midden laat of voorkoming van internationale dubbele verliesverrekening een zelfstandige rechtvaardiging kan zijn voor beperkende regels voor grensoverschrijdende situaties.<footnote-ref linkend="_c50efafc-de67-403a-b45a-533cd20cb450"/></para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.13</nr>
+          <parablock>
+            <para>In zijn boven (5.4) genoemde prejudiciële verwijzingen in de door het HvJ EU gevoegde zaken C-39/13, C-40/13, en C-41/13 heeft het Hof Amsterdam ook vragen gesteld over rechtvaardigbaarheid en proportionaliteit van de Nederlandse beperking van fiscale consolidatie tot ononderbroken vennootschapsketens:</para>
+            <para>“Vraag 3:</para>
+            <para>Indien en voor zover vraag 1, eerste volzin, bevestigend moet worden beantwoord, kan een dergelijke beperking dan worden gerechtvaardigd door dwingende redenen van algemeen belang, meer in het bijzonder door de noodzaak tot behoud van de fiscale coherentie, daaronder begrepen de voorkoming van unilaterale en van bilaterale dubbele verliesverrekening (…)?</para>
+            <para>Maakt het in dit kader nog verschil dat in het concrete geval vaststaat dat zich het gevaar van een dubbele verliesverrekening niet voordoet (…)?</para>
+            <para>Vraag 4:</para>
+            <para>Indien en voor zover de derde vraag bevestigend moet worden beantwoord, is een dergelijke beperking dan aan te merken als proportioneel (…)?”</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>De door het Hof Amsterdam verwezen zaken zijn ingedeeld bij de tweede kamer van het HvJ EU. De mondelinge behandeling voor die Kamer heeft zeer recent plaatsgevonden, op 9 januari 2014. Als advocaat-generaal is aangewezen Mevrouw Kokott, die volgens de agenda van het Hof op 27 februari 2014 zal concluderen. </para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.14</nr>
+          <parablock>
+            <para>De Commissie heeft Nederland al in 2011 verzocht om zijn fiscale-eenheidsregime te wijzigen; op basis van <emphasis role="italic">Papillon</emphasis> meent zij dat de Nederlandse beperking van de fiscale eenheid tot ononderbroken vennootschapsketens het VwEU en het EER schendt:<footnote-ref linkend="_d16f3921-e6e0-4b60-b0d8-f63549f75710"/></para>
+            <para>“De Commissie is van mening dat de huidige Nederlandse wetgeving betreffende de fiscale eenheid in strijd is met de vrijheid van vestiging van de artikelen 49 en 54 van het Verdrag betreffende de werking van de Europese Unie en de artikelen 31 en 34 van de Overeenkomst betreffende de Europese Economische Ruimte. (…). Volgens de Nederlandse Wet op de vennootschapsbelasting kan een groep van ondernemingen als een fiscale eenheid worden belast. Dit betekent dat winsten en verliezen binnen de groep kunnen worden verrekend en onderlinge transacties buiten de heffing blijven. Artikel 15, derde lid, onderdeel c, van de Nederlandse Wet op de vennootschapsbelasting schrijft voor dat alle leden van de fiscale eenheid in Nederland gevestigd moeten zijn. Daardoor kunnen twee Nederlandse zusterbedrijven van eenzelfde groep, die in handen zijn van een buitenlandse moedermaatschappij, geen fiscale eenheid vormen, wat in strijd is met de EU wetgeving. De Commissie ziet geen rechtvaardigingsgrond voor deze beperking. Het EU-Hof heeft zich al duidelijk uitgesproken over dergelijke discriminerende belastingregimes. In Papillon (zaak C-418/07) heeft het Hof geoordeeld dat een Franse moedermaatschappij en een Franse kleindochteronderneming een fiscale eenheid moeten kunnen vormen, ook al is de tussenliggende dochteronderneming in een andere lidstaat gevestigd.”</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>Opmerkelijk is dat de Commissie naar <emphasis role="italic">Papillon</emphasis> verwijst, maar in haar persbericht alleen de in die zaak <emphasis role="italic">niet</emphasis> beoordeelde behandeling wraakt van twee binnenlandse <emphasis role="italic">zuster</emphasis>vennootschappen met een gemene buitenlandse moeder. De Nederlandse regering heeft de Commissie laten weten dat zij het niet met de Commissie eens is en geen initiatieven zal nemen tot wetswijziging. Voor zover mij bekend, heeft de Commissie vooralsnog geen verdere actie ondernomen.<footnote-ref linkend="_a8337818-01c5-44ec-9d92-938c673f643a"/></para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.15</nr>
+          <parablock>
+            <para>Volledigheidshalve vermeld ik de bij het HvJ EU aanhangige zaak C-80/12, <emphasis role="italic">Felixtowe</emphasis>, opnieuw over het Britse systeem van groepsaftrek (verliesoverheveling binnen concerns en consortia). Een Britse groepsvennootschap wil een kennelijk Brits verlies overnemen van een Britse consortiumvennootschap, maar de daarvoor vereiste <emphasis role="italic">link company</emphasis> (een vennootschap die lid is van zowel de groep als het consortium) is niet in het VK, maar in Luxemburg gevestigd en heeft evenmin een v.i. in het VK. Bovendien zijn niet alle vennootschappen via welke de VK-verliesoverdrager en de VK-verliesovernemer met elkaar verbonden zijn in het VK of de EU of de EER (maar in Hong Kong) gevestigd en is de laagste gemeenschappelijke moeder binnen de groep waartoe de <emphasis role="italic">link company</emphasis> behoort evenmin in het VK of de EU of de EER (maar in Hong Kong) gevestigd. Op die gronden stond de Britse wetgeving in die zaak geen verliesoverneming toe. Opgemerkt moet echter worden dat de Britse regeling ná het geschiljaar – in 2010 – al gewijzigd was in die zin dat de rol van <emphasis role="italic">link company</emphasis> nu ook door een EU/EER-vennootschap vervuld kan worden, en dat de Britse regering geen rechtvaardigingen had aangevoerd voor de eerder gestelde eis dat de <emphasis role="italic">link company</emphasis> in het VK gevestigd moest zijn. Daaruit blijkt al dat een niet-onderworpen <emphasis role="italic">link company</emphasis> in het Britse niet-consolidatiesysteem van intra-concern verhandeling van verliezen niet op onoverkomelijke bezwaren stuit omdat het verlies niet over een onionderbroken keten hoeft te lopen, maar rechtstreeks van de verliesvennootschap naar de winstvennootschap gaat. De A.-G. Jääskinen concludeerde op 24 oktober 2014 dan ook onder meer als volgt:</para>
+            <para>“32. Aangezien de regeling van het Verenigd Koninkrijk inzake groepsaftrek niet op de fiscale consolidatie van winst en verlies op het niveau van de vennootschapsgroep is gebaseerd, is het duidelijk dat een overdragende vennootschap, als een zelfstandige rechtspersoon met een winstoogmerk, normaliter niet ermee akkoord kan gaan om zonder vergoeding verliezen over te dragen die zij later zou kunnen benutten om haar eigen toekomstige belastingen te minimaliseren. Door de verliezen over te dragen tegen een vergoeding die het toepasselijke vennootschapsbelastingtarief weerspiegelt, maakt de overdragende vennootschap haar verliezen vroeger (en met meer zekerheid) te gelde, en behaalt zij daardoor een cashflowvoordeel.</para>
+            <para>(…).</para>
+            <para>48. (…). Indien de overdracht van verliezen en derhalve de belastingvermindering voor consortia niet zijn toegestaan wegens de nationaliteit van de schakelvennootschap, ondervindt in de eerste plaats de overdragende vennootschap een financieel nadeel in de vorm van een verlies van een cashflowvoordeel. In de rechtspraak van het Hof is een dergelijk cashflownadeel aangemerkt als een ongunstige behandeling die neerkomt op een beperking. (…).</para>
+            <para>(…).</para>
+            <para>52. Zoals hierboven is uiteengezet, heeft de regering van het Verenigd Koninkrijk geen redenen aangevoerd die de door de nationale wettelijke regeling opgelegde beperking zouden kunnen rechtvaardigen. Bijgevolg kan ik die kwestie hier niet behandelen.</para>
+            <para>(…).</para>
+            <para>73. Ik geef het Hof derhalve in overweging op de eerste vraag te antwoorden dat in omstandigheden als die van het hoofdgeding de artikelen 43 EG en 48 EG zich verzetten tegen het vereiste dat, voor de toepassing van een regeling inzake belastingvermindering voor consortia, de schakelvennootschap in de betrokken lidstaat is gevestigd of in die lidstaat handel drijft door middel van een vaste inrichting aldaar. (…).”</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>Voor het overige ging die zaak over derde-landenkwesties, nl. over de toelaatbaarheid van de Britse eisen dat alle vennootschappen via welke de verliesoverdrager en de verliesovernemer met elkaar verbonden zijn in de EU of de EER zijn gevestigd en dat ook de laagste gemene moeder binnen de groep waartoe de <emphasis role="italic">link company</emphasis> behoort in de EU of de EER is gevestigd. Die kwesties zijn voor onze zaak niet relevant. De A.-G. acht die eisen overigens toelaatbaar.</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.16</nr>
+          <para>Het wordt tijd voor toepassing op belanghebbendes geval. Haar geval is er één uit de eerste in 5.9 genoemde categorie (integratie van resultaten van concernonderdelen die binnen één fiscale jurisdictie zijn ontstaan). Dat betekent voor het HvJ EU, zo blijkt uit diens aangehaalde rechtspraak, dat fiscale integratie van moeder- en kleindochterresultaten in uitgangspunt mogelijk moet zijn op dezelfde voet als in een interne situatie, tenzij het voor Nederland niet doenlijk is de voor het afwenden van het risico van dubbele verliesverrekening, grondslaguitholling of misbruik benodigde informatie te verwerven. De crux zit in de zinsnede “op dezelfde voet als in een interne situatie.” In een interne situatie is geen fiscale eenheid mogelijk tussen moeder en kleindochter zonder ook de tussenhoudster fiscaal volledig te consolideren. Van ongelijke behandeling is dus in dat opzicht geen sprake. Wel heeft een binnenlands concern een <emphasis role="italic">keuze</emphasis> die de belanghebbende niet heeft, nl. om ook de tussenhoudster te voegen en daarmee een eenheid tussen grootmoeder en kleindochters te bewerkstelligen. Uit het ruim ná <emphasis role="italic">Papillon</emphasis> gewezen arrest <emphasis role="italic">X Holding BV</emphasis> (zie 5.10 en 5.11 hierboven) blijkt echter ondubbelzinnig dat Nederland de belanghebbende die keuze <emphasis role="italic">niet</emphasis> hoeft te geven. Uit <emphasis role="italic">X Holding BV</emphasis> blijkt dat het EU-recht noch fiscale consolidatie tussen de belanghebbende en haar Spaanse en Griekse dochters eist, noch fiscale consolidatie tussen de Nederlands kleindochters en hun Spaanse en Griekse moeders. Het voor de belanghebbende niet-bestaan van de keuze om haar kleindochters te voegen <emphasis role="italic">via</emphasis> voeging van de Spaanse en Griekse tussenhoudsters is EU-rechtelijk dus gerechtvaardigd. De belanghebbende kan zich daarom niet met vrucht beroepen op het in haar geval ontbreken van deze binnenslands wél bestaande keuze. Het HvJ EU heeft zich wellicht niet gerealiseerd, toen hij zijn arrest in de zaak <emphasis role="italic">X Holding BV</emphasis> wees, dat dat arrest implicaties heeft voor <emphasis role="italic">Papillon</emphasis>-situaties: in de eerste plaats had hij in <emphasis role="italic">X Holding BV</emphasis> een geval voor zich uit de tweede in 5.9 omschreven categorie (<emphasis role="italic">grensoverschrijdende</emphasis> resultaatsintegratie), niet uit de eerste categorie zoals in <emphasis role="italic">Papillon</emphasis>; in de tweede plaats ging <emphasis role="italic">X Holding BV</emphasis>, anders dan <emphasis role="italic">Papillon</emphasis>, over volledige fiscale consolidatie in één belastingplichtige volgens een facultatief, veel flexibeler en verder gaand regime dan het Franse systeem met onder meer de minimaal-vijf-jaar-eis en verplichte consolidatie in uitsluitend de topholding. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.17</nr>
+          <para>De vraag rijst daarmee of de zaken <emphasis role="italic">Papillon</emphasis> en <emphasis role="italic">Philips Electronics</emphasis> wel relevant zijn in belanghebbendes zaak, nu die zaken integratieregimes betroffen die (veel) minder verder gaan dan de Nederlandse flexibele <emphasis role="italic">facultatieve</emphasis> en <emphasis role="italic">volledige</emphasis> fiscale consolidatie van vennootschappen in één belastingplichtige. De verliesverhandeling in het Britse <emphasis role="italic">group relief</emphasis> systeem bijvoorbeeld, loopt niet via een ononderbroken aandeelhouderschapsketen, maar rechtstreeks van de verlies-groepsvennootschap naar de winst-groepsvennootschap, al moeten die twee wel via-via verbonden zijn. Uit de zaak <emphasis role="italic">Philips Electronics</emphasis> blijkt voorts dat sprake was van een extra eis (geen mogelijkheid tot verrekening elders) die in binnenlandsituaties niet gesteld werd. Daarvan is in de thans te beoordelen Nederlandse zaak geen sprake. Het Franse systeem vervolgens, lijkt weliswaar meer op het Nederlandse dan het Britse doet, maar gaat minder ver en is veel minder flexibel: voeging is verplicht voor minstens vijf jaar en bij uittreden gelden <emphasis role="italic">recaptures</emphasis> ter zake van de laatste vijf jaar; alleen de topholding kan als moeder dienen; welke vennootschap wanneer gevoegd en ontvoegd wordt, kan niet geheel naar eigen inzicht door de groep worden bepaald; niet alle vermogen en werkzaamheid van de gevoegde vennootschappen wordt toegerekend aan de moeder: alleen bepaalde intercompany-verhoudingen en –transacties worden uitgeschakeld; elke vennootschap moet nog steeds op <emphasis role="italic">stand alone</emphasis> basis haar belastbare winst bepalen en aangeven. De Franse topholding fungeert aldus meer als een totalisator van separate fiscale dochterresultaten, gevolgd door correcties voor onder meer intragroeps-overdrachten van aandelen en activa, voor intragroepsdividenden en voor voorzieningen en afboekingen op intragroepsleningen; het gaat meer om <emphasis role="italic">fiscal accountancy</emphasis> dan om fiscale persoonsvereenzelviging.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.18</nr>
+          <para>Een beroep op een binnenslands bestaande keuze die de belanghebbende <emphasis role="italic">niet</emphasis> wil maken, lijkt voorts weinig kant of wal te raken. De belanghebbende vraagt niet om <emphasis role="italic">dezelfde</emphasis> vereenzelviging als de vereenzelviging die in de vergelijkbare interne situatie tot stand zou moeten worden gebracht om het door haar gewenste resultaat te bereiken. Zij vraagt om iets dat in de vergelijkbare binnenlandse situatie niet bestaat, nl. voeging van haar kleindochters zonder voeging van tussenhoudsters. Zij vraagt daarmee niet om gelijke, maar om gunstiger fiscale behandeling dan in een vergelijkbaar geheel binnenlands geval. Haar standpunt impliceert daarmee dat Nederland in zijn wetgeving twee soorten fiscale eenheden zou moeten opnemen: (i) het door Nederland soeverein gewenste fiscale consolidatieregime, waarin – gezien het flexibele en facultatieve karakter van dat systeem - om voor de hand liggende rationele redenen<footnote-ref linkend="_00096c11-47c7-4361-a627-64476f3cf28e"/> een ononderbroken aandeelhouderschapsketen voorwaarde is voor volledige consolidatie, en daarnaast (ii) een door hem expliciet niet gewenst<footnote-ref linkend="_a953903c-9e96-433c-b9b0-a4c0f5c298c2"/>, veel ruimer en fiscaal onbeheersbaarder regime voor groepen vennootschappen die mede een grensoverschrijdende intragroepsrelatie hebben of organiseren. Als dat standpunt juist zou zijn, staan Nederland mijns inziens drie wegen open: (i) de resulterende, mijns inziens met Protocol 12 EVRM en de artt. 20 en 21 EU-Handvest<footnote-ref linkend="_3d8d7d33-bf7c-4534-898f-2766b5b605da"/> op gespannen voet staande omgekeerde discriminatie van geheel binnenlandse concerns opheffen door de ononderbroken-ketenvoorwaarde ook af te schaffen voor geheel binnenlandse groepen, hetgeen zal leiden tot een onafzienbare reeks onleesbare en onwerkbare antimisbruikbepalingen, (ii) de resulterende, mijns inziens met Protocol 12 EVRM en de artt. 20 en 21 EU-Handvest op gespannen voet staande fiscale privilegiëring van de grensoverschrijdende situatie opheffen door fiscale consolidatie ook voor geheel binnenlandse gevallen af te schaffen (het paard achter de wagen dus) of (iii) iets daartussenin: het door hem gewenste systeem inruilen voor een veel inflexibeler en minder ver gaand systeem zoals wellicht het Franse of een systeem met een heel ander karakter, zoals het Britse. Gevallen waarin een lidstaat zich door rechtspraak van het HvJ EU genoodzaakt ziet een keuze zoals die onder (ii) te maken, werden door voormalig A.-G. Geelhoed bij het HvJ EU terecht een – zeer onwenselijke - anathema (vloek) van de interne markt genoemd (paragraaf 68 conclusie in zaak C-524/04, <emphasis role="italic">Thin cap</emphasis><footnote-ref linkend="_9a5a2ed6-4fc7-42d8-97d3-0c8059aabdf5"/>).</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.19</nr>
+          <para>Belanghebbendes standpunt is mijns inziens dan ook onjuist. Ik meen dat op het geheel ongeharmoniseerde terrein van de fiscale consolidatie van vennootschappen voor de heffing van de eveneens nagenoeg geheel ongeharmoniseerde vennootschapsbelasting het EU-recht de EU niet de bevoegdheid geeft om lidstaten voor te schrijven dat zij de grensoverschrijdende situatie in vergelijking met de interne situatie fiscaal moeten privilegiëren. Als een Lidstaat om rationale redenen, zonder onderscheid (voor alle gevallen), en consistent met de ratio van een facultatieve en flexibele volledige fiscale vereenzelviging, een ononderbroken keten van aandeelhouderschap eist voor zijn niet door EU-harmonisatie beïnvloede nationale systeem van volledige fiscale vereenzelviging van concernvennootschappen, en het HvJ EU heeft bovendien expliciet uitgesproken dat het EU-recht in grensoverschrijdende gevallen <emphasis role="italic">niet</emphasis> verplicht tot de fiscale vereenzelviging waarvoor in geheel interne gevallen gekozen kan worden (<emphasis role="italic">X Holding BV</emphasis>), dan volgt daaruit mijns inziens dat het EU-recht niet noopt tot een grootmoeder-kleindochter-vereenzelviging met weglating van de tussenhoudster die binnenslands niet toegestaan is. De enige ongelijkheid in behandeling waarop de belanghebbende in casu kan wijzen (nl. het ontbreken van de keuze om ook haar tussenhoudsters te voegen) is immers expliciet als gerechtvaardigd aanvaard door het HvJ EU in <emphasis role="italic">X Holding BV</emphasis>.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.20</nr>
+          <para>Anders gezegd: gegeven dat de Unie niet de bevoegdheid heeft een Lidstaat te verbieden een flexibel en facultatief fiscaal volledig vereenzelvigingsstelsel met ononderbroken-ketenvoorwaarde toe te passen, kan belanghebbendes standpunt slechts langs twee wegen gehonoreerd worden: ofwel (i) het arrest van het HvJ EU in de zaak <emphasis role="italic">X Holding BV</emphasis> moet als onjuist beschouwd worden en bij nader inzien moet geoordeeld worden dat de vestigingsvrijheid toch wél verplicht tot grensoverschrijdende fiscale vereenzelviging als die binnenslands beschikbaar is, ofwel (ii) binnenlandse concerns met een tussengeplaatste buitenlandse tussenhoudster worden door het EU-recht – ondanks het Twaalfde protocol EVRM en de artt. 20 en 21 EU-Handvest - fiscaal geprivilegieerd doordat voor hen een nóg flexibeler en facultatiever regime – nl. zónder ononderbroken-keten-voorwaarde – beschikbaar moet zijn waarvan geheel binnenlandse concerns uitgesloten blijven. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>5.21</nr>
+          <para>Dit gezichtspunt, voortvloeiende uit de <emphasis role="italic">Papillon</emphasis>-posterieure zaak <emphasis role="italic">X Holding BV</emphasis>, is niet als zodanig naar voren gekomen in de door het Hof Amsterdam verwezen prejudiciële vragen (zie 5.4 en 5.13 hierboven). Dat Hof verwerpt alleen de stellingen van de inspecteur (zie r.o. 4.14.5 in de zaak 11/00587):</para>
+          <para>- dat uit het <emphasis role="italic">X Holding BV</emphasis>-arrest rechtstreeks volgt dat in het Nederlandse systeem volgens EU-recht in een <emphasis role="italic">Papillon</emphasis>-situatie weigering van voeging gerechtvaardigd is en </para>
+          <para>- dat <emphasis role="italic">X Holding BV</emphasis> zou impliceren dat het ontbreken van de mogelijkheid tot consolidatie in geval van buitenlandse tussenhoudsters een dispariteit is. </para>
+          <para>Evenmin is dit gezichtspunt in deze scherpte naar voren gekomen in de schriftelijke opmerkingen die de Nederlandse regering ex art. 23 Protocol betreffende het Statuut van het HvJ EU heeft ingediend in de drie door het Hof Amsterdam verwezen zaken. Ik meen daarom dat het wenselijk zou kunnen zijn dat u, in aanvulling op de reeds door het Hof Amsterdam gestelde vragen, het HvJ EU in de gelegenheid stelt opheldering te geven over de vragen:</para>
+          <para>( i) of het <emphasis role="italic">Papillon</emphasis>-posterieure arrest <emphasis role="italic">X Holding BV</emphasis> nog wel de conclusie toelaat dat de enige ongelijkheid in behandeling waarop de belanghebbende in casu kan wijzen (het ontbreken van de keuze om ook haar tussenhoudsters te voegen) <emphasis role="italic">niet</emphasis> reeds door het Hof expliciet als gerechtvaardigd is aanvaard in <emphasis role="italic">X Holding BV</emphasis>; en</para>
+          <para>(ii) of, gegeven de combinatie van (i) <emphasis role="italic">X Holding BV</emphasis>, (ii) het zonder-onderscheid-karakter van de ononderbroken-ketenvoorwaarde, (iii) het Twaalfde protocol EVRM en de artt. 20 en 21 EU-Handvest, en (iv) het verder gaande en facultatieve karakter van het Nederlandse vereenzelvigingssysteem ten opzichte van het Franse integratiesysteem, het EU-recht Nederland niettemin verplicht om ofwel belanghebbendes geval fiscaal te privilegiëren door de algemene ononderbroken-ketenvoorwaarde voor haar geval te laten vallen, ofwel zijn nationale vereenzelvigingssysteem te verlaten.</para>
+          <para/>
+        </paragroup>
+      </section>
+      <section>
+        <title>
+          <nr>6</nr>De verdragsrechtelijke non-discriminatiebepalingen </title>
+        <paragroup>
+          <nr>6.1</nr>
+          <parablock>
+            <para>Art. 26(4) van het belastingverdrag Nederland-Spanje (1971) luidt als volgt: </para>
+            <para>“4. Ondernemingen van een van de Staten, waarvan het kapitaal geheel of gedeeltelijk, onmiddellijk of middellijk, in het bezit is van of wordt beheerst door een of meer inwoners van de andere Staat, worden in de eerstbedoelde Staat niet aan enige belastingheffing of daarmede verband houdende verplichting onderworpen, die anders of zwaarder is dan de belastingheffing en daarmede verband houdende verplichtingen, waaraan andere soortgelijke ondernemingen van die eerstbedoelde Staat zijn of kunnen worden onderworpen.”</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>Deze bepaling luidt conform art. 24(5) van het OESO-Modelbelastingverdrag van 1963.<footnote-ref linkend="_52ff3f6b-daf2-4cf3-810d-b3efbbc5a7dd"/> In geval van verschil tussen de authentieke Nederlandse en Spaanse teksten is de authentieke Engelse tekst doorslaggevend.</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.2</nr>
+          <parablock>
+            <para>Art. 26(5) van het belastingverdrag Nederland-Griekenland (1981) luidt als volgt:</para>
+            <para>“5. Ondernemingen van een van de Staten, waarvan het kapitaal geheel of ten dele, onmiddellijk of middellijk, in het bezit is van of wordt beheerst door een of meer inwoners van de andere Staat, worden in de eerstbedoelde Staat niet aan enige belastingheffing of daarmede verband houdende verplichting onderworpen, die anders of zwaarder is dan de belastingheffing en daarmede verband houdende verplichtingen, waaraan andere, soortgelijke ondernemingen van de eerstbedoelde Staat zijn of kunnen worden onderworpen.”</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>Deze bepaling luidt conform art. 24(6) van het OESO-Modelbelastingverdrag 1977.<footnote-ref linkend="_3fbe52cd-c453-43e4-bb8e-882876db9183"/> Indien de authentieke Griekse en Nederlandse teksten verschillend kunnen worden uitgelegd, is de authentieke Engelse tekst beslissend.</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.3</nr>
+          <parablock>
+            <para>Deze bepalingen verbieden fiscale discriminatie op basis van inwonerschap in de andere verdragsstaat van de (middellijke) aandeelhouders van de belastingplichtige. Zij volgen de tekst van art. 24(5) van het genoemde OESO-Modelverdrag. Die bepaling is in de loop van de tijd inhoudelijk niet gewijzigd en luidt in de twee officiële OESO-talen als volgt:</para>
+            <para>“5. Enterprises of a Contracting State, the capital of which is wholly or partly owned or controlled, directly or indirectly, by one or more residents of the other Contracting State, shall not be subjected in the first-mentioned State to any taxation or any requirement connected therewith which is other or more burdensome than the taxation and connected requirements to which other similar enterprises of the first-mentioned State are or may be subjected.”</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>“5.Les entreprises d'un État contractant, dont le capital est en totalité ou en partie, directement ou indirectement, détenu ou contrôlé par un ou plusieurs résidents de l'autre État contractant, ne sont soumises dans le premier État à aucune imposition ou obligation y relative, qui est autre ou plus lourde que celles auxquelles sont ou pourront être assujetties les autres entreprises similaires du premier État.”</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.4</nr>
+          <para>Nu de ingeroepen verdragsbepalingen luiden conform art. 24(5) OESO-modelverdrag, is het officiële OESO-commentaar volgens u (zie HR BNB 1992/379<footnote-ref linkend="_2dc2f635-889c-4bee-928f-36f7f43376a1"/>) in beginsel van groot belang bij de interpretatie van de desbetreffende verdragsbepaling. Dat Commentaar is echter niet ongewijzigd sinds 1971 respectievelijk 1981. In 2008 is aan het OESO-Commentaar bij deze bepaling een paragraaf toegevoegd die ziet op grensoverschrijdende integratie en consolidatie. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.5</nr>
+          <parablock>
+            <para>De <emphasis role="italic">1963</emphasis>- en <emphasis role="italic">1977</emphasis>-Commentaren bij de inhoudelijk ongewijzigde Modelbepaling zijn vrijwel identiek (ik citeer alleen de Engelse tekst): </para>
+            <para>(1963) “Paragraph 5</para>
+            <para>18. Paragraph 5 forbids a State to give different treatment to two enterprises residing on its territory, the capital of one of which is wholly or partly owned or controlled, directly or indirectly, by one or more residents of the other Contracting State. This provision, and the discrimination which it puts an end to, relates to the taxation only of enterprises and not of the persons owning or controlling their capital. Its object therefore is to ensure equal treatment for taxpayers residing in the same State, and not to subject foreign capital, in the hands of the partners or shareholders, to identical treatment to that applied to domestic capital. Paragraph 5 has no connection with nationality as defined in paragraph 2 and in no way does it purport to introduce into the Article a new concept of "nationality of capital".”</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>(1977) “Paragraph 6 </para>
+            <para>57. This paragraph forbids a Contracting State to give less favourable treatment to an enterprise, the capital of which is owned or controlled, wholly or partly, directly or indirectly, by one or more residents of the other Contracting State. This provision, and the discrimination which it puts an end to, relates to the taxation only of enterprises and not of the persons owning or controlling their capital. Its object therefore is to ensure equal treatment for taxpayers residing in the same State, and not to subject foreign capital, in the hands of the partners or shareholders, to identical treatment to that applied to domestic capital.”</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.6</nr>
+          <parablock>
+            <para>Deze oudere commentaren zeiden niets over nationale verliesverhandelings-, <emphasis role="italic">group contribution</emphasis>-, integratie- of consolidatie-wetgeving. Het <emphasis role="italic">2008</emphasis>-commentaar bij art. 24(5) OESO-modelverdrag doet dat wel: na een paragraaf die nog steeds identiek is aan de boven geciteerde paragraaf 57 (1977), is in 2008 een paragraaf toegevoegd die inhoudt dat ondernemingen met aandeelhouders in de andere verdragsstaat geen beroep op art. 24(5) kunnen doen om in aanmerking te komen voor fiscale integratie of consolidatie die mogelijk is tussen ondernemingen die alle inwoner van één verdragstaat zijn: </para>
+            <para>“Paragraph 5</para>
+            <para>76. (zie paragraaf 57 van de 1977-tekt geciteerd in 6.3; PJW). </para>
+            <para>77. Since the paragraph relates only to the taxation of resident enterprises and not to that of the persons owning or controlling their capital, it follows that it cannot be interpreted to extend the benefits of rules that take account of the relationship between a resident enterprise and other resident enterprises (e.g. rules that allow consolidation, transfer of losses or tax-free transfer of property between companies under common ownership). For example, if the domestic tax law of one State allows a resident company to consolidate its income with that of a resident parent company, paragraph 5 cannot have the effect to force the State to allow such consolidation between a resident company and a non-resident parent company. This would require comparing the combined treatment of a resident enterprise and the non-resident that owns its capital with that of a resident enterprise of the same State and the resident that owns its capital, something that clearly goes beyond the taxation of the resident enterprise alone. </para>
+            <para>78. (….). (verschil in inhouding van dividendbelasting toegestaan; PJW)</para>
+            <para>79. (….).” (toepassing <emphasis role="italic">thin cap</emphasis> regels toegestaan; PJW).</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>Gezien de aanhef van de geciteerde paragraaf 77 menen de OESO-Commentatoren dat deze in 2008 toegevoegde paragraaf 77 slechts een explicitering is van iets dat altijd al duidelijk was: art. 24(5) OESO-Model noopt geenszins tot grensoverschrijdende <emphasis role="italic">group relief</emphasis>, integratie of consolidatie. Weliswaar is dit 2008-commentaar op art. 24(5) Model van later datum dan de toe te passen verdragen, maar in dit geval is de aanvulling van het commentaar mijns inziens onmiskenbaar een verduidelijking worden gezien, nu niets in de eerdere commentaren erop wees dat de eerdere commentatoren enige stap in de richting van grensoverschrijdende verliesverrekening en opheffing van resultaatneming op intercompany transacties zouden hebben gewild.</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.7</nr>
+          <parablock>
+            <para>Snel<footnote-ref linkend="_e22e45a5-9ee1-4375-a2a9-5e7395564b6b"/> ziet in de OESO-nondiscriminatiebepaling dan ook geen steun voor een grensoverschrijdende fiscale eenheid: </para>
+            <para>“Naar mijn mening verplicht deze bepaling niet tot het vormen van een fiscale eenheid tussen een binnenlandse dochter en een buitenlandse moeder indien die buitenlandse moeder niet belastingplichtig is. Er is dan mijns inziens geen sprake van een situatie die gelijkwaardig is met een binnenlandse moeder die wel belastingplichtig is. Ook als de binnenlandse moeder niet belastingplichtig is, is er geen fiscale eenheid mogelijk.”</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>Dat ligt ook geenszins voor de hand als zelfs het EU-recht daartoe niet noopt, zoals bleek uit de zaak zie <emphasis role="italic">X Holding BV</emphasis>.</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.8</nr>
+          <parablock>
+            <para>De belanghebbende vraagt echter om iets anders, nl. om fiscale consolidatie van twee vennootschappen <emphasis role="italic">binnen dezelfde jurisdictie</emphasis>, waartussen een tussenhoudster in de andere verdragstaat geschakeld is die niet geconsolideerd wordt, zodat op zichzelf geen grensoverschrijdende consolidatie aan de orde is en het Commentaar dus op zichzelf in casu geen gezichtspunten biedt. Volgens Boulogne<footnote-ref linkend="_97cf6c5e-d14f-49c6-9164-909f560d2e70"/> kan art. 24(5) OESO-Model in onze – uitsluitend de heffing ten laste van <emphasis role="italic">binnenlandse</emphasis> vennootschappen betreffende – situatie daarom wél ingeroepen worden:</para>
+            <para>“Bovenstaande toepassing van art. 24, vijfde lid, OESO-modelverdrag op consolidatieregimes, zoals het Nederlandse fiscale-eenheidsregime, is niet onomstreden. "Tegenstanders" van een dergelijke toepassing wijzen op het OESO-commentaar dat bepaalt dat het vijfde lid niet op zodanige wijze kan worden uitgelegd dat regels die gelden met betrekking tot binnenlandse ondernemingen (bijvoorbeeld consolidatieregimes) ook moeten worden toegepast op buitenlandse ondernemingen. (…). Ook stellen sommige auteurs dat de verboden discriminatie op individueel niveau moet worden bepaald. Daarbij mag geen rekening worden gehouden met fiscale regels die op groepsniveau van toepassing zijn. (…) Hieruit zou kunnen worden afgeleid dat voor toepassing van art. 24, vijfde lid, OESO-modelverdrag een volledige "carve-out" bestaat voor consolidatieregimes. Dit is volgens mij niet juist. Ik meen dat art. 24, vijfde lid, OESO-modelverdrag inderdaad geen verplichting inhoudt om grensoverschrijdende consolidatie toe te staan, maar wel degelijk verplicht tot binnenlandse consolidatie indien het niet toestaan daarvan discriminatie op grond van (buitenlands) aandeelhouderschap oplevert.</para>
+            <para>(…)</para>
+            <para>Momenteel wordt hevig gedebatteerd over de vraag of de vrijheid van vestiging ertoe dwingt een dergelijke fiscale eenheid toe te staan indien de moedermaatschappij in een EU-lidstaat is gevestigd. Hoe het ook zij, de vrijheid van vestiging is niet van toepassing op derde landen. Indien de moedermaatschappij gevestigd is in een derde land waarmee Nederland een verdrag heeft gesloten dat een met art. 24, vijfde lid, OESO-modelverdrag overeenkomende bepaling bevat, kan naar mijn mening alsnog de gewenste fiscale eenheid tot stand komen. Immers, indien de moedermaatschappij in Nederland was gevestigd, dan was een fiscale eenheid mogelijk geweest met de twee zustermaatschappijen. (…). Op basis van art. 24, vijfde lid, OESO-modelverdrag is naar mijn mening eveneens een fiscale eenheid mogelijk tussen een in Nederland gevestigde moedermaatschappij en haar middellijk gehouden kleindochtermaatschappij.”</para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.9</nr>
+          <parablock>
+            <para>Uit een overzicht in het <emphasis role="italic">World Tax Journal</emphasis> van Avery Jones e.a.<footnote-ref linkend="_2be8cd5f-71a0-4290-a4c4-67164976d099"/> blijkt dat er inderdaad nationale belastingrechters zijn die naar nationaal recht uitgesloten <emphasis role="italic">Papillon</emphasis>-achtige situaties (tussenhoudster in het andere verdragsland) niettemin in aanmerking hebben doen komen voor <emphasis role="italic">group contribution</emphasis> regels op basis van 24(5) OESO-Modelverdrag (citaat met voetnoten):</para>
+            <para>“4.3.5. Grouping between a domestic parent company and its domestic sub-subsidiary where there is an intermediate non-resident subsidiary.</para>
+            <para>(…)</para>
+            <para>This point arose in a case in the Swedish Supreme Administrative Court, [180] in which a US company was inserted between the Swedish parent and its Swedish subsidiary. The question was whether the Swedish parent company could give a group contribution to the Swedish subsidiary. In order for a group contribution to be possible from the parent to the second-tier subsidiary, the conditions for a group contribution must be met in all steps of the chain, [181] which was not met when a US company was inserted in between. Although no discrimination was directed towards the Swedish parent company, as the denied group contribution did not have anything to do with how the parent company was owned, it was noted that the situation of the Swedish subsidiary also had to be taken into account. That company did not have the same opportunity to be included in a group taxation regime because of the US intermediary, as it would have if the intermediary had been Swedish. The court focused on the wording that an “other” connected requirement may constitute discrimination. It noted that what is now Para. 76 of the Commentary did not give explicit guidance. The court noted, however, that support for equal treatment as a norm could be found in what is now Para. 15 of the Commentary to the nationality provision. Equal treatment could in this context have no other meaning than that the group contribution for both receiving and contributing company shall be allowed. The ownership provision [182] was applied. We are sympathetic to the court’s decision to look at both the transferor and transferee companies together in view of the difficulty in applying the ownership provision to the transferee company, even if this is difficult to reconcile with the wording, given the reference to “other” taxation, which arguably must include something which is not “more burdensome” taxation if it is not redundant in that context. </para>
+            <para>Two cases in the Finnish Supreme Administrative Court concern the opposite situation, that the transferor was the sub-subsidiary and the court by a majority found that the prohibition on group contributions was contrary to the ownership provision. [183] The minority made the point that the ultimate parent company was Finnish, that no Finnish taxes were levied on the intermediate Swedish companies, and that Swedish tax was not in issue, none of which is a convincing argument. A later Finnish Supreme Administrative Court case permitted a group contribution between two Finnish companies with a US holding company where there were intermediate companies in other treaty countries and in one case a non-treaty country, on the basis that the treaty with the US required Finland to allow the group contribution between the Finnish subsidiaries, and it did not matter that the intermediary companies are not Finnish nor US companies and may be from treaty states or from non-treaty states. [184] The non-resident ownership caused by the US parent did not cause the barrier to the application of the group contributions rules, which would have been blocked even if the US parent had been a Finnish resident. It is difficult to understand how the Finnish companies were subjected to other or more burdensome taxation by reason of such non-resident ownership. If there was a burden because of non-resident ownership, it was because of the ownership below the top Finnish company and above the sub-subsidiary Finnish company. Thus, it would seem to us that if there is to be treaty relief it would have to be at that level – that the sub-subsidiary would have to be able to point to a treaty obligation owing to a direct or indirect owner in that part of the chain. Otherwise, the US treaty’s ownership provision would seem to be getting beyond protecting Finnish companies from discrimination by reason of US ownership. It would be having the effect of requiring treatment equivalent to Finnish ownership at all levels of the chain if there simply happens to be any US ownership at any level of the chain, which seems to us to be a stretch.</para>
+          </parablock>
+          <para/>
+          <parablock>
+            <para>(Voetnoten):</para>
+            <para>180. RÅ 1993 ref. 91 (I). The same outcome was reached in RÅ 1993 not. 677. This case concerned the Swedish income tax treaty with the Netherlands (1992) and the issue that reached the Supreme Administrative Court was the same as in RÅ 1993 ref. 91 (I), namely whether an intermediary Dutch company would prevent a group contribution from the Swedish parent to its Swedish second-tier subsidiaries. </para>
+            <para>181. Chap. 35, Sec. 6 Income Tax Act.</para>
+            <para>182. In Art. 10, third paragraph of the treaty between the United States and Sweden on estates, inheritance and gifts, which applied to all taxes. </para>
+            <para>183. Finnish Supreme Administrative Court, Decisions KHO 1992-B-509 and KHO 1992-B-510.</para>
+            <para>184. Case KHO 2004/1525 concerned two Finnish Oys, which were owned via several companies in treaty states and in non-treaty states (Bermuda) by a US Inc. The two Finnish sister companies were allowed to make tax-deductible group contributions to each other because they had the common parent company in a tax treaty state (the United States), even though non-treaty state companies were interposed. The non-discrimination article of the treaty between Finland and the United States was considered to require allowing the tax-deductible group contribution. The court did not consider the issue of simultaneous application of treaties (…).”   </para>
+          </parablock>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.10</nr>
+          <para>Ik merk opnieuw op dat <emphasis role="italic">group contribution</emphasis> systemen (die vergelijkbaar zijn met het Britse <emphasis role="italic">group relief</emphasis> systeem) veel minder ver gaan (slechts resultaatoverheveling inhouden die niet langs een ononderbroken keten van aandeelhouderschap hoeft te lopen, mits het resultaat maar binnen de groep blijft) dan de volledige fiscale consolidatie tot één belastingplichtige die het Nederlandse fiscale-eenheidsregime inhoudt. Ik zie mede daarom in belanghebbendes geval de gestelde discriminatie naar aandeelhouderschap niet, nu immers ook in de geheel binnenlandse situatie de eis van een ononderbroken aandeelhouderschapsketen gesteld wordt voor fiscale vereenzelviging, en wel om – zoals boven bleek – volkomen rationele redenen. Ik merk voorts opnieuw op dat de belanghebbende <emphasis role="italic">niet</emphasis> de keuze wenst te maken in het ontbreken waarvan zij een discriminatie ziet. Dat is anders in de in het citaat in 6.9 weergegeven zaken: daar wilden de betrokkenen juist wél de keuze maken die hen onthouden werd. Niet relevant is dat aan een concern met een buitenlandse tussenhoudster de keuze wordt onthouden die tussenhoudster te voegen, nu - zoals boven bleek - art. 24(5) OESO-Model juist niet noopt tot integratie van (de resultaten van) een tussenhoudster in het andere verdragsland. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>6.11</nr>
+          <para>Het belangrijkste is echter dat de belanghebbende en haar kleindochters <emphasis role="italic">ratione personae</emphasis> mijns inziens in het geheel niet onder de door haar ingeroepen nondiscriminatiebepalingen vallen. De belanghebbende valt er niet onder omdat zij niet stelt anders behandeld te worden op grond van het inwonerschap in een verdragsstaat van <emphasis role="italic">haar</emphasis> aandeelhouders. Voor zover zij in deze procedure haar Nederlandse kleindochters kan vertegenwoordigen, wordt deze kleindochters de mogelijkheid tot voeging met de belanghebbende voorts niet onthouden op grond van het <emphasis role="italic">inwonerschap</emphasis> van de tussenhoudsters, maar op grond van de <emphasis role="italic">niet-onderworpenheid </emphasis>van die tussenhoudsters in Nederland. Als de tussenhoudsters in Nederland een vaste inrichting zouden hebben onderhouden waaraan de deelnemingen in de kleindochters toe te rekenen zouden zijn geweest, dan was de gewenste consolidatie immers wél mogelijk geweest, hoewel beide tussenhoudsters nog steeds <emphasis role="italic">inwoner</emphasis> van Spanje resp. Griekenland zouden zijn geweest.</para>
+          <para/>
+        </paragroup>
+      </section>
+      <section>
+        <title>
+          <nr>7</nr>Behandeling van de middelen</title>
+        <parablock>
+          <para>
+            <emphasis role="italic">Het eerste middel (EU-recht)</emphasis>
+          </para>
+          <para> </para>
+        </parablock>
+        <paragroup>
+          <nr>7.1</nr>
+          <para>Zoals boven (5.1 en 5.2) reeds bleek, is belanghebbendes eerste middel gegrond. Haar geval is geen intern geval waarin het EU-recht zich niet doet gevoelen. Gesteld noch gebleken is dat de dochtervestigingen in Spanje en Griekenland schijn of misbruik zijn, noch dat hun secundaire vestigingen in Nederland schijn of misbruik zijn. Haar beroep op de vestigingsvrijheid moet dus inhoudelijk behandeld worden.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>7.2</nr>
+          <para>De belanghebbende heeft op grond van de vereisten van art. 15 Wet Vpb niet de mogelijkheid een fiscale eenheid aan te gaan met alleen haar kleindochters. Dat is dezelfde uitkomst als in een interne situatie, zodat op dat punt van ongelijke behandeling geen sprake is. Dat zij – anders dan in een interne situatie – niet de keuze heeft om ook haar tussendochters te voegen, is weliswaar een ongelijkheid, maar die is gerechtvaardigd, zo heeft het HvJ EU in <emphasis role="italic">X Holding BV</emphasis> vastgesteld. Van ongerechtvaardigde ongelijke behandeling is dus geen sprake. Het desondanks wél aan de belanghebbende toestaan van een Papillon-voeging die aan een vergelijkbaar geheel binnenlands concern wettelijk niet wordt toegestaan, zou mijns inziens een fiscale privilegiëring van de grensoverschrijdende situatie opleveren waartoe het EU-recht niet noopt en die op gespannen voet staat met het discriminatieverbod van het Twaalfde protocol EVRM en daarmee met de artt. 20 en 21 van het EU-Handvest.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>7.3</nr>
+          <para>Indien men daar anders over denkt, rijst de vraag naar rechtvaardiging van de weigering van de gevraagde fiscale vereenzelviging van grootmoeder en kleindochter. Die rechtvaardiging is dezelfde als die voor dezelfde weigering in interne gevallen: fiscale onbeheersbaarheid van keten-onderbroken fiscale vereenzelviging van naar believen door het concern gekozen groepsvennootschappen (voor een fiscale eenheid kan elk jaar wel of niet gekozen worden), met name (i) gebruikmaking van <emphasis role="italic">double dips</emphasis> op interne groepsfinancieringen (met eigen of met vreemd vermogen) door middel van fiscaal-strategische voeging en ontvoeging en liquidaties en (ii) intragroepstransacties en strategische verschuivingen van activa in combinatie met fiscaal-strategische voegingen en ontvoegingen en gebruikmaking van de deelnemingsvrijstelling en de daarbij behorende liquidatieverliesaftrekregeling. Dit is in interne situaties even ongewenst als in grensoverschrijdende situaties en gaat duidelijk in tegen doel en strekking van art. 15 Wet Vpb (volledige fiscale vereenzelviging op grond van de economische werkelijkheid van een <emphasis role="italic">unitary business</emphasis>: als een volledige (100%) vennootschap volledige wordt weggelaten, is van <emphasis role="italic">unitary business</emphasis> geen sprake meer; eerder van willekeurige <emphasis role="italic">disunity</emphasis>). Ik merk daarbij op dat het Franse <emphasis role="italic">intégration fiscale</emphasis> systeem, dat na het HvJ EU-arrest in de zaak <emphasis role="italic">Papillon</emphasis> thans wél consolidatie van Franse 95%-kleindochters toelaat zonder voeging van een tussenliggende 95%-tussenhoudster, veel minder ruimte voor manipulatie laat (zie de verschillen, samengevat in 5.17 hierboven). Mij is niet duidelijk of het Franse regime een liquidatieverliesaftrekregeling binnen een deelnemingsvrijstellingsregime kent indien géén <emphasis role="italic">intégration</emphasis> bestaat of deze wordt verbroken. De eis van een ononderbroken aandeelhouderschapsketen in het geheel facultatieve Nederlandse volledige vereenzelvigingsstelsel wordt, kortom, gerechtvaardigd door de noodzaak de integriteit van het systeem van winstbelastingheffing van rechtspersonen te beschermen (fiscale coherentie). </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>7.4</nr>
+          <para>Daarnaast bestaat – in grensoverschrijdende Papillon-gevallen zoals dat van de belanghebbende – bovendien onder meer het gevaar van internationale dubbele verliesverrekening, bijvoorbeeld ter zake van een verlies op de liquidatie van een kleindochter indien de tussenhoudster is gevestigd in een lidstaat die een met de Nederlandse vergelijkbare deelnemingsvrijstelling kent: alsdan kan bij een liquidatie van de Nederlandse kleindochtervennootschap een liquidatieverlies genomen worden bij de tussenhoudster dat in Nederland reeds binnen de Papillon-eenheid in aanmerking is genomen. Als ook de buitenlandse (niet-gevoegde) tussenhoudster wordt geliquideerd, kan de Nederlandse moeder dat verlies nogmaals nemen. In interne verhoudingen zou dat onmogelijk zijn omdat de ononderbroken-ketenvoorwaarde meebrengt dat de tussenhoudster wél gevoegd is en daardoor geen deelneming meer is, die dus evenmin aftrekbaar geliquideerd kan worden (de liquidatieverliesregeling van art. 13d Wet Vpb is binnen een fiscale eenheid niet van toepassing omdat als gevolg van de voeging fiscaal geen deelnemingen meer zichtbaar zijn<footnote-ref linkend="_637ae255-6700-4e51-83d8-dc9d070fa219"/>). De Griekse c.q. Spaanse tussenhoudster zou ook een lening kunnen verstrekken aan een kleindochter in Nederland. Indien deze onvolwaardig wordt, kan zij aftrekbaar afgewaardeerd worden in Griekenland en Spanje, terwijl de daaraan ten grondslag liggende verliezen van de kleindochtervennootschap ook reeds ten laste van de winst van de Nederlandse moeder zijn gekomen binnen de Papillon-eenheid. Mijns inziens is een – door geen enkele EU-harmonisatie bestreken – nationaal vennootschapsbelastingstelsel dat volledig gebaseerd is op facultatieve volledige fiscale consolidatie van concernvennootschappen in één belastingplichtige niet opgewassen tegen de geschetste interne en grensoverschrijdende fiscale onbeheersbaarheid die een gevolg zou zijn van het niet meer mogen stellen van de ononderbroken-ketenvoorwaarde voor toegang tot die jaarlijks facultatieve en volledige consolidatie in één belastingplichtige.</para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>7.5</nr>
+          <para>Gezien het in 5.16 - 5.21 opgemerkte en het reeds aanhangig zijn van de Amsterdamse prejudiciële vragen, alsmede het ontbreken van een <emphasis role="italic">acte éclairé</emphasis>, geef ik u in overweging om het HvJ EU aanvullende prejudiciële vragen te stellen op de in 5.21 aangegeven punten, zulks met een zekere spoed, nu de zitting in Luxemburg in de drie door het Hof Amsterdam verwezen zaken op 9 januari 2014 heeft plaatsgevonden en de A.-G. Kokott zich aan het schrijven van een conclusie in die zaken heeft gezet die aangekondigd is voor 27 februari 2014.</para>
+          <para/>
+          <parablock>
+            <para>
+              <emphasis role="italic">Het tweede middel (art. 26 van de belastingverdragen met Spanje resp. Griekenland)</emphasis>
+            </para>
+          </parablock>
+        </paragroup>
+        <paragroup>
+          <nr>7.5</nr>
+          <para>De belanghebbende stelt niet dat zij slechter behandeld wordt op grond van de vestigingsplaats van haar aandeelhouders. Mogelijk om die reden heeft het Hof Den Haag geoordeeld dat haar beroep op de artt. 26 van de belastingverdragen met Spanje en Griekenland ‘feitelijke grondslag’ mist dan wel niet-beargumenteerd is. Het Hof heeft dus kennelijk niet aanvaard of aangenomen dat de belanghebbende in deze procedure kon optreden namens haar betrokken kleindochters, of heeft ongemotiveerd ook dat beroep ongegrond geacht. </para>
+          <para/>
+        </paragroup>
+        <paragroup>
+          <nr>7.6</nr>
+          <para>Ook indien men veronderstelt dat de belanghebbende in deze procedure voor haar kleindochters kan opkomen, meen ik dat haar beroep op de nondiscriminatiebepalingen in de belastingverdragen faalt, zulks om de redenen vermeld in 6.10 en 6.11 hierboven.</para>
+          <para/>
+        </paragroup>
+      </section>
+      <section>
+        <title>
+          <nr>8</nr>Conclusie</title>
+        <para>Ik geef u in overweging om middel (ii) ongegrond te verklaren en om naar aanleiding van middel (i) met spoed aanvullende prejudiciële vragen aan het HvJ EU voor te leggen en de zaak in zoverre aan te houden tot daarop antwoorden zijn verkregen.</para>
+        <para/>
+        <para/>
+        <parablock>
+          <para>De Procureur-Generaal bij de </para>
+          <para>Hoge Raad der Nederlanden</para>
+        </parablock>
+        <para/>
+        <para/>
+        <para/>
+        <parablock>
+          <para>Advocaat-Generaal</para>
+        </parablock>
+      </section>
+      <footnote id="_42d84059-54c3-4eb2-b8fd-ae0e44f223fb" label="1">
+        <para> 	HvJ EU 27 november 2008, C-418/07 (Société Papillon), na conclusie Kokott, Jur. 2008, blz. I-8947, NTFR 2008/2404, met commentaar Wolvers, VN 2008/59.20.</para>
+      </footnote>
+      <footnote id="_6100b7cb-d0bb-44d7-8e82-f98f17c30969" label="2">
+        <para> 	HvJ EU 25 februari 2010, C-337/08 (X Holding BV), na conclusie Kokott, Jur. 2010, blz. I-1215,  BNB 2010/166 met noot Meussen, NTFR 2010/541 met commentaar Egelie, VN 2010/12.19, FED 2010/51 met aantekening Thomas.</para>
+      </footnote>
+      <footnote id="_1546de59-d93c-42e6-be1c-a844e436095c" label="3">
+        <para> 	Verdrag tussen het Koninkrijk der Nederlanden en de Regering van de Spaanse Staat tot het vermijden van dubbele belasting met betrekking tot belastingen naar het inkomen en naar het vermogen, gesloten te Madrid 16 juni 1971, Trb. 1971, 144, inwerkingtreding 20 september 1972, Trb. 1972, 141.</para>
+      </footnote>
+      <footnote id="_a167eca6-1512-4e1b-bad6-9a40835b2c80" label="4">
+        <para> 	Verdrag tussen het Koninkrijk der Nederlanden en de Helleense Republiek tot het vermijden van dubbele belasting en het voorkomen van het ontgaan van belasting met betrekking tot belastingen naar het inkomen en naar het vermogen, gesloten te Athene 16 juli 1981, Trb. 1981, 178, inwerkingtreding 10 augustus 1984, Trb. 1984, 84</para>
+      </footnote>
+      <footnote id="_9f81bdad-c42a-4d2f-b94b-611fa5e4a1ce" label="5">
+        <para> 	Verwezen door het Hof Amsterdam op 17 januari 2013, nr. 11/00587, ECLI:NL:GHAMS:2013:BY8717, NTFR 2013/ 527 met commentaar Smit, VN 2013/14.14, nr. 11/00180, ECLI:NL:GHAMS:2013:BY8711, NTFR 2013/526, en nr. 11/00824, ECLI:NL:GHAMS:2013:BY8713, NTFR 2013/563.  </para>
+      </footnote>
+      <footnote id="_4d8d5208-1b3c-4a36-8ab1-e7e5353ed1f3" label="6">
+        <para> 	Het huidige art. 15 Wet Vpb luidt inhoudelijk gelijk; wel zijn er zijn enkele in casu niet relevante wijzigingen geweest ter zake van delegatie en stemgerechtigdheid.</para>
+      </footnote>
+      <footnote id="_b047c723-f10c-4a85-b5a8-fe959005f2cb" label="7">
+        <para> 	Zie over de redenen voor concernvorming: Q.W.J.C.H. Kok, De fiscale eenheid in de vennootschapsbelasting, Amersfoort: SDU 2005, blz. 26-29.</para>
+      </footnote>
+      <footnote id="_503bdf5a-487f-45d6-b5b8-2c8a3d353977" label="8">
+        <para> 	Wet van 11 december 2002 tot wijziging van de Wet op de vennootschapsbelasting 1969 c.a. (herziening regime fiscale eenheid), Stb. 2002, 618.</para>
+      </footnote>
+      <footnote id="_f188299a-5054-49cf-a0d0-32557a1ed242" label="9">
+        <para> 	Kamerstukken II 1999-2000, 26 854, nr. 3 (MvT), p. 12 en 16.</para>
+      </footnote>
+      <footnote id="_b17fcfef-607c-42de-ba0c-68e804224f9e" label="10">
+        <para> 	Hoge Raad 18 april 2001, nr. 36 048, na conclusie Van Kalmthout, BNB 2001/345, met noot Weeghel, V-N 2001/24.16, NTFR 2001/630, met aantekening Van Nispen tot Sevenaer.</para>
+      </footnote>
+      <footnote id="_590f095b-0de1-46d8-bc9f-12bb6a604cbe" label="11">
+        <para> 	Kamerstukken II 2000/2001, 26 854, nr. 6 (NnavV), p. 22- 24.</para>
+      </footnote>
+      <footnote id="_cc6be43c-936f-4bf9-b7af-6c293ac362a9" label="12">
+        <para> 	HvJ 13 december 2005, zaak C-446/03 (Marks &amp; Spencer II), na conclusie Poiares Maduro, Jur. 2005, blz. I-10837, BNB 2006/72, met noot Wattel, NJ 2007/33, met noot Meussen, NTFR 2005/1718, met commentaar Bouwman.</para>
+      </footnote>
+      <footnote id="_a9fd30b8-f62f-484e-8cfd-3d9195f77a94" label="13">
+        <para> 	Zie de voor het HvJ EU aanhangige infractieprocedure C-172/13, <emphasis role="italic">Commission v UK</emphasis>.</para>
+      </footnote>
+      <footnote id="_267d1341-40c2-42f6-9504-f3e93301c2dd" label="14">
+        <para> 	HvJ EU 27 november 2008, C-418/07 (Société Papillon), na conclusie Kokott, Jur. 2008, blz. I-8947, NTFR 2008/2404 met commentaar Wolvers, VN 2008/59.20.</para>
+      </footnote>
+      <footnote id="_630a1a6b-e686-402b-9032-a1e112397d52" label="15">
+        <para> 	Hof Amsterdam 17 januari 2013, nr. 11/00587. Het gaat om drie zaken van dezelfde datum, waarvan één niet een Papillon-voeging betreft, maar een voeging van twee zusters, Nederlandse dochters van een gemene buitenlandse  moeder. In alle drie zaken heeft het Hof Amsterdam dezelfde prejudiciële vragen gesteld. Zie voor de coordinaten voetnoot 5 hierboven.  </para>
+      </footnote>
+      <footnote id="_a00e3ef4-dc6f-40d2-b866-0132ef6212e5" label="16">
+        <para> 	HvJ 18 juli 2007, zaak C-231/05 (Oy AA), na conclusie Kokott, Jur. 2007, blz. I-6373, NTFR 2007/1335 met commentaar Nijkeuter, VN 2007/57.13, NJ 2007/584 met noot Mok, FED 2007/100 met aantekening Thomas.</para>
+      </footnote>
+      <footnote id="_91285168-e345-41a7-84f8-2a5cbac7f644" label="17">
+        <para> 	HvJ 14 december 2000, C-141/99 (AMID), na conclusie Alber, Jur. 2000, blz. I-11619, NTFR 2001/57 met commentaar Luijckx, V-N 2001/7.38.</para>
+      </footnote>
+      <footnote id="_70d15cd1-f799-4357-9b1f-67f4770223a4" label="18">
+        <para> 	HvJ 15 mei 1997, C-250/95 (Futura Participations), na conclusie Lenz, Jur. 1997, blz. I-2471, FED 1998/365 met aantekening Weber.</para>
+      </footnote>
+      <footnote id="_5202dc9d-15ab-4a08-ab10-3d87182a87a5" label="19">
+        <para> 	HvJ 16 juli 1998, C-264/96 (ICI v Colmer), na conclusie Tesauro, Jur. 1998, blz. I-4695, BNB 1998/420 met noot Wattel, V-N 1998/40.24.</para>
+      </footnote>
+      <footnote id="_fd14d4eb-de6a-402c-9aaf-9ac0bf5486e4" label="20">
+        <para> 	HvJ 12 september 2002, C-431/01 (Mertens), na conclusie Alber, Jur. 2002, blz. I-7073.</para>
+      </footnote>
+      <footnote id="_3a009920-5c10-4baa-b250-7ce27efa9304" label="21">
+        <para> 	HvJ 6 september 2012, zaak C-18/11 (Philips Electronics), na conclusie Kokott, NJ 2012/665 met annotatie Mok, NTFR 2012/2293 met commentaar Gunn, VN 2012/50.13</para>
+      </footnote>
+      <footnote id="_6b9dd635-3c7f-498b-aa3c-615cfae28751" label="22">
+        <para> 	HvJ EU 25 februari 2010,  C-337/08 (X Holding BV), na conclusie Kokott, Jur. 2010, blz. I-1215, BNB 2010/166 met noot Meussen, NTFR 2010/541 met commentaar Egelie, VN 2010/12.19, FED 2010/51 met aantekening Thomas.</para>
+      </footnote>
+      <footnote id="_134982e1-176c-48c7-a2ce-74b640902ece" label="23">
+        <para> 	HvJ 21 februari 2013, zaak C-123/11 (A Oy), na conclusie Kokott, NTFR 2013/649 met commentaar Monteiro, VN 2013/13.16.</para>
+      </footnote>
+      <footnote id="_8a20beff-9b1b-4a6d-8ed6-505b46464653" label="24">
+        <para> 	HvJ 15 mei 2008, zaak C-414/06 (Lidl Belgium), na conclusie Sharpston, Jur. 2008, blz. I-3601, BNB 2009/85 met noot Wattel, VN 2008/25.16, NTFR 2008/1030 met commentaar Egelie, FED 2008/62 met aantekening Thomas. </para>
+      </footnote>
+      <footnote id="_ccf7f796-1725-4d7e-a34b-f1f567c640e5" label="25">
+        <para> 	HvJ 23 oktober 2008, C‑157/07 (Krankenheim Ruhesitz), na conclusie Sharpston, Jur. 2009, blz. I‑8061, BNB 2009/86 met noot Wattel.</para>
+      </footnote>
+      <footnote id="_8a7df0a9-c7f3-49b7-b6f6-02c05ef8977e" label="26">
+        <para> 	Dat het HvJ EU dat merkwaardigerwijs soms wél voorschrijft bij natuurlijke personen (zie de zaak C-527/06, <emphasis role="italic">Renneberg</emphasis>) - maar soms ook weer niet (zie de zaak C-322/11, <emphasis role="italic">K. v Finland</emphasis>) - laat ik hier maar even rusten, evenals het met Lidl Belgium onverenigbare en onjuiste arrest in de zaak C-350/11, <emphasis role="italic">Argenta Spaarbank</emphasis>.</para>
+      </footnote>
+      <footnote id="_98f64f91-dab2-4c5d-8120-091ea3fffb59" label="27">
+        <para> 	HvJ EU 25 februari 2010,  C-337/08 (X Holding), na conclusie Kokott, Jur. 2010, blz. I-1215,  BNB 2010/166 met noot Meussen, NTFR 2010/541 met commentaar Egelie, VN 2010/12.19, FED 2010/51 met aantekening Thomas.</para>
+      </footnote>
+      <footnote id="_f5f09ebd-73e9-4323-b314-11ffe281243e" label="28">
+        <para> 	HR 24 juni 2011, nr. 09/05115, na conclusie Wattel, ECLI:NL:HR:2011:BN3537, BNB 2011/244 met noot Meussen, NTFR 2011/1428, met commentaar Horzen.</para>
+      </footnote>
+      <footnote id="_8ac4c17a-6f78-48e5-b514-58373a0418df" label="29">
+        <para> 	HvJ 6 september 2012, zaak C-18/11 (Philips Electronics), na conclusie Kokott, NJ 2012/665 met annotatie Mok, NTFR 2012/2293 met commentaar Gunn, VN 2012/50.13.</para>
+      </footnote>
+      <footnote id="_c50efafc-de67-403a-b45a-533cd20cb450" label="30">
+        <para> 	O.C.R. Marres, Altijd ergens enkele verliesverrekening, NTFRB 2013/32.</para>
+      </footnote>
+      <footnote id="_d16f3921-e6e0-4b60-b0d8-f63549f75710" label="31">
+        <para>  	Persbericht van 16 juni 2011, nr IP/11/719, NTFR 2011/1562 met commentaar Monteiro. </para>
+      </footnote>
+      <footnote id="_a8337818-01c5-44ec-9d92-938c673f643a" label="32">
+        <para> 	Zie de brief van de Staatssecretaris van Financiën van 19 april 2013, nr. AFP 2013/178 U, V-N 2013/21.3</para>
+      </footnote>
+      <footnote id="_00096c11-47c7-4361-a627-64476f3cf28e" label="33">
+        <para> 	Zie de uiteenzetting van het Hof Amsterdam en diens weergave van het standpunt van de Inspecteur ter zake van de ratio en de wezenskenmerken van het Nederlandse fiscale volledige consolidatieregime in de boven (5.13) genoemde prejudiciële verwijzing door dat Hof.</para>
+      </footnote>
+      <footnote id="_a953903c-9e96-433c-b9b0-a4c0f5c298c2" label="34">
+        <para> 	Zie de parlementaire geschiedenis, aangehaald door het Hof Amsterdam in de in (5.13) genoemde prejudiciële verwijzing door dat Hof.</para>
+      </footnote>
+      <footnote id="_3d8d7d33-bf7c-4534-898f-2766b5b605da" label="35">
+        <para> 	Handvest van de grondrechten van de Europese Unie, 7 december 2000, Pb EG 2000, C 364, zoals later gewijzigd, in werking getreden 1 december 2009.</para>
+      </footnote>
+      <footnote id="_9a5a2ed6-4fc7-42d8-97d3-0c8059aabdf5" label="36">
+        <para>  	HvJ 13 maart 2007, C-524/04 (Thin cap), na conclusie Geelhoed, Jur. 2007, blz. I- 2107, NTFR 2007/470, met aantekening Wolvers, V-N 2007/15.9.</para>
+      </footnote>
+      <footnote id="_52ff3f6b-daf2-4cf3-810d-b3efbbc5a7dd" label="37">
+        <para> 	Aldus ook Kamerstukken II 1971/72, 11 528, nr. 1, p. 1.</para>
+      </footnote>
+      <footnote id="_3fbe52cd-c453-43e4-bb8e-882876db9183" label="38">
+        <para> 	Aldus ook Kamerstukken II 1981/82, 17 166, nr. 1, p. 2.</para>
+      </footnote>
+      <footnote id="_2dc2f635-889c-4bee-928f-36f7f43376a1" label="39">
+        <para> 	Hoge Raad 2 september 1992, nr 26 059, LJN ZC5045, BNB 1992/379, met noot Wattel.  </para>
+      </footnote>
+      <footnote id="_e22e45a5-9ee1-4375-a2a9-5e7395564b6b" label="40">
+        <para> 	F. Snel; Commentaar (onderdeel 8) bij art. 24(5) OESO-modelverdrag, NDFR, digitaal.</para>
+      </footnote>
+      <footnote id="_97cf6c5e-d14f-49c6-9164-909f560d2e70" label="41">
+        <para> 	G.F. Boulogne, Een Papillon fiscale eenheid met derde landen? Art. 24,vijfde lid, OESO-modelverdrag biedt uitkomst!, WFR 2010/1255.</para>
+      </footnote>
+      <footnote id="_2be8cd5f-71a0-4290-a4c4-67164976d099" label="42">
+        <para> 	J.F. Avery Jones, P. Baker, L. De Broe, M.J. Ellis, K. van Raad, J.-P. Le Gall, Art. 24(5) of the OECD Model in Relation to Intra-Group Transfers of Assets and Profits and Losses, World Tax Journal, 2011 (Vol. 3), No. 2.</para>
+      </footnote>
+      <footnote id="_637ae255-6700-4e51-83d8-dc9d070fa219" label="43">
+        <para> 	Hoge Raad 4 juni 1986, nr. 23.381, BNB 1986/282, met noot Slot, V-N 1986/1670.</para>
+      </footnote>
+    </conclusie>
+</open-rechtspraak>
