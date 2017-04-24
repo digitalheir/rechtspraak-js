@@ -12,7 +12,7 @@ This work is a tangible step forward towards machine readable legal data.
 
 ## Data
 
-A dump of the metadata in sanitized JSON-LD is available at https://rechtspraak.lawreader.nl/_all. This URL will load the complete knowledge graph of Rechtspraak.nl. Be warned that it is multiple gigabyes in size.
+A dump of the metadata in sanitized JSON-LD is available at https://rechtspraak.lawreader.nl/_all (⚠ the database is currently still filling up, it will take a couple of days to complete). This URL will load the complete knowledge graph of Rechtspraak.nl. Be warned that it is multiple gigabyes in size.
 
 For accessing subsets of the knowledge graph, you can use most of the API from [CouchDB views](http://guide.couchdb.org/draft/views.html), ie: https://rechtspraak.lawreader.nl/_all?limit=100&skip=50 will limit your request to 100 docs after the first 50. Mind that you can also use `startkey` to paginate faster: [_all?startkey="ECLI:NL:CBB:2015:5"&limit=50](https://rechtspraak.lawreader.nl/_all?startkey=%22ECLI:NL:CBB:2015:5%22&limit=50) will fetch the first 50 docs starting at [ECLI:NL:CBB:2015:5](https://rechtspraak.lawreader.nl/ecli/ECLI:NL:CBB:2015:5). Note that the documents are ordered alphabetically by their ids. 
 
