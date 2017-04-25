@@ -20,6 +20,8 @@ export type Aanleg =
 export type Gevolg =
     "gevolg#bekrachtiging/bevestiging"
     | "gevolg#overig"
+    | "gevolg#gedeeltelijke toewijzing vordering"
+    | "gevolg#toewijzing vordering"
     | "gevolg#strekt tot vernietiging"
     | "gevolg#prejudiciële beslissing"
     | "gevolg#meerdere afhandelingswijzen"
@@ -69,11 +71,15 @@ export interface Relation extends StandardResourceObject {
     "aanleg": Aanleg;
     "type": RelationType;
 }
+
+// todo keymirror
 //noinspection JSNonASCIINames
 export const uriMappingGevolg: { [k: string]: Gevolg } = {
     "bekrachtiging/bevestiging": "gevolg#bekrachtiging/bevestiging",
     "meerdere afhandelingswijzen": "gevolg#meerdere afhandelingswijzen",
     "prejudiciële beslissing": "gevolg#prejudiciële beslissing",
+    "gedeeltelijke toewijzing vordering": "gevolg#gedeeltelijke toewijzing vordering",
+    "toewijzing vordering": "gevolg#toewijzing vordering",
     "strekt tot vernietiging": "gevolg#strekt tot vernietiging",
     "overig": "gevolg#overig",
     "(Gedeeltelijke) vernietiging en zelf afgedaan": "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan",

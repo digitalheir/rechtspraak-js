@@ -390,6 +390,13 @@ export const _context = {
         "key": "subject",
         "example": "ECLI:NL:CRVB:2015:1243"
     },
+    "rechtsgebied#internationaalPubliekrecht_mensenrechten": {
+        "@id": "lawly:rechtsgebied#internationaalPubliekrecht_mensenrechten",
+        "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#internationaalPubliekrecht_mensenrechten",
+        "rdfs:label": [{"@value": "Internationaal publiekrecht; Mensenrechten", "@language": "nl"}],
+        "key": "subject",
+        "example": "ECLI:NL:CRVB:2015:1243"
+    },
     "rechtsgebied#civielRecht_ondernemingsrecht": {
         "@id": "lawly:rechtsgebied#civielRecht_ondernemingsrecht",
         "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_ondernemingsrecht",
@@ -591,6 +598,16 @@ export const _context = {
         "@id": "lawly:gevolg#strekt%20tot%20vernietiging",
         "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#strekt tot vernietiging",
         "rdfs:label": [{"@value": "Strekt tot vernietiging", "@language": "nl"}],
+    },
+    "gevolg#gedeeltelijke toewijzing vordering": {
+        "@id": "lawly:gevolg#gedeeltelijke%20toewijzing%20vordering",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gedeeltelijke toewijzing vordering",
+        "rdfs:label": [{"@value": "Gedeeltelijke toewijzing vordering", "@language": "nl"}],
+    },
+    "gevolg#toewijzing vordering": {
+        "@id": "lawly:gevolg#toewijzing%20vordering",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#toewijzing vordering",
+        "rdfs:label": [{"@value": "Toewijzing vordering", "@language": "nl"}],
     },
     "gevolg#meerdere afhandelingswijzen": {
         "@id": "lawly:gevolg#meerdere%20afhandelingswijzen",

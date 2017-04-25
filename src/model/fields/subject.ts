@@ -24,6 +24,7 @@ export type Subject =
     | "rechtsgebied#strafrecht"
     | "rechtsgebied#bestuursrecht_bestuursprocesrecht"
     | "rechtsgebied#internationaalPubliekrecht"
+    | "rechtsgebied#internationaalPubliekrecht_mensenrechten"
     | "rechtsgebied#civielRecht_ondernemingsrecht"
     | "rechtsgebied#strafrecht_strafprocesrecht"
     | "rechtsgebied#civielRecht_internationaalPrivaatrecht"
@@ -57,6 +58,7 @@ export const uriMappingSubject: { [uri: string]: Subject } = {
     "http://psi.rechtspraak.nl/rechtsgebied#strafrecht": "rechtsgebied#strafrecht",
     "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_bestuursprocesrecht": "rechtsgebied#bestuursrecht_bestuursprocesrecht",
     "http://psi.rechtspraak.nl/rechtsgebied#internationaalPubliekrecht": "rechtsgebied#internationaalPubliekrecht",
+    "http://psi.rechtspraak.nl/rechtsgebied#internationaalPubliekrecht_mensenrechten": "rechtsgebied#internationaalPubliekrecht_mensenrechten",
     "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_ondernemingsrecht": "rechtsgebied#civielRecht_ondernemingsrecht",
     "http://psi.rechtspraak.nl/rechtsgebied#strafrecht_strafprocesrecht": "rechtsgebied#strafrecht_strafprocesrecht",
     "http://psi.rechtspraak.nl/rechtsgebied#civielRecht_internationaalPrivaatrecht": "rechtsgebied#civielRecht_internationaalPrivaatrecht",
