@@ -1,89 +1,149 @@
-export const _context = {
-    "@base": "https://rechtspraak.lawreader.nl/vocab/",
-    "schema": "http://schema.org/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "frbr": "http://purl.org/vocab/frbr/core#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "dcterms": "http://purl.org/dc/terms/",
-    "psi": "http://psi.rechtspraak.nl/",
-    "ecli": "https://e-justice.europa.eu/ecli",
-    "cvdr": "http://decentrale.regelgeving.overheid.nl/cvdr/",
-    "eu": "http://publications.europa.eu/celex/",
-    "tr": "http://tuchtrecht.overheid.nl/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "lawly": "https://rechtspraak.lawreader.nl/vocab/",
-    "ECLI": "https://rechtspraak.lawreader.nl/ecli/ECLI:",
-    "_id": "@id",
-    "abstract": "dcterms:abstract",
-
-    "muhAccessRights": "lawly:accessRights/",
-    "muhCoverage": "lawly:coverage/",
-    "muhHasVersion": "lawly:hasVersion/",
-    "muhSpatial": "lawly:spatial/",
-
-    "accessRights": {
-        "@id": "dcterms:accessRights",
-        "@type": "@id"
+export const gevolgTypes = {
+    "gevolg#strekt tot vernietiging": {
+        "@id": "lawly:gevolg#strekt%20tot%20vernietiging",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#strekt tot vernietiging",
+        "rdfs:label": [{"@value": "Strekt tot vernietiging", "@language": "nl"}]
     },
-    "contentModified": {
-        "@id": "dcterms:modified",
-        "@type": "xsd:dateTime"
+    "gevolg#gedeeltelijke toewijzing vordering": {
+        "@id": "lawly:gevolg#gedeeltelijke%20toewijzing%20vordering",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gedeeltelijke toewijzing vordering",
+        "rdfs:label": [{"@value": "Gedeeltelijke toewijzing vordering", "@language": "nl"}]
     },
-    "metadataModified": {
-        "@id": "lawly:metadataModified",
-        "@type": "xsd:dateTime"
+    "gevolg#toewijzing vordering": {
+        "@id": "lawly:gevolg#toewijzing%20vordering",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#toewijzing vordering",
+        "rdfs:label": [{"@value": "Toewijzing vordering", "@language": "nl"}]
     },
-
-    "coverage": {
-        "@id": "dcterms:coverage",
-        "@type": "@vocab"
+    "gevolg#meerdere afhandelingswijzen": {
+        "@id": "lawly:gevolg#meerdere%20afhandelingswijzen",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#meerdere afhandelingswijzen",
+        "rdfs:label": [{"@value": "Meerdere afhandelingswijzen", "@language": "nl"}]
     },
-    "nl": {
-        "@id": "http://dbpedia.org/resource/Netherlands",
-        "rdfs:label": [{"@value": "Nederland", "@language": "nl"}]
+    ["gevolg#prejudiciële beslissing"]: {
+        "@id": "lawly:gevolg#prejudici%C3%ABle%20beslissing",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#prejudiciële beslissing",
+        "rdfs:label": [{"@value": "Prejudiciële beslissing", "@language": "nl"}]
     },
-
-    "creator": {
-        "@id": "dcterms:creator"
-    },
-    "date": {
-        "@id": "dcterms:date",
-        "@type": "xsd:date"
-    },
-    "htmlIssued": {
-        "@id": "lawly:htmlIssued",
-        "@type": "xsd:date"
-    },
-    "hasVersion": "dcterms:hasVersion",
-    "issued": {
-        "@id": "dcterms:issued",
-        "@type": "xsd:date"
-    },
-    "language": {
-        "@id": "dcterms:language",
-        "@type": "@id"
-    },
-    "procedure": {
-        "@id": "psi:procedure",
-        "@type": "@vocab"
-    },
-    "latereAanleg": {
-        "@id": "lawly:latereAanleg",
-        "owl:sameAs": "http://psi.rechtspraak.nl/latereAanleg",
-        "rdfs:label": [{"@value": "Latere aanleg", "@language": "nl"}],
-        "key": "aanleg"
+    "gevolg#overig": {
+        "@id": "lawly:gevolg#overig",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#overig",
+        "rdfs:label": [{"@value": "Overig", "@language": "nl"}],
+        "key": "gevolg"
 
     },
-    "eerdereAanleg": {
-        "@id": "lawly:eerdereAanleg",
-        "owl:sameAs": "http://psi.rechtspraak.nl/eerdereAanleg",
-        "rdfs:label": [{"@value": "Eerdere aanleg", "@language": "nl"}],
-        "key": "aanleg"
+    "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan": {
+        "@id": "lawly:gevolg#%28Gedeeltelijke%29%20vernietiging%20en%20zelf%20afgedaan",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan",
+        "rdfs:label": [{"@value": "(Gedeeltelijke) vernietiging en zelf afgedaan", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#niet ontvankelijk": {
+        "@id": "lawly:gevolg#niet%20ontvankelijk",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#niet ontvankelijk",
+        "rdfs:label": [{"@value": "Niet ontvankelijk", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#niet bevoegd": {
+        "@id": "lawly:gevolg#niet%20bevoegd",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#niet bevoegd",
+        "rdfs:label": [{"@value": "Niet bevoegd", "@language": "nl"}],
+        "key": "gevolg"
+    },
+
+    "gevolg#gevolgd": {
+        "@id": "lawly:gevolg#gevolgd",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gevolgd",
+        "rdfs:label": [{"@value": "Gevolgd", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#(Gedeeltelijke) vernietiging met verwijzen": {
+        "@id": "lawly:gevolg#%28Gedeeltelijke%29%20vernietiging%20met%20verwijzen",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#(Gedeeltelijke) vernietiging met verwijzen",
+        "rdfs:label": [{"@value": "(Gedeeltelijke) vernietiging met verwijzen", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#(Gedeeltelijke) vernietiging met terugwijzen": {
+        "@id": "lawly:gevolg#%28Gedeeltelijke%29%20vernietiging%20met%20terugwijzen",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#(Gedeeltelijke) vernietiging met terugwijzen",
+        "rdfs:label": [{"@value": "(Gedeeltelijke) vernietiging met terugwijzen", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#onduidelijk": {
+        "@id": "lawly:gevolg#onduidelijk",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#onduidelijk",
+        "rdfs:label": [{"@value": "Onduidelijk", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#contrair": {
+        "@id": "lawly:gevolg#contrair",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#contrair",
+        "rdfs:label": [{"@value": "Contrair", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#gedeeltelijk contrair": {
+        "@id": "lawly:gevolg#gedeeltelijk%20contrair",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gedeeltelijk contrair",
+        "rdfs:label": [{"@value": "Gedeeltelijk contrair", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#toewijzing": {
+        "@id": "lawly:gevolg#toewijzing",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#toewijzing",
+        "rdfs:label": [{"@value": "Toewijzing", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#verzet toegewezen": {
+        "@id": "lawly:gevolg#verzet%20toegewezen",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#verzet toegewezen",
+        "rdfs:label": [{"@value": "Verzet toegewezen", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#afwijzing": {
+        "@id": "lawly:gevolg#afwijzing",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#afwijzing",
+        "rdfs:label": [{"@value": "Afwijzing", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#verzet ongegrond": {
+        "@id": "lawly:gevolg#verzet%20ongegrond",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#verzet ongegrond",
+        "rdfs:label": [{"@value": "Verzet ongegrond", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#afwijzing vordering": {
+        "@id": "lawly:gevolg#afwijzing%20vordering",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#afwijzing vordering",
+        "rdfs:label": [{"@value": "Afwijzing vordering", "@language": "nl"}],
+        "key": "gevolg"
+
+    },
+    "gevolg#gegrondverklaring": {
+        "@id": "lawly:gevolg#gegrondverklaring",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gegrondverklaring",
+        "rdfs:label": [{"@value": "Gegrondverklaring", "@language": "nl"}],
+        "key": "gevolg"
 
     },
 
+    "gevolg#bekrachtiging/bevestiging": {
+        "@id": "lawly:gevolg#bekrachtiging%2Fbevestiging",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#bekrachtiging/bevestiging",
+        "rdfs:label": [{"@value": "Bekrachtiging / bevestiging", "@language": "nl"}]
+    }
+};
+export const procedureTypes = {
     "procedure#eersteAanlegMeervoudig": {
         "@id": "lawly:procedure#eersteAanlegMeervoudig",
         "owl:sameAs": "http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig",
@@ -294,7 +354,98 @@ export const _context = {
         "@id": "lawly:procedure#voorlopigeVoorziening",
         "owl:sameAs": "http://psi.rechtspraak.nl/procedure#voorlopigeVoorziening",
         "rdfs:label": [{"@value": "Voorlopige voorziening", "@language": "nl"}]
+    }
+};
+
+export const aanlegTypes = {
+    "latereAanleg": {
+        "@id": "lawly:latereAanleg",
+        "owl:sameAs": "http://psi.rechtspraak.nl/latereAanleg",
+        "rdfs:label": [{"@value": "Latere aanleg", "@language": "nl"}],
+        "key": "aanleg"
+
     },
+    "eerdereAanleg": {
+        "@id": "lawly:eerdereAanleg",
+        "owl:sameAs": "http://psi.rechtspraak.nl/eerdereAanleg",
+        "rdfs:label": [{"@value": "Eerdere aanleg", "@language": "nl"}],
+        "key": "aanleg"
+
+    }
+};
+export const _context = Object.assign(aanlegTypes, {
+    "@base": "https://rechtspraak.lawreader.nl/vocab/",
+    "schema": "http://schema.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "frbr": "http://purl.org/vocab/frbr/core#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "psi": "http://psi.rechtspraak.nl/",
+    "ecli": "https://e-justice.europa.eu/ecli",
+    "cvdr": "http://decentrale.regelgeving.overheid.nl/cvdr/",
+    "eu": "http://publications.europa.eu/celex/",
+    "tr": "http://tuchtrecht.overheid.nl/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "lawly": "https://rechtspraak.lawreader.nl/vocab/",
+    "ECLI": "https://rechtspraak.lawreader.nl/ecli/ECLI:",
+    "_id": "@id",
+    "abstract": "dcterms:abstract",
+
+    "muhAccessRights": "lawly:accessRights/",
+    "muhCoverage": "lawly:coverage/",
+    "muhHasVersion": "lawly:hasVersion/",
+    "muhSpatial": "lawly:spatial/",
+
+    "accessRights": {
+        "@id": "dcterms:accessRights",
+        "@type": "@id"
+    },
+    "contentModified": {
+        "@id": "dcterms:modified",
+        "@type": "xsd:dateTime"
+    },
+    "metadataModified": {
+        "@id": "lawly:metadataModified",
+        "@type": "xsd:dateTime"
+    },
+
+    "coverage": {
+        "@id": "dcterms:coverage",
+        "@type": "@vocab"
+    },
+    "nl": {
+        "@id": "http://dbpedia.org/resource/Netherlands",
+        "rdfs:label": [{"@value": "Nederland", "@language": "nl"}]
+    },
+
+    "creator": {
+        "@id": "dcterms:creator"
+    },
+    "date": {
+        "@id": "dcterms:date",
+        "@type": "xsd:date"
+    },
+    "htmlIssued": {
+        "@id": "lawly:htmlIssued",
+        "@type": "xsd:date"
+    },
+    "hasVersion": "dcterms:hasVersion",
+    "issued": {
+        "@id": "dcterms:issued",
+        "@type": "xsd:date"
+    },
+    "language": {
+        "@id": "dcterms:language",
+        "@type": "@id"
+    },
+    "procedure": {
+        "@id": "psi:procedure",
+        "@type": "@vocab"
+    },
+
+
     "references": "dcterms:references",
     "replaces": {
         "@id": "dcterms:replaces",
@@ -594,151 +745,6 @@ export const _context = {
     "psi:gevolg": {
         "@type": "@vocab"
     },
-    "gevolg#strekt tot vernietiging": {
-        "@id": "lawly:gevolg#strekt%20tot%20vernietiging",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#strekt tot vernietiging",
-        "rdfs:label": [{"@value": "Strekt tot vernietiging", "@language": "nl"}],
-    },
-    "gevolg#gedeeltelijke toewijzing vordering": {
-        "@id": "lawly:gevolg#gedeeltelijke%20toewijzing%20vordering",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gedeeltelijke toewijzing vordering",
-        "rdfs:label": [{"@value": "Gedeeltelijke toewijzing vordering", "@language": "nl"}],
-    },
-    "gevolg#toewijzing vordering": {
-        "@id": "lawly:gevolg#toewijzing%20vordering",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#toewijzing vordering",
-        "rdfs:label": [{"@value": "Toewijzing vordering", "@language": "nl"}],
-    },
-    "gevolg#meerdere afhandelingswijzen": {
-        "@id": "lawly:gevolg#meerdere%20afhandelingswijzen",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#meerdere afhandelingswijzen",
-        "rdfs:label": [{"@value": "Meerdere afhandelingswijzen", "@language": "nl"}],
-    },
-    "gevolg#prejudiciële beslissing": {
-        "@id": "lawly:gevolg#prejudici%C3%ABle%20beslissing",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#prejudiciële beslissing",
-        "rdfs:label": [{"@value": "Prejudiciële beslissing", "@language": "nl"}],
-
-
-    },
-    "gevolg#overig": {
-        "@id": "lawly:gevolg#overig",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#overig",
-        "rdfs:label": [{"@value": "Overig", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan": {
-        "@id": "lawly:gevolg#%28Gedeeltelijke%29%20vernietiging%20en%20zelf%20afgedaan",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#(Gedeeltelijke) vernietiging en zelf afgedaan",
-        "rdfs:label": [{"@value": "(Gedeeltelijke) vernietiging en zelf afgedaan", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#niet ontvankelijk": {
-        "@id": "lawly:gevolg#niet%20ontvankelijk",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#niet ontvankelijk",
-        "rdfs:label": [{"@value": "Niet ontvankelijk", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#niet bevoegd": {
-        "@id": "lawly:gevolg#niet%20bevoegd",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#niet bevoegd",
-        "rdfs:label": [{"@value": "Niet bevoegd", "@language": "nl"}],
-        "key": "gevolg"
-    },
-
-    "gevolg#gevolgd": {
-        "@id": "lawly:gevolg#gevolgd",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gevolgd",
-        "rdfs:label": [{"@value": "Gevolgd", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#(Gedeeltelijke) vernietiging met verwijzen": {
-        "@id": "lawly:gevolg#%28Gedeeltelijke%29%20vernietiging%20met%20verwijzen",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#(Gedeeltelijke) vernietiging met verwijzen",
-        "rdfs:label": [{"@value": "(Gedeeltelijke) vernietiging met verwijzen", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#(Gedeeltelijke) vernietiging met terugwijzen": {
-        "@id": "lawly:gevolg#%28Gedeeltelijke%29%20vernietiging%20met%20terugwijzen",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#(Gedeeltelijke) vernietiging met terugwijzen",
-        "rdfs:label": [{"@value": "(Gedeeltelijke) vernietiging met terugwijzen", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#onduidelijk": {
-        "@id": "lawly:gevolg#onduidelijk",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#onduidelijk",
-        "rdfs:label": [{"@value": "Onduidelijk", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#contrair": {
-        "@id": "lawly:gevolg#contrair",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#contrair",
-        "rdfs:label": [{"@value": "Contrair", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#gedeeltelijk contrair": {
-        "@id": "lawly:gevolg#gedeeltelijk%20contrair",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gedeeltelijk contrair",
-        "rdfs:label": [{"@value": "Gedeeltelijk contrair", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#toewijzing": {
-        "@id": "lawly:gevolg#toewijzing",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#toewijzing",
-        "rdfs:label": [{"@value": "Toewijzing", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#verzet toegewezen": {
-        "@id": "lawly:gevolg#verzet%20toegewezen",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#verzet toegewezen",
-        "rdfs:label": [{"@value": "Verzet toegewezen", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#afwijzing": {
-        "@id": "lawly:gevolg#afwijzing",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#afwijzing",
-        "rdfs:label": [{"@value": "Afwijzing", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#verzet ongegrond": {
-        "@id": "lawly:gevolg#verzet%20ongegrond",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#verzet ongegrond",
-        "rdfs:label": [{"@value": "Verzet ongegrond", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#afwijzing vordering": {
-        "@id": "lawly:gevolg#afwijzing%20vordering",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#afwijzing vordering",
-        "rdfs:label": [{"@value": "Afwijzing vordering", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-    "gevolg#gegrondverklaring": {
-        "@id": "lawly:gevolg#gegrondverklaring",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gegrondverklaring",
-        "rdfs:label": [{"@value": "Gegrondverklaring", "@language": "nl"}],
-        "key": "gevolg"
-
-    },
-
-    "gevolg#bekrachtiging/bevestiging": {
-        "@id": "lawly:gevolg#bekrachtiging%2Fbevestiging",
-        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#bekrachtiging/bevestiging",
-        "rdfs:label": [{"@value": "Bekrachtiging / bevestiging", "@language": "nl"}]
-    },
 
 
     "psi:typeRelatie": {
@@ -788,11 +794,13 @@ export const _context = {
         "@id": "lawly:type/oorspronkelijkBesluitDefinitiefBesluit",
         "owl:sameAs": "http://psi.rechtspraak.nl/oorspronkelijkBesluitDefinitiefBesluit",
         "rdfs:label": [{"@value": "Oorspronkelijke uitspraak", "@language": "nl"}]
-    },  "tussenuitspraak": {
+    },
+    "tussenuitspraak": {
         "@id": "lawly:type/tussenuitspraak",
         "owl:sameAs": "http://psi.rechtspraak.nl/tussenuitspraak",
         "rdfs:label": [{"@value": "Tussenuitspraak", "@language": "nl"}]
-    },"herziening": {
+    },
+    "herziening": {
         "@id": "lawly:type/herziening",
         "owl:sameAs": "http://psi.rechtspraak.nl/herziening",
         "rdfs:label": [{"@value": "Herziening", "@language": "nl"}]
@@ -817,6 +825,8 @@ export const _context = {
     "Procedure": "http://psi.rechtspraak.nl/procedure",
     "Instantie": "http://purl.org/dc/terms/creator",
     "Zaaknr": "http://psi.rechtspraak.nl/zaaknummer"
-};
+});
 
 export default _context;
+
+

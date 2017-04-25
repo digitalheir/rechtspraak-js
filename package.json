@@ -35,7 +35,7 @@
     "mocha": "^3.2.0",
     "rimraf": "^2.5.4",
     "ts-node": "^3.0.2",
-    "typescript": "^2.1.1",
+    "typescript": "^2.3.0-rc",
     "webpack": "^2.3.3"
   },
   "dependencies": {
