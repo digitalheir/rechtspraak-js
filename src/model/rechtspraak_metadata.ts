@@ -9,7 +9,7 @@ import {Relation} from "./fields/relation";
 import {HasVersion} from "./fields/hasVersion";
 import {RsDocumentType} from "./fields/type";
 import {Procedure} from "./fields/procedure";
-import {Coverage} from "./fields/coverage";
+import {CoverageType} from "./fields/coverage";
 
 const URI_WITH_PROTOCOL_REGEX = /^(([^:/?#]+):)(\/\/([^/?#]*))([^?#]*)(\?([^#]*))?(#(.*))?/;
 
@@ -98,7 +98,7 @@ export interface RechtspraakMetadata {
     "temporal"?: Temporal;
     "zaaknummer"?: string[];
     "type": RsDocumentType;
-    "coverage": Coverage;
+    "coverage": CoverageType;
     "hasVersion"?: HasVersion[];
     "corpus": string;
     "couchDbUpdated": string;

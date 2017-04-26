@@ -4,7 +4,7 @@ import {
 } from "../../util/validations";
 import {makeLabel} from "./label";
 import {idResource, StandardResourceObject} from "./standard-resource-object";
-import {_context, aanlegTypes, gevolgTypes} from "../json-ld/context";
+import {_context, aanlegTypes, gevolgTypes, relationTypes} from "../json-ld/context";
 
 // export function idResourceWithOriginal(id: string, originalId: string): StandardResourceObject {
 //     const o: StandardResourceObject = idResource(id);
@@ -22,29 +22,6 @@ export type Gevolg = keyof typeof gevolgTypes;
 export function isGevolg(x: string): x is Gevolg {
     return gevolgTypes.hasOwnProperty(x);
 }
-
-export type RelationType =
-    "conclusieVoorCassatie"
-    | "tussenuitspraakBestuurlijkeLus"
-    | "conclusie"
-    | "conclusieVoorSprongcassatie"
-    | "prejudicieleVraag"
-    | "verzet"
-    | "nadereConclusie"
-    | "hogerBeroep"
-    | "cassatie"
-    | "herziening"
-    | "verwijzing"
-    | "terugverwijzing"
-    | "sprongcassatie"
-    | "rectificatieBesluit"
-    | "ontnemingsvordering"
-    | "definitiefNaRectificatie"
-    | "vervallenverklaring"
-    | "oorspronkelijkBesluitDefinitiefBesluit"
-    | "inachtnemingPrejudicieleBeslissing"
-    | "tussenuitspraak"
-    ;
 
 export interface Relation extends StandardResourceObject {
     "gevolg"?: Gevolg;
@@ -68,41 +45,25 @@ function getGevolg(gevolgUri?: string, label?: string): Gevolg | undefined {
     }
 }
 
-const uriMappingRelationType: { [k: string]: RelationType } = {
-    "conclusieVoorCassatie": "conclusieVoorCassatie",
-    "tussenuitspraakBestuurlijkeLus": "tussenuitspraakBestuurlijkeLus",
-    "prejudicieleVraag": "prejudicieleVraag",
-    "conclusie": "conclusie",
-    "nadereConclusie": "nadereConclusie",
-    "conclusieVoorSprongcassatie": "conclusieVoorSprongcassatie",
-    "verzet": "verzet",
-    "sprongcassatie": "sprongcassatie",
-    "herziening": "herziening",
-    "verwijzing": "verwijzing",
-    "ontnemingsvordering": "ontnemingsvordering",
-    "hogerBeroep": "hogerBeroep",
-    "terugverwijzing": "terugverwijzing",
-    "rectificatieBesluit": "rectificatieBesluit",
-    "cassatie": "cassatie",
-    "definitiefNaRectificatie": "definitiefNaRectificatie",
-    "vervallenverklaring": "vervallenverklaring",
-    "oorspronkelijkBesluitDefinitiefBesluit": "oorspronkelijkBesluitDefinitiefBesluit",
-    "tussenuitspraak": "tussenuitspraak",
-    "inachtnemingPrejudicieleBeslissing": "inachtnemingPrejudicieleBeslissing"
-};
+
+export type RelationType = keyof typeof relationTypes;
+
+function isRelationType(shortId: string): shortId is RelationType {
+    return relationTypes.hasOwnProperty(shortId);
+}
 
 function getRelationType(uri: string, label: string, id?: string): RelationType {
-
     const shortId = uri.replace(/^http:\/\/psi\.rechtspraak(\.nl)?\//, "");
-    if (!uriMappingRelationType.hasOwnProperty(shortId)) throw new Error(
+    if (isRelationType(shortId)) {
+        const type: RelationType = shortId;
+
+        const contextLabel: string = _context[type]["rdfs:label"][0]["@value"];
+        if (!contextLabel) throw new Error("Expected label for " + type);
+
+        return type;
+    } else throw new Error(
         unexpectedUri("relation", uri, label, id)
     );
-    const type: RelationType = uriMappingRelationType[shortId];
-
-    const contextLabel: string = _context[type]["rdfs:label"][0]["@value"];
-    if (!contextLabel) throw new Error("Expected label for " + type);
-
-    return type;
 }
 
 

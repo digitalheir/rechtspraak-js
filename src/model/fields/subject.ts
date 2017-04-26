@@ -2,46 +2,9 @@ import {mustHaveTextAndAttributes, throwIfDivergentLabel, unexpectedUri} from ".
 import {getResourceId} from "../convert-to-typed";
 import {makeLabel} from "./label";
 import {idResource, StandardResourceObject} from "./standard-resource-object";
-import {_context} from "../json-ld/context";
+import {_context, subjectTypes} from "../json-ld/context";
 
-export type Subject =
-    "rechtsgebied#bestuursrecht_belastingrecht"
-    | "rechtsgebied#bestuursrecht"
-    | "rechtsgebied#bestuursrecht_vreemdelingenrecht"
-    | "rechtsgebied#bestuursrecht_socialezekerheidsrecht"
-    | "rechtsgebied#civielRecht"
-    | "rechtsgebied#bestuursrecht_europeesBestuursrecht"
-    | "rechtsgebied#bestuursrecht_bestuursstrafrecht"
-    | "rechtsgebied#bestuursrecht_vreemdelingenrecht"
-    | "rechtsgebied#bestuursrecht_socialezekerheidsrecht"
-    | "rechtsgebied#civielRecht"
-    | "rechtsgebied#bestuursrecht_europeesBestuursrecht"
-    | "rechtsgebied#bestuursrecht_bestuursstrafrecht"
-    | "rechtsgebied#bestuursrecht_ambtenarenrecht"
-    | "rechtsgebied#civielRecht_personenEnFamilierecht"
-    | "rechtsgebied#bestuursrecht_omgevingsrecht"
-    | "rechtsgebied#civielRecht_insolventierecht"
-    | "rechtsgebied#strafrecht"
-    | "rechtsgebied#bestuursrecht_bestuursprocesrecht"
-    | "rechtsgebied#internationaalPubliekrecht"
-    | "rechtsgebied#internationaalPubliekrecht_mensenrechten"
-    | "rechtsgebied#civielRecht_ondernemingsrecht"
-    | "rechtsgebied#strafrecht_strafprocesrecht"
-    | "rechtsgebied#civielRecht_internationaalPrivaatrecht"
-    | "rechtsgebied#strafrecht_materieelStrafrecht"
-    | "rechtsgebied#strafrecht_europeesStrafrecht"
-    | "rechtsgebied#strafrecht_penitentiairStrafrecht"
-    | "rechtsgebied#civielRecht_arbeidsrecht"
-    | "rechtsgebied#civielRecht_goederenrecht"
-    | "rechtsgebied#civielRecht_burgerlijkProcesrecht"
-    | "rechtsgebied#civielRecht_aanbestedingsrecht"
-    | "rechtsgebied#civielRecht_verbintenissenrecht"
-    | "rechtsgebied#civielRecht_intellectueeleigendomsrecht"
-    | "rechtsgebied#civielRecht_mededingingsrecht"
-    | "rechtsgebied#civielRecht_europeesCivielRecht"
-    | "rechtsgebied#strafrecht_internationaalStrafrecht"
-    | "rechtsgebied#bestuursrecht_mededingingsrecht"
-    ;
+export type Subject = keyof typeof subjectTypes;
 
 export const uriMappingSubject: { [uri: string]: Subject } = {
     "http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht": "rechtsgebied#bestuursrecht_belastingrecht",

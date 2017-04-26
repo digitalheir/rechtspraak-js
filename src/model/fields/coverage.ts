@@ -1,5 +1,10 @@
-export type Coverage = "nl";
+import {coverageTypes} from "../json-ld/context";
 
+export type CoverageType = keyof typeof coverageTypes;
+
+function isCoverage(x: string): x is CoverageType {
+    return coverageTypes.hasOwnProperty(x);
+}
 /**
  * NOTE: Must be IETF BCP 47 compliant
  *
@@ -7,10 +12,10 @@ export type Coverage = "nl";
  * @param id
  * @returns {string}
  */
-export function getCoverage(c: string, id?: string): Coverage {
-    const trimmed = c.trim();
-    if (trimmed !== "NL")
-        throw new Error(id + ":Expected coverage to be NL, was " + trimmed);
-
-    return "nl";
+export function getCoverage(c: string, id?: string): CoverageType {
+    const trimmed = c.trim().toLowerCase();
+    if (isCoverage(trimmed))
+        return trimmed;
+    else
+        throw new Error(id + ": Expected coverage to be known, was " + trimmed);
 }

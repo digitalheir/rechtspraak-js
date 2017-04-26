@@ -129,7 +129,8 @@ export function mustHaveTextAndAtLeastAttributes(object: any/*todo*/, ...attrs: 
             if (!attr.reduce((cum, att) => {
                     const val = object["@attributes"][att];
                     if (val) if (att.match(/resourceIdentifier$/)
-                        && !(matchesAny(val, REGEX_HTTPS, REGEX_JURICONNECT, REGEX_CVDR, REGEX_ECLI))) throw new Error("Expected URI for resource id: " + JSON.stringify(object));
+                        && !(matchesAny(val, REGEX_HTTPS, REGEX_JURICONNECT, REGEX_CVDR, REGEX_ECLI)))
+                        throw new Error("Expected URI for resource id: " + JSON.stringify(object));
                     return cum || !!val;
                 }, false)) {
                 throw new Error("Expected object to have attribute " + attr + ": " + JSON.stringify(object));
