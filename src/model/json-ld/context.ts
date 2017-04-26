@@ -198,14 +198,14 @@ export const subjectTypes = {
     "rechtsgebied#internationaalPubliekrecht": {
         "@id": "lawly:rechtsgebied#internationaalPubliekrecht",
         "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#internationaalPubliekrecht",
-        "rdfs:label": [{"@value": "Internationaal publiekrecht; Volkenrecht", "@language": "nl"}],
+        "rdfs:label": [{"@value": "Internationaal publiekrecht", "@language": "nl"}],
         "key": "subject",
         "example": "ECLI:NL:CRVB:2015:1243"
     },
     "rechtsgebied#internationaalPubliekrecht_volkenrecht": {
         "@id": "lawly:rechtsgebied#internationaalPubliekrecht_volkenrecht",
         "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#internationaalPubliekrecht_volkenrecht",
-        "rdfs:label": [{"@value": "Internationaal publiekrecht", "@language": "nl"}],
+        "rdfs:label": [{"@value": "Internationaal publiekrecht; Volkenrecht", "@language": "nl"}],
         "key": "subject",
         "example": "ECLI:NL:CRVB:2015:1243"
     },
