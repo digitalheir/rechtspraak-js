@@ -14,19 +14,24 @@ This work is a tangible step forward towards machine readable legal data, hence 
 
 ### ⚠ the database is currently still filling up, it will take a couple of days to complete
 
-A dump of the sanitized metadata is available at https://rechtspraak.lawreader.nl/_all. This URL will load the complete knowledge graph of Rechtspraak.nl. This page returns a JSON document of multiple gigabyes in size. The object has two fields: `@context`, which provides the URI mappings and `@graph`, which is an array filled with the actual data ([see JSON-LD specification for more information](http://json-ld.org/spec/latest/json-ld/#named-graphs)). I recommend using a streaming JSON parser like [Oboe.js](https://oboejs.com/) to consume the data.
+A dump of the sanitized metadata is available at https://rechtspraak.lawreader.nl/_all. This URL will load the complete knowledge graph of Rechtspraak.nl. This page returns a JSON document of about 20 gigabyes in size. The document has two fields: 
 
-For accessing subsets of the knowledge graph, you can use most of the API from [CouchDB views](http://guide.couchdb.org/draft/views.html), ie: https://rechtspraak.lawreader.nl/_all?limit=100&skip=50 will limit your request to 100 docs after the first 50. Mind that you can also use `startkey` to paginate faster: [_all?startkey="ECLI:NL:CBB:2015:5"&limit=50](https://rechtspraak.lawreader.nl/_all?startkey=%22ECLI:NL:CBB:2015:5%22&limit=50) will fetch the first 50 docs starting at [ECLI:NL:CBB:2015:5](https://rechtspraak.lawreader.nl/ecli/ECLI:NL:CBB:2015:5). Note that the documents are ordered alphabetically by their ids. 
+1. `@context`, which provides the URI mappings for the concepts, and 
+2. `@graph`, which is an array filled with the actual data ([see JSON-LD specification for more information](http://json-ld.org/spec/latest/json-ld/#named-graphs))
 
-I try to stick to the vocabularies used in the source documents (`dcterms`, and some from the Dutch government), and also introduce fields from [schema.org]. I've invented my own URIs where appropriate. In time I'm planning to make all of my own URIs resolvable as well.
+I recommend using a streaming JSON parser like [Oboe.js](https://oboejs.com/) to consume the data.
+
+For accessing subsets of the knowledge graph, you can use most of the API from [CouchDB views](http://guide.couchdb.org/draft/views.html), ie: https://rechtspraak.lawreader.nl/_all?limit=100&skip=50 will limit your request to 100 docs after the first 50. Mind that you can also use `startkey` to paginate faster: [_all?startkey="ECLI:NL:CBB:2015:5"&limit=50](https://rechtspraak.lawreader.nl/_all?startkey=%22ECLI:NL:CBB:2015:5%22&limit=50) will fetch the first 50 docs starting at [ECLI:NL:CBB:2015:5](https://rechtspraak.lawreader.nl/ecli/ECLI:NL:CBB:2015:5). Documents are ordered alphabetically by their ids ([European Case Law Identifier)[https://en.wikipedia.org/wiki/European_Case_Law_Identifier]). 
+
+I try to stick to the vocabularies used in the source documents (`dcterms`, and some from the Dutch government), and also introduce relevant fields from [schema.org](https://schema.org.). I've invented my own URIs where appropriate. In time I'm planning to make all of my own URIs resolvable as well.
 
 Tip: use a tool like [JSON-LD playground](http://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Frechtspraak.lawreader.nl%2F_all%3Flimit%3D5) to visualise the data.
 
 ## Types
-Code is written in Typescript, [compiled project](https://www.npmjs.com/package/rechtspraak-nl) supplies `d.ts` typing files.
+Code is written in Typescript, [compiled project](https://www.npmjs.com/package/rechtspraak-nl) supplies `d.ts` typing files along with the Javascript code.
 
 ## JSON Schema
-~ ~ TODO ~ ~ (for the impatient, look for source files to generate the JSON-LD document)
+~ ~ I'm still working on converting the Typescript interface to JSON Schema ~ ~ (for the impatient, look for source files to generate the JSON-LD document)
 
 ## Rechtspraak.nl metadata gotchas
 
