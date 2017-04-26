@@ -16,6 +16,10 @@ export const relationTypes = {
         "@id": "lawly:type/conclusie",
         "owl:sameAs": "http://psi.rechtspraak.nl/conclusie",
         "rdfs:label": [{"@value": "Conclusie", "@language": "nl"}]
+    }, "herstel": {
+        "@id": "lawly:type/herstel",
+        "owl:sameAs": "http://psi.rechtspraak.nl/herstel",
+        "rdfs:label": [{"@value": "Herstel", "@language": "nl"}]
     },
     "conclusieVoorCassatie": {
         "@id": "lawly:type/conclusieVoorCassatie",
@@ -194,6 +198,13 @@ export const subjectTypes = {
     "rechtsgebied#internationaalPubliekrecht": {
         "@id": "lawly:rechtsgebied#internationaalPubliekrecht",
         "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#internationaalPubliekrecht",
+        "rdfs:label": [{"@value": "Internationaal publiekrecht; Volkenrecht", "@language": "nl"}],
+        "key": "subject",
+        "example": "ECLI:NL:CRVB:2015:1243"
+    },
+    "rechtsgebied#internationaalPubliekrecht_volkenrecht": {
+        "@id": "lawly:rechtsgebied#internationaalPubliekrecht_volkenrecht",
+        "owl:sameAs": "http://psi.rechtspraak.nl/rechtsgebied#internationaalPubliekrecht_volkenrecht",
         "rdfs:label": [{"@value": "Internationaal publiekrecht", "@language": "nl"}],
         "key": "subject",
         "example": "ECLI:NL:CRVB:2015:1243"
@@ -346,6 +357,11 @@ export const gevolgTypes = {
         "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#toewijzing vordering",
         "rdfs:label": [{"@value": "Toewijzing vordering", "@language": "nl"}]
     },
+    "gevolg#gedeeltelijk toewijzing": {
+        "@id": "lawly:gevolg#gedeeltelijk%20toewijzing",
+        "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#gedeeltelijk toewijzing",
+        "rdfs:label": [{"@value": "Gedeeltelijk toewijzing", "@language": "nl"}]
+    },
     "gevolg#meerdere afhandelingswijzen": {
         "@id": "lawly:gevolg#meerdere%20afhandelingswijzen",
         "owl:sameAs": "http://psi.rechtspraak.nl/gevolg#meerdere afhandelingswijzen",
@@ -480,6 +496,16 @@ export const procedureTypes = {
         "@id": "lawly:procedure#eersteAanlegMeervoudig",
         "owl:sameAs": "http://psi.rechtspraak.nl/procedure#eersteAanlegMeervoudig",
         "rdfs:label": [{"@value": "Eerste aanleg - meervoudig", "@language": "nl"}]
+    },
+    "procedure#peek": {
+        "@id": "lawly:procedure#peek",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#peek",
+        "rdfs:label": [{"@value": "Peek", "@language": "nl"}]
+    },
+    "procedure#cassatieInHetBelangDerWet": {
+        "@id": "lawly:procedure#cassatieInHetBelangDerWet",
+        "owl:sameAs": "http://psi.rechtspraak.nl/procedure#cassatieInHetBelangDerWet",
+        "rdfs:label": [{"@value": "Cassatie in het belang der wet", "@language": "nl"}]
     },
     "procedure#verzet": {
         "@id": "lawly:procedure#verzet",
