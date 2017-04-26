@@ -8,7 +8,7 @@ Rechtspraak.nl publishes information about a lot of Dutch court judgments with a
 
 The purpose of this project is to formalize the data model of Rechtspraak.nl. I have done this by analyzing all existing documents (~2 million) on Rechtspraak.nl to generate a [JSON Schema](https://spacetelescope.github.io/understanding-json-schema/) and [Typescript typings](https://www.typescriptlang.org/) for the metadata associated with the court judgments. I have corrected some common errors in the source files (mostly to do with not properly encoding URIs) and generate valid [JSON-LD](http://json-ld.org/) (which is compatible with RDF) from them. 
 
-This work is a tangible step forward towards machine readable legal data, and hence the findability of documents and ease of automated processing.
+This work is a tangible step forward towards machine readable legal data, hence the ease of automated processing (and so the findability and possibility to do data mining) of these documents is improved.
 
 ## Data
 
