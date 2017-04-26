@@ -1,7 +1,7 @@
 # Rechtspraak.js
 [![Build Status](https://travis-ci.org/digitalheir/rechtspraak-js.svg?branch=master)](https://travis-ci.org/digitalheir/rechtspraak-js)[![npm version](https://badge.fury.io/js/rechtspraak-nl.svg)](https://badge.fury.io/js/rechtspraak-nl)![License](https://img.shields.io/npm/l/rechtspraak-nl.svg)[![Code Climate](https://codeclimate.com/github/digitalheir/rechtspraak-js/badges/gpa.svg)](https://codeclimate.com/github/digitalheir/rechtspraak-js)
 
-This library sanitizes and formalizes data for Dutch court judgments published by Rechtspraak.nl. The resulting data is published as a well-formed linked data graph (JSON-LD with JSON schema).
+This library sanitizes and formalizes the data model for Dutch court judgments published by Rechtspraak.nl. The process is performed on all documents publicly offered by Rechtspraak.nl and are published as a linked data graph (well-formed JSON-LD with a JSON Schema).
  
 ## Why?
 Rechtspraak.nl publishes information about a lot of Dutch court judgments with a rich collection of metadata. Sadly, the data model is ill-described and rife with syntactical errors. Rechtspraak.nl provides no schema for its documents other than an incomplete PDF in natural language and a lot of [RDF](https://www.w3.org/2001/sw/wiki/RDF) fields are invalid. It's hard to know what to expect when downloading a document, especially for some of the more esoteric metadata fields.
