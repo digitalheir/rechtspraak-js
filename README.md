@@ -1,14 +1,14 @@
 # Rechtspraak.js
 [![Build Status](https://travis-ci.org/digitalheir/rechtspraak-js.svg?branch=master)](https://travis-ci.org/digitalheir/rechtspraak-js)[![npm version](https://badge.fury.io/js/rechtspraak-nl.svg)](https://badge.fury.io/js/rechtspraak-nl)![License](https://img.shields.io/npm/l/rechtspraak-nl.svg)[![Code Climate](https://codeclimate.com/github/digitalheir/rechtspraak-js/badges/gpa.svg)](https://codeclimate.com/github/digitalheir/rechtspraak-js)
 
-A bunch of utility functions to work with the open data in [Rechtspraak.nl](http://www.rechtspraak.nl/) and create well-formed JSON-LD.
-
+This library sanitizes and formalizes data for Dutch court judgments published by Rechtspraak.nl. The resulting data is published as a well-formed linked data graph (JSON-LD with JSON schema).
+ 
 ## Why?
-Rechtspraak.nl publishes information about a lot of Dutch court judgments. Although the source XML suggests that the data is distributed as an [RDF](https://www.w3.org/2001/sw/wiki/RDF) graph, it is rife with syntactical errors. Furthermore, Rechtspraak.nl provides no schema for its documents other than an incomplete PDF in natural language. So it's hard to know what to expect, especially for some of the more esoteric metadata fields.
+Rechtspraak.nl publishes information about a lot of Dutch court judgments with a rich collection of metadata. Sadly, the data model is ill-described and rife with syntactical errors. Rechtspraak.nl provides no schema for its documents other than an incomplete PDF in natural language and a lot of [RDF](https://www.w3.org/2001/sw/wiki/RDF) fields are invalid. It's hard to know what to expect when downloading a document, especially for some of the more esoteric metadata fields.
 
 The purpose of this project is to formalize the data model of Rechtspraak.nl. I have done this by analyzing all existing documents (~2 million) on Rechtspraak.nl to generate a [JSON Schema](https://spacetelescope.github.io/understanding-json-schema/) and [Typescript typings](https://www.typescriptlang.org/) for the metadata associated with the court judgments. I have corrected some common errors in the source files (mostly to do with not properly encoding URIs) and generate valid [JSON-LD](http://json-ld.org/) (which is compatible with RDF) from them. 
 
-This work is a tangible step forward towards machine readable legal data.
+This work is a tangible step forward towards machine readable legal data, and hence the findability of documents and ease of automated processing.
 
 ## Data
 
