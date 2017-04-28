@@ -12,7 +12,7 @@ This work is a tangible step forward towards machine readable legal data, hence 
 
 ## Data
 
-### ⚠ the database is currently still filling up, it will take a couple of days to complete (> 90% done)
+### ⚠ the database is currently still filling up, it will take a couple of days to complete (> 95% done)
 
 A dump of the sanitized metadata is available at https://rechtspraak.lawreader.nl/_all. This URL will load the complete knowledge graph of Rechtspraak.nl. This page returns a JSON document of about 20 gigabyes in size. The document has two fields: 
 
