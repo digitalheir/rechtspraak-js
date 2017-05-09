@@ -60,6 +60,9 @@ Some issues derived from [an earlier report](http://leibniz-internship-report.he
   * `psi:zaaknummer` doesn't seem to split lists of identifiers correctly. A string like 97/8236 TW, 97/8241 TW is probably two case numbers, not one.
 * The XML defines a prefix that refers to the relative URI `bwb-dl`. Prefixing to relative URIs is a practice that has been deprecated by W3C.
 
+## Further reading
+This work is a spin-off from my Master thesis, [Automatic Assignment of Section Structure to Texts of Dutch Court Judgments](https://digitalheir.github.io/java-rechtspraak-library/).
+
 ## License
 
 [GPL v3](https://www.gnu.org/licenses/gpl.html). Note that this is a viral open source license. If you create derivatives, 
