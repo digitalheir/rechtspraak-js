@@ -76,5 +76,6 @@ Inquiries go to Maarten Trompper (maartentrompper@gmail.com)
 
 <div style="text-align: center;">
 <img src="https://github.com/digitalheir/rechtspraak-js/raw/master/eu_logo_w200.png" alt="Flag of the European Union"/>
+
 This project is co-funded by the European Union.
 </div>
