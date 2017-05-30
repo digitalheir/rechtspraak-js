@@ -73,7 +73,9 @@ Please support free software.
 Inquiries go to Maarten Trompper (maartentrompper@gmail.com)
 
 ---
-    <div style="text-align: center;">
+
+<div style="text-align: center;">
 <img src="https://europa.eu/european-union/sites/europaeu/files/docs/body/flag_yellow_low.jpg" alt="Flag of the European Union" style="width: 200px;"/>
+
 This project is co-funded by the European Union.
 </div>
