@@ -72,6 +72,7 @@ Please support free software.
 ## Contact 
 Inquiries go to Maarten Trompper (maartentrompper@gmail.com)
 
-<img src="https://europa.eu/european-union/sites/europaeu/files/docs/body/flag_yellow_low.jpg" alt="Flag of the European Union" style="width: 200px;"/>
+---
 
+<img src="https://europa.eu/european-union/sites/europaeu/files/docs/body/flag_yellow_low.jpg" alt="Flag of the European Union" style="width: 200px;"/>
 This project is co-funded by the European Union.
