@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template demo</title>
+    <script src="node_modules/jszip/dist/jszip.js"></script>
+    <script src="node_modules/docxtemplater/build/docxtemplater.js"></script>
+    <script src="node_modules/jszip/vendor/FileSaver.js"></script>
+    <script src="lodash.js"></script>
+    <script src=""></script>
+</head>
+<body>
+
+<input type="file" id="my-file">
+
+<div id="template-fields">
+</div>
+
+<script>
+    class InspectModule {
+        constructor() {
+            this.inspect = {};
+        }
+
+        set(obj) {
+            if (obj.inspect) {
+                this.inspect = _.merge({}, this.inspect, obj.inspect);
+            }
+        }
+    }
+
+
+    var getTags = function (postParsed) {
+        return postParsed.filter(function (part) {
+            return part.type === "placeholder";
+        }).reduce(function (tags, part) {
+            tags[part.value] = {};
+            if (part.subparsed) {
+                tags[part.value] = getTags(part.subparsed);
+            }
+            return tags;
+        }, {});
+    };
+
+
+    function loadFile(url, callback) {
+        JSZipUtils.getBinaryContent(url, callback);
+    }
+
+    var fileupload = document.getElementById("my-file");
+    if (!!fileupload)
+        fileupload.addEventListener('change', function () {
+            var files = fileupload.files;
+
+            console.log(files);
+
+            var file = files[0];
+            var fr = new FileReader();
+            fr.readAsArrayBuffer(file);
+            // Closure to capture the file information.
+            fr.onload = (function (theFile) {
+                return function (e) {
+                    // todo handle e
+                    var zip = new JSZip(e.target.result);
+                    var doc = new docxtemplater().loadZip(zip);
+
+
+                    let inspectModule = new InspectModule();
+                    doc.attachModule(inspectModule);
+
+
+                    try {
+                        doc.compile();
+                    }
+                    catch (error) {
+                        var e = {
+                            message: error.message,
+                            name: error.name,
+                            stack: error.stack,
+                            properties: error.properties,
+                        };
+                        console.log(JSON.stringify({error: e}));
+                        // The error thrown here contains additional information when logged with JSON.stringify (it contains a property object).
+                        throw error;
+                    }
+
+                    let postParsed = inspectModule.inspect.postparsed;
+                    console.log(JSON.stringify({p: postParsed}));
+
+                    var tags = getTags(postParsed);
+
+                    var fields = document.getElementById("template-fields");
+                    fields.innerHTML = _.uniq(Object.keys(tags)).map(function (tag) {
+                        return "<div><label for='" + tag + "'>" + tag + "</label>" +
+                            "<input data-tag-name='" + tag + "' class='tag-value' id='" + tag + "'/></div>"
+                    }).join("\n") + "<div><button id='btn-export'>Exporteer</button></div>";
+
+                    var exportBtn = document.getElementById("btn-export");
+                    exportBtn.addEventListener("click", function () {
+
+
+                        var reader = new FileReader();
+                        reader.readAsArrayBuffer(file);
+                        // Closure to capture the file information.
+                        reader.onload = (function (e) {
+
+                            var zip = new JSZip(e.target.result);
+                            var doc = new docxtemplater().loadZip(zip);
+
+                            var filledData = {};
+                            var items = document.querySelectorAll(".tag-value");
+                            for (var i = 0; i < items.length; i++) {
+                                let item = items.item(i);
+                                filledData[item.getAttribute("data-tag-name")] = item.value;
+                                filledData[item.getAttribute("data-tag-name").trim()] = item.value;
+                            }
+                            doc.setData(filledData);
+                            try {
+                                doc.render();
+                            }
+                            catch (error) {
+                                var e = {
+                                    message: error.message,
+                                    name: error.name,
+                                    stack: error.stack,
+                                    properties: error.properties,
+                                };
+                                console.log(JSON.stringify({error: e}));
+                                // The error thrown here contains additional information when logged with JSON.stringify (it contains a property object).
+                                throw error;
+                            }
+
+                            var out = doc.getZip().generate({
+                                type: "blob",
+                                mimeType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                            });
+                            saveAs(out, "output.docx");
+                        });
+                    });
+                };
+            })(file);
+        }, false);
+</script>
+
+</body>
+</html>
