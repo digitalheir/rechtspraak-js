@@ -16,7 +16,7 @@ function textValueWithCommonLabel(obj: any, label: (string | string[]), keyName?
     } else
         thr = !obj["@attributes"] || obj["@attributes"]["rdfs:label"] !== label;
     if (thr)
-        throw new Error("Expected " + (keyName ? keyName : JSON.stringify(obj)) + " to look different than " + JSON.stringify(obj));
+        throw new Error(`Expected ${keyName ? keyName : JSON.stringify(obj)} to look different than ${JSON.stringify(obj)}`);
     return obj["#text"];
 }
 
@@ -77,13 +77,13 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
     // Create the return object
     let obj: any = {}; // TODO formalize type?
 
-    if (parent.nodeType == 1) { // element Node.ELEMENT_NODE
+    if (parent.nodeType === 1) { // element Node.ELEMENT_NODE
         // do attributes
-        let parentE = parent as Element;
-        if (parentE.attributes.length > 0) {
+        let parentElement = parent as Element;
+        if (parentElement.attributes.length > 0) {
             obj["@attributes"] = {};
-            for (let j = 0; j < parentE.attributes.length; j++) {
-                const attribute = parentE.attributes.item(j);
+            for (let j = 0; j < parentElement.attributes.length; j++) {
+                const attribute = parentElement.attributes.item(j);
                 if (attribute) {
                     obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
                 }
