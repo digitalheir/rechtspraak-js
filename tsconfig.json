@@ -3,7 +3,7 @@
   "compilerOptions": {
     "declaration": true,
     "jsx": "react",
-    "module": "commonjs",
+    "module": "umd",
     "noImplicitAny": true,
     "preserveConstEnums": true,
     "removeComments": true,

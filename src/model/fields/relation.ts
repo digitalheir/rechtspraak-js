@@ -4,7 +4,10 @@ import {
 } from "../../util/validations";
 import {makeLabel} from "./label";
 import {idResource, StandardResourceObject} from "./standard-resource-object";
-import {_context, aanlegTypes, gevolgTypes, relationTypes} from "../json-ld/context";
+import {_context} from "../json-ld/context";
+import {aanlegTypes} from "../json-ld/context/aanlegTypes";
+import {gevolgTypes} from "../json-ld/context/gevolgTypes";
+import {relationTypes} from "../json-ld/context/relationTypes";
 
 // export function idResourceWithOriginal(id: string, originalId: string): StandardResourceObject {
 //     const o: StandardResourceObject = idResource(id);

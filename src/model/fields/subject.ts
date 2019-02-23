@@ -2,7 +2,8 @@ import {mustHaveTextAndAttributes, throwIfDivergentLabel, unexpectedUri} from ".
 import {getResourceId} from "../convert-to-typed";
 import {makeLabel} from "./label";
 import {idResource, StandardResourceObject} from "./standard-resource-object";
-import {_context, subjectTypes} from "../json-ld/context";
+import {_context} from "../json-ld/context";
+import {subjectTypes} from "../json-ld/context/subjectTypes";
 
 export type Subject = keyof typeof subjectTypes;
 

@@ -2,7 +2,7 @@ import {
     mustHaveTextAndAttributes, throwIfDivergentLabel, unexpectedUri
 } from "../../util/validations";
 import {getResourceId} from "../convert-to-typed";
-import {_context, procedureTypes} from "../json-ld/context";
+import {JsonLdProcedure, procedureTypes} from "../json-ld/context/procedureTypes";
 
 export type Procedure = keyof typeof procedureTypes;
 
@@ -17,12 +17,14 @@ const uriMappingProcedure: { [k: string]: Procedure } = {
 function isProcedure(x: string): x is Procedure {
     return procedureTypes.hasOwnProperty(x);
 }
+
 function getProcedureId(procedureId: string): Procedure | undefined {
     if (uriMappingProcedure.hasOwnProperty(procedureId))
         return uriMappingProcedure[procedureId];
     else if (isProcedure(procedureId))
         return procedureId;
 }
+
 export function getSingleProcedure(proc: any, id?: string): Procedure {
     mustHaveTextAndAttributes(proc, true, "rdf:language", "rdfs:label", "resourceIdentifier");
     const language: string = proc["@attributes"]["rdf:language"];
