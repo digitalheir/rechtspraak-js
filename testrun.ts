@@ -35,7 +35,14 @@ function handleDocument(path: string): any {
             {encoding: "utf8"}
         );
         const xml = domParser.parseFromString(xmlString);
-        toJsonLd(xml);
+        const jsonLd = JSON.stringify(toJsonLd(xml));
+        fs.writeFile(path + '.json', jsonLd, (err) => {
+            // throws an error, you could also catch it here
+            if (err) throw err;
+
+            // success case, the file was saved
+            console.log('File saved to ' + path);
+        });
         // etc
     } catch (error) {
         // // reject({path, error});
@@ -62,8 +69,8 @@ function handleDocument(path: string): any {
         //     }
         // }
         // else {
-            console.error(path);
-            console.error(error.message);
+        console.error(path);
+        console.error(error.message);
         // }
     }
 }
