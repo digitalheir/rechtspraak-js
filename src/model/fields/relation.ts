@@ -78,7 +78,7 @@ function getAanleg(aanlegUri: string, label: string): Aanleg {
     } else throw new Error(unexpectedUri("aanleg", aanlegUri, label || "???"));
 }
 //todo make sure all sanitized ids decode to the original ids ;) in @context
-export const getRelation = (arr: any[]): Relation[] | undefined => arr ? arr.map((rel: any) => {
+export const getRelation = (arr: any[]): any[] | undefined => arr ? arr.map((rel: any) => {
     const attrs = [
         "rdfs:label",
         ["ecli:resourceIdentifier"/*, "bwb:resourceIdentifier"*/],

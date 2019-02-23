@@ -77,16 +77,19 @@ export function xmlToJson(parent: Node, depth: number = 0): any {
     // Create the return object
     let obj: any = {}; // TODO formalize type?
 
-    if (parent.nodeType == 1) { // element
+    if (parent.nodeType == 1) { // element Node.ELEMENT_NODE
         // do attributes
-        if (parent.attributes.length > 0) {
+        let parentE = parent as Element;
+        if (parentE.attributes.length > 0) {
             obj["@attributes"] = {};
-            for (let j = 0; j < parent.attributes.length; j++) {
-                const attribute = parent.attributes.item(j);
-                obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
+            for (let j = 0; j < parentE.attributes.length; j++) {
+                const attribute = parentE.attributes.item(j);
+                if (attribute) {
+                    obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
+                }
             }
         }
-    } else if (parent.nodeType === 3) {
+    } else if (parent.nodeType === 3) { // Node.TEXT_NODE
         if (parent.nodeValue && parent.nodeValue.trim().length > 0) {
             // text
             obj = parent.textContent;
