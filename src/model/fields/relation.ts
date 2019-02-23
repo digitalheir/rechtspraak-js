@@ -103,5 +103,5 @@ export const getRelation = (arr: any[]): Relation[] | undefined => arr ? arr.map
         type,
         "rdfs:label": [makeLabel(rel["#text"], "nl")],
         gevolg
-    };
+    } as Relation;
 }) : undefined;

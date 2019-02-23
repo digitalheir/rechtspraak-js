@@ -29,14 +29,16 @@
   },
   "homepage": "https://github.com/digitalheir/rechtspraak-js#readme",
   "devDependencies": {
-    "@types/mocha": "^2.2.40",
-    "@types/node": "^7.0.12",
-    "awesome-typescript-loader": "^3.1.2",
-    "mocha": "^3.2.0",
-    "rimraf": "^2.5.4",
-    "ts-node": "^3.0.2",
-    "typescript": "^2.3.0-rc",
-    "webpack": "^2.3.3"
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.9.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.1",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.5"
   },
   "dependencies": {
     "@types/xmldom": "^0.1.29",
