@@ -89,7 +89,7 @@ describe("XML should convert to JSON-LD", function () {
         const docName = "ECLI_NL_RBAMS_2010_BO3979";
 
         const {expectedJson, generatedJson} = generateJsonFromXmlAndLoadExpectedJson(docName);
-        console.log(JSON.stringify(generatedJson));
+        // console.log(JSON.stringify(generatedJson));
 
 
         assert.deepEqual(

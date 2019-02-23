@@ -1,12 +1,12 @@
 {
   "name": "rechtspraak-nl",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Utility functions for consuming Rechtspraak.nl open data for Dutch court judgments and generating well-formed linked data",
   "main": "index.js",
   "typings": "index",
   "scripts": {
     "build": "npm run clean && npm run build:lib",
-    "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register",
+    "test": "mocha --require ts-node/register test/test.ts",
     "build:lib": "tsc",
     "clean": "rimraf lib dist"
   },
