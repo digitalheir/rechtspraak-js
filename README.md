@@ -65,9 +65,8 @@ This work is a spin-off from my Master thesis, [*Automatic Assignment of Section
 
 ## License
 
-[GPL v3](https://www.gnu.org/licenses/gpl.html). Note that this is a viral open source license. If you create derivatives, 
-you **must** publish your code under compatible license terms. 
-Please support free software. 
+[GPL v3](https://www.gnu.org/licenses/gpl.html). This is a viral open source license. If you create derivatives, 
+you must publish your code under compatible license terms. 
 
 ## Contact 
 Inquiries go to Maarten Trompper (maartentrompper@gmail.com)
